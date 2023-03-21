@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+        <meta name="viewport" content="width=device-width" />
+<script type="text/javascript">
+            
+/*test-weiche-desktop:69719970.2*/
+
+(function() {
+    var host = window.location.host.split('.').slice(0, -1).join('.');
+    var uaEqGoogleMobile = /Mobile.*GoogleBot/i.test(navigator.userAgent);
+    var redirect = function(current, target, hash) {
+        if (window.location.hostname !== target) {
+            window.redirectInPlace = true;
+            window.location.href = window.location.href.replace(current, target).replace(".sport.html", ".sportMobile.html") + hash;
+       }
+   };
+    var cookieSwitchName = [];
+    var hash = '';
+    window.redirectInPlace = false;
+    if (window.location.hash.toLowerCase().indexOf('cvd') === -1 && ["sportbild.preview.bildcms.de", "m.sportbild.preview.bildcms.de"].indexOf(window.location.hostname) === -1 && ['m.sportbild.bild', 'sportbild.bild'].indexOf(host) > -1) {
+        document.cookie = "mobileSwitch=wap; path=/; domain=.sportbild.bild.de; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+        cookieSwitchName = document.cookie.split(";").map(function (cookieValue) {
+            return cookieValue.split("=")[0].trim();
+       });
+        if (document.referrer) {
+            hash = '###wt_ref=' + encodeURIComponent(document.referrer) + '&wt_t=' + Date.now();
+       }
+        if (cookieSwitchName.indexOf("noDesktop") > -1) {
+            redirect("sportbild.bild.de", "m.sportbild.bild.de", hash);
+        } else if (cookieSwitchName.indexOf("noMobile") > -1) {
+            redirect("m.sportbild.bilddev.de", "sportbild.bild.de", hash);
+        } else {
+            if (window.matchMedia('(max-width: 767px)').matches && !uaEqGoogleMobile) {
+                redirect("sportbild.bild.de", "m.sportbild.bild.de", hash);
+            } else {
+                redirect("m.sportbild.bild.de", "sportbild.bild.de", hash);
+           }
+       }
+   }
+})();</script>
+        <script type="text/javascript">
+				!function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+			</script>
+			<script>
+				window._sp_ = {
+					config: {
+						accountId: 75,
+						consentLanguage: "de",
+						baseEndpoint: "https://cmp2.bild.de",
+						propertyId: 10442,
+						events: {
+							onMessageReceiveData: function(data){ window.__cmp_onMessageReceiveData = data }
+						}
+					}
+				}
+				window.__bild__cmp_config = {
+					privacyManagerId: 304172,
+					propertyId: 10442,
+					socialPurposeId: "5e8b11c3ebdb0627ecca27a4"
+				};
+			</script>
+			<script async src="https://cmp2.bild.de/wrapperMessagingWithoutDetection.js"></script>
+		<script type="text/javascript" src="https://a.bildstatic.de/red-cmp-0.44.2.min.js"></script>
+				<link rel="stylesheet" href="https://a.bildstatic.de/red-cmp-components-0.44.2.min.css" />
+			<link rel="preconnect" href="//www.asadcdn.com"/>
+    <link rel="dns-prefetch" href="//www.asadcdn.com"/>
+    <script type="text/javascript">
+        adSSetup = {
+            view: "d",
+            partners: true,
+            hasVideoPlayer: false,
+            adPlacements: ["sky",
+            "superbanner",
+            "billboard",
+            "mrec",
+            "inpage",
+            "sky_btf",
+            "teaser",
+            "teaser_2",
+            "billboard_btf"],
+            adSlotSizes: {
+                            
+                                    "sky": [{
+"minWidth": 1,
+"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+}],
+                                    "superbanner": [{
+"minWidth": 1,
+"sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
+}],
+                                    "billboard": [{
+                "minWidth": 1,
+                "sizes": [[3,3]]
+}],
+                                    "mrec": [{
+    "minWidth": 1,
+    "sizes": [[300,250],[300,600]]
+}],
+                                    "inpage": [{
+    "minWidth": 1,
+    "sizes": [[1,1],[640,360],[1000,300]]
+}],
+                                    "sky_btf": [{
+"minWidth": 1,
+"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+}],
+                                    "billboard_btf": [{
+"minWidth": 1,
+"sizes": [[728,90],[970,250],[800,250]]
+}]
+            },
+            
+                async: false,
+                isArticle: true,
+            
+            colorBg: true, // enable/disable coloring of the page-background
+            bgClick: true, // enable/disable click on page-background
+            stickySky: true, // enable/disable stickiness for skyscraper
+            pageName: "fussball.international_story", // channel/article name from CMS
+            
+            target: "Ballack_Michael;spielertransfer;SpoBi_International;premium=false;",
+            seitenID: 12831300
+        }
+    </script>
+
+<title>
+	Wohin wechselt er? Michael Ballack verlässt den FC Chelsea - kein Werder-Interesse  -
+	FUSSBALL INTERNATIONAL -
+	SPORT BILD</title>
+<meta name="keywords" content="SpoBi International,Ballack Michael,spielertransfer" />
+<meta name="description" content="Nach vier Jahren ist Schluss für Michael Ballack beim FC Chelsea. Es konnte mit den Verantwortlichen des englischen Meisters keine Einigung über einen neuen Vertrag erzielt werden. Wie geht es nun mit">
+        <meta name="news_keywords" content="Ballack Michael, spielertransfer, SpoBi International" />
+<meta name="robots" content="index,follow" />
+<link rel="search" title="SportBILD.de" href="/opensearch.xml" type="application/opensearchdescription+xml" />
+
+<link rel="canonical" href="https://sportbild.bild.de/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html" />
+
+<link rel="alternate" media="only screen and (max-width: 800px)" href="https://m.sportbild.bild.de/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sportMobile.html" />
+
+<link rel="image_src" href="https://sportbild.bild.de/fotos-skaliert/dieses-bild-ist-nicht-erreichbar-40661058/1,w=465,c=0.sport.jpg"/>
+    <link rel="shortcut icon" href="https://sportbild.bild.de/fotos/sportbild-39762674/Bild/2.sport.ico"/>
+	<link rel="apple-touch-icon" href="https://sportbild.bild.de/fotos/sportbild-39764546/Bild/2.sport.ico"/>
+	<link rel="amphtml" href="https://m.sportbild.bild.de/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300,view=amp.sportMobile.html">
+            <meta name="format-detection" content="telephone=no" />
+<meta property="article:publisher" content="https://www.facebook.com/SportBILD"/>
+            <meta property="og:title" content="Wohin wechselt er? Michael Ballack verlässt den FC Chelsea - kein Werder-Interesse"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="https://sportbild.bild.de/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html"/>
+        <meta property="og:site_name" content="sportbild.de"/>
+        <meta property="og:description" content="
+
+Michael Ballack erhält bei Chelsea keinen neuen Vertrag. An Gerüchten, dass Werder Interesse habe, sei nichts dran, sagt Klaus Allofs.   "/>
+        <meta property="og:image" content="https://sportbild.bild.de/fotos-skaliert/dieses-bild-ist-nicht-erreichbar-40661058/1,w=465,c=0.sport.jpg"/>
+    <link rel="stylesheet" href="//code.bildstatic.de/7.2.3-cats-release--21.02/min/targets/sport/default/packages/css/spobi_global.css" media="all">
+<link rel="stylesheet" href="//code.bildstatic.de/7.2.3-cats-release--21.02/min/targets/sport/default/packages/css/spobi_global_feat.css" media="all">
+<link rel="stylesheet" href="//code.bildstatic.de/7.2.3-cats-release--21.02/min/targets/sport/default/packages/css/spobi_qgtv.css" media="all">
+<link rel="stylesheet" href="/code/extra,44882000.7-62219454.1.sport.css"/>
+            <link rel="stylesheet" href="/cmscss/806006081,3762911,pageLayout=rebrush2012p2.sport.css"/>
+        <script src="https://www.asadcdn.com/adlib/pages/sportbild.js"></script>
+                <script src="//code.bildstatic.de/7.2.3-cats-release--21.02/min/targets/sport/default/packages/js/core.js"></script>
+<script src="//code.bildstatic.de/7.2.3-cats-release--21.02/min/targets/sport/default/packages/js/BTOArtikel.js"></script>
+<script src="/code/extra,44882164.2.sport.js"></script>
+            <script type="text/javascript">
+		de.bild.cmsKonfig = {
+		system : {
+			ad_smart_site_id : '10031',
+			zaehlpixel_dataLayer_status : 'on',
+			zaehlpixel_facebook_status : 'off',
+			zaehlpixel_tealium_amp_profile : '//tags.tiqcdn.com/utag/axelspringer/bild-sportbild.de/prod/utag.js',
+			zaehlpixel_tealium_url : '//tags.tiqcdn.com/utag/axelspringer/bild-sportbild.de/prod/utag.js'
+		},
+		hierarchical : {
+			html_CMP_status : 'on',
+			html_IFrame_allowedOrigins : 'https://m.sport.bild.de,https://m.bild.de,https://m.bild.de/staticdata/,https://www.bild.de/staticdata/,https://interactive-readerui.la.welt.de,https://bildvodde-vh.akamaihd.net/,https://d3hvhuzn2iw70p.cloudfront.net,https://twitter.com,https://asbs.bild.de,https://m.sportdaten.sportbild.bild.de',
+			html_mobilweiche_status : 'off',
+			video_Bitmovin_ApiKey : '5c9d5f24-3404-4580-90f8-f0bd89a5c476',
+			zaehlpixel_dataLayer_tealiumStatus : 'on',
+			zaehlpixel_webtrekk_scrollingtiefe_status : 'off'
+		},
+		a : Object.freeze({
+			a : 0,
+			c : '',
+			d : 1
+		}),
+		additional : {
+			docType : 'BTOArtikel',
+			isHome : false,
+			isRebrush : false
+		}
+	}
+		if (de.bild.events)
+		{
+			de.bild.events.publish('cmsKonfig/loaded', [de.bild.cmsKonfig]);
+		}
+	</script>
+	<script type="text/javascript">
+de.bild.cmsData = {};
+	
+de.bild.cmsData.pageTracking = {
+  "contentId" : "sportbild/fussball/artikel/international/2010/06/09/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse",
+  "wapContentId" : "sportbild/artikel/fussball/international/2010/06/09/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse",
+  "subChannel1" : "fussball",
+  "subChannel2" : "international",
+  "subChannel3" : "2010",
+  "subChannel4" : "Star verlaesst Chelsea - Kein Werder-Interesse wird Ballack Schalker /fus/a",
+  "documentId" : "12831300",
+  "documentType" : "BTOArtikel",
+  "documentPath" : "/fussball/international/2010/06/09/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse",
+  "plainDocumentType" : "BTOArtikel",
+  "publicationDate" : "2010-06-09 10:32",
+  "ivw2Code" : "fussball_international/sportbild_article",
+  "liveArticle" : false,
+  "topicPage" : false,
+  "errorPage" : false,
+  "keywords" : "SpoBi International,Ballack Michael,spielertransfer",
+  "adStatus" : "on/on/fussball/international//_story/",
+  "permanenterInhalt" : "0",
+  "clientName" : "web",
+  "premium" : false,
+  "premiumSiteInformation" : "frei",
+  "abTestOn" : false,
+  "abTestName" : "",
+  "abTestDescription" : "",
+  "buyProductDone" : false,
+  "buyProductStatus" : "",
+  "buyParameter" : "",
+  "voucherParameter" : "",
+  "campaignOn" : false,
+  "systemHome" : false,
+  "embedIsMobile" : false
+};
+			
+de.bild.cmsData.mappingConfig = {
+	"webtrekk" : {
+  "sendToWebtrekkOn" : false,
+  "testWebtrekkTrackId" : "",
+  "trackDomain" : "pixel.bild.de",
+  "trackId" : "",
+  "domain" : "Regexp:sportbild\\.bild\\.de$",
+  "mediaCode" : "wtmc;bpmc;bpemc",
+  "mediaCodeCookie" : "sid",
+  "cookie" : "1",
+  "pixelSampling" : "0",
+  "heatmapOn" : false,
+  "onNetOffNetOn" : false,
+  "legacyWebtrekkOn" : false
+},
+	"ivw2" : {
+  "sendToIvw2On" : false,
+  "ivw2ServerPrefix" : "",
+  "contentCode" : "055"
+}};
+		
+var utag_data = {
+  "page_ad_status" : "on/on/fussball/international//_story/",
+  "page_channel1" : "fussball",
+  "page_channel2" : "international",
+  "page_channel3" : "2010",
+  "page_channel4" : "Star verlaesst Chelsea - Kein Werder-Interesse wird Ballack Schalker /fus/a",
+  "page_document_type" : "BTOArtikel",
+  "page_cms_path" : "/fussball/international/2010/06/09/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse",
+  "page_headline" : "Kein Werder-Interesse wird Ballack Schalker",
+  "page_id" : "12831300",
+  "page_ivw_code" : "fussball_international/sportbild_article",
+  "page_kicker" : "Star verlaesst Chelsea",
+  "is_page_live_article" : "0",
+  "page_name" : "sportbild/fussball/artikel/international/2010/06/09/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse",
+  "page_publication_date" : "2010-06-09 10:32",
+  "page_taxonomy" : [ "spobi international", "ballack michael", "spielertransfer" ],
+  "is_status_premium" : "0",
+  "is_status_premium_visibility" : "1",
+  "is_user_ab_test" : "1",
+  "user_ab_name" : "",
+  "user_ab_description" : "",
+  "context_id" : "web",
+  "embed_is_mobile" : false,
+  "page_has_video" : false,
+  "page_has_video_plus" : false
+};
+		</script>
+<script>
+            
+            utag_data["customer_pcp_sso_id"] = de.bild.user.getSSOID();
+            utag_data["customer_pcp_clubs"] = de.bild.user.getUserClubs().join(',');
+            utag_data["customer_login_aggregated"] = de.bild.user.getTrackingInfo();
+            utag_data["customer_login_bool"] = de.bild.user.isLoggedIn();
+            
+                    utag_data["customer_adblock"] = de.bild.user.getAbDataString();
+                </script>
+    <script type="application/ld+json">
+             {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "Wohin wechselt er? Michael Ballack verlässt den FC Chelsea - kein Werder-Interesse",
+                "description": "Nach vier Jahren ist Schluss für Michael Ballack beim FC Chelsea. Es konnte mit den Verantwortlichen des englischen Meisters keine Einigung über einen neuen Vertrag erzielt werden. Wie geht es nun mit",
+                "url": "https://sportbild.bild.de/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html",
+
+            
+                "image": {
+                "@type": "ImageObject",
+                "url": "https://sportbild.bild.de/fotos-skaliert/dieses-bild-ist-nicht-erreichbar-40661058/1,c=0,h=349.sport.jpg",
+                "width": "465",
+                "height": "349"
+                },
+            
+                "datePublished": "2010-06-09T10:32:55+02:00",
+                "dateModified": "2014-02-25T14:48:42+01:00",
+            
+                "keywords": "SpoBi International,Ballack Michael,spielertransfer",
+            
+
+               "mainEntityOfPage": {
+                    "@type":"WebPage",
+                    "@id":"https://sportbild.bild.de/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html"
+                },
+               "isFamilyFriendly": "true",
+              "author": 
+                     [
+                       { "@type": "Person", "name": "Torsten Rumpf" }]
+                ,
+                "publisher": {
+                    "@type": "Organization",
+                 
+                    "name": "Sport BILD",
+                
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url":  "https://sportbild.bild.de/fotos/sport-bild-aktuelle-sport-nachrichten-32980812/Bild/17.sport.png",
+                        "width": "76",
+                        "height": "92"
+                    }
+                
+                }
+                
+            }
+    </script>
+<meta property="article:content_tier" content="free"/>
+        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            
+            	_taboola.push({article:'auto'});
+            
+            !function (e, f, u, i) {
+                if (!document.getElementById(i)){
+                    e.async = 1;
+                    e.src = u;
+                    e.id = i;
+                    f.parentNode.insertBefore(e, f);
+                }
+            }(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/sportbild/loader.js', 'tb_loader_script');
+            if(window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
+            de.bild.events.subscribe('bodyComplete', function(){
+                window._taboola = window._taboola || [];
+                _taboola.push({flush:true});
+            });
+		</script>
+	</head>
+    <body id="article">
+    <script>
+         de.bild.events.publish("bodyAccessible");
+    </script>
+
+	<div id="fb-root"></div>
+		<script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+	<!-- pZB -->
+<div class="hide">
+<script src="https://script.ioam.de/iam.js"></script>
+				<!-- IVW VERSION="2.0" -->
+			<script>
+				if (!window.redirectInPlace && ( (typeof(doTracking) == "undefined") || doTracking() ) ) {
+					var iam_position_top = 10;
+					var iam_position_left = 100;
+					var iam_zindex = 10000000000;
+
+					var iam_fadeout_flash = false;
+					var iam_fadeout_iframe = false;
+					var iam_fadeout_form = false;
+
+					function cC(n,e){for(var t=n+"=",r=decodeURIComponent(document.cookie).split(";"),o=0;o<r.length;o++){for(var i=r[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(t))return i.substring(t.length,i.length).indexOf(e)>-1}return!1}
+					var co0 = cC("__utag_cmp_vendor_list","adobe_analytics") || cC("cmp_cv_list","adobe_analytics") ? "con":"no-con";
+					var co1 = de.bild.cmsKonfig.clubs ? cC("vauth",de.bild.cmsKonfig.clubs.bildplus) ? "sub":"no-sub":"no-sub";
+					var iam_data = {
+						"st":"bild",
+						"cp":"fussball_international/sportbild_article",
+						"sv":"i2",
+						"co": co0+"/"+co1,
+						"contentCode":"055",
+                        "sc":"yes"
+					};
+                    
+                    		window.iom.h(iam_data, 2);
+						
+				}
+			</script>
+		<script>
+        (function(a,b,c,d){
+            if ( !window.redirectInPlace ) {
+                a='//tags.tiqcdn.com/utag/axelspringer/bild-sportbild.de/prod/utag.js';
+                b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+                a=b.getElementsByTagName(c)[0];
+                a && a.parentNode.insertBefore(d,a);
+                d.onload = function(){de.bild.events.publish('utag/loaded');}
+            }
+        })();
+    </script>
+<script>
+    </script>
+</div>
+<!-- pZE --><div id="outerWrapper">
+    <a class="skip" title="Sprunglink zur Hauptnavigation" href="#skip-nav">Zur Hauptnavigation springen.</a>
+    <a class="skip" title="Sprunglink zum Inhalt" href="#breadcrumb">Zum Inhalt springen.</a>
+
+    <div id="jsm_1" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_1", {"type":"fullbanner","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["superbanner"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":""}}]);
+                    </script>
+    <div id="innerWrapper">
+			<nav>
+	<div>
+                <a href="https://sportbild.bild.de/" id="logo" rel="home">
+                    <img src="https://sportbild.bild.de/fotos/sport-bild-aktuelle-sport-nachrichten-32980812/Bild/17.sport.png" alt="Sport-Bild: Aktuelle Sport-Nachrichten"/>
+                </a>
+            </div>
+        <ul id="service" data-time="1615906990498">
+            <li><a href="https://marketing.sportbild.de/p70wfn" class="external-link" rel="noopener" target="_blank" >ABO</a></li>
+            <li><a href="https://marketing.sportbild.de/ow83l2" class="external-link" rel="noopener" target="_blank" >FANMEILE</a></li>
+            <li><a href="https://marketing.sportbild.de/p2sqr5" class="external-link" rel="noopener" target="_blank" >E-PAPER</a></li>
+            <li><a href="https://www.facebook.com/SportBILD" class="external-link" rel="noopener" target="_blank" ><img src="https://sportbild.bild.de/fotos/facebook-33475860/Bild/3.sport.png" alt="Facebook "/> </a></li>
+            <li><a href="https://twitter.com/SPORTBILD" class="external-link" rel="noopener" target="_blank" ><img src="https://sportbild.bild.de/fotos/twitter-33475858/Bild/4.sport.png" alt="Twitter "/> </a></li>
+            </ul>
+    <form class="searchform" action="/suche.sport.html?type=article&amp;query=&amp;resultsStart=0&amp;resultsPerPage=0" method="get">
+        <fieldset>
+            <label for="topSearch">Suchbegriff:</label>
+            <input id="topSearch" type="search" name="query" placeholder="Suchbegriff"
+                   title="Suchbegriff eingeben"/>
+            <input type="submit" class="btn-submit" value="Finden"/>
+        </fieldset>
+    </form>
+<a id="skip-nav"></a>
+    <h2 class="hide-text">Hauptnavigation</h2>
+    <ol id="lvl1">
+            <li>
+                            <a href="/" >Startseite</a><ol class="lvl2">
+                                <li>
+                                            <a href="https://twitter.com/SPORTBILD" class="external-link" rel="noopener" target="_blank" >Twitter</a></li>
+                                    <li>
+                                            <a href="https://www.facebook.com/SportBILD" class="external-link" rel="noopener" target="_blank" >Facebook</a></li>
+                                    <li>
+                                            <a href="https://www.instagram.com/sport_bild" class="external-link" rel="noopener" target="_blank" >Instagram</a></li>
+                                    <li>
+                                            <a href="/services/startseite/service/home-33360594.sport.html" >Service</a></li>
+                                    <li>
+                                            <a href="https://marketing.sportbild.de/p1959p" class="external-link" rel="noopener" target="_blank" >Fanmeile</a></li>
+                                    <li>
+                                            <a href="https://maennerbox.de/magazine/?p=1" class="external-link" rel="noopener" target="_blank" > Sonderhefte</a></li>
+                                    </ol>
+                        </li>
+                <li class="current">
+                            <a href="/fussball/startseite/fussball/home-33017580.sport.html" >Fussball</a><ol class="lvl2">
+                                <li>
+                                            <a href="/fussball/champions-league/champions-league/home-33207492.sport.html" >Champions League</a></li>
+                                    <li>
+                                            <a href="/fussball/europa-league/europa-league/home-33309464.sport.html" >Europa League</a></li>
+                                    <li>
+                                            <a href="/fussball/la-liga/primera-division/home-44102528.sport.html" >La Liga</a></li>
+                                    <li>
+                                            <a href="/fussball/premier-league/premierleague/home-44103642.sport.html" >Premier League</a></li>
+                                    <li class="current">
+                                            <a href="/fussball/international/fussball-international/home-33309504.sport.html" >International-Mix</a></li>
+                                    <li>
+                                            <a href="/fussball-em/startseite/em-2020/home-45351302.sport.html" >Nationalmannschaft</a></li>
+                                    <li>
+                                            <a href="/fussball/dfb-pokal/dfb-pokal/home-33206778.sport.html" >DFB-Pokal</a></li>
+                                    </ol>
+                        </li>
+                <li>
+                            <a href="/bundesliga/startseite/1-bundesliga/home-33207854.sport.html" >Bundesliga</a><ol class="lvl2">
+                                <li>
+                                            <a href="/bundesliga/startseite/1-bundesliga/home-33207854.sport.html" >News</a></li>
+                                    <li>
+                                            <a href="/bundesliga/vereine/bundesliga/vereinsuebersicht-34319408.sport.html" class="sublvl" >Vereine</a><ol class="lvl3">
+                                                    <li><a href="/bundesliga/vereine/bayern-muenchen/home-33283572.sport.html" >FC Bayern München</a></li>
+                                                        <li><a href="/bundesliga/vereine/borussia-dortmund/home-33283690.sport.html" >Borussia Dortmund </a></li>
+                                                        <li><a href="/bundesliga/vereine/rb-leipzig/home-46775824.sport.html" >RB Leipzig</a></li>
+                                                        <li><a href="/bundesliga/vereine/borussia-moenchengladbach/home-33283750.sport.html" >Borussia Mönchengladbach</a></li>
+                                                        <li><a href="/bundesliga/vereine/bayer-leverkusen/home-33283846.sport.html" >Bayer 04 Leverkusen</a></li>
+                                                        <li><a href="/bundesliga/vereine/hoffenheim/home-33283828.sport.html" >TSG 1899 Hoffenheim</a></li>
+                                                        <li><a href="/bundesliga/vereine/vfl-wolfsburg/home-33283940.sport.html" >VfL Wolfsburg </a></li>
+                                                        <li><a href="/bundesliga/vereine/sc-freiburg/home-33283730.sport.html" >SC Freiburg</a></li>
+                                                        <li><a href="/bundesliga/vereine/eintracht-frankfurt/home-33283710.sport.html" >Eintracht Frankfurt</a></li>
+                                                        <li><a href="/bundesliga/vereine/hertha-bsc/home-33283810.sport.html" >Hertha BSC </a></li>
+                                                        <li><a href="/bundesliga/vereine/union-berlin/home-62461704.sport.html" >1. FC Union Berlin</a></li>
+                                                        <li><a href="/bundesliga/vereine/schalke/home-33283904.sport.html" >Schalke 04</a></li>
+                                                        <li><a href="/bundesliga/vereine/mainz-05/home-33283864.sport.html" >Mainz 05</a></li>
+                                                        <li><a href="/bundesliga/vereine/1-fc-koeln/home-36649352.sport.html" >1. FC Köln</a></li>
+                                                        <li><a href="/bundesliga/vereine/fc-augsburg/home-33283636.sport.html" >FC Augsburg</a></li>
+                                                        <li><a href="/bundesliga/vereine/werder-bremen/home-33283672.sport.html" >SV Werder Bremen</a></li>
+                                                        <li><a href="/bundesliga/vereine/vfb-stuttgart/home-33283922.sport.html" >VfB Stuttgart </a></li>
+                                                        <li><a href="/bundesliga/vereine/arminia-bielefeld/home-72447010.sport.html" >Arminia Bielefeld</a></li>
+                                                        </ol>
+                                            </li>
+                                    <li>
+                                            <a href="/fussball/2-liga/2-bundesliga/home-33205782.sport.html" >2. Liga</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/bundesliga/ergebnisse/" class="external-link" >Daten</a></li>
+                                    </ol>
+                        </li>
+                <li>
+                            <a href="/fussball/transfers/transfer/home-58737198.sport.html" >Transfers</a></li>
+                <li>
+                            <a href="/motorsport/formel-1/formel1/home-33215972.sport.html" >Formel 1</a></li>
+                <li>
+                            <a href="/sportmix/startseite/mehrsport/home-33216118.sport.html" >Sportmix</a><ol class="lvl2">
+                                <li>
+                                            <a href="/wintersport/startseite/wintersport/home-33542178.sport.html" >Wintersport</a></li>
+                                    <li>
+                                            <a href="/us-sport/startseite/us-sport/home-33216706.sport.html" >US-Sport</a></li>
+                                    <li>
+                                            <a href="/sport-bild-award/startseite/sport-bild-award/home-33310390.sport.html" >SPORT BILD-Award</a></li>
+                                    </ol>
+                        </li>
+                <li>
+                            <a href="https://sportdaten.sportbild.bild.de/fussball/bundesliga/ergebnisse/" class="external-link" >Ergebnisse</a><ol class="lvl2">
+                                <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/bundesliga/ergebnisse/" class="external-link" >Bundesliga</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/2-bundesliga/ergebnisse/" class="external-link" >2. Liga</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/champions-league/ergebnisse/" class="external-link" >Champions League</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/europa-league/ergebnisse/" class="external-link" >Europa League</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/premier-league/ergebnisse/" class="external-link" >Premier League</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/la-liga/ergebnisse/" class="external-link" >La Liga</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/fussball/serie-a/ergebnisse/" class="external-link" >Serie A</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/handball/hbl/ergebnisse/" class="external-link" >Handball</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/eishockey/del/ergebnisse/" class="external-link" >Eishockey</a></li>
+                                    <li>
+                                            <a href="https://sportdaten.sportbild.bild.de/basketball/bbl/ergebnisse/" class="external-link" >Basketball</a></li>
+                                    </ol>
+                        </li>
+                <li>
+                            <a href="https://sportdaten.sportbild.bild.de/default" class="external-link" >Live</a></li>
+                <li class="inv">
+                            <a href="/video/startseite/video/home-33029160.sport.html" >Video</a><ol class="lvl2">
+                                <li>
+                                            <a href="/video/startseite/video/home-fussball-72348764.sport.html" >Fußball</a></li>
+                                    <li>
+                                            <a href="/video/startseite/video/startseite-bundesliga-highlights-video-72348478.sport.html" >Bundesliga-Highlights</a></li>
+                                    </ol>
+                        </li>
+                </ol>
+    </nav>
+<script src="/code/navi,32986034.3.sport.js"></script>
+<div id="breadcrumb">
+        <ol>
+                        <li>
+                                <a href="/" rel="home" ><span>Home</span>
+                                </a>
+                                &rsaquo;
+                            </li>
+                            <li>
+                                    <a href="/fussball/startseite/fussball/home-33017580.sport.html" ><span>Fußball</span>
+                                    </a>
+                                    &rsaquo;
+                                </li>
+                            <li>
+                                        <a href="/fussball/international/fussball-international/home-33309504.sport.html" ><span>International</span>
+                                        </a>&rsaquo;</li>
+                                <li>
+                                    <h1>Wohin wechselt er? Michael Ballack verlässt den FC Chelsea - kein Werder-Interesse</h1>
+                                </li>
+                            </ol>
+                </div>
+    <div id="innerContent">
+			<div id="jsm_2" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_2", {"type":"billboard","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["billboard"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":""}}]);
+                    </script>
+    <div id="jsm_3" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_3", {"type":"skyscraper","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["sky"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":""}}]);
+                    </script>
+    <div id="jsm_4" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_4", {"type":"skyscraper-sl","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["sky_btf"],"inViewport":true,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":""}}]);
+                    </script>
+    <article>
+                <div class="faux clearfix">
+                    <div class="content s15">
+                                    <!-- google_ad_section_start -->
+<header>
+        <h1 id="cover">
+                <span class="kicker">Star verlässt Chelsea</span>
+                <span class="hidden"> | </span>
+                <span class="headline">Kein Werder-Interesse, wird Ballack Schalker?</span>
+            </h1>
+        <script>
+            de.bild.events.publish('de.bild.modifyHeadline');
+        </script>
+    </header>
+<div class="element ">
+        <div class="shift fg15">
+            <div class="edge">
+                <div>
+                    <figure id="jsm_89079" class=" gallery jsModule fg" data-json="/fussball/international/fg-ballack-michael-karriere-in-bildern-12831388,contentContextId=12831300,galleryType=fg,landscapeWidth=993,noHeadlineNoKicker=false,outerCssExtension=fg15,portraitWidth=467,view=json.sport.html" data-ad-interval="3" data-preload-count="2" data-start-index="0">
+			<ul>
+                <li class="active ">
+                <div class="hentry">
+                <a rel="bookmark" href="#">
+                        <span class="lb-link loupe hide-text" data-ajax-href="/fussball/international/fg-ballack-michael-karriere-in-bildern-12831388,contentContextId=12831300,elementPosition=0,mustTrack=true,view=lightbox.sport.html">Vergrößern</span>
+                        <img class="photo" src="https://sportbild.bild.de/fotos-skaliert/michael-ballack-9676592-5836380/5,w=993,c=0.sport.jpg" alt="Michael Ballack"/></a>
+                    <h4 class="entry-title">
+                            <span class="kicker"></span>
+                            <span class="headline">
+                                <span>Michael Ballack – Sein Leben in Bildern</span>
+                            </span>
+                        </h4>
+                    <p  class="entry-content">
+                    Wieder musste der deutsche Kapitän bei der EM 2008 an einem Pokal vorbeigehen</p>
+                </div>
+                </li>
+            <li class="ad">
+                        <div class="galAd">
+                            <span class="mark">Anzeige</span><iframe src="about:blank" width="301" height="250"></iframe>
+                        </div>
+                    </li>
+                </ul>
+			<a class="prev hide-text" href="#">vorheriges Element</a>
+				<a class="next hide-text" href="#">nächstes Element</a>
+			<div class="reference">
+                <div class="inner">
+                    <div class="credit">Foto: dpa</div>
+                    <div class="index">1 / 2</div>
+				    </div>
+			</div>
+		</figure>
+        <script>
+            de.bild.events.publish('initModule', ['gallery', '#jsm_89079']);
+        </script>
+	</div>
+            </div>
+            </div>
+
+        </div></div></div>
+                <div class="faux clearfix">
+                    <div class="content s10">
+                                    <div class="socialbar">
+            <ul class="socialbar__list" id="jsm_30223" data-tr-doc-type="dt=SocialBar|lo=a-art">
+                <li class="socialbar__item"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fsportbild.bild.de%2Ffussball%2Finternational%2Fmichael-ballack%2Fverlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html%3Fwtmc%3Dfb.shr" class="btn--icon btn--facebook btn--grow">Teilen</a></li><li class="socialbar__item"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fsportbild.bild.de%2Ffussball%2Finternational%2Fmichael-ballack%2Fverlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html%3Fwtmc%3Dtwttr.shr&amp;text=Wohin%20wechselt%20er%3F%20Michael%20Ballack%20verl%C3%A4sst%20den%20FC%20Chelsea%20-%20kein%20Werder-Interesse" class="btn--icon btn--twitter btn--grow">Twittern</a></li><li class="socialbar__item"><a class="btn--icon btn--whatsapp hidden" href="WhatsApp://send?text=Kein%20Werder-Interesse%2C%20wird%20Ballack%20Schalker%3F%20https%3A%2F%2Fsportbild.bild.de%2Ffussball%2Finternational%2Fmichael-ballack%2Fverlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html%3Fwtmc%3Dwhtspp.shr">per Whatsapp verschicken</a></li><li class="socialbar__item"><a href="#" class="btn--icon btn--mail">per Mail versenden</a></li></ul>
+            <div data-server-rendered="true" class="social-sharing-popup__container"><div class="social-sharing-popup__headline">
+        Deine Datensicherheit bei der Nutzung der Teilen-Funktion
+      </div> <div class="social-sharing-popup__description">
+        Um diesen Artikel oder andere Inhalte über soziale Netzwerke zu teilen, brauchen wir deine Zustimmung für
+        <a href="#" rel="noopener noreferrer" target="_blank">
+          diesen Zweck der Datenverarbeitung
+        </a></div> <div class="social-sharing-popup__button-container"><button class="social-sharing-popup__button social-sharing-popup__button--close">
+          Schließen
+        </button> <button class="social-sharing-popup__button social-sharing-popup__button--accept">
+            Akzeptieren
+          </button></div></div><script>
+               de.bild.events.publish('initModule', ['sharingBar', {el: '#jsm_30223', text:'Wohin wechselt er? Michael Ballack verlässt den FC Chelsea - kein Werder-Interesse'}]);
+            </script>
+        </div>
+    <div class="date">
+            <time datetime="2010-06-09T10:32:55+02:00">09.06.2010 - 10:32
+            Uhr
+        </time>
+    </div>
+    <ul class="authors clearfix">
+            <li>
+                <span>
+                    Von
+                    <span>
+                        Torsten Rumpf</span>
+                </span>
+            </li>
+        </ul>
+    <div class="txt clearfix" content="true">
+            <div class="infoEl center edge">
+		<div class="clearfix">
+			<header>
+				<h2>Lesen Sie auch</h2>
+							</header>
+			<div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape t9l1  item1" >
+                        <a href="/fussball-wm/2010/spielen-vor-12813812.sport.html" rel="bookmark" data-tb-kicker="Verträge laufen aus" data-tb-title="Diese Stars spielen  bei der WM vor" ><h3 class="entry-title">
+                                    <span class="kicker">Verträge laufen aus</span>
+                                    <span class="headline"><span>Diese Stars spielen bei der WM vor</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape t9l1  itemLast" >
+                        <a href="/fussball/international/the-hammer-wechselt-zu-west-ham-united-12793970.sport.html" rel="bookmark" data-tb-kicker="Weg von Lazio" data-tb-title="Transfer-Hammer:   Hitzlsperger zu West Ham!" ><h3 class="entry-title">
+                                    <span class="kicker">Weg von Lazio</span>
+                                    <span class="headline"><span>Transfer-Hammer: Hitzlsperger zu West Ham!</span></span>
+                                    </h3>
+                            </a></div>
+                </div>
+        </div>
+<div class="element  center">
+        <div class="shift fg9">
+            <div class="edge">
+                <div>
+                    <h3  id="anker-12831310">Fussball</h3>
+                    <figure id="jsm_90134" class=" gallery jsModule fg" data-json="/fussball/international/fg-ballack-pech-karriere-12831310,contentContextId=12831300,galleryType=fg,landscapeWidth=591,outerCssExtension=fg9,portraitWidth=276,view=json.sport.html" data-ad-interval="3" data-preload-count="2" data-start-index="0">
+			<ul>
+                <li class="active ">
+                <div class="hentry">
+                <a rel="bookmark" href="#">
+                        <span class="lb-link loupe hide-text" data-ajax-href="/fussball/international/fg-ballack-pech-karriere-12831310,contentContextId=12831300,elementPosition=0,mustTrack=true,view=lightbox.sport.html">Vergrößern</span>
+                        <img class="photo" src="https://sportbild.bild.de/fotos-skaliert/die-bilder-vom-weinenden-ballack-im-straemenden-regen-von-moskau-gingen-um-die-welt-15854087-12569604/1,w=276,c=0.sport.jpg" alt="Die Bilder vom weinenden Ballack im strämenden Regen von Moskau gingen um die Welt"/></a>
+                    <h4 class="entry-title">
+                            <span class="kicker">Pleiten, Pech und Sperren</span>
+                            <span class="headline">
+                                <span>Ballack: Die Tiefpunkte seiner Karriere</span>
+                            </span>
+                        </h4>
+                    <p  class="entry-content">
+                    Die Bilder vom weinenden Ballack im strämenden Regen von Moskau gingen um die Fußball-Welt</p>
+                </div>
+                </li>
+            <li class="ad">
+                        <div class="galAd">
+                            <span class="mark">Anzeige</span><iframe src="about:blank" width="301" height="250"></iframe>
+                        </div>
+                    </li>
+                </ul>
+			<a class="prev hide-text" href="#">vorheriges Element</a>
+				<a class="next hide-text" href="#">nächstes Element</a>
+			<div class="reference">
+                <div class="inner">
+                    <div class="credit">Foto: ap</div>
+                    <div class="index">1 / 2</div>
+				    </div>
+			</div>
+		</figure>
+        <script>
+            de.bild.events.publish('initModule', ['gallery', '#jsm_90134']);
+        </script>
+	</div>
+            </div>
+            </div>
+
+        </div>
+        <p>Nach vier Jahren ist Schluss für <a href="/fussball-wm/2010/verletzung-wm-aus-12562302.sport.html">Michael Ballack</a> beim FC Chelsea. Es konnte mit den Verantwortlichen des englischen Meisters keine Einigung über einen neuen Vertrag erzielt werden. </p><p>Wie geht es nun mit dem Star weiter?</p><p><strong>Zu Meldungen aus England, dass Bremen an einer Verpflichtung Ballacks interessiert sei, sagt Werder-Boss Klaus Allofs zu SPORT BILD online: „Nein, da ist nichts dran."</strong></p><p>Hintergrund: Ballack passt nicht ins Gehaltsgefüge des Bundesliga-Klubs. Und auch nicht in die Vereins-Philosophie, hauptsächlich jüngere Spieler zu verpflichten. Der Mittelfeld-Star wird im September 34 Jahre alt. </p><p><strong>Ist Schalke ein heißes Thema? Trainer und Manager Felix Magath sagte bereits Mitte April gegenüber SPORT BILD zum Thema Ballack: „Würde er Chelsea verlassen wollen, müsste man mit ihm reden. Michael hat über Jahre auf international höchstem Niveau gespielt. Ich glaube nicht, dass tatsächlich die Finanzen die alles entscheidende Rolle für ihn spielen."</strong></p><p>Anscheinend liebäugelt auch Leverkusen mit einer Verpflichtung von Ballack. „Zwischen Bayer und Michael Ballack herrschte immer eine besondere Beziehung, wir waren eine wichtige Station in seiner Karriere“, sagte Leverkusens Geschäftsführer Wolfgang Holzhäuser dem Kölner Stadt-Anzeiger. „Eine andere Frage ist, ob so etwas für uns zu finanzieren ist. Wir haben uns da noch keine konkreten Gedanken gemacht, aber ich muss deutlich sagen: Ich habe da meine Zweifel“, meinte Holzhäuser.</p></div>
+    <!-- google_ad_section_end -->
+<div class="socialbar">
+            <ul class="socialbar__list" id="jsm_88268" data-tr-doc-type="dt=SocialBar|lo=b-art">
+                <li class="socialbar__item"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fsportbild.bild.de%2Ffussball%2Finternational%2Fmichael-ballack%2Fverlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html%3Fwtmc%3Dfb.shr" class="btn--icon btn--facebook btn--grow">Teilen</a></li><li class="socialbar__item"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fsportbild.bild.de%2Ffussball%2Finternational%2Fmichael-ballack%2Fverlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html%3Fwtmc%3Dtwttr.shr&amp;text=Wohin%20wechselt%20er%3F%20Michael%20Ballack%20verl%C3%A4sst%20den%20FC%20Chelsea%20-%20kein%20Werder-Interesse" class="btn--icon btn--twitter btn--grow">Twittern</a></li><li class="socialbar__item"><a class="btn--icon btn--whatsapp hidden" href="WhatsApp://send?text=Kein%20Werder-Interesse%2C%20wird%20Ballack%20Schalker%3F%20https%3A%2F%2Fsportbild.bild.de%2Ffussball%2Finternational%2Fmichael-ballack%2Fverlaesst-den-fc-chelsea-kein-werder-interesse-12831300.sport.html%3Fwtmc%3Dwhtspp.shr">per Whatsapp verschicken</a></li><li class="socialbar__item"><a href="#" class="btn--icon btn--mail">per Mail versenden</a></li></ul>
+            <script>
+               de.bild.events.publish('initModule', ['sharingBar', {el: '#jsm_88268', text:'Wohin wechselt er? Michael Ballack verlässt den FC Chelsea - kein Werder-Interesse'}]);
+            </script>
+        </div>
+    <img class="cmp-replacement" src="https://sportbild.bild.de/fotos/element-nicht-mehr-verfuegbar-71804918/Bild/3.sport.svg" alt="Element nicht mehr verfügbar"/></div>
+                            <div class="content s5">
+                                    <aside class="further-reading">
+                                        <div id="jsm_5" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_5", {"type":"rectangle","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["mrec"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":"ANZEIGE"}}]);
+                    </script>
+    <section>
+                            <div class="tr edge">
+                <div class="clearfix"><header >
+                <h2>
+                    Top 5</h2>
+
+                </header>
+        <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry portrait t4p  item1" >
+                        <a href="/fussball/international/fc-chelsea/dreierpack-etoo-entthront-united-34306312.sport.html" rel="bookmark" data-tb-kicker="England-Gipfel" data-tb-title="Dreierpack! Eto&apos;o   entthront United" ><img class="photo" src="https://sportbild.bild.de/fotos-skaliert/fussball-34319112/1,w=256,c=0.sport.jpg" alt="Fußball"/><h3 class="entry-title">
+                                    <span class="kicker">England-Gipfel</span>
+                                    <span class="headline"><span>Dreierpack! Eto'o entthront United</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry portrait t4p  item2" >
+                        <a href="/motorsport/formel-1/formel-1/managerin-familie-zufrieden-mit-arbeit-der-aerzte-34287888.sport.html" rel="bookmark" data-tb-kicker="Schumi-Managerin" data-tb-title="„Familie ist zufrieden mit der Arbeit der Ärzte“" ><img class="photo" src="https://sportbild.bild.de/fotos-skaliert/motorsport-34319126/1,w=256,c=0.sport.jpg" alt="Motorsport"/><h3 class="entry-title">
+                                    <span class="kicker">Schumi-Managerin</span>
+                                    <span class="headline"><span>„Familie ist zufrieden mit der Arbeit der Ärzte“</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry portrait t4p  item3" >
+                        <a href="/fussball/international/international/barca-stolpert-in-levante-34310728.sport.html" rel="bookmark" data-tb-kicker="Nur 1:1-Remis" data-tb-title="Im Video: Barcelona  stolpert in Levante" ><img class="photo" src="https://sportbild.bild.de/fotos-skaliert/levanteudvfcbarcelona-laliga_36438345_mbqf-1390165467-34310892/1,w=256,c=0.sport.jpg" alt=""/><h3 class="entry-title">
+                                    <span class="kicker">Nur 1:1-Remis</span>
+                                    <span class="headline"><span>Im Video: Barcelona stolpert in Levante</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry portrait t4p  item4" >
+                        <a href="/wintersport/biathlon/triumph-bei-sotschi-generalprobe-34295486.sport.html" rel="bookmark" data-tb-kicker="„Nicht abheben”" data-tb-title="Biathleten mit viel Rückenwind nach Sotschi" ><img class="photo" src="https://sportbild.bild.de/fotos-skaliert/wintersport-34319124/1,w=256,c=0.sport.jpg" alt="Wintersport"/><h3 class="entry-title">
+                                    <span class="kicker">„Nicht abheben”</span>
+                                    <span class="headline"><span>Biathleten mit viel Rückenwind nach Sotschi</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry portrait t4p  itemLast" >
+                        <a href="/bundesliga/vereine/bayern-muenchen/antityklisch-zum-erfolg-34306228.sport.html" rel="bookmark" data-tb-kicker="Meine Bayern" data-tb-title="Bayern: Antizyklisch zum Erfolg" ><img class="photo" src="https://sportbild.bild.de/fotos-skaliert/16-9-pep-guardiola_36434682_mbqf-1390151707-34307790/1,w=256,c=0.sport.jpg" alt=""/><h3 class="entry-title">
+                                    <span class="kicker">Meine Bayern</span>
+                                    <span class="headline"><span>Bayern: Antizyklisch zum Erfolg</span></span>
+                                    </h3>
+                            </a></div>
+                </div></div>
+            </section>
+                    <div id="jsm_6" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_6", {"type":"regteaser","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["teaser"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":"ANZEIGE"}}]);
+                    </script>
+    <section>
+			<div class="pagination">
+	<div class="tr edge">
+
+    <div class="clearfix">
+        <header>
+	<h2>
+		<img src="https://sportbild.bild.de/fotos/sport-bild-online---die-top-themen-13894146-10350634/Bild/6.sport.png"/></h2>
+</header>
+<div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos1 sep" >
+                        <a href="/bundesliga/vereine/bundesliga/franck-ribery-hatte-ballon-dor-verdient-nicht-ronaldo-34318712.sport.html" rel="bookmark" data-tb-kicker="Ribéry lässt Frust raus" data-tb-title="„Habe alles gewonnen, Ronaldo nichts“" ><h3 class="entry-title">
+                                    <span class="kicker">Ribéry lässt Frust raus</span>
+                                    <span class="headline"><span>„Habe alles gewonnen,</span><span>Ronaldo nichts“</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos2 sep" >
+                        <a href="/fussball/international/international/95-millionen-fuer-neymar-34314808.sport.html" rel="bookmark" data-tb-kicker="Bericht der El Mundo" data-tb-title="95 Mio. Euro – Neymar teuerster Kauf der Welt?" ><h3 class="entry-title">
+                                    <span class="kicker">Bericht der El Mundo</span>
+                                    <span class="headline"><span>95 Mio. Euro – Neymar</span><span>teuerster Kauf der Welt?</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos3 sep" >
+                        <a href="/fussball/2014/fussball/manchester-united-kommt-cavani-fuer-rooney-34306340.sport.html" rel="bookmark" data-tb-kicker="Transfer-News" data-tb-title="ManUnited: Kommt Cavani für Rooney?" ><h3 class="entry-title">
+                                    <span class="kicker">Transfer-News</span>
+                                    <span class="headline"><span>ManUnited: Kommt</span><span>Cavani für Rooney?</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos4 sep" >
+                        <a href="/us-sport/nfl/nfl/denver-broncos-gegen-seattle-seahawks-34312412.sport.html" rel="bookmark" data-tb-kicker="Top-Teams im Finale" data-tb-title="Premiere im Super Bowl:   Denver trifft auf Seattle!" ><h3 class="entry-title">
+                                    <span class="kicker">Top-Teams im Finale</span>
+                                    <span class="headline"><span>Premiere im Super Bowl: </span><span>Denver trifft auf Seattle!</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos5 sep" >
+                        <a href="/fussball/international/fc-chelsea/dreierpack-etoo-entthront-united-34306312.sport.html" rel="bookmark" data-tb-kicker="England-Gipfel" data-tb-title="Dreierpack! Eto&apos;o   entthront United" ><h3 class="entry-title">
+                                    <span class="kicker">England-Gipfel</span>
+                                    <span class="headline"><span>Dreierpack! Eto'o </span><span>entthront United</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos6 sep" >
+                        <a href="/bundesliga/vereine/hsv/revolution-in-hamburg-mehrheit-fuer-hsv-plus-34306272.sport.html" rel="bookmark" data-tb-kicker="Strukturreform" data-tb-title="Revolution in Hamburg!   Mehrheit für „HSVPlus“" ><h3 class="entry-title">
+                                    <span class="kicker">Strukturreform</span>
+                                    <span class="headline"><span>Revolution in Hamburg! </span><span>Mehrheit für „HSVPlus“</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos7 sep" >
+                        <a href="/fussball/international/bei-juventus-turin-vor-dem-aus-12520542.sport.html" rel="bookmark" data-tb-kicker="Zurück in die Bundesliga?" data-tb-title="Diego bei Juve vor dem Aus" ><h3 class="entry-title">
+                                    <span class="kicker">Zurück in die Bundesliga?</span>
+                                    <span class="headline"><span>Diego bei Juve</span><span>vor dem Aus</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos8 sep" >
+                        <a href="/fussball/international/im-sport-bild-interview-12192030.sport.html" rel="bookmark" data-tb-kicker="SPORT BILD-Interview" data-tb-title="Berti Vogts übt   schon für Deutschland" ><h3 class="entry-title">
+                                    <span class="kicker">SPORT BILD-Interview</span>
+                                    <span class="headline"><span>Berti Vogts übt </span><span>schon für Deutschland</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos9 sep" >
+                        <a href="/fussball/international/um-ihn-zu-stoppen-braucht-man-ein-maschinengewehr-12178072.sport.html" rel="bookmark" data-tb-kicker="Barça-Idol Stoitchkov" data-tb-title="Messi stoppen? „Nur mit  einem Maschinengewehr!“" ><h3 class="entry-title">
+                                    <span class="kicker">Barça-Idol Stoitchkov</span>
+                                    <span class="headline"><span>Messi stoppen? „Nur mit</span><span>einem Maschinengewehr!“</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos10 sep" >
+                        <a href="/fussball/international/meister-aus-und-nur-noch-ein-gesunder-verteidiger-12177142.sport.html" rel="bookmark" data-tb-kicker="Bayern-Gegner Lyon" data-tb-title="Meister-Aus und nur noch   ein gesunder Verteidiger" ><h3 class="entry-title">
+                                    <span class="kicker">Bayern-Gegner Lyon</span>
+                                    <span class="headline"><span>Meister-Aus und nur noch </span><span>ein gesunder Verteidiger</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos11 sep" >
+                        <a href="/fussball/international/nach-terror-anschlag-nie-her-fuer-togo-12182412.sport.html" rel="bookmark" data-tb-kicker="„Anschlag verfolgt mich“" data-tb-title="Adebayor aus Togos   Nationalelf zurückgetreten" ><h3 class="entry-title">
+                                    <span class="kicker">„Anschlag verfolgt mich“</span>
+                                    <span class="headline"><span>Adebayor aus Togos </span><span>Nationalelf zurückgetreten</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos12 sep" >
+                        <a href="/fussball/international/schiesst-absteiger-portsmouth-ins-fa-cup-finale-12166998.sport.html" rel="bookmark" data-tb-kicker="Sensation im FA-Cup!" data-tb-title="Boateng schießt Absteiger Portsmouth ins Finale" ><h3 class="entry-title">
+                                    <span class="kicker">Sensation im FA-Cup!</span>
+                                    <span class="headline"><span>Boateng schießt Absteiger</span><span>Portsmouth ins Finale</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos13 sep" >
+                        <a href="/fussball/international/inter-mailand-patzt-12164852.sport.html" rel="bookmark" data-tb-kicker="Nach Inters Pleite" data-tb-title="Luca Toni mit Rom neuer  Tabellenführer in Italien" ><h3 class="entry-title">
+                                    <span class="kicker">Nach Inters Pleite</span>
+                                    <span class="headline"><span>Luca Toni mit Rom neuer</span><span>Tabellenführer in Italien</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   pos14 sep" >
+                        <a href="/fussball/international/messi-trifft-fc-barcelona-stuermt-das-santiago-bernabau-und-uebernimmt-tabellenfuehrung-12160910.sport.html" rel="bookmark" data-tb-kicker="2:0 bei Real Madrid" data-tb-title="Die Highlights von Barças   Zaubersieg im Video!" ><h3 class="entry-title">
+                                    <span class="kicker">2:0 bei Real Madrid</span>
+                                    <span class="headline"><span>Die Highlights von Barças </span><span>Zaubersieg im Video!</span></span>
+                                    </h3>
+                            </a></div>
+                <div data-tb-region-item-premium="" ></div>
+            <div
+                        data-tb-region-item=""
+                        class="hentry landscape tvl2   posLast" >
+                        <a href="/fussball/international/sieg-im-halbfinale-ueber-aston-villa-ballack-eingewechselt-12159842.sport.html" rel="bookmark" data-tb-kicker="Traum vom Double" data-tb-title="Chelsea im FA-Cup-Finale –  ManUnited patzt in der Liga" ><h3 class="entry-title">
+                                    <span class="kicker">Traum vom Double</span>
+                                    <span class="headline"><span>Chelsea im FA-Cup-Finale –</span><span>ManUnited patzt in der Liga</span></span>
+                                    </h3>
+                            </a></div>
+                </div>
+</div>
+ <div class="pag">
+        <div class="border">
+            <ol>
+                <li class="active"><a href="#" data-ajax-href="/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300,contentContextId=12831300,page=0,view=ajax.sport.html" >1</a></li>
+                <li><a href="#" data-ajax-href="/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300,contentContextId=12831300,page=1,view=ajax.sport.html" >2</a></li>
+                </ol>
+
+            <a href="#" class="next hide-text" data-ajax-href="/fussball/international/michael-ballack/verlaesst-den-fc-chelsea-kein-werder-interesse-12831300,contentContextId=12831300,page=1,view=ajax.sport.html" >weiter</a></div>
+    </div>
+
+    </div>
+</section></aside>
+                                    </div></div>
+                <div class="faux clearfix">
+                    <div class="content s15">
+                                    <div id="jsm_7" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_7", {"type":"contentbar","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["billboard_btf"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":"ANZEIGE"}}]);
+                    </script></div></div>
+                </article>
+        </div>
+		<footer>
+        <section>
+            <img src="https://sportbild.bild.de/fotos/sportbild-32980844/Bild/5.sport.jpg" alt="SportBILD "/>                        <nav>
+                            <h3 class="hide-text">Navigation:</h3>
+                            <ol>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/fussball/startseite/fussball/home-33017580.sport.html">Fussball</a></li>
+                                <li><a href="/bundesliga/startseite/1-bundesliga/home-33207854.sport.html">Bundesliga</a></li>
+                                <li><a href="/fussball/transfers/transfer/home-58737198.sport.html">Transfers</a></li>
+                                <li><a href="/motorsport/formel-1/formel1/home-33215972.sport.html">Formel 1</a></li>
+                                <li><a href="/sportmix/startseite/mehrsport/home-33216118.sport.html">Sportmix</a></li>
+                                <li><a href="https://sportdaten.sportbild.bild.de/default">Live</a></li>
+                                <li><a href="https://sportdaten.sportbild.bild.de/fussball/bundesliga/ergebnisse-und-tabelle-gesamt/">Sportdaten</a></li>
+                                <li><a href="/video/startseite/video/home-33029160.sport.html">Video</a></li>
+                            </ol>
+                        </nav>
+                        <ul class="sub-channel link-categories clearfix">
+                            <li>
+                                <ul class="services">
+                                    <li><a href="https://sportdaten.sportbild.bild.de/fussball/bundesliga/ergebnisse-und-tabelle-gesamt/" data-icon="&#x1F4CA;"><span>Sportdaten-Center</span></a></li>
+                                </ul>
+                                <ul class="services">
+                                    <li><a href="http://shop.bild.de/fanshop/" data-icon="&#xE805;"><span>Fanshop</span></a></li>
+
+                                    <li><a href="https://marketing.sportbild.de/pgqllq" data-icon="&#xE73D;"><span>Abo-Shop</span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <dl class="legal-terms">
+                                    <dt><a href="https://www.mediaimpact.de/de/portfolio/sportbild-de">Media</a></dt>
+                                    <dd>|</dd>
+                                    <dt><a href="/corporate-site/agb/sportbild-channel-struktur/artikel-agb-10239514.sport.html">AGB</a></dt>
+                                    <dd>|</dd>
+                                    <dt><a href="/corporate-site/impressum/sportmix/artikel-impressum-10239336.sport.html">Impressum</a></dt>
+                                    <dd>|</dd>
+                                    <dt><a href="/corporate-site/privatsphaere/sportmix/artikel-privatsphaere-72043412.sport.html">Privatsphäre</a></dt>
+                                    <dd>|</dd>
+                                   <dt><a href="/corporate-site/datenschutz/sportbild-channel-struktur/artikel-datenschutznichtmehverwenden-10239688.sport.html">Datenschutz</a></dt>
+
+                                </dl>
+                            </li>
+                        </ul>
+                        <div class="follow-box">
+                            <span>Folgen Sie SPORT BILD!</span>
+                            <ul>
+                                <li class="social-btn fb"><a href="https://www.facebook.com/SportBILD" data-icon="&#xF30C;">Facebook</a></li>
+                                <li class="social-btn tw"><a href="https://twitter.com/intent/follow?screen_name=SPORTBILD" data-icon="&#xF309;">Twitter</a></li>
+
+                            </ul>
+                        </div>
+                        <script>
+                            (function($) {
+                                var selector = '.follow-box';
+                                
+                                var $sel = $(selector);
+                                var $sb = $sel.find('.social-btn');
+                                $sel.mouseleave(function() {
+                                    $sb.removeClass('active');
+                                }).find('span').first().mouseover(function() {
+                                    $sb.addClass('active');
+                                });
+                            })(jQuery);
+                        </script>
+<!-- Start Blocktrack-Integration -->
+<script type='text/javascript'>
+(function(){
+    var f = (adSSetup.view === 'd') ? 's' : 'm';
+    var x, p = document.createElement('img');
+    p.style.display = 'none';
+    p.onerror = function() {
+        x = document.createElement('img').src = 'https://www.asadcdn.com/bt/' + f + '.png?b=1';
+    };
+    p.onreadystatechange = p.onload = function() {
+        if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete'){ 
+            x = document.createElement('img').src = 'https://www.asadcdn.com/bt/' + f + '.png?b=0'; p.onload = p.onreadystatechange = null;
+        }
+    };
+    p.src = 'https://acdn.adnxs.com/ast/static/bar.jpg';
+    document.body.appendChild(p);
+})();
+</script>
+<noscript><img style='display:none;' src='https://www.asadcdn.com/bt/s.png?b=2' /></noscript>
+<!-- End Blocktrack-Integration -->
+</section>
+    </footer>
+</div>
+<div id="jsm_8" data-tr-doc-type="dt=InlineAd|st=BTOAdTag"></div>
+                    <script>
+                    
+                    de.bild.events.publish("initModule", ["tea", "#jsm_8", {"type":"richmedia","ext":{"adLevel":{"postfix":"_story","prefix":"fussball.international","sep":"","clientId":"10031"},"formatIds":["inpage"],"inViewport":false,"target":"Ballack_Michael;spielertransfer;SpoBi_International","adHeadline":""}}]);
+                    </script>
+    <script>
+        if(de.bild.events){
+            de.bild.events.publish('bodyComplete');
+        }
+    </script>
+</div><script>
+		setTimeout(function() {
+			de.bild.events.publish('initModule', ['inactivityTeaser', {
+				waitTime: 600000,
+				infoText: 'Es gibt neue<br \/>Nachrichten auf SPORT BILD.de',
+                logo: 'https://sportbild.bild.de/fotos/sport-bild-aktuelle-sport-nachrichten-32980812/Bild/17.sport.png',
+                werbung: '',
+                werbungLink: ''
+			}]);
+		}, 600000);
+        window.addEventListener("click", function(event){
+            window.inactivityTeaserLastClick = Date.now();
+        });
+        window.addEventListener("scroll", function(event){
+            window.inactivityTeaserLastScroll = Date.now();
+        });
+	</script>
+<div ></div>
+
+</body>
+</html>
