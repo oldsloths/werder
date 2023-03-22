@@ -1,0 +1,2295 @@
+<HTML><HEAD><TITLE>Deutsch f&uuml;r Fans | WM 2006</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=ks_c_5601-1987">
+<STYLE type=text/css>TR.head {
+	COLOR: #ffffff; BACKGROUND-COLOR: #006600
+}
+TR.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TR.row2 {
+	BACKGROUND-COLOR: #f7fff7
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: georgia,굴림체
+}
+.temp {display:none;}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.3243" name=GENERATOR></HEAD>
+<BODY>
+<DIV style="FONT-FAMILY: georgia,굴림체">
+Source: <!-- A href="http://mobile.goethe.de/dff/wm2006/en/access_web.html" target=_blank>Deutsch f&uuml;r Fans | WM 2006</A> @--> <a href="http://www.goethe.de" target="_blank">Goethe-Institut</a><BR><BR>Rearranged 
+by 파이<BR><BR>
+<TABLE cellSpacing=1 width=800 bgColor=#009900 border=0>
+  <TR class=head>
+    <TD width="10%">구분 </TD>
+    <TD width="40%">독일어 </TD>
+    <TD width="40%">영어 </TD>
+    <TD class=temp width="10%">듣기 </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>aktiv </TD>
+    <TD>active </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/340__Glossar__Fussball__DE-EN__340__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Atmosph&auml;re, die </TD>
+    <TD>the atmosphere </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/341__Glossar__Fussball__DE-EN__341__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>ausverkauft </TD>
+    <TD>sold out </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/342__Glossar__Fussball__DE-EN__342__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Autogramm, das </TD>
+    <TD>the autograph </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/343__Glossar__Fussball__DE-EN__343__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>beliebt </TD>
+    <TD>loved </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/344__Glossar__Fussball__DE-EN__344__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>begeistert </TD>
+    <TD>excited </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/345__Glossar__Fussball__DE-EN__345__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Eintrittskarte, die </TD>
+    <TD>the entry ticket </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/346__Glossar__Fussball__DE-EN__346__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Fan, der </TD>
+    <TD>the fan </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/347__Glossar__Fussball__DE-EN__347__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Fanartikel, der </TD>
+    <TD>the fan article </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/348__Glossar__Fussball__DE-EN__348__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Fanclub, der </TD>
+    <TD>the fan club </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/349__Glossar__Fussball__DE-EN__349__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Fankurve, die </TD>
+    <TD>the fan block </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/350__Glossar__Fussball__DE-EN__350__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>feiern </TD>
+    <TD>to celebrate </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/351__Glossar__Fussball__DE-EN__351__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>frustrierend </TD>
+    <TD>frustrating </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/352__Glossar__Fussball__DE-EN__352__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Fußballhymne, die </TD>
+    <TD>the football song </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/353__Glossar__Fussball__DE-EN__353__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Fußballprofi, der </TD>
+    <TD>the professional footballer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/354__Glossar__Fussball__DE-EN__354__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Gashupe, die </TD>
+    <TD>the air horn </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/355__Glossar__Fussball__DE-EN__355__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>genervt </TD>
+    <TD>annoyed </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/356__Glossar__Fussball__DE-EN__356__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Gesang, der </TD>
+    <TD>the song </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/357__Glossar__Fussball__DE-EN__357__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Handgemenge, das </TD>
+    <TD>the scuffle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/358__Glossar__Fussball__DE-EN__358__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Langweilig </TD>
+    <TD>boring </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/359__Glossar__Fussball__DE-EN__359__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Laola, die </TD>
+    <TD>the Mexican wave </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/360__Glossar__Fussball__DE-EN__360__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Lieblingsmannschaft, die </TD>
+    <TD>the favourite team </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/361__Glossar__Fussball__DE-EN__361__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Lieblingsspieler, der </TD>
+    <TD>the favourite player </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/362__Glossar__Fussball__DE-EN__362__MP3WRAP.mp3">듣기</A> 
+    </TD></TR><!-- 2007-01-05, Rearranged by pi. Lieblingsspieler : Michael Ballack -->
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>nerv&ouml;s </TD>
+    <TD>nervous </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/363__Glossar__Fussball__DE-EN__363__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>passiv </TD>
+    <TD>passive </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/364__Glossar__Fussball__DE-EN__364__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Publikum, das </TD>
+    <TD>the audience </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/365__Glossar__Fussball__DE-EN__365__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Schal, der </TD>
+    <TD>the scarf </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/366__Glossar__Fussball__DE-EN__366__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Singen </TD>
+    <TD>to sing </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/367__Glossar__Fussball__DE-EN__367__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Sitzplatz, der </TD>
+    <TD>the seat </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/368__Glossar__Fussball__DE-EN__368__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Stehplatz, der </TD>
+    <TD>the standing room spot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/369__Glossar__Fussball__DE-EN__369__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Souvenir, das </TD>
+    <TD>the souvenir </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/370__Glossar__Fussball__DE-EN__370__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>spannend </TD>
+    <TD>exciting </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/371__Glossar__Fussball__DE-EN__371__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Stimmung, die </TD>
+    <TD>the mood </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/372__Glossar__Fussball__DE-EN__372__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Ticket, das </TD>
+    <TD>the ticket </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/373__Glossar__Fussball__DE-EN__373__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>toll </TD>
+    <TD>great </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/374__Glossar__Fussball__DE-EN__374__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Transparent, das </TD>
+    <TD>the banner </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/375__Glossar__Fussball__DE-EN__375__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>treu </TD>
+    <TD>true / dedicated </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/376__Glossar__Fussball__DE-EN__376__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>unterst&uuml;tzen </TD>
+    <TD>to support </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/377__Glossar__Fussball__DE-EN__377__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>fans </TD>
+    <TD>Welle, die </TD>
+    <TD>the wave </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/378__Glossar__Fussball__DE-EN__378__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>fans </TD>
+    <TD>Zuschauer, der </TD>
+    <TD>the spectator </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Fans__2__english/content/1/images/379__Glossar__Fussball__DE-EN__379__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>absteigen </TD>
+    <TD>to be relegated </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/276__Glossar__Fussball__DE-EN__276__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>aufsteigen </TD>
+    <TD>to be promoted </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/277__Glossar__Fussball__DE-EN__277__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Auslosung, die </TD>
+    <TD>the draw </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/278__Glossar__Fussball__DE-EN__278__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Ausrichter, der </TD>
+    <TD>the organizer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/279__Glossar__Fussball__DE-EN__279__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Ausw&auml;rtsspiel, das </TD>
+    <TD>the away game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/280__Glossar__Fussball__DE-EN__280__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Bundesliga, die </TD>
+    <TD>the Bundesliga </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/281__Glossar__Fussball__DE-EN__281__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Championsleague-Sieger, der </TD>
+    <TD>the Champions League winner </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/282__Glossar__Fussball__DE-EN__282__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Deutsche Meister, der </TD>
+    <TD>the German champion </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/283__Glossar__Fussball__DE-EN__283__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Endrunde, die </TD>
+    <TD>the final round </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/284__Glossar__Fussball__DE-EN__284__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Endspiel, das </TD>
+    <TD>the final game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/285__Glossar__Fussball__DE-EN__285__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Er&ouml;ffnung, die </TD>
+    <TD>the opening </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/286__Glossar__Fussball__DE-EN__286__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Er&ouml;ffnungsfeier, die </TD>
+    <TD>the opening party </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/287__Glossar__Fussball__DE-EN__287__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Er&ouml;ffnungsspiel, das </TD>
+    <TD>the opening game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/288__Glossar__Fussball__DE-EN__288__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Europameister, der </TD>
+    <TD>the European champion </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/289__Glossar__Fussball__DE-EN__289__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Favorit, der </TD>
+    <TD>the favourite </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/290__Glossar__Fussball__DE-EN__290__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>FIFA, die </TD>
+    <TD>FIFA </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/291__Glossar__Fussball__DE-EN__291__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>FIFA-Weltmeisterschaft, die </TD>
+    <TD>the FIFA world championship </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/292__Glossar__Fussball__DE-EN__292__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Frauenfußball, der </TD>
+    <TD>womens' football </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/293__Glossar__Fussball__DE-EN__293__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Goleo, der </TD>
+    <TD>Goleo </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/294__Glossar__Fussball__DE-EN__294__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Gruppe, die </TD>
+    <TD>the group </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/295__Glossar__Fussball__DE-EN__295__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Gruppensieger, der </TD>
+    <TD>the group winner </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/296__Glossar__Fussball__DE-EN__296__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Gruppenspiel, das </TD>
+    <TD>the group match </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/297__Glossar__Fussball__DE-EN__297__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Gruppenzweite(r), der </TD>
+    <TD>the group runner up </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/298__Glossar__Fussball__DE-EN__298__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Heimspiel, das </TD>
+    <TD>the home game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/299__Glossar__Fussball__DE-EN__299__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>K.O.-System, das </TD>
+    <TD>the knockout system </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/300__Glossar__Fussball__DE-EN__300__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Land, das </TD>
+    <TD>the country </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/301__Glossar__Fussball__DE-EN__301__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>L&auml;nderspiel, das </TD>
+    <TD>international football game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/302__Glossar__Fussball__DE-EN__302__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Losverfahren, das </TD>
+    <TD>the lottery process </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/303__Glossar__Fussball__DE-EN__303__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>L&ouml;we, der </TD>
+    <TD>the lion </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/304__Glossar__Fussball__DE-EN__304__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Maskottchen, das </TD>
+    <TD>the mascot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/305__Glossar__Fussball__DE-EN__305__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Nationalhymne, die </TD>
+    <TD>the anthem </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/306__Glossar__Fussball__DE-EN__306__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Nationalmannschaft, die </TD>
+    <TD>the national team </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/307__Glossar__Fussball__DE-EN__307__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Platz, der </TD>
+    <TD>the seat </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/308__Glossar__Fussball__DE-EN__308__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Pokal, der </TD>
+    <TD>the cup </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/309__Glossar__Fussball__DE-EN__309__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Preis, der </TD>
+    <TD>the prize </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/310__Glossar__Fussball__DE-EN__310__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Qualifikation, die </TD>
+    <TD>the qualification </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/311__Glossar__Fussball__DE-EN__311__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>qualifizieren, sich </TD>
+    <TD>to qualify </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/312__Glossar__Fussball__DE-EN__312__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Runde, die / Achtelfinale, das / Viertelfinale, das / Halbfinale, das 
+      / das Spiel um Platz 3 / Finale, das </TD>
+    <TD>the round / the round of 16 / the quarter-finals / the semi-finals / 
+      the match for third place / the final game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/313__Glossar__Fussball__DE-EN__313__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Siegerehrung, die </TD>
+    <TD>the award ceremony </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/314__Glossar__Fussball__DE-EN__314__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Spielort, der </TD>
+    <TD>the venue </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/315__Glossar__Fussball__DE-EN__315__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Spielplan, der </TD>
+    <TD>the game schedule </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/316__Glossar__Fussball__DE-EN__316__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Tabelle, die </TD>
+    <TD>the table </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/317__Glossar__Fussball__DE-EN__317__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Tabellenf&uuml;hrer, der </TD>
+    <TD>the table leader </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/318__Glossar__Fussball__DE-EN__318__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Tabellenplatz, der </TD>
+    <TD>the rank </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/319__Glossar__Fussball__DE-EN__319__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Teamgeist, der (Name des WM-Balls 2006) </TD>
+    <TD>Teamgeist (lit. team spirit. Name of the 2006 World Cup ball) </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/320__Glossar__Fussball__DE-EN__320__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Turnier, das </TD>
+    <TD>the tournament </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/321__Glossar__Fussball__DE-EN__321__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Veranstaltung, die </TD>
+    <TD>the event </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/322__Glossar__Fussball__DE-EN__322__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Verein, der </TD>
+    <TD>the club </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/323__Glossar__Fussball__DE-EN__323__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Vorrunde, die </TD>
+    <TD>the preliminary round </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/324__Glossar__Fussball__DE-EN__324__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Weltmeister, der </TD>
+    <TD>the world champion </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/325__Glossar__Fussball__DE-EN__325__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>Weltmeisterschaft, die </TD>
+    <TD>the world championship </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/326__Glossar__Fussball__DE-EN__326__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>Werbung, die </TD>
+    <TD>the commercial / the advertisement </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/327__Glossar__Fussball__DE-EN__327__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>football </TD>
+    <TD>WM, die </TD>
+    <TD>the World Cup </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/328__Glossar__Fussball__DE-EN__328__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>football </TD>
+    <TD>WM-Stadion, das </TD>
+    <TD>the World Cup stadium </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Football__2__english/content/1/images/329__Glossar__Fussball__DE-EN__329__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>abnehmen </TD>
+    <TD>to take away </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/082__Glossar__Fussball__DE-EN__082__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Abschlag, der </TD>
+    <TD>the clearance </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/083__Glossar__Fussball__DE-EN__083__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Abseits, das </TD>
+    <TD>the offside </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/084__Glossar__Fussball__DE-EN__084__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Abseitsfalle, die </TD>
+    <TD>the offside flag </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/085__Glossar__Fussball__DE-EN__085__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>absichtlich </TD>
+    <TD>on purpose </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/086__Glossar__Fussball__DE-EN__086__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Abwehr, die </TD>
+    <TD>the defence </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/087__Glossar__Fussball__DE-EN__087__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Abwurf, der </TD>
+    <TD>the throw-in </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/088__Glossar__Fussball__DE-EN__088__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>angreifen </TD>
+    <TD>to attack </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/089__Glossar__Fussball__DE-EN__089__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Angriff, der </TD>
+    <TD>the attack </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/090__Glossar__Fussball__DE-EN__090__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Anpfiff, der </TD>
+    <TD>the start whistle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/091__Glossar__Fussball__DE-EN__091__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Anschlusstreffer, der </TD>
+    <TD>the goal that cuts the lead to one </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/092__Glossar__Fussball__DE-EN__092__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Anstoß, der </TD>
+    <TD>the kick-off </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/093__Glossar__Fussball__DE-EN__093__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>aufw&auml;rmen </TD>
+    <TD>to warm up </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/094__Glossar__Fussball__DE-EN__094__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Aus, das </TD>
+    <TD>the end </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/095__Glossar__Fussball__DE-EN__095__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Ausgleich, der </TD>
+    <TD>the equalizer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/096__Glossar__Fussball__DE-EN__096__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>ausscheiden </TD>
+    <TD>to eliminate </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/097__Glossar__Fussball__DE-EN__097__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Außenseiter, der </TD>
+    <TD>the dark horse </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/098__Glossar__Fussball__DE-EN__098__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>auswechseln </TD>
+    <TD>to substitute </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/099__Glossar__Fussball__DE-EN__099__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Ball, der </TD>
+    <TD>the ball </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/100__Glossar__Fussball__DE-EN__100__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Ballbesitz, der </TD>
+    <TD>the ball possession </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/101__Glossar__Fussball__DE-EN__101__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Ballgef&uuml;hl, das </TD>
+    <TD>the ball control </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/102__Glossar__Fussball__DE-EN__102__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Begegnung, die </TD>
+    <TD>the encounter </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/103__Glossar__Fussball__DE-EN__103__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>ber&uuml;hren </TD>
+    <TD>to touch </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/104__Glossar__Fussball__DE-EN__104__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>besiegen </TD>
+    <TD>to be victorious </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/105__Glossar__Fussball__DE-EN__105__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Blutgr&auml;tsche, die </TD>
+    <TD>the hard sliding tackle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/106__Glossar__Fussball__DE-EN__106__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Chance, die </TD>
+    <TD>the opportunity </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/107__Glossar__Fussball__DE-EN__107__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>decken </TD>
+    <TD>to cover, to mark </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/108__Glossar__Fussball__DE-EN__108__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Deckung, die </TD>
+    <TD>the marking </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/109__Glossar__Fussball__DE-EN__109__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>defensiv </TD>
+    <TD>defensive </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/110__Glossar__Fussball__DE-EN__110__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Doppelpass, der </TD>
+    <TD>the one-two pass </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/111__Glossar__Fussball__DE-EN__111__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>dribbeln </TD>
+    <TD>to dribble </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/112__Glossar__Fussball__DE-EN__112__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Eckball, der </TD>
+    <TD>the corner kick </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/113__Glossar__Fussball__DE-EN__113__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Ecke, die </TD>
+    <TD>the corner </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/114__Glossar__Fussball__DE-EN__114__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Eigentor, das </TD>
+    <TD>the own-goal </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/115__Glossar__Fussball__DE-EN__115__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>einwechseln </TD>
+    <TD>to substitute in </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/116__Glossar__Fussball__DE-EN__116__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Einwurf, der </TD>
+    <TD>the throw in </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/117__Glossar__Fussball__DE-EN__117__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Elfmeter, der </TD>
+    <TD>the penalty kick </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/118__Glossar__Fussball__DE-EN__118__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Elfmeterschießen, das </TD>
+    <TD>the penalty shoot-out </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/119__Glossar__Fussball__DE-EN__119__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Ellbogen-Check, der </TD>
+    <TD>the elbow check </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/120__Glossar__Fussball__DE-EN__120__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Ergebnis, das </TD>
+    <TD>the result </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/121__Glossar__Fussball__DE-EN__121__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>fair </TD>
+    <TD>fair </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/122__Glossar__Fussball__DE-EN__122__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>fallen </TD>
+    <TD>to fall </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/123__Glossar__Fussball__DE-EN__123__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Fallr&uuml;ckzieher, der </TD>
+    <TD>the bicycle kick </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/124__Glossar__Fussball__DE-EN__124__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>flach </TD>
+    <TD>flat </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/125__Glossar__Fussball__DE-EN__125__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Flanke, die </TD>
+    <TD>the cross </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/126__Glossar__Fussball__DE-EN__126__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Fl&uuml;gel, der </TD>
+    <TD>the wing </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/127__Glossar__Fussball__DE-EN__127__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Foul, das </TD>
+    <TD>the foul </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/128__Glossar__Fussball__DE-EN__128__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>foulen </TD>
+    <TD>to foul </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/129__Glossar__Fussball__DE-EN__129__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Freistoß, der </TD>
+    <TD>the free kick </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/130__Glossar__Fussball__DE-EN__130__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>f&uuml;hren </TD>
+    <TD>to lead </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/131__Glossar__Fussball__DE-EN__131__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>in F&uuml;hrung gehen </TD>
+    <TD>to take the lead </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/132__Glossar__Fussball__DE-EN__132__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>F&uuml;hrungstreffer, der </TD>
+    <TD>the goal that gives you the lead </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/133__Glossar__Fussball__DE-EN__133__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Fußball, der </TD>
+    <TD>the football </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/134__Glossar__Fussball__DE-EN__134__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Fußballspiel, das </TD>
+    <TD>the football match </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/135__Glossar__Fussball__DE-EN__135__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>gefoult </TD>
+    <TD>fouled </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/136__Glossar__Fussball__DE-EN__136__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>gegen </TD>
+    <TD>against </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/137__Glossar__Fussball__DE-EN__137__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>gegnerisch </TD>
+    <TD>opposing </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/138__Glossar__Fussball__DE-EN__138__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>gewinnen </TD>
+    <TD>to win </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/139__Glossar__Fussball__DE-EN__139__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Gleichstand, der </TD>
+    <TD>the draw </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/140__Glossar__Fussball__DE-EN__140__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Halbzeit, die </TD>
+    <TD>the half-time </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/141__Glossar__Fussball__DE-EN__141__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Halbzeitpause, die </TD>
+    <TD>the half-time break </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/142__Glossar__Fussball__DE-EN__142__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Halbzeitstand, der </TD>
+    <TD>the half-time score </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/143__Glossar__Fussball__DE-EN__143__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>halten </TD>
+    <TD>to hold </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/144__Glossar__Fussball__DE-EN__144__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Handspiel, das </TD>
+    <TD>the handball </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/145__Glossar__Fussball__DE-EN__145__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Hattrick, der </TD>
+    <TD>the hat trick </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/146__Glossar__Fussball__DE-EN__146__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Karte, die / Gelbe Karte / Gelb-Rote Karte / Rote Karte </TD>
+    <TD>the card / yellow card / double yellow card / red card </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/147__Glossar__Fussball__DE-EN__147__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>kicken </TD>
+    <TD>to kick </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/148__Glossar__Fussball__DE-EN__148__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Konter, der </TD>
+    <TD>the counter (attack) </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/149__Glossar__Fussball__DE-EN__149__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Kopfball, der </TD>
+    <TD>the header </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/150__Glossar__Fussball__DE-EN__150__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>laufen </TD>
+    <TD>to run </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/151__Glossar__Fussball__DE-EN__151__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Leder, das </TD>
+    <TD>the leather </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/152__Glossar__Fussball__DE-EN__152__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Manndeckung, die </TD>
+    <TD>the man-to-man coverage </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/153__Glossar__Fussball__DE-EN__153__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Mauer, die </TD>
+    <TD>the wall </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/154__Glossar__Fussball__DE-EN__154__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Minute, die / 45 Minuten / Zwei mal 45 Minuten / 83. Minute </TD>
+    <TD>the minute / 45 minutes / two times 45 minutes / 83rd minute </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/155__Glossar__Fussball__DE-EN__155__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Nachspielzeit, die </TD>
+    <TD>the extra time </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/156__Glossar__Fussball__DE-EN__156__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Niederlage, die </TD>
+    <TD>the loss </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/157__Glossar__Fussball__DE-EN__157__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Notbremse, die </TD>
+    <TD>the emergency break </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/158__Glossar__Fussball__DE-EN__158__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>offensiv </TD>
+    <TD>offensive </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/159__Glossar__Fussball__DE-EN__159__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Partie, die </TD>
+    <TD>the match-up </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/160__Glossar__Fussball__DE-EN__160__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Pass, der </TD>
+    <TD>the pass </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/161__Glossar__Fussball__DE-EN__161__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Pause, die </TD>
+    <TD>the break </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/162__Glossar__Fussball__DE-EN__162__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>pfeifen </TD>
+    <TD>to whistle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/163__Glossar__Fussball__DE-EN__163__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Pfiff, der </TD>
+    <TD>the whistle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/164__Glossar__Fussball__DE-EN__164__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Platzverweis, der </TD>
+    <TD>the sending off (the pitch) </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/165__Glossar__Fussball__DE-EN__165__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Raumdeckung, die </TD>
+    <TD>zone defence </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/166__Glossar__Fussball__DE-EN__166__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Regel, die </TD>
+    <TD>the rule </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/167__Glossar__Fussball__DE-EN__167__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>regelwidrig </TD>
+    <TD>against the rules </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/168__Glossar__Fussball__DE-EN__168__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Remis, das </TD>
+    <TD>the draw </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/169__Glossar__Fussball__DE-EN__169__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>R&uuml;ckpass, der </TD>
+    <TD>the back pass </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/170__Glossar__Fussball__DE-EN__170__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>schießen </TD>
+    <TD>to shoot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/171__Glossar__Fussball__DE-EN__171__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Schuss, der </TD>
+    <TD>the shot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/172__Glossar__Fussball__DE-EN__172__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Schwalbe, die </TD>
+    <TD>the dive </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/173__Glossar__Fussball__DE-EN__173__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Sieg, der </TD>
+    <TD>the victory </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/174__Glossar__Fussball__DE-EN__174__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Sieger, der </TD>
+    <TD>the victor </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/175__Glossar__Fussball__DE-EN__175__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Spiel, das </TD>
+    <TD>the game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/176__Glossar__Fussball__DE-EN__176__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>spielen </TD>
+    <TD>to play </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/177__Glossar__Fussball__DE-EN__177__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Spielbeginn, der </TD>
+    <TD>the start of the game </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/178__Glossar__Fussball__DE-EN__178__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Spielstand, der </TD>
+    <TD>the score (of the game) </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/179__Glossar__Fussball__DE-EN__179__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Spielzeit, die </TD>
+    <TD>the game time </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/180__Glossar__Fussball__DE-EN__180__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Strafstoß, der </TD>
+    <TD>the penalty shot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/181__Glossar__Fussball__DE-EN__181__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>st&uuml;rmen </TD>
+    <TD>to attack </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/182__Glossar__Fussball__DE-EN__182__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Tackling, das </TD>
+    <TD>the tackle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/183__Glossar__Fussball__DE-EN__183__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Taktik, die </TD>
+    <TD>the tactics </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/184__Glossar__Fussball__DE-EN__184__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>t&auml;uschen </TD>
+    <TD>the switch </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/185__Glossar__Fussball__DE-EN__185__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Tor, das </TD>
+    <TD>the goal </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/186__Glossar__Fussball__DE-EN__186__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Torchance, die </TD>
+    <TD>the goal opportunity </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/187__Glossar__Fussball__DE-EN__187__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>trainieren </TD>
+    <TD>to train </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/188__Glossar__Fussball__DE-EN__188__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Training, das </TD>
+    <TD>the training </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/189__Glossar__Fussball__DE-EN__189__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Treffer, der </TD>
+    <TD>the goal </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/190__Glossar__Fussball__DE-EN__190__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>treffen </TD>
+    <TD>to score / to meet </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/191__Glossar__Fussball__DE-EN__191__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>&uuml;bernehmen </TD>
+    <TD>to take over </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/192__Glossar__Fussball__DE-EN__192__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>unentschieden </TD>
+    <TD>undecided </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/193__Glossar__Fussball__DE-EN__193__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>unfair </TD>
+    <TD>unfair </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/194__Glossar__Fussball__DE-EN__194__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>ungedeckt </TD>
+    <TD>unmarked </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/195__Glossar__Fussball__DE-EN__195__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>unhaltbar </TD>
+    <TD>unstoppable </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/196__Glossar__Fussball__DE-EN__196__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>verhindern </TD>
+    <TD>to obstruct </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/197__Glossar__Fussball__DE-EN__197__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Verl&auml;ngerung, die </TD>
+    <TD>the extra time </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/198__Glossar__Fussball__DE-EN__198__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>verletzen </TD>
+    <TD>to injure </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/199__Glossar__Fussball__DE-EN__199__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Verlierer, der </TD>
+    <TD>the loser </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/200__Glossar__Fussball__DE-EN__200__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>verteidigen </TD>
+    <TD>to defend </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/201__Glossar__Fussball__DE-EN__201__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Verteidigung, die </TD>
+    <TD>the defence </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/202__Glossar__Fussball__DE-EN__202__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Verwarnung, die </TD>
+    <TD>the warning </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/203__Glossar__Fussball__DE-EN__203__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Viererkette, die </TD>
+    <TD>the four-man defence </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/204__Glossar__Fussball__DE-EN__204__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Volley, der </TD>
+    <TD>the volley </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/205__Glossar__Fussball__DE-EN__205__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Vorlage, die </TD>
+    <TD>the assist </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/206__Glossar__Fussball__DE-EN__206__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Vorteil, der </TD>
+    <TD>the advantage </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/207__Glossar__Fussball__DE-EN__207__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>weit </TD>
+    <TD>far </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/208__Glossar__Fussball__DE-EN__208__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>match </TD>
+    <TD>Zahl, die / Eins (1) / Zwei (2) / Drei (3) / Vier (4) / F&uuml;nf (5) / 
+      Sechs (6) / Sieben (7) / Acht (8) / Neun (9) / Zehn (10) / Elf (11) / 
+      Zw&ouml;lf (12) / Dreizehn (13) / Vierzehn (14) / F&uuml;nfzehn (15) </TD>
+    <TD>the number / one (1) / two (2) / three (3) / four (4) / five (5) / six 
+      (6) / seven (7) / eight (8) / nine (9) / ten (10) / eleven (11) / twelve 
+      (12) / thirteen (13) / fourteen (14) / fifteen (15) </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/209__Glossar__Fussball__DE-EN__209__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>match </TD>
+    <TD>Zweikampf, der </TD>
+    <TD>the one-on-one </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/The__Match__2__english/content/1/images/210__Glossar__Fussball__DE-EN__210__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Artikel, der </TD>
+    <TD>the article </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/231__Glossar__Fussball__DE-EN__231__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Bericht, der </TD>
+    <TD>the report </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/232__Glossar__Fussball__DE-EN__232__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Beitrag, der </TD>
+    <TD>the segment </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/233__Glossar__Fussball__DE-EN__233__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Durchsage, die </TD>
+    <TD>the announcement </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/234__Glossar__Fussball__DE-EN__234__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Fernsehen, das </TD>
+    <TD>the television </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/235__Glossar__Fussball__DE-EN__235__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Fernseher, der </TD>
+    <TD>the television set </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/236__Glossar__Fussball__DE-EN__236__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Fernsehkamera, die </TD>
+    <TD>the television camera </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/237__Glossar__Fussball__DE-EN__237__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Fernsehsender, der </TD>
+    <TD>the television channel </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/238__Glossar__Fussball__DE-EN__238__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Fernseh&uuml;bertragung, die </TD>
+    <TD>the television broadcast </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/239__Glossar__Fussball__DE-EN__239__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Großbildleinwand, die </TD>
+    <TD>the video screen </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/240__Glossar__Fussball__DE-EN__240__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Handy, das </TD>
+    <TD>the mobile phone </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/241__Glossar__Fussball__DE-EN__241__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Internet, das </TD>
+    <TD>the internet </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/242__Glossar__Fussball__DE-EN__242__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Interview, das </TD>
+    <TD>the interview </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/243__Glossar__Fussball__DE-EN__243__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Journalist, der </TD>
+    <TD>the journalist </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/244__Glossar__Fussball__DE-EN__244__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Kamera, die </TD>
+    <TD>the camera </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/245__Glossar__Fussball__DE-EN__245__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Kanal, der </TD>
+    <TD>the channel </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/246__Glossar__Fussball__DE-EN__246__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Kommentator, der </TD>
+    <TD>the commentator </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/247__Glossar__Fussball__DE-EN__247__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Leinwand, die </TD>
+    <TD>the screen </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/248__Glossar__Fussball__DE-EN__248__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Live-&Uuml;bertragung, die </TD>
+    <TD>the live broadcast </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/249__Glossar__Fussball__DE-EN__249__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Medien, die (Pl.) </TD>
+    <TD>the media </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/250__Glossar__Fussball__DE-EN__250__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Moderator, der </TD>
+    <TD>the presenter </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/251__Glossar__Fussball__DE-EN__251__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Radio, das </TD>
+    <TD>the radio </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/252__Glossar__Fussball__DE-EN__252__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Reporter, der </TD>
+    <TD>the reporter </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/253__Glossar__Fussball__DE-EN__253__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Spielergebnis, das </TD>
+    <TD>the match result </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/254__Glossar__Fussball__DE-EN__254__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Stadionsprecher, der </TD>
+    <TD>the stadium announcer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/255__Glossar__Fussball__DE-EN__255__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>&Uuml;bertragung, die </TD>
+    <TD>the broadcast </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/256__Glossar__Fussball__DE-EN__256__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Wiederholung, die </TD>
+    <TD>the repeat </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/257__Glossar__Fussball__DE-EN__257__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>reports </TD>
+    <TD>Zeitlupe, die </TD>
+    <TD>the slow-motion replay </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/258__Glossar__Fussball__DE-EN__258__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>reports </TD>
+    <TD>Zeitung, die </TD>
+    <TD>the newspaper </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Reports__2__english/content/1/images/259__Glossar__Fussball__DE-EN__259__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Anstoßpunkt, der </TD>
+    <TD>the centre spot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/001__Glossar__Fussball__DE-EN__001__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Arena, die </TD>
+    <TD>the arena </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/002__Glossar__Fussball__DE-EN__002__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Eckfahne, die </TD>
+    <TD>the corner flag </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/003__Glossar__Fussball__DE-EN__003__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Elfmeterpunkt, der </TD>
+    <TD>the penalty spot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/004__Glossar__Fussball__DE-EN__004__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Ersatzbank, die </TD>
+    <TD>the replacement bench </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/005__Glossar__Fussball__DE-EN__005__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Fahne, die </TD>
+    <TD>the flag </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/006__Glossar__Fussball__DE-EN__006__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Fankurve, die </TD>
+    <TD>the fan block </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/007__Glossar__Fussball__DE-EN__007__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Kabine, die </TD>
+    <TD>the changing room </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/008__Glossar__Fussball__DE-EN__008__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Kategorie, die </TD>
+    <TD>the category </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/009__Glossar__Fussball__DE-EN__009__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Kurve, die </TD>
+    <TD>the block </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/010__Glossar__Fussball__DE-EN__010__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Latte, die </TD>
+    <TD>the crossbar </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/011__Glossar__Fussball__DE-EN__011__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Mittelkreis, der </TD>
+    <TD>the centre circle </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/012__Glossar__Fussball__DE-EN__012__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Mittellinie, die </TD>
+    <TD>the middle line </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/013__Glossar__Fussball__DE-EN__013__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Mittelpunkt, der </TD>
+    <TD>the centre spot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/014__Glossar__Fussball__DE-EN__014__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Netz, das </TD>
+    <TD>the net </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/015__Glossar__Fussball__DE-EN__015__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Pfosten, der </TD>
+    <TD>the post </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/016__Glossar__Fussball__DE-EN__016__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Platz, der </TD>
+    <TD>the pitch </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/017__Glossar__Fussball__DE-EN__017__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Rang, der </TD>
+    <TD>the rank </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/018__Glossar__Fussball__DE-EN__018__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Rasen, der </TD>
+    <TD>the grass </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/019__Glossar__Fussball__DE-EN__019__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Reihe, die </TD>
+    <TD>the row </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/020__Glossar__Fussball__DE-EN__020__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Seitenlinie, die </TD>
+    <TD>the sideline </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/021__Glossar__Fussball__DE-EN__021__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Sitzplatz, der </TD>
+    <TD>the seat </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/022__Glossar__Fussball__DE-EN__022__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Spielerbank, die </TD>
+    <TD>the players' bench </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/023__Glossar__Fussball__DE-EN__023__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Spielertunnel, der </TD>
+    <TD>the players' tunnel </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/024__Glossar__Fussball__DE-EN__024__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Spielfeld, das </TD>
+    <TD>the pitch </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/025__Glossar__Fussball__DE-EN__025__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Stadion, das </TD>
+    <TD>the stadium </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/026__Glossar__Fussball__DE-EN__026__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Stehplatz, der </TD>
+    <TD>the standing room spot </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/027__Glossar__Fussball__DE-EN__027__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Strafraum, der </TD>
+    <TD>the penalty area </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/028__Glossar__Fussball__DE-EN__028__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Tor, das </TD>
+    <TD>the goal </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/029__Glossar__Fussball__DE-EN__029__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Torauslinie, die </TD>
+    <TD>the goal line </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/030__Glossar__Fussball__DE-EN__030__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Torraum, der </TD>
+    <TD>the goal area </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/031__Glossar__Fussball__DE-EN__031__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>stadium </TD>
+    <TD>Trib&uuml;ne, die </TD>
+    <TD>the tribune </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/032__Glossar__Fussball__DE-EN__032__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>stadium </TD>
+    <TD>Videotafel, die </TD>
+    <TD>the video screen </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Stadium__2__english/content/1/images/033__Glossar__Fussball__DE-EN__033__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Abwehrspieler, der </TD>
+    <TD>the defence player </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/039__Glossar__Fussball__DE-EN__039__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Angreifer, der </TD>
+    <TD>the striker </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/040__Glossar__Fussball__DE-EN__040__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Aufstellung, die </TD>
+    <TD>the line-up </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/041__Glossar__Fussball__DE-EN__041__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Auswechselspieler, der </TD>
+    <TD>the substitute player </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/042__Glossar__Fussball__DE-EN__042__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Bundestrainer, der </TD>
+    <TD>the national team trainer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/043__Glossar__Fussball__DE-EN__043__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Co-Trainer, der </TD>
+    <TD>the co-trainer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/044__Glossar__Fussball__DE-EN__044__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Elf, die </TD>
+    <TD>the 11 </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/045__Glossar__Fussball__DE-EN__045__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Ersatzspieler, der </TD>
+    <TD>the substitute player </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/046__Glossar__Fussball__DE-EN__046__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Feldspieler, der </TD>
+    <TD>the field player </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/047__Glossar__Fussball__DE-EN__047__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Fußballer, der </TD>
+    <TD>the footballer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/048__Glossar__Fussball__DE-EN__048__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Gastgeber, der </TD>
+    <TD>the host </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/049__Glossar__Fussball__DE-EN__049__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Gegenspieler, der </TD>
+    <TD>the opposite player </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/050__Glossar__Fussball__DE-EN__050__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Gegner, der </TD>
+    <TD>the opponent </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/051__Glossar__Fussball__DE-EN__051__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Kapit&auml;n, der </TD>
+    <TD>the captain </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/052__Glossar__Fussball__DE-EN__052__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Kicker, der </TD>
+    <TD>the kicker </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/053__Glossar__Fussball__DE-EN__053__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Libero, der </TD>
+    <TD>the libero </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/054__Glossar__Fussball__DE-EN__054__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Linienrichter, der </TD>
+    <TD>the linesman </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/055__Glossar__Fussball__DE-EN__055__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Mannschaft, die </TD>
+    <TD>the team </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/056__Glossar__Fussball__DE-EN__056__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Mitspieler, der </TD>
+    <TD>the team mate </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/057__Glossar__Fussball__DE-EN__057__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Mittelfeld, das </TD>
+    <TD>the midfield </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/058__Glossar__Fussball__DE-EN__058__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Mittelfeldspieler, der </TD>
+    <TD>the midfielder </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/059__Glossar__Fussball__DE-EN__059__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Mittelst&uuml;rmer, der </TD>
+    <TD>the centre striker </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/060__Glossar__Fussball__DE-EN__060__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Nummer, die </TD>
+    <TD>the number </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/061__Glossar__Fussball__DE-EN__061__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Ordner, der </TD>
+    <TD>the helper </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/062__Glossar__Fussball__DE-EN__062__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>R&uuml;ckennummer, die </TD>
+    <TD>the jersey number </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/063__Glossar__Fussball__DE-EN__063__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Schiedsrichter, der </TD>
+    <TD>the referee </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/064__Glossar__Fussball__DE-EN__064__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Schiedsrichterassistent, der </TD>
+    <TD>the referee's assistant </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/065__Glossar__Fussball__DE-EN__065__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Sieger, der </TD>
+    <TD>the victor </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/066__Glossar__Fussball__DE-EN__066__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Spielmacher, der </TD>
+    <TD>the play maker </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/067__Glossar__Fussball__DE-EN__067__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>St&uuml;rmer, der </TD>
+    <TD>the striker </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/068__Glossar__Fussball__DE-EN__068__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Team, das </TD>
+    <TD>the team </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/069__Glossar__Fussball__DE-EN__069__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Torj&auml;ger, der </TD>
+    <TD>the striker (lit. goal hunter) </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/070__Glossar__Fussball__DE-EN__070__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Tormann, der </TD>
+    <TD>the goalie </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/071__Glossar__Fussball__DE-EN__071__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Torsch&uuml;tze, der </TD>
+    <TD>the goal shooter </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/072__Glossar__Fussball__DE-EN__072__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Torwart, der </TD>
+    <TD>the goalkeeper </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/073__Glossar__Fussball__DE-EN__073__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Trainer, der </TD>
+    <TD>the trainer </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/074__Glossar__Fussball__DE-EN__074__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=row2>
+    <TD>teams </TD>
+    <TD>Trikot, das </TD>
+    <TD>the jersey </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/075__Glossar__Fussball__DE-EN__075__MP3WRAP.mp3">듣기</A> 
+    </TD></TR>
+  <TR class=white>
+    <TD>teams </TD>
+    <TD>Verteidiger, der </TD>
+    <TD>the defender </TD>
+    <TD class=temp><A 
+      href="http://mobile.goethe.de/dff/wm2006/en/WM2006Goethe/Teams__2__english/content/1/images/076__Glossar__Fussball__DE-EN__076__MP3WRAP.mp3">듣기</A> 
+    </TD></TR></TABLE></DIV></BODY></HTML>
