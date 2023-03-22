@@ -1,0 +1,806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"4645340463",applicationID:"13658816"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(7),c=e(8),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(9);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e){return!(!e||!e.protocol||"file:"===e.protocol)}t.exports=r},{}],4:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(6),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],5:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],6:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],7:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],8:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],9:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?u(e,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){e&&a&&e(n,r,i);for(var c=t(i),f=v(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[h[n]];return p&&p.push([b,n,r,c]),c}}function o(e,t){y[e]=v(e).concat(t)}function m(e,t){var n=y[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return y[e]||[]}function g(e){return p[e]=p[e]||i(n)}function w(e,t){s(e,function(e,n){t=t||"feature",h[n]=t,t in d||(d[t]=[])})}var y={},h={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:w,abort:c,aborted:!1};return b}function o(e){return u(e,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=e("gos"),s=e(7),d={},p={},l=t.exports=i();t.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=x.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=l.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+x.offset],null,"api")}var a=e(2),c=e("handle"),f=e(7),u=e("ee"),s=e(5),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,w=g&&g.prototype;if(d(p.location)){NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1208.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:b,userAgent:s};e(1),e(4),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0}},{}],"wrap-function":[function(e,t,n){function r(e,t){function n(t,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],e)}c(n+"start",[o,a,f],s,u);try{return p=t.apply(a,o)}catch(m){throw c(n+"err",[o,a,m],s,u),m}finally{c(n+"end",[o,a,p],s,u)}}return a(t)?t:(n||(n=""),nrWrapper[p]=t,o(t,nrWrapper,e),nrWrapper)}function r(e,t,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<t.length;u++)f=t[u],c=e[f],a(c)||(e[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!m||t){var c=m;m=!0;try{e.emit(n,r,o,t,a)}catch(f){i([f,n,r,o],e)}m=c}}return e||(e=s),n.inPlace=r,n.flag=p,n}function i(e,t){t||(t=s);try{t.emit("internal-error",e)}catch(n){}}function o(e,t,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(e);return r.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(o){i([o],n)}for(var a in e)l.call(e,a)&&(t[a]=e[a]);return t}function a(e){return!(e&&e instanceof Function&&e.apply&&!e[p])}function c(e,t){var n=t(e);return n[p]=e,o(e,n,s),n}function f(e,t,n){var r=e[t];e[t]=c(r,n)}function u(){for(var e=arguments.length,t=new Array(e),n=0;n<e;++n)t[n]=arguments[n];return t}var s=e("ee"),d=e(8),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;t.exports=r,t.exports.wrapFunction=c,t.exports.wrapInPlace=f,t.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<title>Live Soccer TV - Online Streaming and TV Listings, Live Football Scores, Fixtures, Tables, Results, News, Pubs and Video Highlights</title>
+<meta name="keywords" content="soccer, football, soccer on tv, football on tv, live soccer, live football, soccer scores, football scores, soccer news, football news, soccer videos, football videos, watch football, watch soccer, soccer fixtures, football fixtures, soccer tables, football tables, soccer results, football results">
+<meta name="description" content="Live Soccer TV - Football TV Listings, Official Live Streams, Live Soccer Scores, Fixtures, Tables, Results, News, Pubs and Video Highlights">
+<link rel="canonical" href="https://www.livesoccertv.com/" />
+<link rel="alternate" hreflang="x-default" href="https://www.livesoccertv.com/" />
+<link rel="alternate" hreflang="en" href="https://www.livesoccertv.com/" />
+<link rel="alternate" hreflang="es" href="https://www.livesoccertv.com/es/" />
+<link rel="alternate" hreflang="fr" href="https://www.livesoccertv.com/fr/" />
+<link rel="alternate" hreflang="pt" href="https://www.livesoccertv.com/pt/" />
+<link rel="alternate" hreflang="de" href="https://www.livesoccertv.com/de/" />
+<link rel="alternate" hreflang="id" href="https://www.livesoccertv.com/id/" />
+<link rel="alternate" hreflang="it" href="https://www.livesoccertv.com/it/" />
+<link rel="alternate" hreflang="nl" href="https://www.livesoccertv.com/nl/" />
+<link rel="alternate" hreflang="ru" href="https://www.livesoccertv.com/ru/" />
+<link rel="alternate" hreflang="tr" href="https://www.livesoccertv.com/tr/" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.livesoccertv.com/m/css/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://cdn.livesoccertv.com/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://cdn.livesoccertv.com/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://cdn.livesoccertv.com/manifest.json">
+<link rel="mask-icon" href="https://cdn.livesoccertv.com/safari-pinned-tab.svg" color="#d21013">
+<meta name="theme-color" content="#ffffff">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+var snhb = snhb || {}; snhb.queue = snhb.queue || [];
+
+googletag.cmd.push(function() {
+
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableSingleRequest();
+
+    var additionalAdSlots = [];
+
+
+snhb.queue.push(function(){
+    snhb.addAdditionalAdSlotsToRefresh(additionalAdSlots);                  
+});
+
+googletag.pubads().collapseEmptyDivs(true);
+googletag.enableServices();
+});
+
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;</script><script src="//cdn.snigelweb.com/sncmp/latest/sncmp_stub.min.js" type="text/javascript"></script><script>window.__cmp('setPrivacyPolicy', "/privacy/", function(r){});</script><script async type="text/javascript" src="//cdn.snigelweb.com/pub/livesoccertv.com/20200722/snhb-livesoccertv.com.min.js"></script>
+<script>        
+        // all available options and in their default setting
+        snhb.options = {
+            logOutputEnabled : true,
+            debugOutputEnabled: false,
+            PBJSDebugOutputEnabled: false,
+            auctionResultOutputEnabled: false,
+            allOutputEnabled: false,
+            autoStartAuction: true,
+            refreshAllAdSlots: false,
+            detectTabletsAsMobileTraffic: false,
+            detectWindowResize: true,
+            consent: {
+                reconsiderationAppealIntervalSeconds: 86400,
+                reconsiderationAppealFunction: function() { 
+                    alert("◕_◕ We are sorry you don't trust us with your personal data. Please reconsider granting your consent. It's absence lowers the quality of the content we can offer you. Thank you!");
+                    window.__cmp('showGUI');
+                },
+                introText: {                        
+//                        en: {                         
+//                            title: '',
+//                            description: '',
+//                            acceptAll: '',
+//                            showPurposes: ''                         
+//                        },
+//                        de: {
+//                            title: '',
+//                            description: '',
+//                            acceptAll: '',
+//                            showPurposes: ''                         
+//                        },
+//                        fr: {
+//                            title: '',
+//                            description: '',
+//                            acceptAll: '',
+//                            showPurposes: ''                         
+//                        }
+                }
+            }                
+        };
+    </script>
+<script src="https://snigelweb-com.videoplayerhub.com/videoloader.js"></script>
+<script language="JavaScript" src="https://cdn.livesoccertv.com/scripts.js?a=93"></script>
+<script>
+/*
+if(this != top){
+  top.location.href = self.location.href;
+  $(document).ready(function(){$('a').attr('target', '_top');});
+}
+*/
+</script>
+<script type="text/javascript" src="https://cdn.livesoccertv.com/js/tabs2.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-10308117-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['m.livesoccertv.com', 'widgets.livesoccertv.com'] );
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="https://cdn.livesoccertv.com/js/s.js?v=28"></script>
+<link href="https://cdn.livesoccertv.com/styles.css?v=86" rel="stylesheet" type="text/css">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.livesoccertv.com/">
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-5993370252466225",
+          enable_page_level_ads: true
+     });
+</script>
+<meta property="og:image" content="//cdn.livesoccertv.com/images/logo.gif" />
+</head>
+<body onload='updateListings(1)'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><div id="body_main">
+<div class="header">
+<h1 title="Live Soccer TV" style="padding-left:20px;"><a href="//www.livesoccertv.com"><img src="//cdn.livesoccertv.com/images/logo55.png" width="116" height="55" border="0" alt="Live Soccer TV" /></a></h1>
+<script language="javascript">
+    <!--
+    $(function(){
+        $(".search").keyup(function() { 
+            var searchid = $(this).val();
+            var dataString = 'search='+ searchid;
+            var lang = $('form[name=searchform]').attr("lang");
+            var posturl = "/include/autocomplete.php";
+            if(lang!='en') posturl = '/'+lang+posturl;
+            if(searchid!='' && searchid.length>2) { // Run search only if more than one character has been submitted
+                $.ajax({
+                type: "POST",
+                url: posturl,
+                data: dataString,
+                cache: false,
+                success: function(html) {
+                    $("#sresult").html(html).show();
+                }
+                });
+            }return false;    
+            });
+            
+            jQuery("#sresult").on("click",function(e){ 
+                var $clicked = $(e.target);
+                var $name = $clicked.find('.name').html();
+                var decoded = $("<div/>").html($name).text();
+                $('#searchid').val(decoded);
+            });
+            jQuery(document).on("click", function(e) { 
+                var $clicked = $(e.target);
+                if (! $clicked.hasClass("search")){
+                jQuery("#sresult").fadeOut(); 
+                }
+            });
+            $('#searchid').click(function(){
+                jQuery("#sresult").fadeIn();
+        });
+    });
+    -->
+	</script>
+<form name="searchform" method="post" action="/search/" style="margin:0;padding:0;float:left;" lang="en" onSubmit="if (this.searchid.value.length < 3) {return false;}">
+<input type="text" class="search" id="searchid" name="searchid" autocomplete="off" placeholder="Search for league, team, channel..." />
+<input type="submit" value="" class="ssubmit" />
+</form>
+<div id="sresult"></div>
+<span class="icon globe" style="padding:2px 17px 0 0; margin-left:15px;"></span>
+<ul class="lang">
+<li>English &#9662;
+<ul>
+<li><a href="/es/" onclick="changeLanguage('es');return false;">Español</a></li>
+<li><a href="/fr/" onclick="changeLanguage('fr');return false;">Français</a></li>
+<li><a href="/pt/" onclick="changeLanguage('pt');return false;">Português</a></li>
+<li><a href="/de/" onclick="changeLanguage('de');return false;">Deutsch</a></li>
+<li><a href="/id/" onclick="changeLanguage('id');return false;">Bahasa Indonesia</a></li>
+<li><a href="/it/" onclick="changeLanguage('it');return false;">Italiano</a></li>
+<li><a href="/nl/" onclick="changeLanguage('nl');return false;">Nederlands</a></li>
+<li><a href="/ru/" onclick="changeLanguage('ru');return false;">Русский</a></li>
+<li><a href="/tr/" onclick="changeLanguage('tr');return false;">Türkçe</a></li>
+</ul>
+</li>
+</ul>
+<script language="javascript">
+function setCookie2(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires + "; domain=.livesoccertv.com; path=/";
+//    document.cookie = cname + "=" + cvalue + "; " + expires;
+} 
+</script>
+<div class="apps">
+<a href="https://itunes.apple.com/us/app/live-soccer-tv-official-multi/id874726939?mt=8" onclick="ga('send','event','App','iOS','Header')" target="_blank"><img src="//cdn.livesoccertv.com/images/icons/appstore40.png" width="135" height="40" border="0" alt="Live Soccer TV App for iOS" /></a></div>
+<div class="apps"><a href="https://play.google.com/store/apps/details?id=com.livesoccertv&paramLiveSoccerTV.TB" onclick="ga('send','event','App','Android','Header')" target="_blank"><img src="//cdn.livesoccertv.com/images/icons/googleplay40.png" width="135" height="40" border="0" alt="Live Soccer TV App for Android" /></a></div>
+<div class="apps social"><a href="https://www.facebook.com/LiveSoccerTv.com" onclick="ga('send','event','Social','Facebook','Header')" title="Live Soccer TV Facebook Page" target="_blank"><img src="//cdn.livesoccertv.com/images/icons/facebook40.png" width="40" height="40" border="0" alt="Follow Live Soccer TV on Facebook" /></a></div>
+<div class="apps social" style="padding-left:0;"><a href="https://twitter.com/livesoccertv" onclick="ga('send','event','Social','Twitter','Header')" title="Live Soccer TV on Twitter" "target="_blank"><img src="//cdn.livesoccertv.com/images/icons/twitter40.png" width="40" height="40" border="0" alt="Follow Live Soccer TV on Twitter" /></a>
+</div>
+
+<div style="clear:both;"></div>
+</div>
+<div id='snhb-LSTV_970x90_ROS-0' style='padding-bottom:10px;' align='center'><span class='bt-uid-tg' data-uid='5c91634b74-158' style='display: none !important'></span></div>
+<div class="clear" id="catcher"></div>
+<div class="sticky">
+<div id="dropList">
+<ul id="menu">
+<li class="level1-li sub"><a href="//www.livesoccertv.com" id="stickylogo" title="Live Soccer TV"></a></li>
+<li class="level1-li sub"><a class="level1-a" href="/schedules/">Matches<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<div class="listHolder col1">
+<h5>Upcoming Schedules</h5>
+<div class="listCol">
+<ul>
+<li><a href="/schedules/" title="Today's Football Schedules">Today</a></li>
+<li><a href="/schedules/2021-03-17/" title="Tomorrow's Football Schedules">Tomorrow</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+<li><a href="/schedules/2021-03-20/" title="Football Schedules for Saturday">Saturday</a></li>
+<li><a href="/schedules/2021-03-21/" title="Football Schedules for Sunday">Sunday</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<h5>Pick a Day</h5>
+<div id="header_cal">
+<script type="text/javascript">    
+            var todaydate=new Date()
+            var curmonth=todaydate.getMonth()+1 //get current month (1-12)
+            var curyear=todaydate.getFullYear() //get current year
+            document.write(buildCal(curmonth, curyear, "simple_cal", "month", "daysofweek", "days", 0, "header_cal", "en"));
+            </script>
+</div>
+</div>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="level1-li sub"><a class="level1-a" href="/competitions/">Competitions<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<div class="listHolder col2 left1">
+<h5>Europe</h5><div class="listCol">
+<ul>
+<li><a href="/competitions/international/uefa-european-championship/" class="flag europe" title="Euro">Euro</a></li>
+<li><a href="/competitions/international/uefa-champions-league/" class="flag europe" title="Champions League">Champions League</a></li>
+<li><a href="/competitions/international/uefa-europa-league/" class="flag europe" title="Europa League">Europa League</a></li>
+<li><a href="/competitions/england/premier-league/" class="flag england" title="England - Premier League">Premier League</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+<li><a href="/competitions/spain/primera-division/" class="flag spain" title="Spain - La Liga">La Liga</a></li>
+<li><a href="/competitions/italy/serie-a/" class="flag italy" title="Italy - Serie A">Serie A</a></li>
+<li><a href="/competitions/germany/bundesliga/" class="flag germany" title="Germany - Bundesliga">Bundesliga</a></li>
+<li><a href="/competitions/portugal/liga-sagres/" class="flag portugal" title="Portugal - Primeira Liga">Primeira Liga</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+<li><a href="/competitions/france/ligue-1/" class="flag france" title="France - Ligue 1">Ligue 1</a></li>
+<li><a href="/competitions/germany/german-cup/" class="flag germany" title="Germany - DFB Pokal">DFB Pokal</a></li>
+<li><a href="/competitions/france/coupe-de-france/" class="flag france" title="France - Coupe de France">Coupe de France</a></li>
+<li><a href="/competitions/england/fa-cup/" class="flag england" title="England - FA Cup">FA Cup</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<h5>North, Central & South America</h5><div class="listCol">
+<ul>
+<li><a href="/competitions/international/concacaf-champions-league/" class="flag north-america" title="CONCACAF Champions League">CONCACAF Champions L&hellip;</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<h5>Other Competitions</h5><div class="listCol">
+<ul>
+<li><a href="/competitions/international/world-cup-qualifying/" class="flag world" title="World Cup Qualifying">World Cup Qualifying</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<div class="bottomLine">
+<p><a href="/competitions/" title="All Other Competitions">All Competitions</a></p>
+</div>
+</div>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="level1-li sub"><a class="level1-a" href="#">Teams<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<div class="listHolder col4 left2">
+<h5>Europe</h5><div class="listCol listCol2">
+<ul>
+<li><a href="/teams/england/arsenal/" class="flag england" title="Arsenal FC">Arsenal</a></li>
+<li><a href="/teams/england/chelsea/" class="flag england" title="Chelsea FC">Chelsea</a></li>
+<li><a href="/teams/england/liverpool/" class="flag england" title="Liverpool FC">Liverpool</a></li>
+<li><a href="/teams/england/manchester-city/" class="flag england" title="Manchester City FC">Manchester City</a></li>
+<li><a href="/teams/england/manchester-united/" class="flag england" title="Manchester United FC">Manchester United</a></li>
+<li><a href="/teams/england/tottenham-hotspur/" class="flag england" title="Tottenham Hotspur FC">Tottenham Hotspur</a></li>
+<li><a href="/teams/england/everton/" class="flag england" title="Everton FC">Everton</a></li>
+</ul>
+</div>
+<div class="listCol listCol2">
+<ul>
+<li><a href="/teams/spain/barcelona/" class="flag spain" title="FC Barcelona">Barcelona</a></li>
+<li><a href="/teams/spain/real-madrid/" class="flag spain" title="Real Madrid">Real Madrid</a></li>
+<li><a href="/teams/spain/atletico-madrid/" class="flag spain" title="Club Atlético de Madrid">Atlético Madrid</a></li>
+<li><a href="/teams/germany/bayern-munchen/" class="flag germany" title="FC Bayern München">Bayern München</a></li>
+<li><a href="/teams/germany/borussia-dortmund/" class="flag germany" title="BV Borussia 09 Dortmund">Borussia Dortmund</a></li>
+<li><a href="/teams/france/psg/" class="flag france" title="Paris Saint-Germain FC">Paris Saint-Germain</a></li>
+<li><a href="/teams/france/monaco/" class="flag france" title="Monaco">Monaco</a></li>
+</ul>
+</div>
+<div class="listCol listCol2">
+<ul>
+<li><a href="/teams/italy/juventus/" class="flag italy" title="Juventus F.C.">Juventus</a></li>
+<li><a href="/teams/italy/inter-milan/" class="flag italy" title="FC Internazionale Milano">Inter Milan</a></li>
+<li><a href="/teams/italy/ac-milan/" class="flag italy" title="AC Milan">AC Milan</a></li>
+<li><a href="/teams/italy/napoli/" class="flag italy" title="SSC Napoli">Napoli</a></li>
+<li><a href="/teams/italy/as-roma/" class="flag italy" title="AS Roma">AS Roma</a></li>
+<li><a href="/teams/portugal/benfica-lisbon/" class="flag portugal" title="SL Benfica">Benfica</a></li>
+<li><a href="/teams/portugal/fc-porto/" class="flag portugal" title="FC Porto">Porto</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<br />&nbsp;
+</div>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="level1-li sub"><a class="level1-a" href="/channels/">Channels<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<div class="listHolder col3 left3">
+<h5><span class="flag south-korea">South Korea</span></h5><div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/ib-sports-korea/" class="flag dot" title="IB Sports">IB Sports</a></li>
+<li><a href="/channels/jtbc3-fox-sports/" class="flag dot" title="JTBC Golf&Sports">JTBC Golf&Sports</a></li>
+<li><a href="/channels/life-sports-tv/" class="flag dot" title="Life Sports TV">Life Sports TV</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+<li><a href="/channels/sky-sports-korea/" class="flag dot" title="Sky Sports Korea">Sky Sports Korea</a></li>
+<li><a href="/channels/spo-tv-1/" class="flag dot" title="SPOTV">SPOTV</a></li>
+</ul>
+</div>
+<div class="listCol">
+<ul>
+<li><a href="/channels/spotv-on-korea-republic/" class="flag dot" title="SPOTV ON">SPOTV ON</a></li>
+<li><a href="/channels/spotv-on-2-korea-republic/" class="flag dot" title="SPOTV ON 2">SPOTV ON 2</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<h5><a href="/channels/#_uk" class="flag united-kingdom">UK & Ireland</a></h5>
+<div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/sky-sports-1/" class="flag dot" title="Sky Sports 1">Sky Sports 1</a></li>
+<li><a href="/channels/sky-sports-2/" class="flag dot" title="Sky Sports 2">Sky Sports 2</a></li>
+</ul>
+</div>
+<div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/bt-sport-1-uk/" class="flag dot" title="BT Sport 1">BT Sport 1</a></li>
+<li><a href="/channels/bt-sport-2-uk/" class="flag dot" title="BT Sport 2">BT Sport 2</a></li>
+</ul>
+</div>
+<div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/espn-uk/" class="flag dot" title="ESPN UK">ESPN UK</a></li>
+<li><a href="/channels/setanta-ireland/" class="flag dot" title="Setanta Sports Irealand">Setanta Ireland</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<h5><a href="/channels/#_usa" class="flag usa">USA</a></h5>
+<div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/bein-sport-1-usa/" class="flag dot" title="beIN Sport USA">beIN Sport 1</a></li>
+<li><a href="/channels/bein-sport-2-usa/" class="flag dot" title="beIN Sport en Espanol">beIN Sport ñ</a></li>
+<li><a href="/channels/espn-3/" class="flag dot" title="ESPN 3">ESPN 3</a></li>
+<li><a href="/channels/espn-deportes/" class="flag dot" title="ESPN Deportes">ESPN Deportes</a></li>
+</ul>
+</div>
+<div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/fox-sports-1-usa/" class="flag dot" title="Fox Sports 1 USA">Fox Sports 1</a></li>
+<li><a href="/channels/fox-sports-2-usa/" class="flag dot" title="Fox Sports 2 USA">Fox Sports 2</a></li>
+<li><a href="/channels/fox-deportes/" class="flag dot" title="Fox Deportes">Fox Deportes</a></li>
+<li><a href="/channels/fox-soccer-tv/" class="flag dot" title="FoxSoccer.TV">Fox Soccer 2 Go</a></li>
+</ul>
+</div>
+<div class="listCol listCol_ch">
+<ul>
+<li><a href="/channels/nbc-sports/" class="flag dot" title="NBC Sports Network">NBC Sports Network</a></li>
+<li><a href="/channels/univision/" class="flag dot" title="Univision">Univision</a></li>
+<li><a href="/channels/univision-deportes-usa/" class="flag dot" title="Univision Deportes">Univision Deportes</a></li>
+<li><a href="/channels/gol-tv/" class="flag dot" title="Gol TV">Gol TV</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<div class="bottomLine">
+<p><a href="/channels/" title="All Football Channels">All Channels</a></p>
+</div>
+</div>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="level1-li sub"><a class="level1-a" href="/news/">News<!--[if gte IE 7]><!--></a><!--<![endif]--></li>
+<li class="level1-li"><a class="level1-a" href="/pubs/">Pubs</a></li>
+<li class="level1-li sub"><a class="level1-a" href="#">Sports</a><!--[if gte IE 7]><!--><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<div class="listHolder col5 left4">
+<div class="listCol" style="width:150px;">
+<h5>Other sports</h5>
+<ul class="flags">
+<li><a href="https://www.livefootballtv.com" class="flag item" title="Live Football TV">American Football</a></li>
+<li><a href="https://www.liverugbytv.com" class="flag item" title="Live Rugby TV">Rugby</a></li>
+<li><a href="https://www.livecricketcentral.com" class="flag item" title="Live Cricket Central">Cricket</a></li>
+<br />
+</ul>
+</div>
+</div>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+</div>
+
+<div style="clear:both"></div>
+<div id="competitions_bar">
+<ul>
+<li><a href="/competitions/international/uefa-european-championship/" class="flag europe" title="Euro">Euro</a></li>
+<li><a href="/competitions/england/premier-league/" class="flag england" title="England - EPL">EPL</a></li>
+<li><a href="/competitions/international/world-cup-qualifying/" class="flag world" title="WC Qualifying">WC Qualifying</a></li>
+<li><a href="/competitions/international/uefa-champions-league/" class="flag champions" title="Champions L.">Champions L</a></li>
+<li><a href="/competitions/international/uefa-europa-league/" class="flag europa" title="Europa L.">Europa L</a></li>
+<li><a href="/competitions/spain/primera-division/" class="flag spain" title="Spain - La Liga">La Liga</a></li>
+<li><a href="/competitions/italy/serie-a/" class="flag italy" title="Italy - Serie A">Serie A</a></li>
+<li><a href="/competitions/germany/bundesliga/" class="flag germany" title="Germany - Bundesliga">Bundesliga</a></li>
+<li><a href="/competitions/portugal/liga-sagres/" class="flag portugal" title="Portugal - Primeira L.">Primeira L</a></li>
+<li><a href="/competitions/france/ligue-1/" class="flag france" title="France - Ligue 1">Ligue 1</a></li>
+<li><a href="/competitions/germany/german-cup/" class="flag germany" title="Germany - DFB Pokal">DFB Pokal</a></li>
+<li><a href="/competitions/france/coupe-de-france/" class="flag france" title="France - Coupe de FR">Coupe de FR</a></li>
+<li><a href="/competitions/england/fa-cup/" class="flag england" title="England - FA Cup">FA Cup</a></li>
+</ul>
+</div>
+<div style="clear:both"></div>
+</div>
+<div id="leftcol_white" style="padding-top:10px;">
+<div class="weekdays" style="margin-bottom:-50px;">
+<!--[if IE 7 ]> <table><tr> <![endif]-->
+<ul><![if !IE 7]><li><a href="/schedules/2021-03-14/" title="Sunday, March 14">Sun<br><span class="date">Mar 14</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-14/">Sun<br>3/14</a></td><![endif]--><![if !IE 7]><li><a href="/schedules/2021-03-15/" title="Monday, March 15">Mon<br><span class="date">Mar 15</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-15/">Mon<br>3/15</a></td><![endif]--><![if !IE 7]><li class="current"><a href="/schedules/2021-03-16/" title="Tuesday, March 16">Tue<br><span class="date">Mar 16</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-16/">Tue<br>3/16</a></td><![endif]--><![if !IE 7]><li><a href="/schedules/2021-03-17/" title="Wednesday, March 17">Wed<br><span class="date">Mar 17</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-17/">Wed<br>3/17</a></td><![endif]--><![if !IE 7]><li><a href="/schedules/2021-03-18/" title="Thursday, March 18">Thu<br><span class="date">Mar 18</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-18/">Thu<br>3/18</a></td><![endif]--><![if !IE 7]><li><a href="/schedules/2021-03-19/" title="Friday, March 19">Fri<br><span class="date">Mar 19</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-19/">Fri<br>3/19</a></td><![endif]--><![if !IE 7]><li><a href="/schedules/2021-03-20/" title="Saturday, March 20">Sat<br><span class="date">Mar 20</span></a></li>
+<![endif]><!--[if IE 7 ]><td align='center'><a href="/schedules/2021-03-20/">Sat<br>3/20</a></td><![endif]--> <!--[if IE 7 ]> </tr></table> <![endif]-->
+<![if !IE 7]>
+<li class="clickable calendar"><a href="">&nbsp;</a>
+<div class="calHolder calCol calLeft">
+<div id="schedules_cal">
+<script type="text/javascript">    
+                        var todaydate=new Date()
+                        var curmonth=todaydate.getMonth()+1 //get current month (1-12)
+                        var curyear=todaydate.getFullYear() //get current year
+                        document.write(buildCal(curmonth ,curyear, "simple_cal", "month", "daysofweek", "days", 0, "schedules_cal", "en"));
+                        </script>
+</div> 
+</div>
+</li>
+<![endif]>
+</ul>
+</div>
+<script language="javascript">
+function submit_prefs() {
+	document.getElementById("prefs").submit(); //form submission
+}
+</script>
+<ul class="tabs" style="margin-top:7px; width:70px; border:none;padding-top:7px; margin-left:10px;">
+<li><a href="javascript:void(0)" rel="_live" class="default_tab" style="white-space: nowrap;">Live</a></li>
+</ul> <div style="clear:both;"></div>
+<div class="tab_container" style="background:none;">
+<div id=_live class="tab_content"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+</tr>
+</table>
+<div class="blue_prefs" style="width:100%;float:left;padding:3px 0 0 0;">
+<form name="prefs" method="post" id="prefs" action="/" style="float:left;">
+<span class="pref"><span class="tiny bold" style="padding:0 3px;width:14px;height:14px;border-radius:7px;color:#666;line-height:14px;text-align:center;background:#ddd;" title="Uncheck to hide results and match events for 24 hours after match end.">?</span> <label for="scores" title="Uncheck to hide results and match events for 24 hours after match end.">Show scores:</label><input type="checkbox" name="scores" value="on" checked class="chk" onchange="this.form.submit();" /></span>
+<input type="hidden" name="live" value="repeat" />
+<span class="pref"><label for="matchorder" title="Order matches by competition, or chronologically by kick-off time.">Order by:</label>&nbsp;
+<label for="competition" title="Group matches by competition, then order chronologically.">League</label><input name="matchorder" type="radio" value="competition" checked class="chk" onchange="this.form.submit();" />
+<label for="time" title="Sort matches chronologically, regardless of competition.">Time</label><input name="matchorder" type="radio" value="time" class="chk" onchange="this.form.submit();" />
+</span>
+</form>
+</div>
+<table width="100%" cellspacing="0" cellpadding="0" class="schedules">
+<tr class="livecomp"><td colspan="6" class="dcellhome"><a href="/schedules/2021-03-16/" title="Live Streaming and TV Schedules for Tuesday, 16 March 2021">Tuesday, 16 March 2021</a>
+</td></tr>
+<tr class="sortable_comp" id="6" rank="50"><td colspan="6">
+<span class="flag england">England - Premier League</span><a href="/competitions/england/premier-league/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3757114" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow ft' title='Match ended'>Live</span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3757114"><span class="rbutton blueb clickable" onclick="loadEvents('3757114','1020','1011','2021-03-15 16:00:00','schedule')" title="Match events">+</span></span><span class="ftime"><span id='ko3757114' title="Match ended" class='ts ft' dv='1615838400000' df='H:MM'>16:00</span><span id="t3757114" class="inprogress" title="Full Time"></span></span></a></td>
+<td valign="top"> <a href="/match/3757114/wolverhampton-wanderers-vs-liverpool/" title="Wolverhampton Wanderers vs Liverpool" class="topmatch" id="g3757114">Wolverhampton Wanderers <score>0 - 1</score> Liverpool</a></td>
+<td valign="top" width="290"><a href="/channels/sport-24-airline-cruiseline/" title="Sport 24 (International)" class="foreignch">Sport 24</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/dazn-japan/" title="DAZN Japan (Japan)" class="foreignch">DAZN</a>, <a href="/channels/now-tv/" title="Now Player (Hong Kong)" class="foreignch">Now Player</a>, <a href="/channels/astro-supersport-3/" title="Astro SuperSport 3 (Malaysia)" class="foreignch">A&hellip;</a><a href="/match/3757114/wolverhampton-wanderers-vs-liverpool/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="sortable_comp" id="8" rank="60"><td colspan="6">
+<span class="flag spain">Spain - La Liga</span><a href="/competitions/spain/primera-division/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3757455" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow ft' title='Match ended'>Live</span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3757455"><span class="rbutton blueb clickable" onclick="loadEvents('3757455','1042','1776','2021-03-15 16:00:00','schedule')" title="Match events">+</span></span><span class="ftime"><span id='ko3757455' title="Match ended" class='ts ft' dv='1615838400000' df='H:MM'>16:00</span><span id="t3757455" class="inprogress" title="Full Time"></span></span></a></td>
+<td valign="top"> <a href="/match/3757455/barcelona-vs-huesca/" title="Barcelona vs Huesca" class="topmatch" id="g3757455">Barcelona <score>4 - 1</score> Huesca</a></td>
+<td valign="top" width="290"><a href="/channels/b-365/" title="Bet365 (International)" class="foreignch">Bet365</a>, <a href="/channels/kayo-sports/" title="Kayo Sports (Australia)" class="foreignch">Kayo Sports</a>, <a href="/channels/bein-sports-2-australia/" title="beIN SPORTS 2 Australia (Australia)" class="foreignch">beIN SPORTS 2</a>, <a href="/channels/foxtel-now/" title="Foxtel Now (Australia)" class="foreignch">Fox&hellip;</a><a href="/match/3757455/barcelona-vs-huesca/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="sortable_comp" id="9" rank="90"><td colspan="6">
+<span class="flag portugal">Portugal - Primeira Liga</span><a href="/competitions/portugal/liga-sagres/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3757758" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow ft' title='Match ended'>Live</span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3757758"><span class="rbutton blueb clickable" onclick="loadEvents('3757758','4357','1070','2021-03-15 16:15:00','schedule')" title="Match events">+</span></span><span class="ftime"><span id='ko3757758' title="Match ended" class='ts ft' dv='1615839300000' df='H:MM'>16:15</span><span id="t3757758" class="inprogress" title="Full Time"></span></span></a></td>
+<td valign="top"> <a href="/match/3757758/famalicao-vs-sporting-braga/" title="Famalicão vs Sporting Braga" id="g3757758">Famalicão <score>2 - 2</score> Sporting Braga</a></td>
+<td valign="top" width="290"><a href="/channels/b-365/" title="Bet365 (International)" class="foreignch">Bet365</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Sports Live</a>, <a href="/channels/pptv-sport-china/" title="PPTV Sport China (China)" class="foreignch">PPTV Sport Chi&hellip;</a><a href="/match/3757758/famalicao-vs-sporting-braga/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="livecomp"><td colspan="6" class="dcellhome"><a href="/schedules/2021-03-17/" title="Live Streaming and TV Schedules for Wednesday, 17 March 2021">Wednesday, 17 March 2021</a>
+</td></tr>
+<tr class="sortable_comp" id="50" rank="30"><td colspan="6">
+<span class="flag europe">Europe - UEFA Champions League</span><a href="/competitions/international/uefa-champions-league/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3863386" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3863386"></span><span class="ftime"><span id='ko3863386' title="Match ended" class='ts' dv='1615924800000' df='H:MM'>16:00</span><span id="t3863386" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3863386/real-madrid-vs-atalanta/" title="Real Madrid vs Atalanta" class="topmatch" id="g3863386">Real Madrid vs Atalanta</a></td>
+<td valign="top" width="290"><a href="/channels/sport-24-airline-cruiseline/" title="Sport 24 (International)" class="foreignch">Sport 24</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/cctv/" title="CCTV-5 (China)" class="foreignch">CCTV-5</a>, <a href="/channels/sctv-indonesia/" title="SCTV (Indonesia)" class="foreignch">SCTV</a>, <a href="/channels/sky-sport-3-new-zealand/" title="Sky Sport 3 NZ (Cook Islands, Fiji, Kiribati&hellip;)" class="foreignch">Sky&hellip;</a><a href="/match/3863386/real-madrid-vs-atalanta/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3863384" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3863384"></span><span class="ftime"><span id='ko3863384' title="Match ended" class='ts' dv='1615924800000' df='H:MM'>16:00</span><span id="t3863384" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3863384/manchester-city-vs-borussia-mgladbach/" title="Manchester City vs Borussia M'gladbach" class="topmatch" id="g3863384">Manchester City vs Borussia M'gladbach</a></td>
+<td valign="top" width="290"><a href="/channels/sport-24-extra/" title="Sport 24 Extra (International)" class="foreignch">Sport 24 Extra</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/wowow/" title="WOWOW Live (Japan)" class="foreignch">WOWOW Live</a>, <a href="/channels/k-plus-pc-vietnam/" title="K +PC  (Vietnam)" class="foreignch">&hellip;</a><a href="/match/3863384/manchester-city-vs-borussia-mgladbach/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="sortable_comp" id="39" rank="70"><td colspan="6">
+<span class="flag italy">Italy - Serie A</span><a href="/competitions/italy/serie-a/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3777168" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3777168"></span><span class="ftime"><span id='ko3777168' title="Match ended" class='ts' dv='1615989600000' df='H:MM'>10:00</span><span id="t3777168" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3777168/torino-vs-sassuolo/" title="Torino vs Sassuolo" id="g3777168">Torino vs Sassuolo</a></td>
+<td valign="top" width="290"><a href="/channels/b-365/" title="Bet365 (International)" class="foreignch">Bet365</a>, <a href="/channels/kayo-sports/" title="Kayo Sports (Australia)" class="foreignch">Kayo Sports</a>, <a href="/channels/bein-sports-3-australia/" title="beIN SPORTS 3 Australia (Australia)" class="foreignch">beIN SPORTS 3</a>, <a href="/channels/dazn-japan/" title="DAZN Japan (Japan)" class="foreignch">DA&hellip;</a><a href="/match/3777168/torino-vs-sassuolo/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="livecomp"><td colspan="6" class="dcellhome"><a href="/schedules/2021-03-18/" title="Live Streaming and TV Schedules for Thursday, 18 March 2021">Thursday, 18 March 2021</a>
+</td></tr>
+<tr class="sortable_comp" id="50" rank="30"><td colspan="6">
+<span class="flag europe">Europe - UEFA Champions League</span><a href="/competitions/international/uefa-champions-league/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3863380" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3863380"></span><span class="ftime"><span id='ko3863380' title="Match ended" class='ts' dv='1616011200000' df='H:MM'>16:00</span><span id="t3863380" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3863380/bayern-m-nchen-vs-lazio/" title="Bayern München vs Lazio" class="topmatch" id="g3863380">Bayern München vs Lazio</a></td>
+<td valign="top" width="290"><a href="/channels/sport-24-extra/" title="Sport 24 Extra (International)" class="foreignch">Sport 24 Extra</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/wowow/" title="WOWOW Live (Japan)" class="foreignch">WOWOW Live</a>, <a href="/channels/cable-tv-hong-kong-super-soccer-ch-61/" title="661 Cable Sports (Hong Kong)" class="foreignch">&hellip;</a><a href="/match/3863380/bayern-m-nchen-vs-lazio/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3863382" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+
+<td width="1%" valign="top" class="timecell"><span id="exp3863382"></span><span class="ftime"><span id='ko3863382' title="Match ended" class='ts' dv='1616011200000' df='H:MM'>16:00</span><span id="t3863382" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3863382/chelsea-vs-atletico-madrid/" title="Chelsea vs Atlético Madrid" class="topmatch" id="g3863382">Chelsea vs Atlético Madrid</a></td>
+<td valign="top" width="290"><a href="/channels/sport-24-airline-cruiseline/" title="Sport 24 (International)" class="foreignch">Sport 24</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/cctv/" title="CCTV-5 (China)" class="foreignch">CCTV-5</a>, <a href="/channels/sctv-indonesia/" title="SCTV (Indonesia)" class="foreignch">SCTV</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ S&hellip;</a><a href="/match/3863382/chelsea-vs-atletico-madrid/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="sortable_comp" id="8" rank="60"><td colspan="6">
+<span class="flag spain">Spain - La Liga</span><a href="/competitions/spain/primera-division/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3887092" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3887092"></span><span class="ftime"><span id='ko3887092' title="Match ended" class='ts' dv='1616004000000' df='H:MM'>14:00</span><span id="t3887092" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3887092/sevilla-vs-elche/" title="Sevilla vs Elche" id="g3887092">Sevilla vs Elche</a></td>
+<td valign="top" width="290"><a href="/channels/b-365/" title="Bet365 (International)" class="foreignch">Bet365</a>, <a href="/channels/kayo-sports/" title="Kayo Sports (Australia)" class="foreignch">Kayo Sports</a>, <a href="/channels/bein-sports-2-australia/" title="beIN SPORTS 2 Australia (Australia)" class="foreignch">beIN SPORTS 2</a>, <a href="/channels/dazn-japan/" title="DAZN Japan (Japan)" class="foreignch">DA&hellip;</a><a href="/match/3887092/sevilla-vs-elche/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="sortable_comp" id="39" rank="70"><td colspan="6">
+<span class="flag italy">Italy - Serie A</span><a href="/competitions/italy/serie-a/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3787372" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3787372"></span><span class="ftime"><span id='ko3787372' title="Match ended" class='ts' dv='1616003100000' df='H:MM'>13:45</span><span id="t3787372" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3787372/juventus-vs-napoli/" title="Juventus vs Napoli" class="topmatch" id="g3787372">Juventus vs Napoli</a></td>
+<td valign="top" width="290"><a href="/channels/kayo-sports/" title="Kayo Sports (Australia)" class="foreignch">Kayo Sports</a>, <a href="/channels/bein-sports-connect-australia/" title="beIN Sports Connect Australia (Australia)" class="foreignch">beIN Sports Connect</a>, <a href="/channels/rcti/" title="RCTI (Indonesia)" class="foreignch">RCTI</a>, <a href="/channels/now-tv/" title="Now Player (Hong Kong)" class="foreignch">N&hellip;</a><a href="/match/3787372/juventus-vs-napoli/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="sortable_comp" id="121" rank="300"><td colspan="6">
+<span class="flag france">France - Coupe de France</span><a href="/competitions/france/coupe-de-france/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3940002" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3940002"></span><span class="ftime"><span id='ko3940002' title="Match ended" class='ts' dv='1615999500000' df='H:MM'>12:45</span><span id="t3940002" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3940002/psg-vs-lille/" title="PSG vs Lille" class="topmatch" id="g3940002">PSG vs Lille</a></td>
+<td valign="top" width="290"><a href="/channels/b-365/" title="Bet365 (International)" class="foreignch">Bet365</a>, <a href="/channels/bein-sports-3-australia/" title="beIN SPORTS 3 Australia (Australia)" class="foreignch">beIN SPORTS 3</a>, <a href="/channels/now-tv/" title="Now Player (Hong Kong)" class="foreignch">Now Player</a>, <a href="/channels/bein-sport-2-hd-indonesia/" title="beIN Sports 2 Indonesia (Indonesia)" class="foreignch">beI&hellip;</a><a href="/match/3940002/psg-vs-lille/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr class="livecomp"><td colspan="6" class="dcellhome"><a href="/schedules/2021-03-19/" title="Live Streaming and TV Schedules for Friday, 19 March 2021">Friday, 19 March 2021</a>
+</td></tr>
+<tr class="sortable_comp" id="4" rank="40"><td colspan="6">
+<span class="flag europe">Europe - UEFA Europa League</span><a href="/competitions/international/uefa-europa-league/" class="flag eurl">&nbsp;</a>
+</td></tr>
+<tr id="3929604" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929604"></span><span class="ftime"><span id='ko3929604' title="Match ended" class='ts' dv='1616090100000' df='H:MM'>13:55</span><span id="t3929604" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929604/molde-vs-granada/" title="Molde vs Granada" id="g3929604">Molde vs Granada</a></td>
+<td valign="top" width="290"><a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Sports Live</a>, <a href="/channels/pptv-sport-china/" title="PPTV Sport China (China)" class="foreignch">PPTV Sport&hellip;</a><a href="/match/3929604/molde-vs-granada/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929600" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929600"></span><span class="ftime"><span id='ko3929600' title="Match ended" class='ts' dv='1616090100000' df='H:MM'>13:55</span><span id="t3929600" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929600/shakhtar-donetsk-vs-roma/" title="Shakhtar Donetsk vs Roma" id="g3929600">Shakhtar Donetsk vs Roma</a></td>
+<td valign="top" width="290"><a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/k-plus-1/" title="K +1 (Vietnam)" class="foreignch">K +1</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Sports Live</a>, <a href="/channels/pptv-sport-china/" title="PPTV Sport China (China)" class="foreignch">PPTV&hellip;</a><a href="/match/3929600/shakhtar-donetsk-vs-roma/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929601" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929601"></span><span class="ftime"><span id='ko3929601' title="Match ended" class='ts' dv='1616090100000' df='H:MM'>13:55</span><span id="t3929601" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929601/arsenal-vs-olympiakos-piraeus/" title="Arsenal vs Olympiakos Piraeus" class="topmatch" id="g3929601">Arsenal vs Olympiakos Piraeus</a></td>
+<td valign="top" width="290"><a href="/channels/arsenal-player-live/" title="Arsenal Player" class="homech">Arsenal Player</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/k-plus-ns-vietnam/" title="K +NS (Vietnam)" class="foreignch">K +NS</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Spo&hellip;</a><a href="/match/3929601/arsenal-vs-olympiakos-piraeus/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929603" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929603"></span><span class="ftime"><span id='ko3929603' title="Match ended" class='ts' dv='1616090100000' df='H:MM'>13:55</span><span id="t3929603" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929603/dinamo-zagreb-vs-tottenham-hotspur/" title="Dinamo Zagreb vs Tottenham Hotspur" class="topmatch" id="g3929603">Dinamo Zagreb vs Tottenham Hotspur</a></td>
+<td valign="top" width="290"><a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/cable-tv-hong-kong-super-soccer-ch-61/" title="661 Cable Sports (Hong Kong)" class="foreignch">661 Cable Sports</a>, <a href="/channels/cable-tv-hong-kong-channel-63/" title="601 HD Sports Desk (Hong Kong)" class="foreignch">601 HD S&hellip;</a><a href="/match/3929603/dinamo-zagreb-vs-tottenham-hotspur/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929594" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929594"></span><span class="ftime"><span id='ko3929594' title="Match ended" class='ts' dv='1616097600000' df='H:MM'>16:00</span><span id="t3929594" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929594/young-boys-vs-ajax/" title="Young Boys vs Ajax" id="g3929594">Young Boys vs Ajax</a></td>
+<td valign="top" width="290"><a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/cable-tv-hong-kong-super-soccer-ch-61/" title="661 Cable Sports (Hong Kong)" class="foreignch">661 Cable Sports</a>, <a href="/channels/cable-tv-hong-kong-channel-63/" title="601 HD Sports Desk (Hong Kong)" class="foreignch">601 HD S&hellip;</a><a href="/match/3929594/young-boys-vs-ajax/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929599" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929599"></span><span class="ftime"><span id='ko3929599' title="Match ended" class='ts' dv='1616097600000' df='H:MM'>16:00</span><span id="t3929599" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929599/rangers-vs-slavia-praha/" title="Rangers vs Slavia Praha" id="g3929599">Rangers vs Slavia Praha</a></td>
+<td valign="top" width="290"><a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/k-plus-1/" title="K +1 (Vietnam)" class="foreignch">K +1</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Sports Live</a>, <a href="/channels/pptv-sport-china/" title="PPTV Sport China (China)" class="foreignch">PPTV&hellip;</a><a href="/match/3929599/rangers-vs-slavia-praha/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929596" class="matchrow">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+ 
+<td width="1%" valign="top" class="timecell"><span id="exp3929596"></span><span class="ftime"><span id='ko3929596' title="Match ended" class='ts' dv='1616097600000' df='H:MM'>16:00</span><span id="t3929596" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929596/villarreal-vs-dynamo-kyiv/" title="Villarreal vs Dynamo Kyiv" id="g3929596">Villarreal vs Dynamo Kyiv</a></td>
+<td valign="top" width="290"><a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/k-plus-pc-vietnam/" title="K +PC  (Vietnam)" class="foreignch">K +PC </a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Sports Live</a>, <a href="/channels/pptv-sport-china/" title="PPTV Sport China (China)" class="foreignch">PPT&hellip;</a><a href="/match/3929596/villarreal-vs-dynamo-kyiv/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+<tr id="3929597" class="">
+<td align="center" width="30" valign="top" class="livecell" style="white-space: nowrap;"><span class='narrow live' title='Live Broadcast'></span></td>
+<td width="1%" valign="top" class="timecell"><span id="exp3929597"></span><span class="ftime"><span id='ko3929597' title="Match ended" class='ts' dv='1616097600000' df='H:MM'>16:00</span><span id="t3929597" class="inprogress"></span></span></a></td>
+<td valign="top"> <a href="/match/3929597/milan-vs-manchester-united/" title="Milan vs Manchester United" class="topmatch" id="g3929597">Milan vs Manchester United</a></td>
+<td valign="top" width="290"><a href="/channels/sport-24-airline-cruiseline/" title="Sport 24 (International)" class="foreignch">Sport 24</a>, <a href="/channels/optus-sport-australia/" title="Optus Sport (Australia)" class="foreignch">Optus Sport</a>, <a href="/channels/qq-sports-live-china/" title="QQ Sports Live (China)" class="foreignch">QQ Sports Live</a>, <a href="/channels/pptv-sport-china/" title="PPTV Sport China (China)" class="foreignch">P&hellip;</a><a href="/match/3929597/milan-vs-manchester-united/" title="More channels" class="flag item-grey"></a></td>
+</tr>
+</table>
+</div>  </div> 
+<script language="javascript">formatTimes('schedule');</script>
+<div style="clear:both;"></div>
+<div class="promolink2"><a href="/schedules/">More Matches &raquo;</a></div>
+<div class="grey_section"><h2 class="section icon news">News</h2></div>
+
+<div class="lbox"><a href="/news/38420/dortmunds-newest-rising-star/"><img src="//cdn.livesoccertv.com/tt/images/articles/38420-youssoufa-moukoko-borussia-dortmund.jpg?q=75&w=188"></a><a href="/news/38420/dortmunds-newest-rising-star/" class="ltitle">Who is Youssoufa Moukoko, and what's next for him?</a></div><div class="lbox"><a href="/news/38426/wolves-liverpool-clash-interrupted-as-rui-patricio-suffers-head-injury/"><img src="//cdn.livesoccertv.com/tt/images/articles/38426-rui-patricio-liverpool-wolves.jpeg?q=75&w=188"></a><a href="/news/38426/wolves-liverpool-clash-interrupted-as-rui-patricio-suffers-head-injury/" class="ltitle">Patricio suffers head injury in Wolves-Li'pool tie</a></div><div class="rbox"><a href="/news/38423/serie-a-round-up-inter-with-one-hand-on-the-scudetto-after-milan-loss/"><img src="//cdn.livesoccertv.com/tt/images/articles/38423-lautaro-blanco.jpg?q=75&w=188"></a><a href="/news/38423/serie-a-round-up-inter-with-one-hand-on-the-scudetto-after-milan-loss/" class="ltitle">Serie A Roundup after March 14</a></div><div style="clear:both;"></div><div class="lbox"><a href="/news/38421/you-can-t-spell-musah-without-usa-valencia-s-yunus-musah-commits-the-usa/"><img src="//cdn.livesoccertv.com/tt/images/articles/38421-yunus-musah-1.jpg?q=75&w=188"></a><a href="/news/38421/you-can-t-spell-musah-without-usa-valencia-s-yunus-musah-commits-the-usa/" class="ltitle">Valencia’s Yunus Musah commits to the USA</a></div><div class="lbox"><a href="/news/38419/bayerns-lewandowski-sets-milestone-in-3-1-win-over-werder-bremen/"><img src="//cdn.livesoccertv.com/tt/images/articles/38419-lewa-bayern.jpg?q=75&w=188"></a><a href="/news/38419/bayerns-lewandowski-sets-milestone-in-3-1-win-over-werder-bremen/" class="ltitle">Lewandowski's milestone in 3-1 win</a></div><div class="rbox"><a href="/news/38418/bundesliga-round-up-schalkes-humiliation-bremen-halted-bayern-move-clear/"><img src="//cdn.livesoccertv.com/tt/images/articles/38418-boateng-lewandowksi-bayern.jpg?q=75&w=188"></a><a href="/news/38418/bundesliga-round-up-schalkes-humiliation-bremen-halted-bayern-move-clear/" class="ltitle">What happened in the Bundesliga this weekend</a></div><div style="clear:both;"></div><div class="lbox"><a href="/news/38417/ligue-1-round-up/"><img src="//cdn.livesoccertv.com/tt/images/articles/38417-mbappe-nantes-psg.jpg?q=75&w=188"></a><a href="/news/38417/ligue-1-round-up/" class="ltitle">Ligue 1 round-up: What happened this weekend</a></div><div class="lbox"><a href="/news/38416/di-maria-subbed-off-in-psg-defeat-after-very-violent-family-robbery/"><img src="//cdn.livesoccertv.com/tt/images/articles/38416-di-maria-pochettino-family-robbery.jpg?q=75&w=188"></a><a href="/news/38416/di-maria-subbed-off-in-psg-defeat-after-very-violent-family-robbery/" class="ltitle">Di Maria subbed off after family robbery</a></div><div class="rbox"><a href="/news/38415/tottenham-lamela-scores-potential-goal-of-the-season-and-sees-red-in-arsenal-defeat/"><img src="//cdn.livesoccertv.com/tt/images/articles/38415-lamela-arsenal-rabona.jpeg?q=75&w=188"></a><a href="/news/38415/tottenham-lamela-scores-potential-goal-of-the-season-and-sees-red-in-arsenal-defeat/" class="ltitle">Lamela scores potential EPL Goal of the Season</a></div><div style="clear:both;"></div> <div class="promolink2"><a href="/news/">More News &raquo;</a></div>
+<div style="clear:both;"></div>
+<p>&nbsp;</p><div class="grey_section"><h2 class="section icon videos">Videos</h2></div>
+<div style="float:left;width:200px;padding:0 15px 10px 0"><a href="/video//" title=""><img src="" width="200" vspace="5" /><br /></a><div class="small grey">Wednesday, 31 Dec</div></div>
+<div class="promolink2"><a href="/videos/">More Videos &raquo;</a></div>
+<div style="clear:both;"></div>
+</div> 
+<div id="rightcol">
+<div id='snhb-LSTV_ROS_336x280-0' style='margin:30px 0 20px 9px;' align='center'><span class='bt-uid-tg' data-uid='5c91635791-158' style='display: none !important'></span></div><div style="margin:10px 7px 0 7px; background-color:#fff; z-index:-1;"> <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=1070150829689333&autoLogAppEvents=1"></script>
+<div class="fb-page" data-href="https://www.facebook.com/LiveSoccerTv.com/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/LiveSoccerTv.com/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LiveSoccerTv.com/">LiveSoccerTV.com</a></blockquote></div>
+</div><div class="section_300red white">
+<h2>Newsletter Signup &raquo;</h2>
+<form style="padding-top:10px;" action="https://livesportinteractive.us13.list-manage.com/subscribe/post?u=8057afd5b5303f909b1b9e472&amp;id=30557d8982" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<table cellspacing="0" cellpadding="0" border="0"><tr><td width="45" class='medium white'>Email: </td><td>
+<input size="12" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8057afd5b5303f909b1b9e472_30557d8982" tabindex="-1" value=""></div>
+</td><td style="padding:4px;"><input type="submit" value="Submit" onClick="return checkSubscribeForm(this.form)" id="mc-embedded-subscribe" /></td>
+<td><span id="whysignup" class="lightgrey tiny underline clickable" onclick="this.onclick = null;document.getElementById('mce-EMAIL').onclick = null;document.getElementById('newsletter').style.display='block';">Why Signup?</span>
+</td></tr></table>
+<span id="newsletter" style="display:none;">
+<p class="bold">Live Soccer TV Newsletter</p>
+<ul class="small cleanlist">
+<li class="flag item-white">Stay informed with our weekly list of live match TV schedules.</li>
+<li class="flag item-white">Plan your week ahead and don't miss a game of your favorite team!</li>
+<li class="flag item-white">100% spam free, published once a week (Thursday or Friday).</li>
+</ul>
+</span>
+</form>
+</div>
+<div style='background-color:#f6f6f6; margin:10px; padding:5px;'><h2 id="heading" style="margin-top:0;">Upcoming Top Matches &raquo;</h2>
+<a style='color:#005782;text-decoration:none;' href='/match/3863380/bayern-m-nchen-vs-lazio/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/bayern-munchen.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Bayern München'>Bayern München</td><td class='small grey' width='17%' align='center' title='Bayern München vs Lazio'><span class='ts' dv='1616011200000' df='d mmm' style='text-align:center;'>Mar 17</span><br><span class='ts' dv='1616011200000' df='H:MM'>16:00</span></td><td align='right' class='f13' width='34%' title='Lazio'>Lazio</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/italy/logos/lazio-roma.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3863382/chelsea-vs-atletico-madrid/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/england/logos/chelsea.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Chelsea'>Chelsea</td><td class='small grey' width='17%' align='center' title='Chelsea vs Atlético Madrid'><span class='ts' dv='1616011200000' df='d mmm' style='text-align:center;'>Mar 17</span><br><span class='ts' dv='1616011200000' df='H:MM'>16:00</span></td><td align='right' class='f13' width='34%' title='Atlético Madrid'>Atlético Madrid</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/spain/logos/atletico-madrid.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3929601/arsenal-vs-olympiakos-piraeus/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/england/logos/arsenal.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Arsenal'>Arsenal</td><td class='small grey' width='17%' align='center' title='Arsenal vs Olympiakos Piraeus'><span class='ts' dv='1616090100000' df='d mmm' style='text-align:center;'>Mar 18</span><br><span class='ts' dv='1616090100000' df='H:MM'>13:55</span></td><td align='right' class='f13' width='34%' title='Olympiakos Piraeus'>Olympiakos Piraeus</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/greece/logos/olympiakos-piraeus.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3929597/milan-vs-manchester-united/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/italy/logos/ac-milan.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Milan'>Milan</td><td class='small grey' width='17%' align='center' title='Milan vs Manchester United'><span class='ts' dv='1616097600000' df='d mmm' style='text-align:center;'>Mar 18</span><br><span class='ts' dv='1616097600000' df='H:MM'>16:00</span></td><td align='right' class='f13' width='34%' title='Manchester United'>Manchester United</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/england/logos/manchester-united.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3733991/bayern-m-nchen-vs-stuttgart/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/bayern-munchen.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Bayern München'>Bayern München</td><td class='small grey' width='17%' align='center' title='Bayern München vs Stuttgart'><span class='ts' dv='1616250600000' df='d mmm' style='text-align:center;'>Mar 20</span><br><span class='ts' dv='1616250600000' df='H:MM'>10:30</span></td><td align='right' class='f13' width='34%' title='Stuttgart'>Stuttgart</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/vfb-stuttgart.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3733997/koln-vs-borussia-dortmund/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/1-fc-koln.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Köln'>Köln</td><td class='small grey' width='17%' align='center' title='Köln vs Borussia Dortmund'><span class='ts' dv='1616250600000' df='d mmm' style='text-align:center;'>Mar 20</span><br><span class='ts' dv='1616250600000' df='H:MM'>10:30</span></td><td align='right' class='f13' width='34%' title='Borussia Dortmund'>Borussia Dortmund</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/borussia-dortmund.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3757467/celta-de-vigo-vs-real-madrid/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/spain/logos/celta-de-vigo.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Celta de Vigo'>Celta de Vigo</td><td class='small grey' width='17%' align='center' title='Celta de Vigo vs Real Madrid'><span class='ts' dv='1616253300000' df='d mmm' style='text-align:center;'>Mar 20</span><br><span class='ts' dv='1616253300000' df='H:MM'>11:15</span></td><td align='right' class='f13' width='34%' title='Real Madrid'>Real Madrid</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/spain/logos/real-madrid.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3733996/schalke-04-vs-borussia-mgladbach/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/schalke-04.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Schalke 04'>Schalke 04</td><td class='small grey' width='17%' align='center' title='Schalke 04 vs Borussia M' gladbach'><span class='ts' dv='1616261400000' df='d mmm' style='text-align:center;'>Mar 20</span><br><span class='ts' dv='1616261400000' df='H:MM'>13:30</span></td><td align='right' class='f13' width='34%' title='Borussia M' gladbach'>Borussia M'gladbach</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/borussia-mgladbach.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3733995/hertha-bsc-vs-bayer-leverkusen/'><table width='100%' border='0' celpadding='0' cellspacing='0' style='border-bottom:1px solid #ddd;padding:3px 0 3px 0;'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/hertha-bsc.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='Hertha BSC'>Hertha BSC</td><td class='small grey' width='17%' align='center' title='Hertha BSC vs Bayer Leverkusen'><span class='ts' dv='1616337000000' df='d mmm' style='text-align:center;'>Mar 21</span><br><span class='ts' dv='1616337000000' df='H:MM'>10:30</span></td><td align='right' class='f13' width='34%' title='Bayer Leverkusen'>Bayer Leverkusen</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/germany/logos/bayer-leverkusen.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a><a style='color:#005782;text-decoration:none;' href='/match/3757124/west-ham-united-vs-arsenal/'><table width='100%' border='0' celpadding='0' cellspacing='0'><tr><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/england/logos/west-ham-united.png?q=75&w=16" border='0' hspace='5' /></td><td class='f13' width='34%' title='West Ham United'>West Ham United</td><td class='small grey' width='17%' align='center' title='West Ham United vs Arsenal'><span class='ts' dv='1616338800000' df='d mmm' style='text-align:center;'>Mar 21</span><br><span class='ts' dv='1616338800000' df='H:MM'>11:00</span></td><td align='right' class='f13' width='34%' title='Arsenal'>Arsenal</td><td width='20'><img src="//cdn.livesoccertv.com/tt/images/teams/england/logos/arsenal.png?q=75&w=16" border='0' hspace='5' /></td></tr></table></a></div><div style="background-color:#f3f3f3;text-align:center;border:1px solid #ddd;padding:10px 3px 10px 3px;margin:10px;"><a href="https://play.google.com/store/apps/details?id=com.livesoccertv&paramLiveSoccerTV.TB" onclick="ga('send','event','App','Android','Rightcol')" target="_blank"><img src="//cdn.livesoccertv.com/images/app-screen.png" width="300" height="300" alt="Live Soccer TV App"></a><div class="osans f18" style="color:#034D72;padding-bottom:5px;">Download the Live Soccer TV App for <br><a href="https://itunes.apple.com/us/app/live-soccer-tv-official-multi/id874726939?mt=8" onclick="ga('send','event','App','iOS','Rightcol')" target="_blank"><span class="f30">iPhone</span></a> and <a href="https://play.google.com/store/apps/details?id=com.livesoccertv&paramLiveSoccerTV.TB" onclick="ga('send','event','App','Android','Rightcol')" target="_blank"><span class="f30">Android</span></a></div><a href="https://itunes.apple.com/us/app/live-soccer-tv-official-multi/id874726939?mt=8" onclick="ga('send','event','App','iOS','Rightcol')" target="_blank"><img src="//cdn.livesoccertv.com/images/icons/appstore40.png" width="135" height="40" border="0" alt="Live Soccer TV App for iOS" /></a><a href="https://play.google.com/store/apps/details?id=com.livesoccertv&paramLiveSoccerTV.TB" onclick="ga('send','event','App','Android','Rightcol')" target="_blank"><img src="//cdn.livesoccertv.com/images/icons/googleplay40.png" width="135" height="40" border="0" style="padding-left:20px;" alt="Live Soccer TV App for Android" /></a></div>
+</div>
+<div style="clear:both;margin:0;padding:0;"></div>
+<div class="footer">
+<div class="fblock">
+<div class="fheader"><a href="/competitions/">Competitions</a></div>
+<ul>
+<li><a href="/competitions/international/uefa-european-championship/" title="Euro">Euro</a></li>
+<li><a href="/competitions/international/uefa-champions-league/" title="Champions League">Champions League</a></li>
+<li><a href="/competitions/international/uefa-europa-league/" title="Europa League">Europa League</a></li>
+<li><a href="/competitions/england/premier-league/" title="England - Premier League">Premier League</a></li>
+<li><a href="/competitions/spain/primera-division/" title="Spain - La Liga">La Liga</a></li>
+<li><a href="/competitions/italy/serie-a/" title="Italy - Serie A">Serie A</a></li>
+<li><a href="/competitions/germany/bundesliga/" title="Germany - Bundesliga">Bundesliga</a></li>
+<li><a href="/competitions/portugal/liga-sagres/" title="Portugal - Primeira Liga">Primeira Liga</a></li>
+<li><a href="/competitions/france/ligue-1/" title="France - Ligue 1">Ligue 1</a></li>
+<li><a href="/competitions/germany/german-cup/" title="Germany - DFB Pokal">DFB Pokal</a></li>
+<li><a href="/competitions/france/coupe-de-france/" title="France - Coupe de France">Coupe de France</a></li>
+<li><a href="/competitions/england/fa-cup/" title="England - FA Cup">FA Cup</a></li>
+<li><a href="/competitions/international/world-cup-qualifying/" title="World Cup Qualifying">World Cup Qualifying</a></li>
+<li><a href="/competitions/international/concacaf-champions-league/" title="CONCACAF Champions League">CONCACAF Champions L&hellip;</a></li>
+</ul>
+</div>
+<div class="fblock">
+<div class="fheader"><a href="/teams/">Teams</a></div>
+<ul>
+<li><a href="/teams/england/arsenal/" title="Arsenal FC">Arsenal</a></li>
+<li><a href="/teams/england/chelsea/" title="Chelsea FC">Chelsea</a></li>
+<li><a href="/teams/england/liverpool/" title="Liverpool FC">Liverpool</a></li>
+<li><a href="/teams/england/manchester-city/" title="Manchester City FC">Manchester City</a></li>
+<li><a href="/teams/england/manchester-united/" title="Manchester United FC">Manchester United</a></li>
+<li><a href="/teams/england/tottenham-hotspur/" title="Tottenham Hotspur FC">Tottenham Hotspur</a></li>
+<li><a href="/teams/england/everton/" title="Everton FC">Everton</a></li>
+<li><a href="/teams/spain/barcelona/" title="FC Barcelona">Barcelona</a></li>
+<li><a href="/teams/spain/real-madrid/" title="Real Madrid">Real Madrid</a></li>
+<li><a href="/teams/spain/atletico-madrid/" title="Club Atlético de Madrid">Atlético Madrid</a></li>
+<li><a href="/teams/germany/bayern-munchen/" title="FC Bayern München">Bayern München</a></li>
+<li><a href="/teams/germany/borussia-dortmund/" title="BV Borussia 09 Dortmund">Borussia Dortmund</a></li>
+<li><a href="/teams/france/psg/" title="Paris Saint-Germain FC">Paris Saint-Germain</a></li>
+<li><a href="/teams/france/monaco/" title="Monaco">Monaco</a></li>
+<li><a href="/teams/italy/juventus/" title="Juventus F.C.">Juventus</a></li>
+<li><a href="/teams/italy/inter-milan/" title="FC Internazionale Milano">Inter Milan</a></li>
+<li><a href="/teams/italy/ac-milan/" title="AC Milan">AC Milan</a></li>
+<li><a href="/teams/italy/napoli/" title="SSC Napoli">Napoli</a></li>
+<li><a href="/teams/italy/as-roma/" title="AS Roma">AS Roma</a></li>
+<li><a href="/teams/portugal/benfica-lisbon/" title="SL Benfica">Benfica</a></li>
+<li><a href="/teams/portugal/fc-porto/" title="FC Porto">Porto</a></li>
+</ul>
+</div>
+<div class="fblock">
+<div class="fheader"><a href="/channels/">Channels</a></div>
+<ul>
+<li><a href="/channels/ib-sports-korea/" title="IB Sports">IB Sports</a></li>
+<li><a href="/channels/jtbc3-fox-sports/" title="JTBC Golf&Sports">JTBC Golf&Sports</a></li>
+<li><a href="/channels/life-sports-tv/" title="Life Sports TV">Life Sports TV</a></li>
+<li><a href="/channels/sky-sports-korea/" title="Sky Sports Korea">Sky Sports Korea</a></li>
+<li><a href="/channels/spo-tv-1/" title="SPOTV">SPOTV</a></li>
+<li><a href="/channels/spotv-on-korea-republic/" title="SPOTV ON">SPOTV ON</a></li>
+<li><a href="/channels/spotv-on-2-korea-republic/" title="SPOTV ON 2">SPOTV ON 2</a></li>
+</ul>
+</div>
+<div class="fblock">
+<div class="fheader">Live Soccer TV</div>
+<ul>
+<li><a href="/women/">Women's Soccer</a></li>
+<li><a href="/app/">Live Soccer TV App</a></li>
+<li><a href="/widgets/">Widgets</a></li>
+<li><a href="/advertising/">Advertising</a></li>
+<li><a href="/privacy/">Privacy</a></li>
+<li><a href="/disclaimer/">Disclaimer</a></li>
+<li><a href="/careers/">Careers & Internships</a></li>
+<li><a href="/links/">Recommended Websites</a></li>
+<li><a href="/contact/">Contact Us</a></li>
+<br />
+<li><a href="https://www.livesporttv.com">Live Sport on TV</a>:</li>
+<li><a href="https://www.livefootballtv.com">American Football</a></li>
+<li><a href="https://www.liverugbytv.com">Rugby</a></li>
+<li><a href="https://www.livecricketcentral.com">Cricket</a></li>
+<li><a href="https://www.livehockeytv.com">Hockey</a></li>
+<li><a href="https://www.livetennistv.com">Tennis</a></li>
+<li><a href="https://www.livefighttv.com">MMA / UFC</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+<div align="center" style="padding-top:20px;">&copy; 2005-2021 Live Soccer TV</div>
+<div style="clear:both;"></div>
+</div> 
+<div id="tz_offset"></div>
+<script type="text/javascript">
+var d = new Date()
+var offset = -d.getTimezoneOffset()/60;	
+
+if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
+	xmlhttp=new XMLHttpRequest();
+} else { // code for IE6, IE5
+	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+
+xmlhttp.onreadystatechange=function() {
+	if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+		document.getElementById("tz_offset").innerHTML=xmlhttp.responseText;
+	}
+}
+// xmlhttp.open("GET","/include/tz_offset.php?tz_offset="+offset,true);
+// xmlhttp.send();
+
+</script>
+<script language="javascript">formatTimes('')</script><div id="ccpa" style="background-color:#43606f;color:white;text-align:center;cursor:pointer;display: none;padding:5px;">Do not share my personal information.</div><script>__uspapi("setUSPLink", 1, function() {}, "ccpa");</script>
+</div> 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"4645340463","applicationID":"13658816","transactionName":"b1FXbBcAWhYCW0NYWVYbYEoMTl0LB11PH0ZQRA==","queueTime":0,"applicationTime":12983,"atts":"QxZUGl8aSRg=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

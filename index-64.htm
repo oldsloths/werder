@@ -1,0 +1,393 @@
+<!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0"/><meta name="theme-color" content="#000"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="mobile-web-app-capable" content="yes"/><meta name="google-site-verification" content="57Ow9iiym1b7861sXjFIB0ALbf1PHo2CEHMpkrdSokc"/><meta name="apple-itunes-app" content="app-id=826510222"/><meta name="google-play-app" content="app-id=de.prosiebensat1digital.seventv"/><link rel="dns-prefetch" href="https://auth.joyn.de/"/><link rel="dns-prefetch" href="https://api.joyn.de/graphql"/><link rel="preconnect" href="https://assets.joyn.de"/><link rel="preconnect" href="https://api.usercentrics.eu" crossorigin="anonymous"/><link rel="preconnect" href="https://api.pretzel.joyn.de" crossorigin="use-credentials"/><link rel="dns-prefetch" href="https://logx.optimizely.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://api-sgmnt.joyn.de"/><link rel="dns-prefetch" href="https://graphql.usercentrics.eu"/><link rel="dns-prefetch" href="https://img.joyn.de"/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/><link rel="dns-prefetch" href="https://sentry.io"/><link rel="dns-prefetch" href="https://hello.myfonts.net"/><link rel="dns-prefetch" href="https://js.appboycdn.com"/><link rel="dns-prefetch" href="https://app.usercentrics.eu"/><link rel="dns-prefetch" href="https://api.usercentrics.eu"/><link rel="dns-prefetch" href="https://aggregator.service.usercentrics.eu"/><link rel="dns-prefetch" href="https://de.ioam.de"/><link rel="dns-prefetch" href="https://script.ioam.de"/><link title="Joyn" type="application/opensearchdescription+xml" rel="search" href="https://joyn.de/opensearch.xml"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/fonts/Campton-Bold-1242c568df7d45909e8fab5609a61cab.woff" as="font" type="font/woff2" crossorigin="true"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/fonts/Campton-Book-a5f253987550f2c115aedc285abc4b80.woff" as="font" type="font/woff2" crossorigin="true"/><meta name="application-name" content="Joyn"/><link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png"/><link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167x167.png"/><link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/icons/apple-touch-icon-1024x1024.png"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="apple-mobile-web-app-title" content="Joyn"/><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-640x1136.png"/><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-750x1334.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-828x1792.png"/><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1125x2436.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1242x2208.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1242x2688.png"/><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1536x2048.png"/><link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1668x2224.png"/><link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1668x2388.png"/><link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-2048x2732.png"/><link rel="apple-touch-startup-image" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/icons/apple-touch-startup-image-1620x2160.png"/><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-1136x640.png"/><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-1334x750.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-1792x828.png"/><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2436x1125.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2208x1242.png"/><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2688x1242.png"/><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2048x1536.png"/><link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2224x1668.png"/><link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2388x1668.png"/><link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2732x2048.png"/><link rel="apple-touch-startup-image" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/icons/apple-touch-startup-image-2160x1620.png"/><style data-styled="" data-styled-version="5.2.1">@font-face{font-weight:normal;font-style:normal;font-family:Campton-Bold;font-display:fallback;src:local('Campton-Bold'),url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Bold-1242c568df7d45909e8fab5609a61cab.woff), url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Bold-0a69c510ab461508a9f7d68e2581bd5a.ttf) format('truetype');}/*!sc*/
+@font-face{font-weight:normal;font-style:normal;font-family:Campton-Book;font-display:fallback;src:local('Campton-Book'),url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Book-a5f253987550f2c115aedc285abc4b80.woff) format('woff'), url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Book-db606211657a5d94ff6d39f9fa627fb9.ttf) format('truetype');}/*!sc*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,menu,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,main,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}/*!sc*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block;}/*!sc*/
+*[hidden]{display:none;}/*!sc*/
+body{line-height:1;}/*!sc*/
+menu,ol,ul{list-style:none;}/*!sc*/
+blockquote,q{quotes:none;}/*!sc*/
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}/*!sc*/
+table{border-collapse:collapse;border-spacing:0;}/*!sc*/
+:root{--default-accent-color:#707070;--default-grey-color:#8e8e8e;--default-background-color:#333333;--default-white:#fff;--default-black:#000;--content-push-down:0;--header-pull-up:0;--card-accent-color:var(--default-accent-color);--card-lane-border-radius:6px;}/*!sc*/
+*,*:before,*:after{box-sizing:border-box;}/*!sc*/
+html,body,#__next{background-color:#000000;}/*!sc*/
+*{-ms-overflow-style:-ms-autohiding-scrollbar;overflow-anchor:none;}/*!sc*/
+html{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;}/*!sc*/
+body{margin:0;padding:0;font-family:'Campton-Book',Helvetica,sans-serif;background-color:#000000;color:#ffffff;cursor:default;-webkit-touch-callout:none;height:auto;overflow:auto;}/*!sc*/
+a,a:link{color:#ffffff;text-decoration:none;}/*!sc*/
+a:hover,a:active{color:#ffffff;opacity:1;}/*!sc*/
+:focus{outline:none;}/*!sc*/
+.smartbanner{z-index:9999999999 !important;bottom:0;top:auto !important;position:fixed !important;}/*!sc*/
+.smartbanner-show{margin-top:0px !important;}/*!sc*/
+.font-svg path{fill:#ffffff;}/*!sc*/
+svg{pointer-events:none;}/*!sc*/
+@media (hover:none){div,a,input,span{-webkit-tap-highlight-color:transparent;}}/*!sc*/
+a,img{-webkit-user-drag:none;-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;}/*!sc*/
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}/*!sc*/
+input[type="number"]{-moz-appearance:textfield;}/*!sc*/
+data-styled.g5[id="sc-global-ciJfCn1"]{content:"sc-global-ciJfCn1,"}/*!sc*/
+.fBQUun{top:160px;right:0;max-width:400px;z-index:9998;padding:0 20px;position:fixed;}/*!sc*/
+@media (max-width:500px){.fBQUun{max-width:none;padding:0 10px;top:30px;left:0;right:0;}}/*!sc*/
+data-styled.g6[id="sc-1jvaksz-0"]{content:"fBQUun,"}/*!sc*/
+.emPjce{transition:opacity 0.3s ease-in-out;float:right;margin-left:15px;margin-right:0;}/*!sc*/
+.emPjce span{margin-top:1px;}/*!sc*/
+.emPjce svg,.emPjce span{height:28px;}/*!sc*/
+@media screen and (min-width:992px){.emPjce{margin-right:5px;}.emPjce span{margin-top:0;}}/*!sc*/
+.emPjce:hover{opacity:0.6;cursor:pointer;}/*!sc*/
+data-styled.g9[id="qnxqpt-0"]{content:"emPjce,"}/*!sc*/
+.lkeRYs{float:right;margin-left:10px;width:36px;height:36px;opacity:1;transition:opacity 0.3s ease-in-out;border-radius:50%;grid-column:5;background-color:transparent;}/*!sc*/
+.lkeRYs svg,.lkeRYs picture img{height:28px;margin:4px 0 0 4px;}/*!sc*/
+.lkeRYs:hover{cursor:pointer;opacity:0.6;}/*!sc*/
+data-styled.g10[id="qnxqpt-1"]{content:"lkeRYs,"}/*!sc*/
+.guhixs{display:block;cursor:pointer;background-repeat:no-repeat;background-size:cover;opacity:1;transition:all 0.2s ease;grid-row:1;grid-column:2;justify-self:center;height:24px;margin:4px 0 0 0;width:58px;}/*!sc*/
+.guhixs svg{width:58px;height:24px;}/*!sc*/
+@media screen and (min-width:992px){.guhixs svg{width:67px;height:28px;}}/*!sc*/
+@media only screen and (min-width:768px){.guhixs{grid-column:1;align-self:left;margin-top:8px;height:28px;width:67px;}}/*!sc*/
+data-styled.g11[id="qnxqpt-2"]{content:"guhixs,"}/*!sc*/
+.ghoUKy{display:grid;grid-template-columns:86px 1fr min-content 43px 43px;grid-template-rows:min-content 1fr;grid-template-areas:'top top top top top' 'first second third fourth fifth';position:fixed;top:0;left:0;right:0;z-index:4;opacity:1;padding:10px 20px 0 20px;pointer-events:all;}/*!sc*/
+@media screen and (min-width:992px){.ghoUKy{padding:26px 40px 18px 40px;grid-template-columns:70px 1fr 143px 43px 43px;}}/*!sc*/
+.ghoUKy::before{height:calc(100% + 40px);content:' ';position:absolute;left:0;top:0;right:0;bottom:0;opacity:0.9;z-index:-1;background-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,1) 35%,rgba(0,0,0,0) 95%,transparent);transition:opacity 0.3s ease-out;pointer-events:none;}/*!sc*/
+@media screen and (min-width:992px){.ghoUKy::before{height:140px;background-image:linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0) 95%,transparent);}}/*!sc*/
+.ghoUKy .qnxqpt-2{grid-row-start:second;grid-row-end:second;grid-column-start:second;grid-column-end:third;}/*!sc*/
+@media screen and (min-width:992px){.ghoUKy .qnxqpt-2{grid-area:first;}}/*!sc*/
+.ghoUKy .qnxqpt-0{grid-area:fourth;align-self:center;justify-self:end;}/*!sc*/
+.ghoUKy .qnxqpt-1{grid-area:fifth;align-self:center;justify-self:end;margin-right:-4px;}/*!sc*/
+data-styled.g13[id="qnxqpt-4"]{content:"ghoUKy,"}/*!sc*/
+.cWLGOK{border:none;background:transparent;height:28px;padding:0;margin:0;margin-top:2px;grid-area:first / first / first / first;place-self:center start;}/*!sc*/
+@media screen and (min-width:992px){.cWLGOK{display:none;}}/*!sc*/
+data-styled.g17[id="sc-1o9ny16-0"]{content:"cWLGOK,"}/*!sc*/
+.eTUVyl{font-family:'Campton-Bold',sans-serif;}/*!sc*/
+.kvWQhR{font-family:'Campton-Book',sans-serif;}/*!sc*/
+data-styled.g19[id="kc1s2-0"]{content:"eTUVyl,kvWQhR,"}/*!sc*/
+.gRdUtO{display:none;grid-area:first;align-self:center;justify-self:start;padding-left:13px;}/*!sc*/
+.gRdUtO > li{display:inline-block;padding:0 20px;}/*!sc*/
+@media not all and (pointer:coarse){.gRdUtO > li a:hover{opacity:0.6;}}/*!sc*/
+@media screen and (min-width:992px){.gRdUtO{grid-area:second;}}/*!sc*/
+@media screen and (min-width:992px){.gRdUtO{display:block;}}/*!sc*/
+.gRdUtO a:hover,.gRdUtO a:active{-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;}/*!sc*/
+data-styled.g20[id="ug6w9-0"]{content:"gRdUtO,"}/*!sc*/
+.daYWXr{width:100%;min-height:100vh;background-color:none;}/*!sc*/
+data-styled.g22[id="sc-1p3exzx-0"]{content:"daYWXr,"}/*!sc*/
+.gFAidd:before{content:'';display:block;height:var(--content-push-down);}/*!sc*/
+@media screen and (min-width:768px){.gFAidd:before{display:none;}}/*!sc*/
+data-styled.g23[id="sc-1p3exzx-1"]{content:"gFAidd,"}/*!sc*/
+.klztVa{position:relative;width:100%;height:100%;}/*!sc*/
+data-styled.g24[id="sc-1p3exzx-2"]{content:"klztVa,"}/*!sc*/
+.kTylmt{position:relative;}/*!sc*/
+data-styled.g196[id="fcxvn8-0"]{content:"kTylmt,"}/*!sc*/
+.kljCBw{position:relative;margin:-10% 0;padding:10% 14px;overflow-x:scroll;white-space:nowrap;font-size:0;scroll-behavior:smooth;scroll-padding-left:14px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;}/*!sc*/
+@media screen and (min-width:1440px){.kljCBw{margin:-5% 0;padding:5% 14px;}}/*!sc*/
+@media screen and (min-width:768px){.kljCBw{padding-left:34px;scroll-padding-left:34px;padding-right:34px;}}/*!sc*/
+.kljCBw::-webkit-scrollbar{display:none;width:0 !important;-webkit-appearance:none;}/*!sc*/
+data-styled.g197[id="fcxvn8-1"]{content:"kljCBw,"}/*!sc*/
+.cvHHNe{left:0;border-radius:0 6px 6px 0;cursor:default;outline:none;position:absolute;top:calc(50% - 50px);z-index:3;display:block;width:54px;height:100px;background:rgba(51,51,51,0.8);opacity:0;margin:0;padding:0;border:none;transition:opacity 200ms ease-in-out,transform 200ms ease-in-out,background-color 200ms ease-in-out;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);}/*!sc*/
+.cvHHNe:hover{background:white;}/*!sc*/
+.cvHHNe:hover svg{fill:black;stroke:black;}/*!sc*/
+.cvHHNe > svg{display:flex;align-items:center;margin:0 auto;width:28px;height:28px;}/*!sc*/
+.fcxvn8-0:hover .fcxvn8-2{opacity:0;}/*!sc*/
+.fcxvn8-0 .fcxvn8-2[disabled]{opacity:0;}/*!sc*/
+@media (pointer:coarse){.cvHHNe{display:none;}}/*!sc*/
+data-styled.g198[id="fcxvn8-2"]{content:"cvHHNe,"}/*!sc*/
+.ehZudL{right:0;border-radius:6px 0 0 6px;cursor:default;outline:none;position:absolute;top:calc(50% - 50px);z-index:3;display:block;width:54px;height:100px;background:rgba(51,51,51,0.8);opacity:0;margin:0;padding:0;border:none;transition:opacity 200ms ease-in-out,transform 200ms ease-in-out,background-color 200ms ease-in-out;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);}/*!sc*/
+.ehZudL:hover{background:white;}/*!sc*/
+.ehZudL:hover svg{fill:black;stroke:black;}/*!sc*/
+.ehZudL > svg{display:flex;align-items:center;margin:0 auto;width:28px;height:28px;}/*!sc*/
+.fcxvn8-0:hover .fcxvn8-3{opacity:0;}/*!sc*/
+.fcxvn8-0 .fcxvn8-3[disabled]{opacity:0;}/*!sc*/
+@media (pointer:coarse){.ehZudL{display:none;}}/*!sc*/
+data-styled.g199[id="fcxvn8-3"]{content:"ehZudL,"}/*!sc*/
+.cvLSTX{position:relative;display:inline-block;z-index:1;box-sizing:border-box;pointer-events:all;scroll-snap-align:start;padding-left:6px;padding-right:6px;vertical-align:top;transition-property:z-index;transition-duration:0.5s;}/*!sc*/
+.cvLSTX > *:last-child{margin-bottom:0;}/*!sc*/
+.cvLSTX:hover{transition-duration:0s;z-index:2;}/*!sc*/
+.cvLSTX.lastAlone > div > div{width:100%;}/*!sc*/
+@media (min-width:320px){.cvLSTX{width:50%;}}/*!sc*/
+@media (min-width:501px){.cvLSTX{width:33.333333333333336%;}}/*!sc*/
+@media (min-width:768px){.cvLSTX{width:25%;}}/*!sc*/
+@media (min-width:992px){.cvLSTX{width:20%;}}/*!sc*/
+@media (min-width:1300px){.cvLSTX{width:16.666666666666668%;}}/*!sc*/
+@media (min-width:1440px){.cvLSTX{width:14.285714285714286%;}}/*!sc*/
+@media (min-width:1700px){.cvLSTX{width:12.5%;}}/*!sc*/
+@media (min-width:2000px){.cvLSTX{width:10%;}}/*!sc*/
+data-styled.g200[id="fcxvn8-4"]{content:"cvLSTX,"}/*!sc*/
+.cYPfcb{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(0%);background-color:var(--default-background-color);}/*!sc*/
+.cYPfcb::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.cYPfcb::after{padding-bottom:140%;}}/*!sc*/
+.kTvwRI{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(106%);background-color:var(--default-background-color);}/*!sc*/
+.kTvwRI::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvwRI::after{padding-bottom:140%;}}/*!sc*/
+.kTvvka{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(212%);background-color:var(--default-background-color);}/*!sc*/
+.kTvvka::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvvka::after{padding-bottom:140%;}}/*!sc*/
+.kTvriJ{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(318%);background-color:var(--default-background-color);}/*!sc*/
+.kTvriJ::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvriJ::after{padding-bottom:140%;}}/*!sc*/
+.kTvwcZ{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(424%);background-color:var(--default-background-color);}/*!sc*/
+.kTvwcZ::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvwcZ::after{padding-bottom:140%;}}/*!sc*/
+.kTvuvB{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(530%);background-color:var(--default-background-color);}/*!sc*/
+.kTvuvB::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvuvB::after{padding-bottom:140%;}}/*!sc*/
+.kTvwOA{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(636%);background-color:var(--default-background-color);}/*!sc*/
+.kTvwOA::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvwOA::after{padding-bottom:140%;}}/*!sc*/
+.kTvvoq{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(742%);background-color:var(--default-background-color);}/*!sc*/
+.kTvvoq::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvvoq::after{padding-bottom:140%;}}/*!sc*/
+data-styled.g227[id="sc-1h60no3-3"]{content:"cYPfcb,kTvwRI,kTvvka,kTvriJ,kTvwcZ,kTvuvB,kTvwOA,kTvvoq,"}/*!sc*/
+.berFTs{padding-bottom:30px;}/*!sc*/
+@media screen and (min-width:768px){.berFTs{padding-bottom:70px;}}/*!sc*/
+.berFTs .sc-1vjwq58-0{padding-bottom:12px;}/*!sc*/
+data-styled.g257[id="sc-1vjwq58-1"]{content:"berFTs,"}/*!sc*/
+.cqFTmS{width:100%;height:100%;position:fixed;top:0;left:0;overflow:hidden;}/*!sc*/
+data-styled.g399[id="sc-1a6dwfl-0"]{content:"cqFTmS,"}/*!sc*/
+.dvVBJb{position:absolute;width:1298px;height:800px;z-index:100000;top:100px;right:calc(50% - 520px);background:radial-gradient( ellipse at 50% 50%,rgba(255,255,255,0.12) 1%,rgba(255,255,255,0.03) 50%,rgba(255,0255,255,0) 80%,rgba(255,0255,255,0) 100% );background-position:center;background-repeat:no-repeat;transform:rotate(-30deg);}/*!sc*/
+@media screen and (min-width:768px){.dvVBJb{right:calc(50% - 410px);top:60px;}}/*!sc*/
+@media screen and (min-width:992px){.dvVBJb{width:2596px;height:1600px;top:-200px;right:calc(50% - 850px);}}/*!sc*/
+@media screen and (min-width:1440px){.dvVBJb{top:-300px;right:calc(50% - 733px);}}/*!sc*/
+data-styled.g400[id="sc-1a6dwfl-1"]{content:"dvVBJb,"}/*!sc*/
+.dIEKKw{overflow:hidden;content-visibility:auto;contain-intrinsic-size:1000px;}/*!sc*/
+.dIEKKw:last-child .upselling-lane:last-of-type{margin-bottom:70px;}/*!sc*/
+@media (pointer:coarse){.dIEKKw .upselling-lane:first-of-type .upselling-details{position:relative;padding-top:229px;}.dIEKKw .upselling-lane:first-of-type .upselling-inner{margin-bottom:50px;}}/*!sc*/
+data-styled.g401[id="sc-1sgqf52-0"]{content:"dIEKKw,"}/*!sc*/
+.jfZOTJ{position:relative;overflow-x:hidden;margin:0;white-space:nowrap;width:100vw;padding:80px 0 40px;height:calc(((100vw - 40px) * 1.375) + 120px);}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ{height:calc(((100vw - 80px) * 0.8077) + 150px);padding:80px 0 70px;}}/*!sc*/
+@media screen and (min-width:768px){.jfZOTJ{padding:140px 0 70px;height:calc(((100vw - 80px) * 0.545) + 210px);}}/*!sc*/
+@media screen and (min-width:1200px){.jfZOTJ{padding:140px 0 70px;height:calc(((100vw - 280px) * 0.4035) + 210px);}}/*!sc*/
+.jfZOTJ button{flex:0 1 auto;width:auto;overflow:hidden;padding:0 20px;line-height:1;}/*!sc*/
+.jfZOTJ button:first-child{min-width:calc(50% - 6px);}/*!sc*/
+.jfZOTJ button:only-child:first-child{width:100%;}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ button:only-child:first-child{width:unset;}}/*!sc*/
+.jfZOTJ button:not(:only-child):first-child{max-width:calc(100% - 62px);text-overflow:ellipsis;padding:0 10px;margin:0;}/*!sc*/
+@media only screen and (min-width:360px){.jfZOTJ button:not(:only-child):first-child{max-width:calc(100% - 62px);text-overflow:unset;}}/*!sc*/
+@media only screen and (min-width:380px){.jfZOTJ button:not(:only-child):first-child{padding:0 20px;}}/*!sc*/
+.jfZOTJ button:not(:only-child):last-child{padding:0 10px;}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ button{width:unset;}.jfZOTJ button:first-child{min-width:auto;}}/*!sc*/
+.jfZOTJ button:empty{min-width:176px;}/*!sc*/
+.jfZOTJ .sc-5z5495-0{flex:1 1 auto;}/*!sc*/
+.jfZOTJ .sc-5z5495-0 svg{width:28px;height:28px;}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ .sc-5z5495-0{max-width:142px;}}/*!sc*/
+data-styled.g463[id="j3zqax-3"]{content:"jfZOTJ,"}/*!sc*/
+.bRNpLw{height:calc((100vw - 40px) * 1.375);transition:transform 500ms ease-in-out;transform:translateX(calc(-300vw + 4 * 140px + 3 * 80px));}/*!sc*/
+@media screen and (min-width:0) and (max-width:500px){.bRNpLw{height:calc((100vw - 80px) * 0.8077);transform:translateX(calc(-300vw + 4 * 20px + 3 * 8px));}}/*!sc*/
+@media screen and (min-width:501px) and (max-width:1199px){.bRNpLw{height:calc((100vw - 80px) * 0.545);transform:translateX(calc(-300vw + 4 * 40px + 3 * 28px));}}/*!sc*/
+@media screen and (min-width:1200px){.bRNpLw{height:calc((100vw - 280px) * 0.4035);transform:translateX(calc(-300vw + 4 * 140px + 3 * 80px));}}/*!sc*/
+data-styled.g466[id="j3zqax-6"]{content:"bRNpLw,"}/*!sc*/
+.xgzZW{position:absolute;width:100%;height:100%;transition:opacity 300ms ease;background-image:linear-gradient( to bottom,rgba(var(--lane-hero-accent-color-rgb),1) 0%,rgba(var(--lane-hero-accent-color-rgb),1) 30%,rgba(var(--lane-hero-accent-color-rgb),0.4) 70%,rgba(var(--lane-hero-accent-color-rgb),0) 100% );}/*!sc*/
+data-styled.g467[id="sc-18t26oh-0"]{content:"xgzZW,"}/*!sc*/
+.hvNNeB{position:relative;}/*!sc*/
+.hvNNeB.hidden .sc-18t26oh-0{transition:background-color 0.5s ease;opacity:0;}/*!sc*/
+.hvNNeB:hover button{opacity:1;cursor:pointer;}/*!sc*/
+.hvNNeB .fcxvn8-2,.hvNNeB .fcxvn8-3{top:calc(50% - 15px);}/*!sc*/
+data-styled.g468[id="sc-18t26oh-1"]{content:"hvNNeB,"}/*!sc*/
+.bnLgit{pointer-events:none;position:relative;overflow:hidden;background-color:rgba(0,0,0,1);height:calc((100vw - 40px) * 1.375);}/*!sc*/
+.bnLgit .qt8woo-1{mask-image:linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.1)32%,rgba(0,0,0,1)66%);-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.1)32%,rgba(0,0,0,1)66%);}/*!sc*/
+@media screen and (min-width:501px){.bnLgit{height:calc((100vw - 80px) * 0.8077);}.bnLgit .qt8woo-1{mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);-webkit-mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);}}/*!sc*/
+@media screen and (min-width:768px){.bnLgit{height:calc((100vw - 80px) * 0.545);}}/*!sc*/
+.bnLgit .sc-9zpfvx-0{height:20px;}/*!sc*/
+@media screen and (min-width:1200px){.bnLgit{height:calc((100vw - 280px) * 0.4035);}.bnLgit .qt8woo-1{mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);-webkit-mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);}.bnLgit img{object-position:right center;object-fit:cover;}.bnLgit .sc-6bxr7y-0 img{object-fit:contain;}}/*!sc*/
+data-styled.g472[id="qt8woo-2"]{content:"bnLgit,"}/*!sc*/
+.djqrbL{border-radius:6px;position:relative;background-color:var(--default-background-color);display:inline-flex;margin:0 12px 0 0;width:calc(100% - 40px);animation:pulse 1.4s infinite ease-in-out;}/*!sc*/
+.djqrbL:first-of-type{margin-left:0;}/*!sc*/
+@media screen and (min-width:501px){.djqrbL{border-radius:10px;width:calc(100% - 80px);}.djqrbL:first-of-type{margin-left:0;}}/*!sc*/
+@media screen and (min-width:768px){.djqrbL:first-of-type{margin-left:0;}}/*!sc*/
+@media screen and (min-width:1200px){.djqrbL{margin:0 60px 0 0;width:calc(100% - 280px);}.djqrbL:first-of-type{margin-left:0;}}/*!sc*/
+.djqrbL a,.djqrbL a:link{transition:none;}/*!sc*/
+@keyframes pulse{0%{background-color:#333333;}50%{background-color:#2b2b2b;}100%{background-color:#333333;}}/*!sc*/
+data-styled.g487[id="sc-1uefume-0"]{content:"djqrbL,"}/*!sc*/
+</style><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><title>Joyn Mediathek - Serien, Filme &amp; Live TV jederzeit streamen</title><meta name="description" content="Jetzt einfach auf Joyn deine Lieblingssender, Serien und Filme online anschauen – wann du willst und wo du willst."/><link rel="canonical" href="https://www.joyn.de/"/><meta name="robots" content="index, follow"/><meta property="og:title" content="Joyn Mediathek - Serien, Filme &amp; Live TV jederzeit streamen"/><meta property="og:description" content="Jetzt einfach auf Joyn deine Lieblingssender, Serien und Filme online anschauen – wann du willst und wo du willst."/><meta property="og:url" content="https://www.joyn.de/"/><meta property="og:image" content="https://www.joyn.de/static/joyn_share.png"/><meta property="og:site_name" content="www.joyn.de"/><meta name="next-head-count" content="11"/><noscript data-n-css=""></noscript><script type="text/javascript" src="/ruxitagentjs_ICA27SVfqru_10211210226114004.js" data-dtconfig="rid=RID_2418|rpid=527914876|domain=joyn.de|reportUrl=/rb_bf70438rdn|app=c7acfaafdd497eda|rcdec=1209600000|featureHash=ICA27SVfqru|vcv=2|rdnt=0|uxrgce=1|srcss=1|bp=2|srmcrv=10|cuc=5bu9pswi|mel=100000|dpvc=1|lastModification=1615801086062|dtVersion=10211210226114004|srmcrl=1|tp=500,50,0,1|uxdcw=1500|vs=2|agentUri=/ruxitagentjs_ICA27SVfqru_10211210226114004.js"></script><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/29107295.a3e2d469dab1d8364702.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/06a297574210bd54982b4eaddaf594c052367aee.378938583706d6a6d2a1.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/c379fd90f6e4c68b6f2c9a70935dad2d3206ceba.cfa9f10334dfb3748ee8.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/0c03060faf5f7e78ac1a1cfa8c395cb3da1cf978.7c700a2ceb285e4f2755.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/134.a0b0a085a0478a6e48ef.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/3cecaef03b143e8090d730baa5ef7e43ed02a01f.6980c53424e58f117908.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/5c01d66bf213fedc25e7790db9487204e97ca46f.9ea96f6d9fe6baf5df6e.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/136.5369b210506a42a54150.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/main-05930d320a7ce5708d2a.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/webpack-05c99bd6f8304e87053f.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/framework.9c0b19a6e9232aa00e55.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/29107295.a3e2d469dab1d8364702.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/a1392b59b74763d7dffd4318318a9a285459bd8d.8957cffe0eca8c4e01d0.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/a44abbc561a0e5b4d071289fcbc8b7f4a9593056.79ee34dd50d34a7cd9d6.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/74e05905b3b12dd58411644419602e3caa0f5f33.5f8410ba966ce6ea8093.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/7fc97edb9b472c14a62d960c4336ab258b1e8432.e69636e8128bf8686dd5.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/9fa80fe126202f78f45d8677c62aca887ea919a9.1a900ee503973a879199.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/18607e8af335f20b7995c190a1af28d90fdbab7a.eebffa5c6a208689cbfa.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/pages/_app-a114e0ef200c121ee626.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/df9485edc0552b6d013a4c91c4273fff24d4a067.5036867be9a512c23887.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/1f7ca2312dbf9e35dfdf8c26b0663faa42dc123a.330066a5e28e53be7db7.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/adbb435c809d8c9586c781d002c134036f0e82f6.91d77d3b89a04d887385.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/53aeb4a53b65a65dc922e0c3b4b0bdfe5d74c8e0.7b573869d9cfa84498ff.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/157a221dd0259d3ec14c892b40501f9413eff31b.b094b77550b748f77a3c.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/b96bcaaf1b4017c41a07994256f1592b11d8a2c7.cde258b67a86625a480c.js" as="script"/><link rel="preload" href="https://assets.joyn.de/_next/static/chunks/pages/index-0ae4104533cf1bffc49d.js" as="script"/><style data-styled="" data-styled-version="5.2.1">@font-face{font-weight:normal;font-style:normal;font-family:Campton-Bold;font-display:fallback;src:local('Campton-Bold'),url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Bold-1242c568df7d45909e8fab5609a61cab.woff), url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Bold-0a69c510ab461508a9f7d68e2581bd5a.ttf) format('truetype');}/*!sc*/
+@font-face{font-weight:normal;font-style:normal;font-family:Campton-Book;font-display:fallback;src:local('Campton-Book'),url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Book-a5f253987550f2c115aedc285abc4b80.woff) format('woff'), url(https://assets.joyn.de/_next/static/chunks/fonts/Campton-Book-db606211657a5d94ff6d39f9fa627fb9.ttf) format('truetype');}/*!sc*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,menu,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,main,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}/*!sc*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block;}/*!sc*/
+*[hidden]{display:none;}/*!sc*/
+body{line-height:1;}/*!sc*/
+menu,ol,ul{list-style:none;}/*!sc*/
+blockquote,q{quotes:none;}/*!sc*/
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}/*!sc*/
+table{border-collapse:collapse;border-spacing:0;}/*!sc*/
+:root{--default-accent-color:#707070;--default-grey-color:#8e8e8e;--default-background-color:#333333;--default-white:#fff;--default-black:#000;--content-push-down:0;--header-pull-up:0;--card-accent-color:var(--default-accent-color);--card-lane-border-radius:6px;}/*!sc*/
+*,*:before,*:after{box-sizing:border-box;}/*!sc*/
+html,body,#__next{background-color:#000000;}/*!sc*/
+*{-ms-overflow-style:-ms-autohiding-scrollbar;overflow-anchor:none;}/*!sc*/
+html{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;}/*!sc*/
+body{margin:0;padding:0;font-family:'Campton-Book',Helvetica,sans-serif;background-color:#000000;color:#ffffff;cursor:default;-webkit-touch-callout:none;height:auto;overflow:auto;}/*!sc*/
+a,a:link{color:#ffffff;text-decoration:none;}/*!sc*/
+a:hover,a:active{color:#ffffff;opacity:1;}/*!sc*/
+:focus{outline:none;}/*!sc*/
+.smartbanner{z-index:9999999999 !important;bottom:0;top:auto !important;position:fixed !important;}/*!sc*/
+.smartbanner-show{margin-top:0px !important;}/*!sc*/
+.font-svg path{fill:#ffffff;}/*!sc*/
+svg{pointer-events:none;}/*!sc*/
+@media (hover:none){div,a,input,span{-webkit-tap-highlight-color:transparent;}}/*!sc*/
+a,img{-webkit-user-drag:none;-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;}/*!sc*/
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}/*!sc*/
+input[type="number"]{-moz-appearance:textfield;}/*!sc*/
+data-styled.g5[id="sc-global-ciJfCn1"]{content:"sc-global-ciJfCn1,"}/*!sc*/
+.fBQUun{top:160px;right:0;max-width:400px;z-index:9998;padding:0 20px;position:fixed;}/*!sc*/
+@media (max-width:500px){.fBQUun{max-width:none;padding:0 10px;top:30px;left:0;right:0;}}/*!sc*/
+data-styled.g6[id="sc-1jvaksz-0"]{content:"fBQUun,"}/*!sc*/
+.emPjce{transition:opacity 0.3s ease-in-out;float:right;margin-left:15px;margin-right:0;}/*!sc*/
+.emPjce span{margin-top:1px;}/*!sc*/
+.emPjce svg,.emPjce span{height:28px;}/*!sc*/
+@media screen and (min-width:992px){.emPjce{margin-right:5px;}.emPjce span{margin-top:0;}}/*!sc*/
+.emPjce:hover{opacity:0.6;cursor:pointer;}/*!sc*/
+data-styled.g9[id="qnxqpt-0"]{content:"emPjce,"}/*!sc*/
+.lkeRYs{float:right;margin-left:10px;width:36px;height:36px;opacity:1;transition:opacity 0.3s ease-in-out;border-radius:50%;grid-column:5;background-color:transparent;}/*!sc*/
+.lkeRYs svg,.lkeRYs picture img{height:28px;margin:4px 0 0 4px;}/*!sc*/
+.lkeRYs:hover{cursor:pointer;opacity:0.6;}/*!sc*/
+data-styled.g10[id="qnxqpt-1"]{content:"lkeRYs,"}/*!sc*/
+.guhixs{display:block;cursor:pointer;background-repeat:no-repeat;background-size:cover;opacity:1;transition:all 0.2s ease;grid-row:1;grid-column:2;justify-self:center;height:24px;margin:4px 0 0 0;width:58px;}/*!sc*/
+.guhixs svg{width:58px;height:24px;}/*!sc*/
+@media screen and (min-width:992px){.guhixs svg{width:67px;height:28px;}}/*!sc*/
+@media only screen and (min-width:768px){.guhixs{grid-column:1;align-self:left;margin-top:8px;height:28px;width:67px;}}/*!sc*/
+data-styled.g11[id="qnxqpt-2"]{content:"guhixs,"}/*!sc*/
+.ghoUKy{display:grid;grid-template-columns:86px 1fr min-content 43px 43px;grid-template-rows:min-content 1fr;grid-template-areas:'top top top top top' 'first second third fourth fifth';position:fixed;top:0;left:0;right:0;z-index:4;opacity:1;padding:10px 20px 0 20px;pointer-events:all;}/*!sc*/
+@media screen and (min-width:992px){.ghoUKy{padding:26px 40px 18px 40px;grid-template-columns:70px 1fr 143px 43px 43px;}}/*!sc*/
+.ghoUKy::before{height:calc(100% + 40px);content:' ';position:absolute;left:0;top:0;right:0;bottom:0;opacity:0.9;z-index:-1;background-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,1) 35%,rgba(0,0,0,0) 95%,transparent);transition:opacity 0.3s ease-out;pointer-events:none;}/*!sc*/
+@media screen and (min-width:992px){.ghoUKy::before{height:140px;background-image:linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0) 95%,transparent);}}/*!sc*/
+.ghoUKy .qnxqpt-2{grid-row-start:second;grid-row-end:second;grid-column-start:second;grid-column-end:third;}/*!sc*/
+@media screen and (min-width:992px){.ghoUKy .qnxqpt-2{grid-area:first;}}/*!sc*/
+.ghoUKy .qnxqpt-0{grid-area:fourth;align-self:center;justify-self:end;}/*!sc*/
+.ghoUKy .qnxqpt-1{grid-area:fifth;align-self:center;justify-self:end;margin-right:-4px;}/*!sc*/
+data-styled.g13[id="qnxqpt-4"]{content:"ghoUKy,"}/*!sc*/
+.cWLGOK{border:none;background:transparent;height:28px;padding:0;margin:0;margin-top:2px;grid-area:first / first / first / first;place-self:center start;}/*!sc*/
+@media screen and (min-width:992px){.cWLGOK{display:none;}}/*!sc*/
+data-styled.g17[id="sc-1o9ny16-0"]{content:"cWLGOK,"}/*!sc*/
+.eTUVyl{font-family:'Campton-Bold',sans-serif;}/*!sc*/
+.kvWQhR{font-family:'Campton-Book',sans-serif;}/*!sc*/
+data-styled.g19[id="kc1s2-0"]{content:"eTUVyl,kvWQhR,"}/*!sc*/
+.gRdUtO{display:none;grid-area:first;align-self:center;justify-self:start;padding-left:13px;}/*!sc*/
+.gRdUtO > li{display:inline-block;padding:0 20px;}/*!sc*/
+@media not all and (pointer:coarse){.gRdUtO > li a:hover{opacity:0.6;}}/*!sc*/
+@media screen and (min-width:992px){.gRdUtO{grid-area:second;}}/*!sc*/
+@media screen and (min-width:992px){.gRdUtO{display:block;}}/*!sc*/
+.gRdUtO a:hover,.gRdUtO a:active{-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;}/*!sc*/
+data-styled.g20[id="ug6w9-0"]{content:"gRdUtO,"}/*!sc*/
+.daYWXr{width:100%;min-height:100vh;background-color:none;}/*!sc*/
+data-styled.g22[id="sc-1p3exzx-0"]{content:"daYWXr,"}/*!sc*/
+.gFAidd:before{content:'';display:block;height:var(--content-push-down);}/*!sc*/
+@media screen and (min-width:768px){.gFAidd:before{display:none;}}/*!sc*/
+data-styled.g23[id="sc-1p3exzx-1"]{content:"gFAidd,"}/*!sc*/
+.klztVa{position:relative;width:100%;height:100%;}/*!sc*/
+data-styled.g24[id="sc-1p3exzx-2"]{content:"klztVa,"}/*!sc*/
+.kTylmt{position:relative;}/*!sc*/
+data-styled.g196[id="fcxvn8-0"]{content:"kTylmt,"}/*!sc*/
+.kljCBw{position:relative;margin:-10% 0;padding:10% 14px;overflow-x:scroll;white-space:nowrap;font-size:0;scroll-behavior:smooth;scroll-padding-left:14px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;}/*!sc*/
+@media screen and (min-width:1440px){.kljCBw{margin:-5% 0;padding:5% 14px;}}/*!sc*/
+@media screen and (min-width:768px){.kljCBw{padding-left:34px;scroll-padding-left:34px;padding-right:34px;}}/*!sc*/
+.kljCBw::-webkit-scrollbar{display:none;width:0 !important;-webkit-appearance:none;}/*!sc*/
+data-styled.g197[id="fcxvn8-1"]{content:"kljCBw,"}/*!sc*/
+.cvHHNe{left:0;border-radius:0 6px 6px 0;cursor:default;outline:none;position:absolute;top:calc(50% - 50px);z-index:3;display:block;width:54px;height:100px;background:rgba(51,51,51,0.8);opacity:0;margin:0;padding:0;border:none;transition:opacity 200ms ease-in-out,transform 200ms ease-in-out,background-color 200ms ease-in-out;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);}/*!sc*/
+.cvHHNe:hover{background:white;}/*!sc*/
+.cvHHNe:hover svg{fill:black;stroke:black;}/*!sc*/
+.cvHHNe > svg{display:flex;align-items:center;margin:0 auto;width:28px;height:28px;}/*!sc*/
+.fcxvn8-0:hover .fcxvn8-2{opacity:0;}/*!sc*/
+.fcxvn8-0 .fcxvn8-2[disabled]{opacity:0;}/*!sc*/
+@media (pointer:coarse){.cvHHNe{display:none;}}/*!sc*/
+data-styled.g198[id="fcxvn8-2"]{content:"cvHHNe,"}/*!sc*/
+.ehZudL{right:0;border-radius:6px 0 0 6px;cursor:default;outline:none;position:absolute;top:calc(50% - 50px);z-index:3;display:block;width:54px;height:100px;background:rgba(51,51,51,0.8);opacity:0;margin:0;padding:0;border:none;transition:opacity 200ms ease-in-out,transform 200ms ease-in-out,background-color 200ms ease-in-out;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);}/*!sc*/
+.ehZudL:hover{background:white;}/*!sc*/
+.ehZudL:hover svg{fill:black;stroke:black;}/*!sc*/
+.ehZudL > svg{display:flex;align-items:center;margin:0 auto;width:28px;height:28px;}/*!sc*/
+.fcxvn8-0:hover .fcxvn8-3{opacity:0;}/*!sc*/
+.fcxvn8-0 .fcxvn8-3[disabled]{opacity:0;}/*!sc*/
+@media (pointer:coarse){.ehZudL{display:none;}}/*!sc*/
+data-styled.g199[id="fcxvn8-3"]{content:"ehZudL,"}/*!sc*/
+.cvLSTX{position:relative;display:inline-block;z-index:1;box-sizing:border-box;pointer-events:all;scroll-snap-align:start;padding-left:6px;padding-right:6px;vertical-align:top;transition-property:z-index;transition-duration:0.5s;}/*!sc*/
+.cvLSTX > *:last-child{margin-bottom:0;}/*!sc*/
+.cvLSTX:hover{transition-duration:0s;z-index:2;}/*!sc*/
+.cvLSTX.lastAlone > div > div{width:100%;}/*!sc*/
+@media (min-width:320px){.cvLSTX{width:50%;}}/*!sc*/
+@media (min-width:501px){.cvLSTX{width:33.333333333333336%;}}/*!sc*/
+@media (min-width:768px){.cvLSTX{width:25%;}}/*!sc*/
+@media (min-width:992px){.cvLSTX{width:20%;}}/*!sc*/
+@media (min-width:1300px){.cvLSTX{width:16.666666666666668%;}}/*!sc*/
+@media (min-width:1440px){.cvLSTX{width:14.285714285714286%;}}/*!sc*/
+@media (min-width:1700px){.cvLSTX{width:12.5%;}}/*!sc*/
+@media (min-width:2000px){.cvLSTX{width:10%;}}/*!sc*/
+data-styled.g200[id="fcxvn8-4"]{content:"cvLSTX,"}/*!sc*/
+.cYPfcb{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(0%);background-color:var(--default-background-color);}/*!sc*/
+.cYPfcb::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.cYPfcb::after{padding-bottom:140%;}}/*!sc*/
+.kTvwRI{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(106%);background-color:var(--default-background-color);}/*!sc*/
+.kTvwRI::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvwRI::after{padding-bottom:140%;}}/*!sc*/
+.kTvvka{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(212%);background-color:var(--default-background-color);}/*!sc*/
+.kTvvka::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvvka::after{padding-bottom:140%;}}/*!sc*/
+.kTvriJ{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(318%);background-color:var(--default-background-color);}/*!sc*/
+.kTvriJ::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvriJ::after{padding-bottom:140%;}}/*!sc*/
+.kTvwcZ{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(424%);background-color:var(--default-background-color);}/*!sc*/
+.kTvwcZ::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvwcZ::after{padding-bottom:140%;}}/*!sc*/
+.kTvuvB{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(530%);background-color:var(--default-background-color);}/*!sc*/
+.kTvuvB::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvuvB::after{padding-bottom:140%;}}/*!sc*/
+.kTvwOA{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(636%);background-color:var(--default-background-color);}/*!sc*/
+.kTvwOA::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvwOA::after{padding-bottom:140%;}}/*!sc*/
+.kTvvoq{border-radius:var(--card-lane-border-radius);background-size:400% 100%;transform:translateX(742%);background-color:var(--default-background-color);}/*!sc*/
+.kTvvoq::after{border-radius:var(--card-lane-border-radius);padding-bottom:150%;transform:translateX(106%);display:block;content:'';background-size:400% 100%;background-color:var(--default-background-color);}/*!sc*/
+@media screen and (min-width:1300px){.kTvvoq::after{padding-bottom:140%;}}/*!sc*/
+data-styled.g227[id="sc-1h60no3-3"]{content:"cYPfcb,kTvwRI,kTvvka,kTvriJ,kTvwcZ,kTvuvB,kTvwOA,kTvvoq,"}/*!sc*/
+.berFTs{padding-bottom:30px;}/*!sc*/
+@media screen and (min-width:768px){.berFTs{padding-bottom:70px;}}/*!sc*/
+.berFTs .sc-1vjwq58-0{padding-bottom:12px;}/*!sc*/
+data-styled.g257[id="sc-1vjwq58-1"]{content:"berFTs,"}/*!sc*/
+.cqFTmS{width:100%;height:100%;position:fixed;top:0;left:0;overflow:hidden;}/*!sc*/
+data-styled.g399[id="sc-1a6dwfl-0"]{content:"cqFTmS,"}/*!sc*/
+.dvVBJb{position:absolute;width:1298px;height:800px;z-index:100000;top:100px;right:calc(50% - 520px);background:radial-gradient( ellipse at 50% 50%,rgba(255,255,255,0.12) 1%,rgba(255,255,255,0.03) 50%,rgba(255,0255,255,0) 80%,rgba(255,0255,255,0) 100% );background-position:center;background-repeat:no-repeat;transform:rotate(-30deg);}/*!sc*/
+@media screen and (min-width:768px){.dvVBJb{right:calc(50% - 410px);top:60px;}}/*!sc*/
+@media screen and (min-width:992px){.dvVBJb{width:2596px;height:1600px;top:-200px;right:calc(50% - 850px);}}/*!sc*/
+@media screen and (min-width:1440px){.dvVBJb{top:-300px;right:calc(50% - 733px);}}/*!sc*/
+data-styled.g400[id="sc-1a6dwfl-1"]{content:"dvVBJb,"}/*!sc*/
+.dIEKKw{overflow:hidden;content-visibility:auto;contain-intrinsic-size:1000px;}/*!sc*/
+.dIEKKw:last-child .upselling-lane:last-of-type{margin-bottom:70px;}/*!sc*/
+@media (pointer:coarse){.dIEKKw .upselling-lane:first-of-type .upselling-details{position:relative;padding-top:229px;}.dIEKKw .upselling-lane:first-of-type .upselling-inner{margin-bottom:50px;}}/*!sc*/
+data-styled.g401[id="sc-1sgqf52-0"]{content:"dIEKKw,"}/*!sc*/
+.jfZOTJ{position:relative;overflow-x:hidden;margin:0;white-space:nowrap;width:100vw;padding:80px 0 40px;height:calc(((100vw - 40px) * 1.375) + 120px);}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ{height:calc(((100vw - 80px) * 0.8077) + 150px);padding:80px 0 70px;}}/*!sc*/
+@media screen and (min-width:768px){.jfZOTJ{padding:140px 0 70px;height:calc(((100vw - 80px) * 0.545) + 210px);}}/*!sc*/
+@media screen and (min-width:1200px){.jfZOTJ{padding:140px 0 70px;height:calc(((100vw - 280px) * 0.4035) + 210px);}}/*!sc*/
+.jfZOTJ button{flex:0 1 auto;width:auto;overflow:hidden;padding:0 20px;line-height:1;}/*!sc*/
+.jfZOTJ button:first-child{min-width:calc(50% - 6px);}/*!sc*/
+.jfZOTJ button:only-child:first-child{width:100%;}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ button:only-child:first-child{width:unset;}}/*!sc*/
+.jfZOTJ button:not(:only-child):first-child{max-width:calc(100% - 62px);text-overflow:ellipsis;padding:0 10px;margin:0;}/*!sc*/
+@media only screen and (min-width:360px){.jfZOTJ button:not(:only-child):first-child{max-width:calc(100% - 62px);text-overflow:unset;}}/*!sc*/
+@media only screen and (min-width:380px){.jfZOTJ button:not(:only-child):first-child{padding:0 20px;}}/*!sc*/
+.jfZOTJ button:not(:only-child):last-child{padding:0 10px;}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ button{width:unset;}.jfZOTJ button:first-child{min-width:auto;}}/*!sc*/
+.jfZOTJ button:empty{min-width:176px;}/*!sc*/
+.jfZOTJ .sc-5z5495-0{flex:1 1 auto;}/*!sc*/
+.jfZOTJ .sc-5z5495-0 svg{width:28px;height:28px;}/*!sc*/
+@media screen and (min-width:501px){.jfZOTJ .sc-5z5495-0{max-width:142px;}}/*!sc*/
+data-styled.g463[id="j3zqax-3"]{content:"jfZOTJ,"}/*!sc*/
+.bRNpLw{height:calc((100vw - 40px) * 1.375);transition:transform 500ms ease-in-out;transform:translateX(calc(-300vw + 4 * 140px + 3 * 80px));}/*!sc*/
+@media screen and (min-width:0) and (max-width:500px){.bRNpLw{height:calc((100vw - 80px) * 0.8077);transform:translateX(calc(-300vw + 4 * 20px + 3 * 8px));}}/*!sc*/
+@media screen and (min-width:501px) and (max-width:1199px){.bRNpLw{height:calc((100vw - 80px) * 0.545);transform:translateX(calc(-300vw + 4 * 40px + 3 * 28px));}}/*!sc*/
+@media screen and (min-width:1200px){.bRNpLw{height:calc((100vw - 280px) * 0.4035);transform:translateX(calc(-300vw + 4 * 140px + 3 * 80px));}}/*!sc*/
+data-styled.g466[id="j3zqax-6"]{content:"bRNpLw,"}/*!sc*/
+.xgzZW{position:absolute;width:100%;height:100%;transition:opacity 300ms ease;background-image:linear-gradient( to bottom,rgba(var(--lane-hero-accent-color-rgb),1) 0%,rgba(var(--lane-hero-accent-color-rgb),1) 30%,rgba(var(--lane-hero-accent-color-rgb),0.4) 70%,rgba(var(--lane-hero-accent-color-rgb),0) 100% );}/*!sc*/
+data-styled.g467[id="sc-18t26oh-0"]{content:"xgzZW,"}/*!sc*/
+.hvNNeB{position:relative;}/*!sc*/
+.hvNNeB.hidden .sc-18t26oh-0{transition:background-color 0.5s ease;opacity:0;}/*!sc*/
+.hvNNeB:hover button{opacity:1;cursor:pointer;}/*!sc*/
+.hvNNeB .fcxvn8-2,.hvNNeB .fcxvn8-3{top:calc(50% - 15px);}/*!sc*/
+data-styled.g468[id="sc-18t26oh-1"]{content:"hvNNeB,"}/*!sc*/
+.bnLgit{pointer-events:none;position:relative;overflow:hidden;background-color:rgba(0,0,0,1);height:calc((100vw - 40px) * 1.375);}/*!sc*/
+.bnLgit .qt8woo-1{mask-image:linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.1)32%,rgba(0,0,0,1)66%);-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.1)32%,rgba(0,0,0,1)66%);}/*!sc*/
+@media screen and (min-width:501px){.bnLgit{height:calc((100vw - 80px) * 0.8077);}.bnLgit .qt8woo-1{mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);-webkit-mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);}}/*!sc*/
+@media screen and (min-width:768px){.bnLgit{height:calc((100vw - 80px) * 0.545);}}/*!sc*/
+.bnLgit .sc-9zpfvx-0{height:20px;}/*!sc*/
+@media screen and (min-width:1200px){.bnLgit{height:calc((100vw - 280px) * 0.4035);}.bnLgit .qt8woo-1{mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);-webkit-mask-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.4)34%,rgba(0,0,0,1)67%);}.bnLgit img{object-position:right center;object-fit:cover;}.bnLgit .sc-6bxr7y-0 img{object-fit:contain;}}/*!sc*/
+data-styled.g472[id="qt8woo-2"]{content:"bnLgit,"}/*!sc*/
+.djqrbL{border-radius:6px;position:relative;background-color:var(--default-background-color);display:inline-flex;margin:0 12px 0 0;width:calc(100% - 40px);animation:pulse 1.4s infinite ease-in-out;}/*!sc*/
+.djqrbL:first-of-type{margin-left:0;}/*!sc*/
+@media screen and (min-width:501px){.djqrbL{border-radius:10px;width:calc(100% - 80px);}.djqrbL:first-of-type{margin-left:0;}}/*!sc*/
+@media screen and (min-width:768px){.djqrbL:first-of-type{margin-left:0;}}/*!sc*/
+@media screen and (min-width:1200px){.djqrbL{margin:0 60px 0 0;width:calc(100% - 280px);}.djqrbL:first-of-type{margin-left:0;}}/*!sc*/
+.djqrbL a,.djqrbL a:link{transition:none;}/*!sc*/
+@keyframes pulse{0%{background-color:#333333;}50%{background-color:#2b2b2b;}100%{background-color:#333333;}}/*!sc*/
+data-styled.g487[id="sc-1uefume-0"]{content:"djqrbL,"}/*!sc*/
+</style></head><body style="overflow:auto;background-color:black"><div id="__next"><div class="sc-1jvaksz-0 fBQUun"></div><div class="sc-1p3exzx-2 klztVa"><div class="sc-1p3exzx-0 daYWXr"><header class="qnxqpt-4 ghoUKy"><a data-test-id="Joyn-header-logo" class="qnxqpt-2 guhixs"><svg width="67px" height="28px" viewBox="0 0 67 28"><path d="M25.112 9.45c0-2.45-1.662-4.287-4.024-4.287-2.363 0-4.026 1.837-4.026 4.287s1.663 4.287 4.025 4.287c2.363 0 4.025-1.837 4.025-4.287zm5.425 0c0 5.21-4.239 9.45-9.45 9.45-5.21 0-9.45-4.24-9.45-9.45 0-5.21 4.24-9.45 9.45-9.45 5.211 0 9.45 4.24 9.45 9.45zM0 .525v5.162h4.638v14.175c0 1.576-.875 2.976-2.625 2.976H0V28h2.013c4.724 0 8.05-3.719 8.05-8.269V.525H0zM60.463 0c-1.574 0-3.302.442-4.55 1.99V.525h-5.425v17.85h5.424V8.225c0-1.662.875-3.062 2.617-3.062 1.758 0 2.633 1.4 2.633 2.975v10.237h5.426V7c0-4.462-2.45-7-6.125-7zM42.787.525h5.426v19.206c0 4.55-3.325 8.269-8.05 8.269-4.638 0-8.05-3.675-8.05-7.7h5.424c.088 1.4 1.138 2.537 2.625 2.537 1.75 0 2.625-1.4 2.625-2.975V16.91c-1.248 1.548-2.976 1.99-4.55 1.99-3.675 0-6.125-2.538-6.125-7V.525h5.425v10.238c0 1.574.875 2.974 2.634 2.974 1.741 0 2.616-1.4 2.616-3.062V.525z" fill="#FFF" fill-rule="evenodd"></path></svg></a><div data-test-id="Login_State" class="qnxqpt-1 lkeRYs"><svg width="28" height="28" viewBox="0 0 28 28"><path fill="#FFF" d="M9.53 15.557c-1.113-1.23-1.795-2.904-1.795-4.739C7.735 7.072 10.573 4 14.126 4s6.392 3.072 6.392 6.818c0 1.835-.681 3.508-1.794 4.738a10.2 10.2 0 011.755 1.49c1.326 1.413 2.642 3.187 2.774 5.136.009.265.01.457.004.574C23.01 23.47 22.23 24 21.43 24H6.823c-.8 0-1.573-.53-1.82-1.244a8.3 8.3 0 01.004-.574c.132-1.949 1.447-3.723 2.771-5.135a10.193 10.193 0 011.752-1.49zm1.573 1.272a8.326 8.326 0 00-2.072 1.609 8.776 8.776 0 00-2.07 3.744h14.337a8.773 8.773 0 00-2.073-3.744 8.334 8.334 0 00-2.075-1.61 6.05 6.05 0 01-3.024.808 6.05 6.05 0 01-3.023-.807zm7.702-6.01c0-2.872-2.118-5.164-4.679-5.164-2.56 0-4.678 2.292-4.678 5.163 0 2.871 2.117 5.163 4.678 5.163 2.56 0 4.68-2.292 4.68-5.163z"></path></svg></div><button class="sc-1o9ny16-0 cWLGOK"><svg width="28px" height="28px" viewBox="0 0 28 28" data-test-id="HM"><title>Mobile Menu Icon</title><path d="M23 22H5a1 1 0 010-2h18a1 1 0 010 2zm0-7H5a1 1 0 010-2h18a1 1 0 010 2zm0-7H5a1 1 0 110-2h18a1 1 0 010 2z" fill="#FFF" fill-rule="evenodd"></path></svg></button><ul class="ug6w9-0 gRdUtO"><li><a data-test-id="Menu__Link--/" href="/"><span class="kc1s2-0 eTUVyl">Start</span></a></li><li><a data-test-id="Menu__Link--/play/live-tv" href="/play/live-tv?from=%2F"><span class="kc1s2-0 kvWQhR">Live TV</span></a></li><li><a data-test-id="Menu__Link--/serien" href="/serien"><span class="kc1s2-0 kvWQhR">Serien</span></a></li><li><a data-test-id="Menu__Link--/filme" href="/filme"><span class="kc1s2-0 kvWQhR">Filme</span></a></li><li><a data-test-id="Menu__Link--/sport" href="/sport"><span class="kc1s2-0 kvWQhR">Sport</span></a></li></ul><div data-test-id="Search-Button" class="qnxqpt-0 emPjce"><svg width="28px" height="28px" viewBox="0 0 28 28"><path d="M19.892 18.594l3.842 3.842a.91.91 0 010 1.285l-.013.013a.91.91 0 01-1.285 0l-3.842-3.842a8.912 8.912 0 01-5.645 2.005A8.948 8.948 0 014 12.95 8.948 8.948 0 0112.949 4a8.948 8.948 0 018.948 8.949c0 2.14-.751 4.105-2.005 5.645zm.17-5.645a7.112 7.112 0 00-7.113-7.113 7.112 7.112 0 00-7.113 7.113 7.112 7.112 0 007.113 7.113 7.112 7.112 0 007.113-7.113z" fill="#FFF" fill-rule="nonzero"></path></svg></div></header><div class="sc-1p3exzx-1 gFAidd"><div class="sc-1a6dwfl-0 cqFTmS"><div class="sc-1a6dwfl-1 dvVBJb"></div></div><div class="sc-1sgqf52-0 dIEKKw"><div id="" data-test-id="HT" class="sc-18t26oh-1 hvNNeB"><div style="--lane-hero-accent-color-rgb:0,0,0" class="sc-18t26oh-0 xgzZW"></div><div class="j3zqax-3 jfZOTJ"><div class="j3zqax-6 bRNpLw"><div class="sc-1uefume-0 djqrbL"><div class="qt8woo-2 bnLgit"></div></div><div class="sc-1uefume-0 djqrbL"><div class="qt8woo-2 bnLgit"></div></div><div class="sc-1uefume-0 djqrbL"><div class="qt8woo-2 bnLgit"></div></div><div class="sc-1uefume-0 djqrbL"><div class="qt8woo-2 bnLgit"></div></div><div class="sc-1uefume-0 djqrbL"><div class="qt8woo-2 bnLgit"></div></div><div class="sc-1uefume-0 djqrbL"><div class="qt8woo-2 bnLgit"></div></div></div></div></div><div><div id="idundefined" data-test-id="LS" class="sc-1vjwq58-1 berFTs"><div class="fcxvn8-0 kTylmt"><button data-test-id="LLA" disabled="" aria-label="Zurück" class="fcxvn8-2 cvHHNe"><svg width="100%" height="100%" fill="white" stroke="white" class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" aria-hidden="true"><title id="Back">Back</title><path d="M18.739 22.448c.348.355.348.93 0 1.286-.348.355-.912.355-1.26 0l-7.725-7.88c-1.005-1.025-1.005-2.683 0-3.708l7.725-7.88c.348-.355.912-.355 1.26 0s.348.93 0 1.286l-7.725 7.88c-.309.315-.309.821 0 1.136l7.725 7.88z"></path></svg></button><div class="fcxvn8-1 kljCBw LaneCardWrapper"><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 cYPfcb"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvwRI"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvvka"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvriJ"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvwcZ"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvuvB"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvwOA"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvvoq"></div></div></div></div><button data-test-id="LRA" disabled="" aria-label="Weiter" class="fcxvn8-3 ehZudL"><svg width="100%" height="100%" fill="white" stroke="white" class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" aria-hidden="true"><title id="Forward">Forward</title><path d="M18.739 22.448c.348.355.348.93 0 1.286-.348.355-.912.355-1.26 0l-7.725-7.88c-1.005-1.025-1.005-2.683 0-3.708l7.725-7.88c.348-.355.912-.355 1.26 0s.348.93 0 1.286l-7.725 7.88c-.309.315-.309.821 0 1.136l7.725 7.88z" transform="matrix(-1 0 0 1 28 0)"></path></svg></button></div></div></div><div><div id="idundefined" data-test-id="LS" class="sc-1vjwq58-1 berFTs"><div class="fcxvn8-0 kTylmt"><button data-test-id="LLA" disabled="" aria-label="Zurück" class="fcxvn8-2 cvHHNe"><svg width="100%" height="100%" fill="white" stroke="white" class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" aria-hidden="true"><title id="Back">Back</title><path d="M18.739 22.448c.348.355.348.93 0 1.286-.348.355-.912.355-1.26 0l-7.725-7.88c-1.005-1.025-1.005-2.683 0-3.708l7.725-7.88c.348-.355.912-.355 1.26 0s.348.93 0 1.286l-7.725 7.88c-.309.315-.309.821 0 1.136l7.725 7.88z"></path></svg></button><div class="fcxvn8-1 kljCBw LaneCardWrapper"><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 cYPfcb"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvwRI"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvvka"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvriJ"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvwcZ"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvuvB"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvwOA"></div></div></div><div class="fcxvn8-4 cvLSTX"><div><div class="sc-1h60no3-3 kTvvoq"></div></div></div></div><button data-test-id="LRA" disabled="" aria-label="Weiter" class="fcxvn8-3 ehZudL"><svg width="100%" height="100%" fill="white" stroke="white" class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" aria-hidden="true"><title id="Forward">Forward</title><path d="M18.739 22.448c.348.355.348.93 0 1.286-.348.355-.912.355-1.26 0l-7.725-7.88c-1.005-1.025-1.005-2.683 0-3.708l7.725-7.88c.348-.355.912-.355 1.26 0s.348.93 0 1.286l-7.725 7.88c-.309.315-.309.821 0 1.136l7.725 7.88z" transform="matrix(-1 0 0 1 28 0)"></path></svg></button></div></div></div></div><div></div></div><div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"initialData":{"page":{"id":"o104139d410","__typename":"LandingPage","path":"/","title":"joyn.master","seo":{"canonical":null,"description":null,"keywords":[],"doNotIndex":false,"title":null,"url":null,"content":{"description":"\u003ch1\u003eWas ist Joyn?\u0026nbsp;\u003c/h1\u003e\n\n\u003cp\u003eGanz einfach. Joyn ist eine Streaming App zum Fernsehen. Und wenn wir Fernsehen sagen, meinen wir Live TV (mit über 60 Sendern) und eine riesige Mediathek zum streamen wann und wo du willst.\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eMit der Joyn App (oder gleich hier auf joyn.de) kannst du kostenlos online Fernsehsender schauen wie ARD, ZDF, ProSieben, SAT.1, kabel eins, Eurosport 1, ZDFneo, DMAX, ProSieben MAXX, SAT.1 Gold, sixx, ZDFinfo, WELT, COMEDY CENTRAL, TLC, phoenix, MTV, nick, KiKA, WDR, BR, SWR und viele mehr.\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eDas Beste? Es ist völlig kostenlos – du musst dich nur registrieren (keine Angst, das dauert nur 2 Minuten). Dafür hast du Funktionen wie eine Merkliste und Empfehlungen, die wirklich zu dir passen. Außerdem kannst du nahtlos von einem Gerät zum anderen wechseln, also z.B. deine Lieblingsserie auf dem Heimweg in der U-Bahn anfangen und zu Hause weiterschauen. Ist doch cool, oder?\u0026nbsp;\u003c/p\u003e\n\n\u003ch2\u003eMehr als Live-TV: die Joyn Mediathek\u003c/h2\u003e\n\n\u003cp\u003eJoyn ist nicht nur Live TV, sondern bietet auch eine große Mediathek, also eine Art Online Videothek, wo du Sendungen online streamen kannst, wann und wo du willst. Dort findest du etwa ganze Folgen von Serien wie 4 Blocks, Steel Buddies und FBI, aber natürlich auch Shows wie Germany’s Next Topmodel, Big Brother oder The Masked Singer. Von Comedy über Krimis bis zu Drama und von Dokus und Ratgebersendungen bis Anime.\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eOder schau online unsere Joyn Originals, also Sendungen, die es nur bei uns gibt, z.B. The Collapse, M.O.M., Singles’ Diaries, Killerfrauen oder Slavik auf Staats Nacken. Und wenn du mal eine Folge im Fernsehen verpasst hast, schau sie einfach auf Joyn.\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eWie gesagt, alles gratis. Und das bleibt auch so.\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eWie –\u0026nbsp;du willst noch mehr? Du möchtest alles in HD, alle Originals und außerdem viel mehr komplette Serien und jede Menge Hollywood-Blockbuster schauen? Dann wirf doch mal einen Blick auf \u003ca data-tabindex-counter=\"1\" data-tabindex-value=\"none\" href=\"https://www.joyn.de/plus\" tabindex=\"-1\"\u003eJoyn PLUS+\u003c/a\u003e.\u003c/p\u003e\n","backgroundImage":{"url":"https://img.joyn.de/cms/var/assets/Content/joyn/joyn.master/image%2B%25281%2529%2B%25281%2529.jpg/profile:original","accentColor":"#8e8e8eff","id":"8d62a42e1ad8d0df225554d46a5ce6193515ace5"}}},"tracking":null,"blocks":[{"__typename":"HeroLane"},{"__typename":"ResumeLane"},{"__typename":"StandardLane"}]}}},"__N_SSG":true},"page":"/","query":{},"buildId":"5.2.10-365fd357","assetPrefix":"https://assets.joyn.de","nextExport":false,"isFallback":false,"dynamicIds":["LvDl","/9aa","/Cog","0MRR","2Oix","5WQz","5wMr","88Kg","8eP8","8fa4","9JCQ","9itZ","A6vq","BoX9","GLdP","HyFC","IogR","KrFs","LP0B","LWt6","Lyni","On5w","PmIU","Siog","SyaZ","VGX7","WWs4","WqnP","XX/W","XXoF","YGjY","ZAmH","cBpt","ciN/","dGuy","ds63","gMXR","iXV/","jIYg","jIe4","lZ5f","loZk","lzss","nqqy","p/uk","pcG0","qxEb","rwOc","sCib","szUW","t6IN","yNUO","z4Lh","/sAi","60/Z","IqAp","he3q","ihKW","r+rN","raSy","w6Qg","+K+b","+iFO","0Cz8","0ycA","1+5i","4Oe1","4uTw","5Tg0","6sVZ","77Zs","7GkX","7Ix3","9Nap","9ggG","A90E","B8du","DSRE","Dw+G","EEGq","G6z8","GNiM","Gi0A","HALo","HOxn","I01J","JHRd","KxBF","L8xA","LXxW","LcsW","MMmD","MrPd","MvSz","OBhP","Puqe","QcOe","QqLw","RBan","S7Xf","UNi/","V6Ve","VOtZ","VaNO","WwFo","XYm9","YO3V","ZWtO","b2z7","b80T","c6wG","dD9F","dt0z","eUgh","fR/l","fmRc","gCq4","gFfm","gpbi","hypo","juv8","kekF","mTTR","mdPL","oCl/","otv/","qZTm","sEf8","shjB","tadb","w/wX","wJg7","wrZu","yGk4","yHx3","yP5f","zEVN","zoYe","/7Kl","/Hw9","2fWC","55qY","7BfX","93uQ","AdQJ","DLOo","Fj0b","MT34","PDnY","PiiB","QGvc","RhDe","T9D7","TYyt","Xg8l","dKND","hQya","l6vr","mIH5","nJkN","ondq","pOBi","t/nT","tAye","tEmE","ulWy","veOA","yyk3","zs2A","0d6/","3CA4","5UO5","Clxz","Eb8z","H9Ec","KXyn","Wnjn","tMrj","3ldl","E+oP","GMYt","DNZC","DWtg","DsSs","JnhJ","lNSz","mQt6","nhp1","re3h"],"gsp":true}</script><script nomodule="" src="https://assets.joyn.de/_next/static/chunks/polyfills-7b1165121f37becc12e3.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/06a297574210bd54982b4eaddaf594c052367aee.378938583706d6a6d2a1.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/c379fd90f6e4c68b6f2c9a70935dad2d3206ceba.cfa9f10334dfb3748ee8.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/0c03060faf5f7e78ac1a1cfa8c395cb3da1cf978.7c700a2ceb285e4f2755.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/134.a0b0a085a0478a6e48ef.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/3cecaef03b143e8090d730baa5ef7e43ed02a01f.6980c53424e58f117908.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/5c01d66bf213fedc25e7790db9487204e97ca46f.9ea96f6d9fe6baf5df6e.js"></script><script async="" src="https://assets.joyn.de/_next/static/chunks/136.5369b210506a42a54150.js"></script><script src="https://assets.joyn.de/_next/static/chunks/main-05930d320a7ce5708d2a.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/webpack-05c99bd6f8304e87053f.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/framework.9c0b19a6e9232aa00e55.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/29107295.a3e2d469dab1d8364702.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/a1392b59b74763d7dffd4318318a9a285459bd8d.8957cffe0eca8c4e01d0.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/a44abbc561a0e5b4d071289fcbc8b7f4a9593056.79ee34dd50d34a7cd9d6.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/74e05905b3b12dd58411644419602e3caa0f5f33.5f8410ba966ce6ea8093.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/7fc97edb9b472c14a62d960c4336ab258b1e8432.e69636e8128bf8686dd5.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/9fa80fe126202f78f45d8677c62aca887ea919a9.1a900ee503973a879199.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/18607e8af335f20b7995c190a1af28d90fdbab7a.eebffa5c6a208689cbfa.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/pages/_app-a114e0ef200c121ee626.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/df9485edc0552b6d013a4c91c4273fff24d4a067.5036867be9a512c23887.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/1f7ca2312dbf9e35dfdf8c26b0663faa42dc123a.330066a5e28e53be7db7.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/adbb435c809d8c9586c781d002c134036f0e82f6.91d77d3b89a04d887385.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/53aeb4a53b65a65dc922e0c3b4b0bdfe5d74c8e0.7b573869d9cfa84498ff.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/157a221dd0259d3ec14c892b40501f9413eff31b.b094b77550b748f77a3c.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/b96bcaaf1b4017c41a07994256f1592b11d8a2c7.cde258b67a86625a480c.js" async=""></script><script src="https://assets.joyn.de/_next/static/chunks/pages/index-0ae4104533cf1bffc49d.js" async=""></script><script src="https://assets.joyn.de/_next/static/5.2.10-365fd357/_buildManifest.js" async=""></script><script src="https://assets.joyn.de/_next/static/5.2.10-365fd357/_ssgManifest.js" async=""></script></body></html>

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121873542-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121873542-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    
+
+    
+    <link href="/Content/jquery-ui.min.css" rel="stylesheet" />
+    <link href="/Content/easy-autocomplete.min.css" rel="stylesheet" />
+
+    <link media="all" rel="stylesheet" href="/Content/main.css">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="/Scripts/jquery-ui.min.js"></script>
+    
+    
+    
+    
+    
+
+    <script type="text/javascript" src="/Scripts/skrollr.min.js" defer></script>
+    <script type="text/javascript" src="/Scripts/skrollr.menu.min.js" defer></script>
+    <script type="text/javascript" src="/Scripts/plugins.js" defer></script>
+    <script type="text/javascript" src="/Scripts/jquery.main.js" defer></script>
+
+    <script>
+        (function (gl) {
+            gl.urlPrefix = "https://api.splashnews.com";
+            gl.previewAssetsUrlPrefix = "https://splash.azureedge.net/watermark/";
+            gl.animateToTop = function () {
+                var body = $("html, body");
+                body.stop().animate({ scrollTop: 0 },
+                    500,
+                    'swing',
+                    function () {
+                        console.log("Finished animating");
+                    });
+            }
+
+        })(window.appGlobals = window.appGlobals || {})
+
+
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="/Content/images/logo.svg" alt="FameFlyner Pictures">
+                </a>
+            </div>
+                <a href="#popup2" class="sign lightbox">sign in</a>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div class="page parallax-body" data-page="About">
+            
+
+<script type="text/javascript">
+    jQuery(function () {
+        jQuery.ajax({
+            url: window.appGlobals.urlPrefix + "/api/Common/GetPublicSets",
+            type: "get",
+            success: function (resp) {
+                if (resp.Success) {
+                    var landscapes = [], portraits = [];
+                    for (var i = 0; i < resp.Data.length; i++) {
+                        if (resp.Data[i].IsLandscape) {
+                            landscapes.push(resp.Data[i]);
+                        } else {
+                            portraits.push(resp.Data[i]);
+                        }
+                    }
+
+                    jQuery.each(jQuery(".tags_wrap").find("figure"), function () {
+                        var elem = jQuery(this);
+                        var anchor = jQuery(elem.find("a")[0]);
+                        var caption = jQuery(elem.find("figcaption")[0]);
+                        var img = jQuery(elem.find("img")[0]);
+                        var attr = img.attr('lanscape');
+                        var galleryName = anchor.attr("rel");
+
+                        if (typeof attr !== typeof undefined && attr !== false) {
+                            if (!landscapes.length) return true;
+                            var item = landscapes.pop();
+                            caption.text(item.AssetSetTitle);
+                            anchor.attr("href", window.appGlobals.previewAssetsUrlPrefix + item.AssetName);
+                            img.attr("src", window.appGlobals.previewAssetsUrlPrefix + item.AssetName);
+                            jQuery.each(item.Assets, function (i, a) {
+                                if (a.Name !== item.AssetName) {
+                                    elem.append('<a href="' + window.appGlobals.previewAssetsUrlPrefix + a.Name + '" rel="' + galleryName + '" class="lightbox"></a>');
+                                }
+                            });
+                        }
+                        else {
+                            if (!portraits.length) return true;
+                            var item2 = portraits.pop();
+                            caption.text(item2.AssetSetTitle);
+                            anchor.attr("href", window.appGlobals.previewAssetsUrlPrefix + item2.AssetName);
+                            img.attr("src", window.appGlobals.previewAssetsUrlPrefix + item2.AssetName);
+                            jQuery.each(item2.Assets, function (i, a) {
+                                if (a.Name !== item2.AssetName) {
+                                    elem.append('<a href="' + window.appGlobals.previewAssetsUrlPrefix + a.Name + '" rel="' + galleryName + '" class="lightbox"></a>');
+                                }
+                            });
+                        }
+                        return true;
+                    });
+                    initLightbox();
+                }
+            },
+            error: function (err) {
+                jQuery("#reset .validation-row").addClass("input-error");
+            }
+        });
+    });
+</script>
+
+<div class="page-slider">
+    <main id="main">
+        <div class="slideshow parallax-slide">
+            <div class="slideset">
+                
+                <div class="slide">
+                    <div class="bg-stretch">
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Kardashian.jpg, https://fameflynet.azureedge.net/pictures/Kardashian.jpg 2x"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Kardashian.jpg, https://fameflynet.azureedge.net/pictures/Kardashian.jpg 2x" data-media="(min-width: 768px)"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Kardashian.jpg, https://fameflynet.azureedge.net/pictures/Kardashian.jpg 2x" data-media="(min-width: 1024px)"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="container">
+                            <h1>We capture the headlines</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="bg-stretch">
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/A.14.0.1_NEW.jpg, https://fameflynet.azureedge.net/pictures/A.14.0.1_NEW.jpg 2x"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/A.14.0.1_NEW.jpg, https://fameflynet.azureedge.net/pictures/A.14.0.1_NEW.jpg 2x" data-media="(min-width: 768px)"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/A.14.0.1_NEW.jpg, https://fameflynet.azureedge.net/pictures/A.14.0.1_NEW.jpg 2x" data-media="(min-width: 1024px)"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="container">
+                            <h1>We capture the headlines</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="bg-stretch">
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/A.033.0.1_NEW.JPG, https://fameflynet.azureedge.net/pictures/A.033.0.1_NEW.JPG 2x"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/A.033.0.1_NEW.JPG, https://fameflynet.azureedge.net/pictures/A.033.0.1_NEW.JPG 2x" data-media="(min-width: 768px)"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/A.033.0.1_NEW.JPG, https://fameflynet.azureedge.net/pictures/A.033.0.1_NEW.JPG 2x" data-media="(min-width: 1024px)"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="container">
+                            <h1>We capture the headlines</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="bg-stretch">
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Clooney.jpg, https://fameflynet.azureedge.net/pictures/Clooney.jpg 2x"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Clooney.jpg, https://fameflynet.azureedge.net/pictures/Clooney.jpg 2x" data-media="(min-width: 768px)"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Clooney.jpg, https://fameflynet.azureedge.net/pictures/Clooney.jpg 2x" data-media="(min-width: 1024px)"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="container">
+                            <h1>We capture the headlines</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="bg-stretch">
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Rihanna.jpg, https://fameflynet.azureedge.net/pictures/Rihanna.jpg 2x"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Rihanna.jpg, https://fameflynet.azureedge.net/pictures/Rihanna.jpg 2x" data-media="(min-width: 768px)"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Rihanna.jpg, https://fameflynet.azureedge.net/pictures/Rihanna.jpg 2x" data-media="(min-width: 1024px)"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="container">
+                            <h1>We capture the headlines</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="bg-stretch">
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Royal.jpg, https://fameflynet.azureedge.net/pictures/Royal.jpg 2x"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Royal.jpg, https://fameflynet.azureedge.net/pictures/Royal.jpg 2x" data-media="(min-width: 768px)"></span>
+                        <span data-srcset="https://fameflynet.azureedge.net/pictures/Royal.jpg, https://fameflynet.azureedge.net/pictures/Royal.jpg 2x" data-media="(min-width: 1024px)"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="container">
+                            <h1>We capture the headlines</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn-prev" href="#">
+                <img src="/Content/images/arrow.svg" alt="Button Previous">
+            </a>
+            <a class="btn-next" href="#">
+                <img src="/Content/images/arrow.svg" alt="Button Next">
+            </a>
+            <div class="pagination">
+                <!-- pagination generated here -->
+            </div>
+            <span class="see-more">
+                SCROLL TO SEE MORE ABOUT US
+                <a href="#section-1"><img src="/Content/images/arrow-bottom.svg" alt="Image Description"></a>
+            </span>
+            <div class="decor-top"></div>
+            <div class="decor-bottom"></div>
+        </div>
+        <div class="news_wrap image-area gray-mask parallax-slide" id="section-1">
+            <div class="container">
+                <!--<picture>-->
+                <!--<source srcset="~/Content/images/bg-image01-sm.png, ~/Content/images/bg-image01-sm-2x.png 2x" media="(max-width: 767px)">-->
+                <!--<source srcset="~/Content/images/bg-image01-md.png, ~/Content/images/bg-image01-md-2x.png 2x" media="(max-width: 1024px)">-->
+                <!--<source srcset="~/Content/images/bg-image01.png, ~/Content/images/bg-image01-2x.png 2x">-->
+                <!--<img src="~/Content/images/bg-image01-2x.png" alt="">-->
+                <!--</picture>-->
+                <div class="tags_wrap">
+                    <div class="col">
+                        <figure>
+                            <!--Only absolute href on image-->
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery1" class="lightbox tags_img">
+                                <img src="" alt="">
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="https://www.w3schools.com/w3css/img_fjords.jpg" rel="gallery2" class="lightbox tags_img">
+                                <img src="" alt="" lanscape>
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery3" class="lightbox tags_img">
+                                <img src="" alt="">
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery4" class="lightbox tags_img">
+                                <img src="" alt="" lanscape>
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery5" class="lightbox tags_img">
+                                <img src="" alt="">
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery6" class="lightbox tags_img">
+                                <img src="" alt="">
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery7" class="lightbox tags_img">
+                                <img src="" alt="" lanscape>
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" rel="gallery8" class="lightbox tags_img">
+                                <img src="" alt="" lanscape>
+                            </a>
+                            <figcaption>Title of the set goes here if it’s on a maximum of two lines</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <div class="container">
+                        <div class="row alt">
+                            <div class="col-left alt sticky">
+                                <h2 class="alter2 parallax-elem" data-options='{
+												"0": "opacity: 1; visibility: visible;",
+												"1": "opacity: 1; visibility: visible;",
+												"1.4": "opacity: 1; visibility: visible;",
+												"1.7": "opacity: 0; visibility: hidden;"
+											}'>
+                                    We are a global content agency.
+                                </h2>
+                                <div class="decorated-text parallax-elem" data-options='{
+												"0": "opacity: 1; visibility: visible;",
+												"1": "opacity: 1; visibility: visible;",
+												"1.2": "opacity: 0; visibility: hidden;"
+											}'>
+                                    <span class="text-decor"></span>
+                                    <p>
+                                        We are the largest, fastest
+                                        growing entertainment agency in the World.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-right parallax-elem" data-options='{
+												"0": "opacity: 0;",
+												"0.2": "opacity: 0;",
+												"0.3": "opacity: 1;"
+											}'>
+                                <p>
+                                    Our contributors work 24/7 to capture
+                                    and deliver the latest content
+                                    as it happens.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-right alter1 parallax-elem" data-options='{
+												"0": "opacity: 0;",
+												"0.2": "opacity: 0;",
+												"0.3": "opacity: 1;"
+											}'>
+                                <p>
+                                    Since 1991, we've led the way in delivering
+                                    globally sourced exclusive content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-area parallax-slide" id="section-2">
+            <div class="text-box with-parallax alter1">
+                <div class="parallax gray-mask win-height bg-stretch parallax-fixed" style="background: url(https://fameflynet.azureedge.net/pictures/A.1.2_a6025d53b7f7.jpg);">
+                    <!-- <img src="~/Content/images/parallax-01-2x.jpg" alt="Parallax Image"> -->
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-left">
+                            <h2 class="sticky  parallax-elem" data-options='{
+											"0": "transform: translate3d(0, 0, 0); opacity: 1;",
+											"0.6": "transform: translate3d(0, 0vh, 0); opacity: 1;",
+											"1.8": " opacity: 0;"
+										}'>
+                                We are diligently professional.
+                            </h2>
+                            <div class="decorated-text parallax-elem" data-options='{
+											"0": "transform: translate3d(0, 0, 0); opacity: 1;",
+											"0.6": "transform: translate3d(0, 0vh, 0); opacity: 1;",
+											"1": "transform: translate3d(0, -50vh, 0); opacity: 0;"
+										}'>
+                                <span class="text-decor"></span>
+                                <p>
+                                    We have redesigned and rebuilt our
+                                    content management system from the
+                                    ground up, ensuring our contributors
+                                    spend less time online and more time
+                                    behind the camera.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row alter1">
+                        <div class="col-right alter1 parallax-elem" data-options='{
+											"0": "transform: translate3d(0, 0, 0); opacity: 1;",
+											"0.6": "transform: translate3d(0, 0vh, 0); opacity: 1;",
+											"1": "transform: translate3d(0, -50vh, 0); opacity: 0;"
+										}'>
+                            <p>
+                                We have over 4000 contributors across
+                                the globe covering international and local
+                                entertainment news and assignments.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-left alter1 parallax-elem" data-options='{
+											"0": "transform: translate3d(0, 0, 0); opacity: 1;",
+											"0.6": "transform: translate3d(0, 0vh, 0); opacity: 1;",
+											"1": "transform: translate3d(0, -50vh, 0); opacity: 0;"
+										}'>
+                            <p>
+                                Our contributors benefit from a
+                                dedicated full time team on the ground
+                                that help manage, distribute and
+                                sell your content 24 x 7.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-area parallax-slide" id="section-3">
+            <div class="text-box with-parallax alter2 bottom-block-center">
+                <div class="parallax gray-mask win-height bg-stretch parallax-fixed video_bg">
+                    <video autoplay poster="" class="video-parallax" loop muted>
+                        <source src="https://fameflynet.azureedge.net/pictures/A203.mp4" type="video/mp4">
+                    </video>
+                    <img src="https://fameflynet.azureedge.net/pictures/A203.jpg" class="show_mobile" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="text-center">
+                            <h2 class="sticky">We deliver quality, fast.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-area parallax-slide win-min-height" id="section-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="alter1">We capture globally.</h2>
+                        <div class="decorated-text">
+                            <span class="text-decor"></span>
+                            <p>We collect stories from all over the globe to sell to our international clients.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="carousel-alt">
+                            <div class="mask">
+                                <div class="slideset">
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-01.png" srcset="https://fameflynet.azureedge.net/pictures/map-01-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-02.png" srcset="https://fameflynet.azureedge.net/pictures/map-02-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-03.png" srcset="https://fameflynet.azureedge.net/pictures/map-03-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-04.png" srcset="https://fameflynet.azureedge.net/pictures/map-04-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-05.png" srcset="https://fameflynet.azureedge.net/pictures/map-05-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-06.png" srcset="https://fameflynet.azureedge.net/pictures/map-06-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-07.png" srcset="https://fameflynet.azureedge.net/pictures/map-07-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-08.png" srcset="https://fameflynet.azureedge.net/pictures/map-08-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-09.png" srcset="https://fameflynet.azureedge.net/pictures/map-09-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-10.png" srcset="https://fameflynet.azureedge.net/pictures/map-10-2x.png 2x" alt="Map Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://fameflynet.azureedge.net/pictures/map-11.png" srcset="https://fameflynet.azureedge.net/pictures/map-11-2x.png 2x" alt="Map Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel">
+                            <div class="mask">
+                                <div class="slideset">
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">4000+</span>
+                                            <span class="right-element">Contributors</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">150000+</span>
+                                            <span class="right-element">New images daily</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">500+</span>
+                                            <span class="right-element">Sets of image and video stories daily</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">5</span>
+                                            <span class="right-element">offices globally</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">4000+</span>
+                                            <span class="right-element">Contributors</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">150000+</span>
+                                            <span class="right-element">New images daily</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">500+</span>
+                                            <span class="right-element">Sets of image and video stories daily</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">5</span>
+                                            <span class="right-element">offices globally</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="row">
+                                            <span class="left-element">35+</span>
+                                            <span class="right-element">Worldwide partner agents</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="parallax-slide">
+        <div class="container">
+            <ul class="footer-nav">
+                <li><a href="mailto:splash@frontrowpartnership.com">Press  &amp;  Media</a></li>
+                <li><a href="/Home/TextPage">Website Terms</a></li>
+                <li><a href="/Home/Privacy">PRIVACY POLICY</a></li>
+                <li><a href="/Home/Legal">CODE OF CONDUCT</a></li>
+                <li><a href="/Home/ContentProtection">CONTENT PROTECTION</a></li>
+            </ul>
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com/splashnewstv/" class="icon-facebook"></a></li>
+                <li><a href="https://twitter.com/splashnews" class="icon-twitter"></a></li>
+                <li><a href="https://www.instagram.com/splashnews/" class="icon-instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/splash-news/" class="icon-linkedin"></a></li>
+                <!--<li><a href="#" class="icon-pinterest"></a></li>-->
+                <!--<li><a href="#" class="icon-youtube"></a></li>-->
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<nav class="fixed-nav" data-page="About" data-anchor-target="#footer" data-bottom-top="bottom: 0px;" data-bottom="bottom: 46px;">
+    <div class="block-title">
+        <ul class="titles">
+            <li data-anchor-target="#section-1" data-top data-top-bottom>
+                <span>
+                    <a href="/Home/GetAccess#section-3">Get Publishers</a>
+                </span>
+                <span>
+                    <a href="/Home/GetAccess">Access</a>
+                </span>
+            </li>
+            <li data-anchor-target="#section-2" data-top data-top-bottom>
+                <span>
+                    <a href="/Home/Join#section-2">Join Our Team</a>
+                </span>
+            </li>
+            <li data-anchor-target="#section-3" data-top data-top-bottom>
+                <span>
+                    <a href="/Home/Contact">Contact Us</a>
+                </span>
+            </li>
+            <li data-anchor-target="#section-4" data-top data-top-bottom>
+                <span>
+                    <a href="/Home/Contact">Our Contact Info</a>
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-galery-mask">
+        <ul class="page-nav">
+            <li class="active">
+                <a href="/" class="progress-color" data-emit-events data-options='{"0.299": "color: rgb(255,255,255)", "0.3": "color: rgb(0,0,0)"}'>
+                    About Us <span class="progress" data-start="width: 0%;" data-end="width: 105%;"></span>
+                </a>
+            </li>
+            <li><a href="/Home/Join">Join Us <span class="progress"></span></a></li>
+            <li><a href="/Home/GetAccess">Register <span class="progress"></span></a></li>
+            <li><a href="/Home/Contact">Contact Us <span class="progress"></span></a></li>
+            
+        </ul>
+    </div>
+</nav>
+            <div class="popup-holder">
+                <a id="login-popup-opener" href="#popup2" class="lightbox"></a>
+                <a id="invitation-popup-opener" href="#popup9" class="lightbox"></a>
+                <a id="reset-popup-opener" href="#popup4" class="lightbox"></a>
+                <a id="search-popup-opener" href="#popup1" class="lightbox"></a>
+                <div id="popup1" class="lightbox">
+                    <div class="holder">
+                        <div class="image-wrap">
+                            <picture>
+                                
+                                <img src="" alt="" class="result-img" style="max-width: 400px; max-height: 550px;">
+                            </picture>
+                        </div>
+
+                        <div class="text-wrap">
+                            <h2 class="result-search"></h2>
+                            <span class="result"><mark class="result-count"></mark></span>
+                            <div class="result-container">
+                                <p>
+                                    Your search query for <mark class="result-search"></mark> returned <mark class="result-count-sec"></mark> shot in <mark class="result-country"></mark> by <mark class="result-contributor"></mark>
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="popup2" class="lightbox">
+                    <div id="sign-in-wrapper">
+                        <h3>Sign in</h3>
+                        <p>Sign in to your account. If you'd like to sign up for an account please select one of the following: </p>
+                        <form action="" id="signIn" class="sign-form form-validation" ffnet-rvt=4Y0f9Og0XjeDFuuF--oGI1gtntM8ElRoxcDFsBOj4gB9_rzjpkBmwj945ZNOR9-eM2l1sYb0izfGOBws8UT3Q597o_w1>
+                            <fieldset>
+                                <div class="validation-row">
+                                    <label for="email">Email</label>
+                                    <input id="email" type="text" placeholder="Enter your email" data-required="true" data-type="email">
+                                    <label for="password">Password</label>
+                                    <input id="password" type="password" placeholder="Enter your password" data-required="true">
+                                    <input type="submit" value="confirm">
+                                    <span class="not-valid" style="top: 90%; display: inline-block;">Invalid login attempt</span>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <p>
+                            Having trouble singing in? <a href="#popup3" class="lightbox">Click here</a>
+                        </p>
+                    </div>
+                    <div id="force-password-change" style="display: none">
+                        <h3>Update your password</h3>
+                        <p>You need to supply a strong password that will give you access to manage all areas of your SPLASH on-line account</p>
+                        <form action="" id="password-change" class="sign-form form-validation" ffnet-rvt=Lo6znbVga4VHUq7DuRo7bGmFfp_eSRdCSViwHawqPudbtj3aRWtnbZoa_hSWHy8KsrLi_fbJfHVHizDZCUjRAI1oZ8Y1>
+                            <fieldset>
+                                <div class="validation-row">
+                                    <label for="password">Password</label>
+                                    <input type="password" id="forcePassword" name="password" autocomplete="off" data-required="true" required />
+
+
+                                    <label for="forceRpassword">Confirm your Password</label>
+                                    <input type="password" id="forceRpassword" name="password" autocomplete="off" data-required="true" required />
+
+                                    <span class="not-valid" style="top: 90%; display: inline-block;">Invalid data</span>
+                                </div>
+                                <div class="btn-row">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div id="force-two-factor" style="display: none">
+                        <h3>Sign in</h3>
+                        <form action="" id="two-factor" class="sign-form form-validation" ffnet-rvt=fiyFLRWzwtKb_974RUqauLj3_bg2jC5Pn4KKG6nyJ-mfMVYGHTFQ4zmlr9_9Ss26kldnLaDVOVVDJl1XdAZOeqzN7JI1>
+                            <fieldset>
+                                <div class="validation-row">
+                                    <label for="password">Authentication code</label>
+                                    <input type="text" id="authCode" name="authCode" autocomplete="off" data-required="true" required />
+
+                                    <span class="not-valid" style="top: 90%; display: inline-block;">Invalid authentication code</span>
+                                </div>
+                                <div class="btn-row">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div id="popup3" class="lightbox">
+                    <h3>Forgot your sign in?</h3>
+                    <p>
+                        Enter your email address below and we can send you a password reset request. Don't know your email address? <a href="/Home/Contact#bottom" class="lightbox">Contact us</a> and we'll try to get you signed in immediately.
+                    </p>
+                    <form action="" id="forgot" class="sign-form" ffnet-rvt=xW5nYpCQGWnw5XhWfevoPMWOLqDwErWw4vcgb7cRTQlbytc0OUBxjnYSkqbPaxj7m76lyXQOpe4qJxabD0-PFjI4ZPQ1>
+                        <fieldset>
+                            <div class="validation-row">
+                                <label for="emailForgot">Email</label>
+                                <input id="emailForgot" type="text" placeholder="Enter your email" autocomplete="off">
+                                <input type="submit" value="reset password">
+                                <span class="not-valid">Wrong email address</span>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="popup4" class="lightbox">
+                    <h3>Reset my password</h3>
+                    <p>Thanks for confirming you're you. Please choose a new password and reconfirm it and we'll get you signed in. Your chosen password should be 6 characters at least, with one uppercase, one number and a special character.</p>
+                    <form action="" id="reset" class="sign-form" ffnet-rvt=jvFyjxF7xCwHW-du9SimC6x13PdpX2HfHpid-3qWgloqW0B8vP6_awsuDcRcqaK2UlUU9C9GUIm3kbd6y-swDeXXG881>
+                        <fieldset>
+                            <div class="validation-row">
+                                <label for="newPassword">New Password</label>
+                                <input id="newPassword" type="password" placeholder="Enter your password">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input id="confirmPassword" type="password" placeholder="Enter your password">
+                                <input type="submit" value="confirm">
+                                <span class="not-valid">Wrong email address</span>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="popup9" class="lightbox">
+                    <h3>Confirm Invitation</h3>
+                    <p>Thanks for confirming you're you. Please choose a new password and reconfirm it and we'll get you signed in. Your chosen password should be 6 characters at least, with one uppercase, one number and a special character.</p>
+                    <form action="" id="invite" class="sign-form" ffnet-rvt=a_7xYjQEjk2fxPgUKvBENgvMGFvM7-UHoTm8T-11CTpCWpkYnR9hWGhNGe50sZCCEB4ezDV2AP07BMeAVNo2LyNLoFM1>
+                        <fieldset>
+                            <div class="validation-row">
+                                <label for="inviteEmail">Email</label>
+                                <input type="text" id="inviteEmail" name="inviteEmail" required value="" disabled="disabled">
+                                <input type="hidden" id="inviteCode" name="inviteCode" required value="" disabled="disabled">
+                                <label for="invitePassword">New Password</label>
+                                <input id="invitePassword" type="password" placeholder="Enter your password">
+                                <label for="inviteConfirmPassword">Confirm Password</label>
+                                <input id="inviteConfirmPassword" type="password" placeholder="Enter your password">
+                                <label class="l-v-t" for="tc">
+                                    <input type="checkbox" name="tc" id="tc" value="true" ng-model="user.TC">
+                                    By signing up to this portal, you are agreeing to the terms and conditions detailed
+                                    <a href="/Home/TextPage">here</a>.
+                                    Please check this box to confirm you are happy with this
+                                </label>
+                                <input type="submit" value="confirm">
+                                <span class="not-valid">Wrong email address</span>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="back-to-top-w" style="display: none;" data-anchor-target="#section-1" onclick="window.appGlobals.animateToTop()">
+        <img src="/Content/images/arrow-bottom.svg" alt="Image Description">
+    </div>
+</body>
+</html>

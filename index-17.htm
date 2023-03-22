@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="de"><head>
+<base href="https://www.werkself.de/" />
+	<title>Portal - Werkself.de Fanforum Bayer 04 Leverkusen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="description" content="" />
+<meta name="keywords" content="Leverkusen, Bayer 04, Fans, Forum, Bundesliga, SVB" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+<script type="text/javascript" src="wcf/js/3rdParty/protoaculous.1.8.2.min.js"></script>
+<script type="text/javascript" src="wcf/js/default.js"></script>
+<script type="text/javascript" src="wcf/js/PopupMenuList.class.js"></script>
+<script type="text/javascript" src="wcf/js/AjaxRequest.class.js"></script>
+<script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
+
+<!-- wbb styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/style/burningBoard.css" />
+
+	<!-- special styles -->
+	
+<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/index.php?page=PortalCSS&amp;names=portal,lastthreads,news,compactnews,login,boardstats,buddies,newuser" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/index.php?page=PortalCSS&amp;ie&amp;names=portal" />
+<![endif]-->
+<!-- dynamic styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/wcf/style/style-1.css" />
+
+<!-- print styles -->
+<link rel="stylesheet" type="text/css" media="print" href="https://www.werkself.de/wcf/style/extra/print.css" />
+
+<!-- opera styles -->
+<script type="text/javascript">
+	//<![CDATA[
+	if (Prototype.Browser.Opera) {
+		document.write('<style type="text/css">.columnContainer { border: 0; }</style>');
+	}
+	//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+	var SID_ARG_2ND	= '';
+	var SECURITY_TOKEN = 'bc6ca1a0fda2aaa7fcc9a3c376e80d10ccd7ce50';
+	var RELATIVE_WCF_DIR = 'wcf/';
+	var RELATIVE_WBB_DIR = '';
+	var LANG_DELETE_CONFIRM = 'Möchten Sie das Element wirklich löschen?';
+	//]]>
+</script>
+
+<!-- hack styles -->
+<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/wcf/style/extra/ie6-fix.css" />
+	<style type="text/css">
+					</style>
+<![endif]-->
+
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/wcf/style/extra/ie7-fix.css" />
+	<script type="text/javascript">
+		//<![CDATA[
+		document.observe('dom:loaded', function() {
+			if (location.hash) {
+				var columnContainer = null;
+				var columnContainerHeight = 0;
+				$$('.columnContainer > .column').each(function(column) {
+					if (columnContainer != column.up()) {
+						columnContainer = column.up();
+						columnContainerHeight = columnContainer.getHeight();
+					}
+					columnContainer.addClassName('columnContainerJS');
+					column.setStyle({ 'height': columnContainerHeight + 'px' });
+					columnContainer.up().setStyle({ 'height': columnContainerHeight + 1 + 'px' });
+					column.removeClassName('column').addClassName('columnJS');
+				});
+			}
+			$$('.layout-3 .second').each(function(column) {
+				column.insert('<div style="float: right; font-size: 0">&nbsp;</div>');
+			});
+		});
+		//]]>
+	</script>
+	<![endif]-->
+
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.werkself.de/wcf/style/extra/ie8-fix.css" />
+	<![endif]-->
+
+<link rel="shortcut icon" href="https://www.werkself.de/wcf/icon/favicon/faviconGrey.ico" type="image/x-icon" />
+
+<link rel="stylesheet" href="https://consentmanager.mgr.consensu.org/delivery/cmp.min.css" />
+
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async="true">
+(function() {
+    var host = window.location.hostname;
+    var element = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    var url = 'https://quantcast.mgr.consensu.org'
+        .concat('/choice/', '6Fv0cGNfc_bw8', '/', host, '/choice.js')
+    var uspTries = 0;
+    var uspTriesLimit = 3;
+    element.async = true;
+    element.type = 'text/javascript';
+    element.src = url;
+
+    firstScript.parentNode.insertBefore(element, firstScript);
+
+    function makeStub() {
+        var TCF_LOCATOR_NAME = '__tcfapiLocator';
+        var queue = [];
+        var win = window;
+        var cmpFrame;
+
+        function addFrame() {
+            var doc = win.document;
+            var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+            if (!otherCMP) {
+                if (doc.body) {
+                    var iframe = doc.createElement('iframe');
+
+                    iframe.style.cssText = 'display:none';
+                    iframe.name = TCF_LOCATOR_NAME;
+                    doc.body.appendChild(iframe);
+                } else {
+                    setTimeout(addFrame, 5);
+                }
+            }
+            return !otherCMP;
+        }
+
+        function tcfAPIHandler() {
+            var gdprApplies;
+            var args = arguments;
+
+            if (!args.length) {
+                return queue;
+            } else if (args[0] === 'setGdprApplies') {
+                if (
+                    args.length > 3 &&
+                    args[2] === 2 &&
+                    typeof args[3] === 'boolean'
+                ) {
+                    gdprApplies = args[3];
+                    if (typeof args[2] === 'function') {
+                        args[2]('set', true);
+                    }
+                }
+            } else if (args[0] === 'ping') {
+                var retr = {
+                    gdprApplies: gdprApplies,
+                    cmpLoaded: false,
+                    cmpStatus: 'stub'
+                };
+
+                if (typeof args[2] === 'function') {
+                    args[2](retr);
+                }
+            } else {
+                queue.push(args);
+            }
+        }
+
+        function postMessageEventHandler(event) {
+            var msgIsString = typeof event.data === 'string';
+            var json = {};
+
+            try {
+                if (msgIsString) {
+                    json = JSON.parse(event.data);
+                } else {
+                    json = event.data;
+                }
+            } catch (ignore) {}
+
+            var payload = json.__tcfapiCall;
+
+            if (payload) {
+                window.__tcfapi(
+                    payload.command,
+                    payload.version,
+                    function(retValue, success) {
+                        var returnMsg = {
+                            __tcfapiReturn: {
+                                returnValue: retValue,
+                                success: success,
+                                callId: payload.callId
+                            }
+                        };
+                        if (msgIsString) {
+                            returnMsg = JSON.stringify(returnMsg);
+                        }
+                        event.source.postMessage(returnMsg, '*');
+                    },
+                    payload.parameter
+                );
+            }
+        }
+
+        while (win) {
+            try {
+                if (win.frames[TCF_LOCATOR_NAME]) {
+                    cmpFrame = win;
+                    break;
+                }
+            } catch (ignore) {}
+
+            if (win === window.top) {
+                break;
+            }
+            win = win.parent;
+        }
+        if (!cmpFrame) {
+            addFrame();
+            win.__tcfapi = tcfAPIHandler;
+            win.addEventListener('message', postMessageEventHandler, false);
+        }
+    };
+
+    if (typeof module !== 'undefined') {
+        module.exports = makeStub;
+    } else {
+        makeStub();
+    }
+
+    var uspStubFunction = function() {
+        var arg = arguments;
+        if (typeof window.__uspapi !== uspStubFunction) {
+            setTimeout(function() {
+                if (typeof window.__uspapi !== 'undefined') {
+                    window.__uspapi.apply(window.__uspapi, arg);
+                }
+            }, 500);
+        }
+    };
+
+    var checkIfUspIsReady = function() {
+        uspTries++;
+        if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+            console.warn('USP is not accessible');
+        } else {
+            clearInterval(uspInterval);
+        }
+    };
+
+    if (typeof window.__uspapi === 'undefined') {
+        window.__uspapi = uspStubFunction;
+        var uspInterval = setInterval(checkIfUspIsReady, 6000);
+    }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+	<script type="text/javascript" src="wcf/js/ImageViewer.class.js"></script>
+<script type="text/javascript">
+	//<![CDATA[			
+	// when the window is fully loaded, add image viewer
+	Event.observe(window, 'load', function() {
+		new ImageViewer($$('.enlargable'), {
+			langCaption		: 'this.links.length > 1 ? "Bild " + (this.currentIndex + 1) + " von " + this.links.length + (this.currentLink.title ? (" - " + this.currentLink.title) : "") : (this.currentLink.title ? this.currentLink.title : "")',
+			langPrevious		: 'Vorheriges Bild',
+			langNext		: 'Nächstes Bild',
+			langPlay		: 'Diashow starten (Bildwechsel alle 5 Sekunden)',
+			langPause		: 'Diashow stoppen',
+			langEnlarge		: 'Nur dieses Bild anzeigen (beendet die Bildbetrachtung)',
+			langClose		: 'Schließen',
+			imgBlankSrc		: 'wcf/images/imageViewer/blank.png',
+			imgMenuSrc		: 'wcf/images/imageViewer/menu.png',
+			imgPlaySrc		: 'wcf/icon/imageViewer/playM.png',
+			imgPreviousSrc		: 'wcf/icon/imageViewer/previousM.png',
+			imgNextSrc		: 'wcf/icon/imageViewer/nextM.png',
+			imgEnlargeSrc		: 'wcf/icon/imageViewer/enlargeM.png',
+			imgPauseSrc		: 'wcf/icon/imageViewer/pauseM.png',
+			imgCloseSrc		: 'wcf/icon/imageViewer/closeM.png',
+			imgPlayHoverSrc		: 'wcf/icon/imageViewer/playHoverM.png',
+			imgPreviousHoverSrc	: 'wcf/icon/imageViewer/previousHoverM.png',
+			imgNextHoverSrc		: 'wcf/icon/imageViewer/nextHoverM.png',
+			imgEnlargeHoverSrc	: 'wcf/icon/imageViewer/enlargeHoverM.png',
+			imgPauseHoverSrc	: 'wcf/icon/imageViewer/pauseHoverM.png',
+			imgCloseHoverSrc	: 'wcf/icon/imageViewer/closeHoverM.png'	
+		});
+	});
+//]]>
+</script>	<script type="text/javascript">
+		//<![CDATA[
+		var INLINE_IMAGE_MAX_WIDTH = 530;
+		//]]>
+	</script>
+	<meta name="generator" content="WoltLab Community Portal Plugin" />
+</head>
+<body id="tplPortal">
+	
+<div id="leaderboard"><img src="./images/icon_anzeige_gray.gif" alt="Werbung" title="Werbung" style="display:block;margin-bottom:3px" />
+
+<script src="https://anschlusstor.adspirit.de/adscript.php?pid=4204&ord=[timestamp]" type="text/javascript" language="JavaScript"></script>
+<noscript>
+ <a href="https://anschlusstor.adspirit.de/adnoclick.php?pid=4204&ord=[timestamp]" target="_top">
+  <img src="https://anschlusstor.adspirit.de/adnoscript.php?pid=4204&ord=[timestamp]"
+       alt="Hier klicken!" border="0" width="728" height="90" />
+ </a>
+</noscript>
+
+</div>
+
+<div id="header_werbung_320_50">
+<img src="./images/icon_anzeige_gray.gif" alt="" title="" /><br/>
+
+<script src="https://anschlusstor.adspirit.de/adscript.php?pid=7130&ord=[timestamp]" type="text/javascript"></script>
+<noscript>
+<a href="https://anschlusstor.adspirit.de/adnoclick.php?pid=7130&ord=[timestamp]" target="_top">
+  <img src="https://anschlusstor.adspirit.de/adnoscript.php?pid=7130&ord=[timestamp]" alt="Hier klicken!" border="0" width="320" height="50" />
+</a>
+</noscript>
+
+
+</div>
+<div id="skyscraper" style="width:160px;margin-left:-180px;padding:10px 20px 10px 0;position:absolute;right:0;top:100px">
+<img src="./images/icon_anzeige_gray.gif" alt="Werbung" title="Werbung" />
+
+<script src="https://anschlusstor.adspirit.de/adscript.php?pid=4205&ord=[timestamp]" type="text/javascript" language="JavaScript"></script>
+<noscript>
+ <a href="https://anschlusstor.adspirit.de/adnoclick.php?pid=4205&ord=[timestamp]" target="_top">
+  <img src="https://anschlusstor.adspirit.de/adnoscript.php?pid=4205&ord=[timestamp]"
+       alt="Hier klicken!" border="0" width="160" height="600" />
+ </a>
+</noscript>
+
+</div>
+
+<div id="page">
+<div id="headerContainer">
+	<a id="top"></a>
+	<div id="userPanel" class="userPanel">
+		<div class="userPanelInner">
+			<p style="display: none;" id="userAvatar">
+				<img src="wcf/images/avatars/avatar-default.png" alt="" />			</p>
+			<p id="userNote">
+				Sie sind nicht angemeldet.			</p>
+			<div id="userMenu">
+				<ul>
+											<li id="userMenuLogin" class="options"><a href="https://www.werkself.de/index.php?form=UserLogin" id="loginButton"><img src="wcf/icon/loginS.png" alt="" id="loginButtonImage" /> <span>Anmelden</span></a></li>
+
+						<li id="userMenuRegistration"><a href="https://www.werkself.de/index.php?page=Register"><img src="wcf/icon/registerS.png" alt="" /> <span>Registrieren</span></a></li>
+						
+													<li id="userMenuLanguage" class="languagePicker options"><a id="changeLanguage" class="hidden"><img src="wcf/icon/languageDeS.png" alt="" /> <span>Sprache ändern</span></a>
+								<div class="hidden" id="changeLanguageMenu">
+									<ul>
+																					<li class="active"><a rel="nofollow" href="/index.php?page=Portal&amp;l=1"><img src="wcf/icon/languageDeS.png" alt="" /> <span>Deutsch</span></a></li>
+																					<li><a rel="nofollow" href="/index.php?page=Portal&amp;l=2"><img src="wcf/icon/languageEnS.png" alt="" /> <span>Englisch</span></a></li>
+																			</ul>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									onloadEvents.push(function() { document.getElementById('changeLanguage').className=''; });
+									popupMenuList.register('changeLanguage');
+									//]]>
+								</script>
+								<noscript>
+									<form method="get" action="index.php">
+										<div>
+											<label><img src="wcf/icon/languageDeS.png" alt="" />
+												<select name="l" onchange="this.form.submit()">
+													<option label="Deutsch" value="1" selected="selected">Deutsch</option>
+<option label="Englisch" value="2">Englisch</option>
+												</select>
+											</label>
+																						<input type="image" class="inputImage" src="wcf/icon/submitS.png" alt="Absenden" />
+										</div>
+									</form>
+								</noscript>
+							</li>
+															</ul>
+			</div>
+		</div>
+	</div>
+
+			<script type="text/javascript">
+			//<![CDATA[
+			document.observe("dom:loaded", function() {
+				var loginFormVisible = false;
+
+				var loginBox = $('quickLoginBox');
+				var loginButton = $('loginButton');
+
+				if (loginButton && loginBox) {
+					function showLoginForm(evt) {
+						if (loginBox.hasClassName('hidden')) {
+							loginBox.setStyle('display: none');
+							loginBox.removeClassName('hidden');
+						}
+
+						var top = (loginButton.cumulativeOffset()[1] + loginButton.getHeight() + 5);
+						var left = loginButton.cumulativeOffset()[0] > $$('body')[0].getWidth()/2 ? loginButton.cumulativeOffset()[0] - loginBox.getWidth() + loginButton.getWidth() : loginButton.cumulativeOffset()[0];
+						loginBox.setStyle('left: ' + left + 'px; top: ' + top + 'px;');
+						if (loginBox.visible()) {
+							new Effect.Parallel([
+								new Effect.BlindUp(loginBox),
+								new Effect.Fade(loginBox)
+							], { duration: 0.3 });
+							loginFormVisible = false;
+						}
+						else {
+							new Effect.Parallel([
+								new Effect.BlindDown(loginBox),
+								new Effect.Appear(loginBox)
+							], { duration: 0.3 });
+							loginFormVisible = true;
+						}
+						evt.stop();
+					}
+
+					loginButton.observe('click', showLoginForm);
+					loginButton.observe('dblclick', function() { document.location.href = fixURL('index.php?form=UserLogin'); });
+
+					document.getElementById('quickLoginUsername').onfocus = function() { if (this.value == 'Benutzername') this.value=''; };
+					document.getElementById('quickLoginUsername').onblur = function() { if (this.value == '') this.value = 'Benutzername'; };
+					$('loginButtonImage').src = $('loginButtonImage').src.gsub('loginS.png', 'loginOptionsS.png');
+				}
+			});
+			//]]>
+		</script>
+	
+	<div id="header">
+
+		
+
+																			
+		<div id="search">
+			<form method="post" action="index.php?form=Search">
+
+				<div class="searchContainer">
+					<input type="text" tabindex="5" id="searchInput" class="inputText" name="q" value="Suchbegriffe eingeben" />
+					<input type="image" tabindex="6" id="searchSubmit" class="searchSubmit inputImage" src="wcf/icon/submitS.png" alt="Absenden" />
+										<input type="hidden" name="types[]" value="post" />
+					<script type="text/javascript">
+						//<![CDATA[
+						document.getElementById('searchInput').setAttribute('autocomplete', 'off');
+						document.getElementById('searchInput').onfocus = function() { if (this.value == 'Suchbegriffe eingeben') this.value=''; };
+						document.getElementById('searchInput').onblur = function() { if (this.value == '') this.value = 'Suchbegriffe eingeben'; };
+						document.getElementById('searchSubmit').ondblclick = function() { window.location = 'index.php?form=Search'; };
+													popupMenuList.register("searchInput");
+							document.getElementById('searchInput').className += " searchOptions";
+												//]]>
+					</script>
+											<div class="searchInputMenu">
+							<div class="hidden" id="searchInputMenu">
+								<div class="pageMenu smallFont">
+									<ul>
+														<li><a href="https://www.werkself.de/index.php?form=Search&amp;action=unread">Ungelesene Beiträge</a></li>
+				<li><a href="https://www.werkself.de/index.php?form=Search&amp;action=unreplied">Unbeantwortete Themen</a></li>
+				<li><a href="https://www.werkself.de/index.php?form=Search&amp;action=24h">Themen der letzten 24 Stunden</a></li>
+																	<li><a href="https://www.werkself.de/index.php?form=Search">Erweiterte Suche</a></li>									</ul>
+								</div>
+							</div>
+						</div>
+					
+											<noscript>
+							<p><a href="https://www.werkself.de/index.php?form=Search">Erweiterte Suche</a></p>
+						</noscript>
+									</div>
+			</form>
+		</div>
+		<div id="logo">
+			<div class="logoInner">
+																	<h1 class="pageTitle"><a href="https://www.werkself.de/index.php?page=Index">Werkself.de Fanforum Bayer 04 Leverkusen</a></h1>
+									<a href="https://www.werkself.de/index.php?page=Index" class="pageLogo" style="width: 595px">
+						<img src="wcf/images/logo.gif" title="Werkself.de Fanforum Bayer 04 Leverkusen" alt="" />
+					</a>
+				
+                                        <a href="http://www.mediasports.net" style="margin-left:595px; z-index:10">
+						<img src="wcf/images/logoAnschlusstor.gif" title="www.mediasports.net" alt="" /></a>
+						
+						
+					
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="mainMenu" class="mainMenu">
+		<div class="mainMenuInner"><ul><li id="mainMenuItem3" class="first"><a href="https://www.werkself.de/index.php?page=Index" title="Forum"><img src="icon/indexM.png" alt="" /> <span>Forum</span></a></li><li id="mainMenuItem7" class="active"><a href="https://www.werkself.de/index.php?page=Portal" title="Portal"><img src="icon/portalM.png" alt="" /> <span>Portal</span></a></li><li id="mainMenuItem8"><a href="http://www.werkself.de/index.php?page=Thread&amp;threadID=16527" title="Wichtige Infos"><img src="icon/indexM.png" alt="" /> <span>Wichtige Infos</span></a></li><li id="mainMenuItem9"><a href="http://www.werkself.de/werkself.pdf" title="Bedienhinweise für das neue Board als PDF HIER"><img src="icon/indexM.png" alt="" /> <span>Bedienhinweise für das neue Board als PDF HIER</span></a></li><li id="mainMenuItem10" class="last"><a href="http://www.rp-online.de/bergisches-land/leverkusen/bayer-04/" title="Rheinische Post"><span>Rheinische Post</span></a></li></ul>
+		</div>
+	</div>
+
+</div>
+<div id="mainContainer">
+<div id="main">
+			<ul class="breadCrumbs">
+			<li><a href="https://www.werkself.de/index.php"><img src="icon/indexS.png" alt="" /> <span>Werkself.de Fanforum Bayer 04 Leverkusen</span></a> &raquo;</li>
+		</ul>
+	
+			<div class="mainHeadline">
+			<img src="icon/portalL.png" alt="" />
+			<div class="headlineContainer">
+				<h2>Portal</h2>
+				<span></span>			</div>
+		</div>
+	
+			
+	
+	<div class="layout-4">
+		<div class="columnContainer">
+			
+			<div class="second column">
+				<div id="centerboxcontent" class="columnInner">
+																	<div class="border titleBarPanel boxLastThreads" id="box8">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('lastthreads8', { save:true })"><img src="wcf/icon/minusS.png" id="lastthreads8Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Die neusten Beiträge im Forum</h3>
+		</div>
+	</div>
+	<div class="container-1" id="lastthreads8">
+		<div class="containerContent">
+    					<table class="tableList">
+				<thead>
+					<tr class="tableHead">
+						<th colspan="2" class="columnTopic"><div><span class="emptyHead">Thema</span></div></th>
+						<th class="columnReplies"><div><span class="emptyHead">Antworten</span></div></th>
+						<th class="columnViews"><div><span class="emptyHead">Zugriffe</span></div></th>
+						<th class="columnLastPost"><div><span class="emptyHead">Letzte Antwort</span></div></th>
+					</tr>
+				</thead>
+				<tbody>
+																						<tr class="container-1" id="threadRow6373">
+							<td class="columnIcon">
+								<img id="threadEdit6373" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread6373" class="topic new">
+																			<a id="gotoFirstNewPost6373" href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/6373-rudi-v-ller/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle6373">
+										<span id="threadPrefix6373" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/6373-rudi-v-ller/" >Rudi Völler</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/8-vincent-vega/">Vincent Vega</a>
+																		(17. März 2005, 23:56)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/">Spielerthread Bayer 04 Profis, Verantwortliche und verdiente Ehemalige</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">13&nbsp;923</td>
+							<td class="columnViews hot">1&nbsp;336&nbsp;318</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/6373-rudi-v-ller/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/1457-bayermania87/">BayerMania87</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 14:54)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-2" id="threadRow42003">
+							<td class="columnIcon">
+								<img id="threadEdit42003" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread42003" class="topic new">
+																			<a id="gotoFirstNewPost42003" href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42003-paulinho/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle42003">
+										<span id="threadPrefix42003" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42003-paulinho/" >Paulinho</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/135-klausbuchmann/">KlausBuchmann</a>
+																		(27. April 2018, 13:49)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/">Spielerthread Bayer 04 Profis, Verantwortliche und verdiente Ehemalige</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">728</td>
+							<td class="columnViews hot">147&nbsp;403</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42003-paulinho/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/3926-iradex/">iradex</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 14:43)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-1" id="threadRow37461">
+							<td class="columnIcon">
+								<img id="threadEdit37461" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread37461" class="topic new">
+																			<a id="gotoFirstNewPost37461" href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/37461-wendell-nascimento-borges/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle37461">
+										<span id="threadPrefix37461" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/37461-wendell-nascimento-borges/" >Wendell Nascimento Borges</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/568-mucki/">Mucki</a>
+																		(27. Februar 2014, 15:05)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/">Spielerthread Bayer 04 Profis, Verantwortliche und verdiente Ehemalige</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">1&nbsp;786</td>
+							<td class="columnViews hot">299&nbsp;934</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/37461-wendell-nascimento-borges/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/4680-fabi-svb/">Fabi-SVB</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 14:06)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-2" id="threadRow43159">
+							<td class="columnIcon">
+								<img id="threadEdit43159" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread43159" class="topic new">
+																			<a id="gotoFirstNewPost43159" href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43159-bayer-boss-v-ller-warnt-vor-konsequenzen-dann-m-ssten-wir-uns-von-spielern-trennen/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle43159">
+										<span id="threadPrefix43159" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43159-bayer-boss-v-ller-warnt-vor-konsequenzen-dann-m-ssten-wir-uns-von-spielern-trennen/" >Bayer-Boss Völler warnt vor Konsequenzen: Dann müssten wir uns von Spielern trennen</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/5955-osito2409/">osito2409</a>
+																		(<b>Heute</b>, 12:37)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/">Bayer 04 Leverkusen NACHRICHTEN</a>
+								</p>
+							</td>
+							<td class="columnReplies">0</td>
+							<td class="columnViews hot">213</td>
+							<td class="columnLastPost">
+																	<p class="smallFont light">keine Antwort</p>
+															</td>
+						</tr>
+																	<tr class="container-1" id="threadRow8889">
+							<td class="columnIcon">
+								<img id="threadEdit8889" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread8889" class="topic new">
+																			<a id="gotoFirstNewPost8889" href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/8889-die-zukunft-von-bayer04/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle8889">
+										<span id="threadPrefix8889" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/8889-die-zukunft-von-bayer04/" >Die Zukunft von Bayer04</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/135-klausbuchmann/">KlausBuchmann</a>
+																		(6. Oktober 2005, 12:55)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/">Bayer 04 Leverkusen Stammtisch</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">10&nbsp;623</td>
+							<td class="columnViews hot">1&nbsp;192&nbsp;351</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/8889-die-zukunft-von-bayer04/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/1457-bayermania87/">BayerMania87</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 11:35)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-2" id="threadRow43154">
+							<td class="columnIcon">
+								<img id="threadEdit43154" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread43154" class="topic new">
+																			<a id="gotoFirstNewPost43154" href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/43154-26-spieltag-hertha-bsc-bayer-04-leverkusen-sonntag-21-03-2021-15-30-uhr-olympiastadion-berlin/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle43154">
+										<span id="threadPrefix43154" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/43154-26-spieltag-hertha-bsc-bayer-04-leverkusen-sonntag-21-03-2021-15-30-uhr-olympiastadion-berlin/" >26. Spieltag: Hertha BSC - Bayer 04 Leverkusen: (Sonntag, 21.03.2021; 15:30 Uhr, Olympiastadion Berlin)</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/3242-stammtisch-trainer/">Stammtisch Trainer</a>
+																		(14. März 2021, 15:26)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/">Bayer 04 Leverkusen Stammtisch</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">22</td>
+							<td class="columnViews hot">1&nbsp;358</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/43154-26-spieltag-hertha-bsc-bayer-04-leverkusen-sonntag-21-03-2021-15-30-uhr-olympiastadion-berlin/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/11634-derb4yer/">derB4YER</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 11:33)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-1" id="threadRow42312">
+							<td class="columnIcon">
+								<img id="threadEdit42312" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread42312" class="topic new">
+																			<a id="gotoFirstNewPost42312" href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42312-trainer-peter-bosz/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle42312">
+										<span id="threadPrefix42312" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42312-trainer-peter-bosz/" >Trainer Peter Bosz</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/1006-patrick87/">Patrick87</a>
+																		(23. Dezember 2018, 11:07)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/">Spielerthread Bayer 04 Profis, Verantwortliche und verdiente Ehemalige</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">5&nbsp;296</td>
+							<td class="columnViews hot">686&nbsp;457</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42312-trainer-peter-bosz/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/3463-dr7000/">dr7000</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 11:22)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-2" id="threadRow42538">
+							<td class="columnIcon">
+								<img id="threadEdit42538" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread42538" class="topic new">
+																			<a id="gotoFirstNewPost42538" href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42538-nadiem-amiri/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle42538">
+										<span id="threadPrefix42538" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42538-nadiem-amiri/" >Nadiem Amiri</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/8044-bencza/">bencza</a>
+																		(30. Juli 2019, 18:02)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/">Spielerthread Bayer 04 Profis, Verantwortliche und verdiente Ehemalige</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">445</td>
+							<td class="columnViews hot">84&nbsp;397</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42538-nadiem-amiri/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/7523-f1ght3rz/">f1ght3rz</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 10:47)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-1" id="threadRow3829">
+							<td class="columnIcon">
+								<img id="threadEdit3829" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread3829" class="topic new">
+																			<a id="gotoFirstNewPost3829" href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/3829-was-macht-eigentlich-ehemalige-bayerprofis/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle3829">
+										<span id="threadPrefix3829" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/3829-was-macht-eigentlich-ehemalige-bayerprofis/" >was macht eigentlich ... ehemalige Bayerprofis</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/64-hammer-trommler/">Hammer Trommler</a>
+																		(14. September 2004, 22:06)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/">Bayer 04 Leverkusen Stammtisch</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">3&nbsp;185</td>
+							<td class="columnViews hot">448&nbsp;130</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/3829-was-macht-eigentlich-ehemalige-bayerprofis/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/5279-levboy69/">levboy69</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 10:19)</p>
+									</div>
+															</td>
+						</tr>
+																	<tr class="container-2" id="threadRow42446">
+							<td class="columnIcon">
+								<img id="threadEdit42446" src="icon/threadNewM.png" alt="" />
+							</td>
+							<td class="columnTopic">
+								<div class="statusDisplay">
+									<div class="statusDisplayIcons">
+																																																																					</div>
+								</div>
+
+								<div id="thread42446" class="topic new">
+																			<a id="gotoFirstNewPost42446" href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42446-kerem-demirbay/first-new-post.html"><img class="goToNewPost" src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a>
+									
+									<p id="threadTitle42446">
+										<span id="threadPrefix42446" class="prefix"><strong></strong></span> <a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42446-kerem-demirbay/" >Kerem Demirbay</a>
+									</p>
+								</div>
+								<p class="firstPost light">Von
+																			<a href="https://www.werkself.de/user/3378-dertorgarant/">dertorgarant</a>
+																		(9. Mai 2019, 12:36)
+								</p>
+								<p class="firstPost light">Forum: 
+									<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/">Spielerthread Bayer 04 Profis, Verantwortliche und verdiente Ehemalige</a>
+								</p>
+							</td>
+							<td class="columnReplies hot">946</td>
+							<td class="columnViews hot">160&nbsp;726</td>
+							<td class="columnLastPost">
+																	<div class="containerIconSmall">
+										<a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42446-kerem-demirbay/last-post.html"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+									</div>
+									<div class="containerContentSmall">
+										<p>Von <a href="https://www.werkself.de/user/7902-kaka-8/">kaka-8</a></p>
+										<p class="smallFont light">(<b>Heute</b>, 10:15)</p>
+									</div>
+															</td>
+						</tr>
+									</tbody>
+			</table>
+				</div>
+	</div>
+</div>						<script type="text/javascript">
+							//<![CDATA[
+								initList('lastthreads8', 1);
+							//]]>
+						</script>
+																	<script type="text/javascript" src="wcf/js/ImageResizer.class.js"></script>
+<div class="border titleBarPanel boxNews" id="box9">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('news9', { save:true })"><img src="wcf/icon/minusS.png" id="news9Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Nachrichten</h3>
+		</div>
+	</div>
+	<div class="container-1" id="news9">
+		<div class="content containerContent">
+												<div class="container-1">
+						<div class="mainHeadline">
+							<img src="icon/portalNewsL.png" alt="" />
+							<div class="headlineContainer">
+								<h4 class="subHeadline"><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43159-bayer-boss-v-ller-warnt-vor-konsequenzen-dann-m-ssten-wir-uns-von-spielern-trennen/"> Bayer-Boss Völler warnt vor Konsequenzen: Dann müssten wir uns von Spielern trennen</a></h4>
+								<p class="smallFont">geschrieben von <a href="https://www.werkself.de/user/5955-osito2409/">osito2409</a> am Dienstag, 16. März 2021, 12:37</p>
+							</div>
+						</div>
+
+						<div class="messageContent">
+							Das 1:0 in Mönchengladbach sollte die Wende einleiten. Doch das 1:2 gegen Arminia Bielefeld zeigte eindeutig auf: Bayer Leverkusen steckt weiter in der Krise. Und der Weg in die Champions League wird immer weiter. Bayer-Geschäftsführer Rudi Völler warnt vor Konsequenzen.<br />
+<a href="https://www.sportbuzzer.de/artikel/bayer-leverkusen-voller-warnt-konsequenzen-spieler-verkaufen-champions-league/" class="externalURL">https://www.sportbuzzer.de/artikel/bayer&hellip;ampions-league/</a>						</div>
+
+						<div class="buttonBar">
+							<div class="smallButtons">
+								<ul>
+									<li class="extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+									<li><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43159-bayer-boss-v-ller-warnt-vor-konsequenzen-dann-m-ssten-wir-uns-von-spielern-trennen/"><img src="wcf/icon/quoteS.png" alt="" /> <span>Antworten (0)</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+									<div class="container-2">
+						<div class="mainHeadline">
+							<img src="icon/portalNewsL.png" alt="" />
+							<div class="headlineContainer">
+								<h4 class="subHeadline"><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43158-v-ller-bosz-muss-mit-dem-druck-umgehen/"> Völler: „Bosz muss mit dem Druck umgehen!“</a></h4>
+								<p class="smallFont">geschrieben von <a href="https://www.werkself.de/user/135-klausbuchmann/">KlausBuchmann</a> am Montag, 15. März 2021, 19:05</p>
+							</div>
+						</div>
+
+						<div class="messageContent">
+							<a href="https://www.bild.de/sport/fussball/fussball/bayer-leverkusen-voellerzur-krise-bosz-muss-mit-dem-druck-umgehen-75748544.bild.html" class="externalURL">https://www.bild.de/sport/fussball/fussb&hellip;48544.bild.html</a>						</div>
+
+						<div class="buttonBar">
+							<div class="smallButtons">
+								<ul>
+									<li class="extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+									<li><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43158-v-ller-bosz-muss-mit-dem-druck-umgehen/"><img src="wcf/icon/quoteS.png" alt="" /> <span>Antworten (0)</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+									<div class="container-1">
+						<div class="mainHeadline">
+							<img src="icon/portalNewsL.png" alt="" />
+							<div class="headlineContainer">
+								<h4 class="subHeadline"><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43156-waz-bayer-leverkusen-die-luft-f-r-peter-bosz-wird-d-nner/"> WAZ:Bayer Leverkusen: Die Luft für Peter Bosz wird dünner</a></h4>
+								<p class="smallFont">geschrieben von <a href="https://www.werkself.de/user/5279-levboy69/">levboy69</a> am Montag, 15. März 2021, 11:35</p>
+							</div>
+						</div>
+
+						<div class="messageContent">
+							<a href="https://www.waz.de/sport/fussball/bayer-leverkusen-die-luft-fuer-peter-bosz-wird-duenner-id231798833.html" class="externalURL">klick</a>						</div>
+
+						<div class="buttonBar">
+							<div class="smallButtons">
+								<ul>
+									<li class="extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+									<li><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43156-waz-bayer-leverkusen-die-luft-f-r-peter-bosz-wird-d-nner/"><img src="wcf/icon/quoteS.png" alt="" /> <span>Antworten (0)</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+									<div class="container-2">
+						<div class="mainHeadline">
+							<img src="icon/portalNewsL.png" alt="" />
+							<div class="headlineContainer">
+								<h4 class="subHeadline"><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43155-bosz-schmiert-wieder-ab/"> Bosz schmiert wieder ab</a></h4>
+								<p class="smallFont">geschrieben von <a href="https://www.werkself.de/user/11773-axl/">Axl</a> am Sonntag, 14. März 2021, 18:53</p>
+							</div>
+						</div>
+
+						<div class="messageContent">
+							Nach dem Sieg gegen Gladbach verliert Leverkusen bei Abstiegskandidat Bielefeld - er herber Rückschlag für Trainer Peter Bosz<br />
+<br />
+<a href="https://www.bild.de/sport/fussball/fussball/bundesliga-leverkusen-verliert-gegen-bielefeld-bosz-schmiert-wieder-ab-75732072.bild.html" class="externalURL"><br />
+<span style="font-family: Gotham XNarrow, Avenir Next Condensed, sans-serif-condensed, Arial Narrow, Arial Nova, sans-serif"><span><strong>https://m.bild.de/sport/fussball/fussball/bundesliga-leverkusen-verliert-gegen-bielefeld-bosz-schmiert-wieder-ab-75732072.bildMobile.html</strong></span></span></a>						</div>
+
+						<div class="buttonBar">
+							<div class="smallButtons">
+								<ul>
+									<li class="extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+									<li><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43155-bosz-schmiert-wieder-ab/"><img src="wcf/icon/quoteS.png" alt="" /> <span>Antworten (0)</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+									<div class="container-1">
+						<div class="mainHeadline">
+							<img src="icon/portalNewsL.png" alt="" />
+							<div class="headlineContainer">
+								<h4 class="subHeadline"><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43151-bosz-ber-technologien-im-fu-ball-das-auge-des-trainers-ist-das-wichtigste/"> Bosz über Technologien im Fußball: &quot;Das Auge des Trainers ist das wichtigste&quot;</a></h4>
+								<p class="smallFont">geschrieben von <a href="https://www.werkself.de/user/135-klausbuchmann/">KlausBuchmann</a> am Samstag, 13. März 2021, 12:55</p>
+							</div>
+						</div>
+
+						<div class="messageContent">
+							Leverkusens Coach sieht seine Mannschaft vor Bielefeld gewappnet<br />
+<br />
+<a href="https://www.kicker.de/bosz-ueber-technologien-im-fussball-das-auge-des-trainers-ist-das-wichtigste-799603/artikel" class="externalURL">https://www.kicker.de/bosz-ueber-technol&hellip;-799603/artikel</a>						</div>
+
+						<div class="buttonBar">
+							<div class="smallButtons">
+								<ul>
+									<li class="extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+									<li><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43151-bosz-ber-technologien-im-fu-ball-das-auge-des-trainers-ist-das-wichtigste/"><img src="wcf/icon/quoteS.png" alt="" /> <span>Antworten (0)</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+									</div>
+	</div>
+</div>						<script type="text/javascript">
+							//<![CDATA[
+								initList('news9', 1);
+							//]]>
+						</script>
+																	<div class="border titleBarPanel boxCompactNews" id="box10">
+	<div class="containerHead">
+   		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('compactNews10', { save:true })"><img src="wcf/icon/minusS.png" id="compactNews10Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Neuigkeiten im Überblick</h3>
+		</div>
+	</div>
+	<div class="container-1 newsContainer" id="compactNews10">
+		<div class="containerContent">
+			<div id="compactNewsBox">
+				<h4 class="subHeadline"><img src="icon/lastNewsM.png" alt="" /> Letzte News</h4>
+				<div class="containerContent">
+											<ul class="dataList">
+															<li>
+									<div class="containerIcon">
+										<img src="icon/portalNewsM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43159-bayer-boss-v-ller-warnt-vor-konsequenzen-dann-m-ssten-wir-uns-von-spielern-trennen/">Bayer-Boss Völler warnt vor Konsequenzen: Dann müssten wir uns von Spielern trennen</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/5955-osito2409/">osito2409</a>
+																						<span class="light">(<b>Heute</b>, 12:37)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/portalNewsM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43158-v-ller-bosz-muss-mit-dem-druck-umgehen/">Völler: „Bosz muss mit dem Druck umgehen!“</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/135-klausbuchmann/">KlausBuchmann</a>
+																						<span class="light">(Gestern, 19:05)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/portalNewsM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43156-waz-bayer-leverkusen-die-luft-f-r-peter-bosz-wird-d-nner/">WAZ:Bayer Leverkusen: Die Luft für Peter Bosz wird dünner</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/5279-levboy69/">levboy69</a>
+																						<span class="light">(Gestern, 11:35)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/portalNewsM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43155-bosz-schmiert-wieder-ab/">Bosz schmiert wieder ab</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/11773-axl/">Axl</a>
+																						<span class="light">(14. März 2021, 18:53)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/portalNewsM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43151-bosz-ber-technologien-im-fu-ball-das-auge-des-trainers-ist-das-wichtigste/">Bosz über Technologien im Fußball: &quot;Das Auge des Trainers ist das wichtigste&quot;</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/135-klausbuchmann/">KlausBuchmann</a>
+																						<span class="light">(13. März 2021, 12:55)</span></p>
+									</div>
+								</li>
+													</ul>
+									</div>
+			</div>
+
+			<div id="compactThreadsBox">
+				<h4 class="subHeadline"><img src="icon/similarThreadsM.png" alt="" /> Letzte Themen</h4>
+				<div class="containerContent">
+											<ul class="dataList">
+															<li>
+									<div class="containerIcon">
+										<img src="icon/threadNewM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/6373-rudi-v-ller/last-post.html">Rudi Völler</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/1457-bayermania87/">BayerMania87</a>
+																						<span class="light">(<b>Heute</b>, 14:54)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/threadNewM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/42003-paulinho/last-post.html">Paulinho</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/3926-iradex/">iradex</a>
+																						<span class="light">(<b>Heute</b>, 14:43)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/threadNewM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board23-spielerthread-bayer-04-profis-verantwortliche-und-verdiente-ehemalige/37461-wendell-nascimento-borges/last-post.html">Wendell Nascimento Borges</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/4680-fabi-svb/">Fabi-SVB</a>
+																						<span class="light">(<b>Heute</b>, 14:06)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/threadNewM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board7-bayer-04-leverkusen-nachrichten/43159-bayer-boss-v-ller-warnt-vor-konsequenzen-dann-m-ssten-wir-uns-von-spielern-trennen/last-post.html">Bayer-Boss Völler warnt vor Konsequenzen: Dann müssten wir uns von Spielern trennen</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/5955-osito2409/">osito2409</a>
+																						<span class="light">(<b>Heute</b>, 12:37)</span></p>
+									</div>
+								</li>
+															<li>
+									<div class="containerIcon">
+										<img src="icon/threadNewM.png" alt="" />
+									</div>
+									<div class="containerContent">
+										<p><a href="https://www.werkself.de/board3-bayer-04-leverkusen/board4-bayer-04-leverkusen-stammtisch/8889-die-zukunft-von-bayer04/last-post.html">Die Zukunft von Bayer04</a></p>
+										<p class="smallFont">Von
+																							<a href="https://www.werkself.de/user/1457-bayermania87/">BayerMania87</a>
+																						<span class="light">(<b>Heute</b>, 11:35)</span></p>
+									</div>
+								</li>
+													</ul>
+									</div>
+			</div>
+		</div>
+	</div>
+</div>						<script type="text/javascript">
+							//<![CDATA[
+								initList('compactNews10', 1);
+							//]]>
+						</script>
+									</div>
+			</div>
+
+							<div class="third column sidebar">
+					<div id="rightboxcontent" class="columnInner">
+																				<div class="border titleBarPanel boxLogin" id="box7">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('login7', { save:true })"><img src="wcf/icon/minusS.png" id="login7Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Kontrollzentrum</h3>
+		</div>
+	</div>
+	<div class="container-1" id="login7">
+		<div class="containerContent">
+			<ul class="smallFont">
+									<li><a href="https://www.werkself.de/index.php?form=UserLogin" id="portalLoginButton"><img src="wcf/icon/loginS.png" alt="" id="portalLoginButtonImage" /> <span>Anmelden</span></a></li>
+
+											<li><a href="https://www.werkself.de/index.php?page=Register"><img src="wcf/icon/registerS.png" alt="" /> <span>Registrieren</span></a></li>
+												</ul>
+		</div>
+	</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('login7', 1);
+								//]]>
+							</script>
+																				<div class="border titleBarPanel" id="box17">
+	<div class="containerHead">
+		<div class="containerIcon">
+							<img src="wcf/icon/userBanDisabledS.png" alt="" />
+					</div>
+		<div class="containerContent">
+			<h3>Sportwetten24</h3>
+		</div>
+	</div>
+	<div class="container-1" id="customBox517">
+		<div class="containerContent">
+			<a href="https://www.sportwetten24.com" title="Sportwetten24 das Portal für Online Wetten"><img src="/images/sportwetten24_300x100.gif" alt="Sportwetten24 das Portal für Online Wetten" title="Sportwetten24 das Portal für Online Wetten" /></a>		</div>
+	</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('customBox517', 1);
+								//]]>
+							</script>
+																				<div class="border titleBarPanel boxUserOnline" id="box1">
+	<div class="containerHead">
+		<div class="containerIcon">
+    			<a href="javascript: void(0)" onclick="openList('useronline1', { save:true })"><img src="wcf/icon/minusS.png" id="useronline1Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3><a href="https://www.werkself.de/index.php?page=UsersOnline">Aktive Benutzer</a></h3>
+		</div>
+	</div>
+	<div class="container-1" id="useronline1">
+		<div class="containerContent">
+							<p class="smallFont">
+					<a href="https://www.werkself.de/user/1457-bayermania87/">BayerMania87</a>, <a href="https://www.werkself.de/user/3926-iradex/">iradex</a>, <a href="https://www.werkself.de/user/9448-naakah/">naakah</a>, <a href="https://www.werkself.de/user/4838-peterrockt/">peterrockt</a>, <a href="https://www.werkself.de/user/8980-sarpei04/">Sarpei04</a>, <a href="https://www.werkself.de/user/12847-svb-patrick/">SVB_Patrick</a>				</p>
+					</div>
+	</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('useronline1', 1);
+								//]]>
+							</script>
+																				<div class="border titleBarPanel boxBirthdayList" id="box6">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('birthday6', { save:true })"><img src="wcf/icon/minusS.png" id="birthday6Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Geburtstage</h3>
+		</div>
+	</div>
+	<div class="container-1" id="birthday6">
+		<div class="containerContent">
+																<p class="container-2 smallFont">
+						<img src="icon/birthdayS.png" alt="" /> <a href="https://www.werkself.de/user/1178-the-wall/">The Wall</a> (34)					</p>
+									<p class="container-1 smallFont">
+						<img src="icon/birthdayS.png" alt="" /> <a href="https://www.werkself.de/user/1687-markon/">Markon</a> (47)					</p>
+									<p class="container-2 smallFont">
+						<img src="icon/birthdayS.png" alt="" /> <a href="https://www.werkself.de/user/2288-hcflamengo/">hcFlamengo</a> (50)					</p>
+									<p class="container-1 smallFont">
+						<img src="icon/birthdayS.png" alt="" /> <a href="https://www.werkself.de/user/2617-bayer04-fan-17/">Bayer04_Fan_17</a> (33)					</p>
+									<p class="container-2 smallFont">
+						<img src="icon/birthdayS.png" alt="" /> <a href="https://www.werkself.de/user/3678-durchjedreht/">durchjedreht</a> (49)					</p>
+									</div>
+	</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('birthday6', 1);
+								//]]>
+							</script>
+																				<div class="border titleBarPanel boxBoardStats" id="box4">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('boardstats4', { save:true })"><img src="wcf/icon/minusS.png" id="boardstats4Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Statistik</h3>
+		</div>
+	</div>
+	<div class="container-1" id="boardstats4">
+		<div class="containerContent">
+			<ul>
+				<li class="firstItem"><img src="wcf/icon/membersS.png" alt="" /> <span class="smallFont">Mitglieder: 8407</span></li>
+				<li><img src="icon/boardS.png" alt="" /> <span class="smallFont">Themen: 30697</span></li>
+				<li><img src="icon/postS.png" alt="" /> <span class="smallFont">Beiträge: 1802393 (&oslash; 285,82/Tag)</span></li>
+				<li class="lastItem">
+					<p class="border extraButton smallFont container-2">Wir begrüßen unser neuestes Mitglied: <a href="https://www.werkself.de/user/13058-rosettanar/">RosettaNar</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('boardstats4', 1);
+								//]]>
+							</script>
+																				<div class="border titleBarPanel boxBuddies" id="box5">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('buddies5', { save:true })"><img src="wcf/icon/minusS.png" id="buddies5Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Freundschaften</h3>
+		</div>
+	</div>
+	<div class="container-1 buddiesContainer" id="buddies5">
+			</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('buddies5', 1);
+								//]]>
+							</script>
+																				<div class="border titleBarPanel boxNewUser" id="box11">
+	<div class="containerHead">
+		<div class="containerIcon">
+			<a href="javascript: void(0)" onclick="openList('newuser11', { save: true })"><img src="wcf/icon/minusS.png" id="newuser11Image" alt="" /></a>
+		</div>
+		<div class="containerContent">
+			<h3>Neue Benutzer</h3>
+		</div>
+	</div>
+	<div class="container-1" id="newuser11">
+										<div class="containerContent">
+											<p class="container-1 smallFont">
+							<span class="newUser"><img src="wcf/icon/registerS.png" alt=""/> <a href="https://www.werkself.de/user/13058-rosettanar/">RosettaNar</a></span><span class="light">(14. März 2021, 18:34)</span>
+						</p>
+											<p class="container-2 smallFont">
+							<span class="newUser"><img src="wcf/icon/registerS.png" alt=""/> <a href="https://www.werkself.de/user/13057-ermaschaw9/">ErmaSchaw9</a></span><span class="light">(12. März 2021, 20:53)</span>
+						</p>
+											<p class="container-1 smallFont">
+							<span class="newUser"><img src="wcf/icon/registerS.png" alt=""/> <a href="https://www.werkself.de/user/13056-dimitarschneider/">DimitarSchneider</a></span><span class="light">(10. März 2021, 11:37)</span>
+						</p>
+											<p class="container-2 smallFont">
+							<span class="newUser"><img src="wcf/icon/registerS.png" alt=""/> <a href="https://www.werkself.de/user/13055-bananenflanke28/">bananenflanke28</a></span><span class="light">(8. März 2021, 18:04)</span>
+						</p>
+											<p class="container-1 smallFont">
+							<span class="newUser"><img src="wcf/icon/registerS.png" alt=""/> <a href="https://www.werkself.de/user/13054-harriethun/">HarrietHun</a></span><span class="light">(4. März 2021, 12:56)</span>
+						</p>
+									</div>
+			</div>
+</div>							<script type="text/javascript">
+								//<![CDATA[
+									initList('newuser11', 1);
+								//]]>
+							</script>
+											</div>
+				</div>
+					</div>
+	</div>
+
+	
+	</div>
+</div>
+<div id="footerContainer">
+	<div id="footer">
+			<div id="footerMenu" class="footerMenu">
+		<div class="footerMenuInner"><ul><li id="mainMenuItem1" class="first"><a href="https://www.werkself.de/index.php?page=Help" title="Hilfe"><img src="wcf/icon/helpS.png" alt="" /> <span>Hilfe</span></a></li><li id="mainMenuItem4"><a href="https://www.werkself.de/index.php?page=LegalNotice" title="Impressum"><img src="wcf/icon/legalNoticeS.png" alt="" /> <span>Impressum</span></a></li><li id="mainMenuItem5"><a href="https://www.werkself.de/index.php?page=Rules" title="Nutzungsbestimmungen"><img src="wcf/icon/termsOfUseS.png" alt="" /> <span>Nutzungsbestimmungen</span></a></li><li id="mainMenuItem11" class="last"><a href="/datenschutz.html" title="Datenschutzbestimmungen"><img src="wcf/icon/legalNoticeS.png" alt="" /> <span>Datenschutzbestimmungen</span></a></li></ul>
+		</div>
+	</div>
+		<div id="footerOptions" class="footerOptions">
+			<div class="footerOptionsInner">
+				<ul>
+										
+																<li id="date" class="date last" title="Dienstag, 16. März 2021, 14:55 UTC+1"><em><img src="wcf/icon/dateS.png" alt="" /> <span>Dienstag, 16. März 2021, 14:55</span></em></li>
+										<li id="toTopLink" class="last extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<p class="copyright"><a href="http://www.woltlab.com/de/">Forensoftware: <strong>Burning Board&reg;</strong>, entwickelt von <strong>WoltLab&reg; GmbH</strong></a><br />
+Hosted by <a href="http://www.mellies-webdesign.de"><strong>Mellies-Webdesign.de</strong></a></p>
+	</div>
+</div>
+</div>
+
+
+
+
+
+	<div class="border loginPopup hidden" id="quickLoginBox">
+		<form method="post" action="index.php?form=UserLogin" class="container-1">
+			<div>
+				<input tabindex="1" type="text" class="inputText" id="quickLoginUsername" name="loginUsername" value="Benutzername" title="Benutzername" />
+				<input tabindex="2" type="password" class="inputText" id="quickLoginPassword" name="loginPassword" value="" title="Kennwort" />
+				<input type="hidden" name="url" value="/index.php?page=Portal" />								<input tabindex="4" type="image" class="inputImage" src="wcf/icon/submitS.png" alt="Absenden" />
+			</div>
+			<p><label><input tabindex="3" type="checkbox" id="useCookies" name="useCookies" value="1" /> Dauerhaft angemeldet bleiben?</label></p>
+		</form>
+	</div>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3393119-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3393119-1',{'anonymize_ip': true} );
+</script>
+
+
+
+
+<!-- SZM VERSION="2.0" -->
+<script type="text/javascript">
+var iam_data = {
+"st":"mediaspo",
+"cp":"werkself_online_fuss_Deu_text_user_0_online_0_free_82Sport", // code
+"sv":"in",
+"co":""
+}
+iom.c(iam_data,1);
+</script>
+<!--/SZM -->
+
+<script type="text/javascript" class="teads" async="true" src="//a.teads.tv/page/77358/tag"></script>
+<script type="text/javascript" src="//js.adscale.de/map.js"></script></body>
+</html>

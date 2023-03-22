@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<!--
+### Powered by the PhotoShelter Beam platform
+### http://photoshelter.com/beam
+### (c) 2013 PhotoShelter, Inc.
+-->
+<!--[if IE 9]> <html dir="ltr" lang="en-US" class="no-js lt-ie10 can-click"> <![endif]-->
+<!--[if !IE]> --> <html dir="ltr" lang="en-US" class="no-js can-click"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<link rel="dns-prefetch" href="//css.c.photoshelter.com/">
+<link rel="dns-prefetch" href="//js.c.photoshelter.com/">
+<link rel="dns-prefetch" href="//cdn.c.photoshelter.com/">
+<title>Setford news photo agency</title>
+<meta name="description" content="" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Setford news photo agency" />
+<meta property="og:type" content="website" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<style>
+
+.loading-c2, .loading-bar {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.loading-c2 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+.loading-c2&:before {
+	content: '';
+	margin: 0 0 0 -4px;
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.bar-holder {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1100px;
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
+	height: 2px;
+}
+.loading-bar {
+	will-change: true;
+	width: 100%;
+	height: 100%;
+	background: rgba(64, 64, 64, 0.4);
+	-webkit-animation: loading 4s linear infinite;
+	-moz-animation: loading 4s linear infinite;
+	-o-animation: loading 4s linear infinite;
+	animation: loading 4s linear infinite;
+}
+@-webkit-keyframes loading {
+	0%   { transform: translate3d(-100%,0,0); }
+	100% { transform: translate3d(100%,0,0); }
+}
+@-moz-keyframes loading {
+	0%   { transform: translate3d(-100%,0,0); }
+	100% { transform: translate3d(100%,0,0); }
+}
+@-o-keyframes loading {
+	0%   { transform: translate3d(-100%,0,0); }
+	100% { transform: translate3d(100%,0,0); }
+}
+@keyframes loading {
+	0%   { transform: translate3d(-100%,0,0); }
+	100% { transform: translate3d(100%,0,0); }
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="https://m.psecn.photoshelter.com/css/cssCfg/scss=%252fasset%252fc2%252fapp%252fcss%252fbase.scss/label=snpa/theme=Theme3/ts=1615652366/rev=1615820506">
+<link rel="stylesheet" type="text/css" href="https://m.psecn.photoshelter.com/css/cssCfg/scss=asset%252fc2%252ftheme%252fTheme3%252fcss%252fstyles.scss/label=snpa/theme=Theme3/ts=1615652366/rev=1615820506">
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+
+(function(a,b){
+	var m, rl = "/gallery-list";
+	if (parseInt(a.appVersion.split('MSIE')[1]) < 9 ) {
+		//special case forward to user content page
+		m = /#!\/(p|contact|about)($|\/.+)/g.exec(b.href);
+		if (m) rl = m[0].slice('#!'.length);
+		b.replace(rl);
+	}
+})(navigator,location);
+
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+if (typeof window.jQuery !== 'function') {
+	var src = 'js/jquery/jquery-1.8.2.min.js';
+	document.write('<script src="' + src + '">\x3C/script>');
+}
+
+</script>
+
+<script type="text/javascript" src="https://m.psecn.photoshelter.com/js/APP/1615820506/modernizr/modernizr-custom-2.8.3.js,polyfils/raf.js,polyfils/custom-event.js"></script>
+
+
+<script type="text/javascript" src="https://m.psecn.photoshelter.com/js/APP/1615820506/2.0/lib/O_O.js,lib/O_O.lib.Util.js,app/O_O.app.Visualizer.js"></script>
+
+
+	<script id='Content_main' type='text/template'>
+<div class='wContent'>
+	<%= content.content %>
+</div>
+</script>
+
+<script id='Content_editor' type='text/template'>
+	<p class="note">
+	Edit your text directly on the page.
+	<!-- Click the edit button below to toggle between editing and previewing.<br>-->
+	<br>
+	Don't forget to hit "Save" when you're done!
+	</p>
+	
+	<!-- <button class="togglePreview">Preview</button> -->
+	<div class="body">
+		<form class="customForm">
+			<div class="row typeText" data-group="default">
+				<label>Page Title</label>
+				<input type="text" name="page_title" value="<%- unescape(ptitle) %>" placeholder="">
+			</div>
+			<div class="row typeTextarea" data-group="default">
+				<label>Meta Description</label>
+				<textarea name="meta_description"><%= cmeta %></textarea>
+			</div>
+		</form>
+	</div>
+</script>
+
+	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script id='ContactForm_editor' type='text/template'>
+<div>Send Button Text: <input name="sendText" type="text" value="<%= sendText %>" /></div>
+<div>Use Captcha: <select name="f_captcha"><option value="1">Yes</option><option value="0">No</option></select></div>
+</script>
+
+<script id='ContactForm_main' type='text/template'>
+<form>
+<div class="singles">
+	<div class="name">
+		<label>Name</label>
+		<input type="text" rel="Full Name" <% if (f_placeholder) { %> placeholder="Name" <% } %> value="" name="name" required>
+		<span class="status"> 
+			<span class="valid"><span class="indicator"></span></span>
+			<span class="invalid"><span class="indicator"></span>Please enter your name.</span>
+			<span class="indicator"></span>
+		</span>
+	</div>
+	<div class="email">
+		<label>Email</label>
+		<input type="email" rel="Email Address" <% if (f_placeholder) { %> placeholder="Email" <% } %>  value="" name="email" required>
+		<span class="status"> 
+			<span class="valid"><span class="indicator"></span></span>
+			<span class="invalid"><span class="indicator"></span>Please enter a valid email address.</span>
+			<span class="indicator"></span>
+		</span>
+	</div>
+	<div class="phone">
+		<label>Phone</label>
+		<input type="phone" rel="Phone Number" <% if (f_placeholder) { %> placeholder="Phone" <% } %>  value="" name="phone">
+		<!--span class="status"> 
+			<span class="valid"><span class="indicator"></span></span>
+			<span class="invalid"><span class="indicator"></span>Please enter a valid phone number.</span>
+			<span class="indicator"></span>
+		</span-->
+	</div>
+</div>
+	<div class="note">
+		<label>Note</label>
+		<textarea name="msg" <% if (f_placeholder) { %> placeholder="Note" <% } %> required></textarea>
+		<span class="status"> 
+			<span class="valid"><span class="indicator"></span></span>
+			<span class="invalid"><span class="indicator"></span>Don&apos;t forget your message!</span>
+			<span class="indicator"></span>
+		</span>
+	</div>
+
+	<% if (recaptcha_key) { %>
+		<div id="recaptcha-container" class="g-recaptcha" data-sitekey="<%= recaptcha_key %>"></div>
+	<% } %>
+
+	<div class="submit">
+		<label></label><button data-act="send" class="send"><%= sendText.substr(0,20) %></button>
+	</div>
+
+	<div>
+		<label></label><span class="sending">sending...</span>
+	</div>
+</form>
+<div class="sent">
+	Message sent!  Thanks for your interest.
+</div>
+</script>
+
+	<script id='GalleryNav_main' type='text/template'>
+	<ul class="<%= (typeof cfg.f_galleriesSize !== 'undefined') ? cfg.f_galleriesSize : '' %><%= (typeof cfg.rowCount !== 'undefined' && objA.length > cfg.rowCount) ? ' rows' : ' row' %>"></ul>
+</script>
+
+<script id='GalleryNav_item' type='text/template'>
+	<li>
+		<a href="<%= url %>" data-id="<%= id %>" title="<%- name %>">
+			<% if (key_src) { %>
+				<% if (imageType === 'bkg') { %>
+					<div class="img" style="background-image:url(<%= key_src %>);"></div>
+				<% } else { %>
+					<img src="<%= key_src %>" />
+				<% } %>
+			<% } else { %>
+			<%- name %>
+			<% } %>
+		</a>
+
+		<% if (id.charAt(0) === 'C') { %>
+			<button class="clc-close">Collapse Menu</button>
+			<ul class="clc"></ul>
+		<% } %>
+	</li>
+</script>
+
+	<script id='ImageBackground_editor' type='text/template'>
+<p>Background Image ID: <input name="image_id" type="text" value="<%= image_id %>" /></p>
+<p>Background Image URL: <input name="url" type="text" value="<%= url %>" /></p>
+</script>
+
+	<script id='ThumbStrip_main' type='text/template'>
+</script>
+
+<script id='ThumbStrip_images' type='text/template'>
+<div class="content
+            scrollable-h
+            <% if (typeof config.display !== 'undefined') { %><%= config.display %><% } %>
+            <% if (typeof hzCfg !== 'undefined' && hzCfg !== null) { %><%= hzCfg.spacing %>-padding<% } %>">
+<% if (typeof hzCfg !== 'undefined' && hzCfg !== null) { %>
+    <%= tpl('gal_info', {gallery: gallery, config: hzCfg}) %>
+<% } %>
+<% if (config.rows !== 1) { %><div class="holder"><% } %>
+<% for (var i = 0, l = images.length; i < l; i++) { %>
+<% if (config.display === 'large') { %>
+    <section data-index="<%= images[i].id %>" class="img">
+<% } else { %>
+    <button data-index="<%= images[i].id %>" class="img">
+<% } %>
+<% var width = Math.round(images[i].screen_width_max / images[i].screen_height_max * height); %>
+        <div class="scaler<% if (typeof hzCfg !== 'undefined' && hzCfg !== null && width < 200) { %> narrow<% } %>" style="height: <%= height %>px; width: <%= width %>px;" data-index="<%= images[i].id %>">
+            <% if (config.display === 'large' && typeof hzCfg !== 'undefined' && hzCfg !== null && hzCfg.f_i_info !== 'n') { %>
+                <%= tpl('img_info', {img: images[i], config: hzCfg}) %>
+            <% } %>
+        </div>
+<% if (config.display === 'large') { %>
+    </section>
+<% } else { %>
+    </button>
+<% } %>
+<% } %>
+<% if (config.rows !== 1) { %></div><% } %>
+</div>
+</script>
+
+<script id="ThumbStrip_img" type="text/template">
+<img src="<%= img.src %>" data-src="<%= img.src %>"/>
+</script>
+
+<script id="ThumbStrip_img_info" type="text/template">
+<div class="buttons<% if (config.f_i_info === 't') { %> open force<% } %>">
+    <% if ((config.f_i_title === 't' && (img.name || img.headline || img.title || img.file_name)) ||
+            (config.f_i_caption === 't' && (img.description || img.caption))) { %>
+    <div class="info">
+        <div class="content">
+        <% if (config.f_i_title === 't' && (img.name || img.headline || img.title || img.file_name)) { %><strong><%- img.name || img.headline || img.title || img.file_name %></strong><% } %><% if (config.f_i_caption === 't' && (img.description || img.caption)) { %> <p><%- img.description || img.caption %></p><% } %>
+        </div>
+    </div>
+    <% } %>
+    <% var buttons = 0;
+    buttons += (config.f_i_archive === 't') ? 1 : 0;
+    buttons += (config.f_i_social === 't') ? 1 : 0;
+    buttons += (config.f_i_buy === 't') ? 1 : 0;
+    buttons += ((config.f_i_title === 't' && (img.name || img.headline || img.title || img.file_name)) ||
+        (config.f_i_caption === 't' && (img.description || img.caption))) ? 2 : 0; %>
+    <% if (buttons > 1 && (config.f_i_archive === 't' || config.f_i_social === 't' || config.f_i_buy === 't' ||
+        (config.f_i_title === 't' && (img.name || img.headline || img.title || img.file_name)) ||
+            (config.f_i_caption === 't' && (img.description || img.caption)))) { %>
+    <div class="more" data-act="more"></div>
+    <% } %>
+    <% if (config.f_i_archive === 't') { %>
+    <div class="archive<% if (buttons === 1) { %> single<% } %>" data-act="archive"></div>
+    <% } %>
+    <% if (config.f_i_social === 't') { %>
+    <div class="social<% if (buttons === 1) { %> single<% } %>" data-act="social"></div>
+    <% } %>
+    <% if (config.f_i_buy === 't' && img.pricing && img.pricing.length) { %>
+    <div class="buy<% if (buttons === 1) { %> single<% } %>" data-act="buy"></div>
+    <% } %>
+</div>
+</script>
+
+<script id="ThumbStrip_gal_info" type="text/template">
+<div class="gallery-info<% if (config.f_g_info === 't') { %> on<% } %>">
+<div class="scroll">
+<div class="content">
+    <h1><%- gallery.name %></h1>
+    <p><%= gallery.description %></p>
+</div>
+</div>
+</div>
+</script>
+
+	<script id='ImageSearch_main' type='text/template'>
+	<div class='form'>
+		<span class="icon"></span>
+		<div class="search-field"><input type='text' class='input' placeholder='<%= placeholder %>'/></div>
+		<button class="clear">x</button>
+		<div class='spinner'>
+			<div class="loading-c2"><div class="loading-bar"></div></div>
+		</div>
+	</div>
+	<div class='results hidden'></div>
+</script>
+
+<script id='ImageSearch_allResults' type='text/template'>
+	<h3>Showing <% if (current < total) { %>first <% } %><%= current %> of <%= total %> results:</h3>
+	<div class="results-list"></div>
+	<a class="search-all" href='<%= link %>'>All Search Results</a>
+</script>
+
+<script id='ImageSearch_noResults' type='text/template'>
+	<h4>No results</h4>
+</script>
+
+	<script id='Nav_main' type='text/template'>
+<ul class='navTop'></ul>
+</script>
+
+<script id='Nav_links' type='text/template'>
+<% for (var i=0; i<links.length; i++) {
+	var link = links[i];
+
+	if (O_O.isset(link.children)) { %><li class="<%= link.className %>">
+		<span><%- link.name %></span>
+		<div>
+			<ul>
+				<%= tpl('links', {links: link.children}) %>
+			</ul>
+		</div></li><% } else { %><%= tpl('link', {text: link.name, url: link.url, className: link.className, target: link.target, dataId: link['data-id']}) %><% } %><% } %>
+</script>
+
+<script id='Nav_link' type='text/template'><li class='<%= className %>'><a href='<%= url %>' data-id='<%= dataId %>' <% if (O_O.isset(target)) { %>target="<%= target %>"<% } %>><%- text %></a></li></script>
+
+<script id='Nav_editor' type='text/template'>
+<h2>Visible Navigation Items</h2>
+<div class="add-nav-element">
+	<ul>
+		<li><button data-act="showCreateMenu" class="add">ADD TO NAVIGATION</button></li>
+		<li><button class="" data-act="addPage">Page</button></li>
+		<li><button class="" data-act="addLink">Link</button></li>
+		<li><button class="" data-act="addGroup">Menu</button></li>
+	</ul>
+</div>
+
+<ul class="objectList active"></ul>
+
+<p class="note clear">Click and drag to reorder your site&apos;s navigation.</p>
+
+<h2>Hidden Navigation Items</h2>
+<ul class="objectList inactive"></ul>
+</script>
+
+<script id='Nav_editLinks' type='text/template'>
+<%
+ var emptyMap = {
+	menu: 'Nothing in this menu yet! Drag items here to fill the menu.',
+	hidden: 'No hidden navigation items.',
+	visible: 'No navigation items.'
+};
+ for (var i=0; i<links.length; i++) {
+	var link = links[i];
+	%><%= tpl('linkEdit',link) %>
+<% } %>
+<li class="sortable-empty note"><%= emptyMap[type] %></li>
+</script>
+
+<script id='Nav_linkEdit' type='text/template'>
+	<li class="row draggable<% if (type == 'dynamic' || type == 'group') { %> noNest<% } %> <%= type %>" data-id="<%= id %>">
+		<span class="dragHandle"></span>
+		<button class="edit" data-act="editItem"></button>
+		<% if (type != 'fixed' && type != 'dynamic') { %><button class="del" data-act="delItem"></button><% } %>
+		<%- name %>
+		
+		<% if(O_O.isset(arguments[0].children)){ %>
+			<ul style='' class='links'>
+				<%= tpl('editLinks', {links: children, type: 'menu'}) %>
+			</ul>
+		<% } %>
+	</li>
+</script>
+
+	
+	<!-- for gplus share -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<script id='SocialShare_main' type='text/template'>
+<ul class="share-options">
+	<li><a target="_blank" href="#" class="facebook" title="Facebook">
+		<span>Facebook</span></a></li>
+	<li><a target="_blank" href="#" class="twitter" title="Twitter">
+		<span>Twitter</span></a>
+	</li>
+	<li><a href="#" title="More" class="less-more">More</a></li>
+</ul>
+<a href="#" class="share" title="Share This">x</a>
+</script>
+
+<script id='SocialShare_editor' type='text/template'>
+Text: <input name="text" type="text" value="<%= text %>" />
+</script>
+
+	<script id='StaticImage_editor' type='text/template'>
+<div class="row"><label>Image URL:</label><input name="url" type="text" value="<%= url %>" /></div>
+</script>
+
+	<script id='VimeoPlayer_editor' type='text/template'>
+Video Url: <input name="video_url" type="text" value="<%= video_url %>" />
+</script>
+
+<script id='VimeoPlayer_main' type='text/template'>
+	<div class="modalVideo modal hide" tabindex="-1" role="dialog" aria-hidden="true">
+	</div>
+</script>
+
+<script id='VimeoPlayer_modalContent' type='text/template'>
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		</div>
+		<div class="modal-body">
+			<div class="video">
+				<%= embed %>
+			</div>
+			<div class="info">
+				<h3><%= video.title %></h3>
+				<% if(video.description) { %>
+					<p><%= video.description %></p>
+				<% } %>
+			</div>
+			<div class="meta">
+				<span class="upload_date"><%= O_O.date.strFmt(video.upload_date, "%e %b %Y") %></span>
+				<div class="duration">
+					<%= Math.floor(video.duration / 60) %>:<% if(video.duration % 60<10) { %>0<% } %><%= video.duration % 60%>
+				</div>
+			</div>
+		</div>
+</script>
+
+	<script id='VimeoPlaylist_playlist' type='text/template'>
+<% if (videos.length) { %>
+	<ul>
+	<% for (var i=0; i<videos.length; i++) {
+		var video = videos[i];
+		 %><li data-idx="<%= i %>">
+				<div class="holder">
+					<div class="vimeo_thumb">
+						<img src="<%=  video.thumbnail_large %>">
+					</div>
+					<div class="info">
+						<h4><%= video.title %></h4>
+						<p><%= video.description %></p>
+					</div>
+					<div class="meta">
+						<span class="upload_date"><%= O_O.date.strFmt(video.upload_date, "%e %b %Y") %></span>
+						<div class="duration">
+							<%= Math.floor(video.duration / 60) %>:<% if(video.duration % 60<10) { %>0<% } %><%= video.duration % 60%>
+						</div>
+					</div>
+				</div>
+			</li><% } %>
+	</ul>
+<% } else { %>
+	(no videos)
+<% } %>
+</script>
+
+<script id='VimeoPlaylist_loading' type='text/template'>
+</script>
+
+<script id='VimeoPlaylist_error' type='text/template'>
+(<%= message %>)
+</script>
+	<script id='Logo_logoText' type='text/template'>
+	<h1><a href="/index" class="text" title="<%- text %>"><%- text %></a></h1>
+</script>
+
+<script id='Logo_logoImage' type='text/template'>
+	<h1><a href="/index" title="<%- text %>" style="background-image:url(<%= src %>);height:<%= height %>px;width:<%= width %>px;" class="logo"><%- text %></a></h1>
+</script>
+
+<script id='Logo_editor' type='text/template'>
+	<div class="row">
+		<label>Type:</label>
+		text <input name="type" type="radio" value="text" <%= (type == 'text') && 'checked' %>/> or image <input name="type" type="radio" value="image" <%= (type == 'image') && 'checked' %> />
+	</div>
+	<div class="textCfg">
+		<div class="row"><label>Text:</label><input name="text" type="text" value="<%= text %>" /></div>
+		<div class="row"><label>Color:</label><input name="color" type="color" value="<%= color %>" /></div>
+	</div>
+	<div class="imageCfg row">
+		<button class="edit" data-type="edit"></button>
+		<p class="key" style="display:inline">Image:</p>
+		<span class="objPreview" data-obj-type="GalleryImage" >
+			<input type="hidden"  data-type="GalleryImage" name="image" value="<%- image %>" />
+		</span>
+	</div>
+</script>
+
+	<script id='BlogReader_main' type='text/template'>
+<div class="controls"></div>
+<div class="main">
+<div class="loading-c2"><div class="bar-holder"><div class="loading-bar"></div></div></div>
+</div>
+<div class="controls"></div>
+</script>
+
+<script id='BlogReader_controls' type='text/template'>
+<% if (typeof curPage !== 'undefined') { %>
+	<% if (prevPage !== '') { %>
+		<a href='<%= O_O.lib.Util.makePath('blog', [prevPage]) %>' class='prev' title="Previous"><%= config.f_previous_text %></a>
+	<% } %>
+	<% if (nextPage !== '' && nextPage > curPage) { %>
+		<a href='<%= O_O.lib.Util.makePath('blog', [nextPage]) %>' class='next' title="Next"><%= config.f_next_text %></a>
+	<% } %>
+<% } %>
+</script>
+
+<script id='BlogReader_textpost' type='text/template'>
+<div class="textpost">
+	<h3><a href="<%= link %>" target="_blank"><%= title %></a></h3>
+	<% if (date) { %>
+		<p class="date"><%= date %></p>
+	<% } %>
+	<div class='body'><%= body %></div>
+</div>
+</script>
+
+<script id='BlogReader_photopost' type='text/template'>
+<div class="photopost">
+	<div class='body'>
+		<% for (var i = 0, ct = photos.length; i < ct; i++) {
+			var photo = photos[i]; %>
+			<img src="<%= photo.alt_sizes[0].url %>"/>
+		<% } %>
+	</div>
+	<%= caption %>
+	<% if (date) { %>
+		<p class="date"><%= date %></p>
+	<% } %>
+</div>
+</script>
+
+<script id='BlogReader_linkpost' type='text/template'>
+<div class="linkpost">
+	<a href="<%= linkUrl %>" target="_blank"><%= title %></a>
+	<div class='body'><%= desc %></p>
+</div>
+</script>
+
+<script id='BlogReader_quotepost' type='text/template'>
+<div class="linkpost">
+	<%= source %>
+	<div class='body'><%= text %></p>
+</div>
+</script>
+
+<script id='BlogReader_videopost' type='text/template'>
+	<div class="photopost videopost">
+		<div class='body'>
+			<%= video %>
+		</div>
+		<%= caption %>
+		<% if (date) { %>
+			<p class="date"><%= date %></p>
+		<% } %>
+	</div>
+</script>
+
+	<script id='Instagram_auth_link' type='text/template'>
+<div class="row" style="padding-top: 0; margin-top: 0;">
+	<p class="widgetTip"><em><%=msg%></em></p>
+	<button class='button-secondary auth-link' style="display: block;" onClick='javascript:window.open("<%=url%>", "Authorizing Instagram", "resizable,scrollbars,status,height=500,width=500")'>
+		Authorize with Instagram
+	</button>
+	<p class="widgetTip" style="padding:0;">You may need to disable any popup blockers.</p>
+</div>
+</script>
+
+<script id='Instagram_main' type='text/template'>
+<div class='main<% if (!list) { %> grid<% } %>'>
+</div>
+</script>
+
+<script id='Instagram_auth_form' type='text/template'>
+	<div class="row" style="display:none">
+		<input type="hidden" name="token" value="<%= token %>" /><br/>
+	</div>
+	<div class="row typeSelect" data-group="">
+		<label>Images per page</label>
+		<select name="limit" tabindex="-1">
+			<option value="8">8</option>
+			<option value="16">16</option>
+			<option value="24">24</option>
+			<option value="32">32</option>
+		</select>
+		<div class="ps-select">
+			<div class="list">
+				<ul>
+				<li>
+					<button type="button" tabindex="-1" data-title="8" data-value="8" data-act="selectBox">
+						8
+					</button>
+				</li>
+				<li>
+					<button type="button" tabindex="-1" data-title="16" data-value="16" data-act="selectBox">
+						16
+					</button>
+				</li>
+				<li>
+					<button type="button" tabindex="-1" data-title="24" data-value="24" data-act="selectBox">
+						24
+					</button>
+				</li>
+				<li>
+					<button type="button" tabindex="-1" data-title="32" data-value="32" data-act="selectBox">
+						32
+					</button>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row typeCheckbox">
+		<input type="hidden" value="f_displayList" <% if (cfg.f_displayList === 'true' || cfg.f_displayList === 't') { %>checked<% } %> name="f_displayList" id="f_displayList">
+	</div>
+	<div class="row typeCheckbox">
+		<input type="hidden" value="displayLikes" <% if (cfg.displayLikes === 'true' || cfg.displayLikes === 't') { %>checked<% } %> name="displayLikes" id="displayLikes">
+	</div>
+	<div class="row typeCheckbox">
+		<input type="checkbox" value="displayCaption" <% if (cfg.displayCaption === 'true' || cfg.displayCaption === 't') { %>checked<% } %> name="displayCaption" id="displayCaption">
+		<label for="displayCaption">Caption</label>
+	</div>
+	<div class="row" style="margin-bottom: 0; padding-bottom: 0;">
+		<p class='status' style="margin-bottom: 0; padding-bottom: 0;"></p>
+	</div>
+</script>
+
+<script id='Instagram_item' type='text/template'>
+<div class='item'>
+	<a href="<%=link%>" target="_blank">
+		<img src="<%=url%>" width="<%=width%>" height="<%=height%>"/>
+	</a>
+	<% if (caption !== '') { %>
+	<p class='caption'><%=caption%></p>
+	<% } %>
+</div>
+</script>
+
+<script id='Instagram_video' type='text/template'>
+	<div class='video'>
+			<video width="90%" height="90%" preload="metadata" controls>
+				<source src="<%=url%>" type="video/mp4">
+			</video>
+		<% if (caption !== '') { %>
+		<p class='caption'><%=caption%></p>
+		<% } %>
+	</div>
+	</script>
+
+<script id='Instagram_pagination' type='text/template'>
+<div class='pagination_prev'>
+	<a class='prev'>Previous page</a>
+</div>
+<div class='pagination_next'>
+	<a class='next'>Next page</a>
+</div>
+</script>
+	<script id='SlideShowControls_main' type='text/template'>
+	<% var buttons = 0;
+    	buttons += (config.f_play !== 'n' && countData.count > 1)?1:0;
+    	buttons += (config.f_social !== 'f')?1:0;
+    	buttons += (config.f_thumbs !== 'n' && countData.count > 1)?1:0;
+    	buttons += (config.f_meta !== 'n')?1:0;
+		buttons += (config.buyMenu !== 'f')?1:0;%>
+	<div class="controls">
+	    <% if (countData.count > 1) { %>
+			<button class="backward">
+				<div class="icon" title="Previous Image"></div>
+			</button>
+			<button class="forward">
+				<div class="icon" title="Next Image"></div>
+			</button>
+		<% } %>
+	</div>
+	<% if (config.f_closeable === 't') { %>
+	<button class="close">Close</button>
+	<% } %>
+    <%= tpl('count', {config: config, countData: countData}) %>
+    <% if (config.f_galleryname === 't') { %>
+	    <h1 class="buttons-<%=buttons %>"><%- countData.galName || gallery.name %></h1>
+    <% } %>
+    <% if (config.f_play !== 'n' || config.f_social !== 'f' ||
+    	config.f_thumbs !== 'n' || config.f_meta !== 'n') { %>
+    <div class="buttons buttons-<%=buttons %>">
+	    <% if (config.f_thumbs !== 'n' && config.f_thumbs !== 'a' && (!!config.f_thumbs_force || countData.count > 1)) { %>
+	    <button class="thumbs<% if (config.f_thumbs !== 'f') { %> on<% } %>" title="Thumbnails">Thumbnails</button>
+		<% } %>
+		<% if (countData.count > 1) { %>
+			<%= tpl('play', {config: config}) %>
+		<% } %>
+	    <% if (config.f_fullscreen === 't') { %>
+	    <button class="fullscreen" title="Fullscreen">Fullscreen</button>
+		<% } %>
+   		<% if (config.f_meta !== 'n' && config.f_meta !== 'a') { %>
+	    <button class="info<% if (config.f_meta !== 'f') { %> on<% } %>" title="<%= (typeof config.metaText !== 'undefined') ? config.metaText : 'Caption' %>"><%= (typeof config.metaText !== 'undefined') ? config.metaText : 'Caption' %></button>
+		<% } %>
+   		<% if (config.f_archive !== 'f') { %>
+	    <button class="archive" title="<%= (typeof config.archiveText !== 'undefined') ? config.archiveText : 'More Info & Actions' %>"><span><%= (typeof config.archiveText !== 'undefined') ? config.archiveText : 'More Info & Actions' %></span></button>
+		<% } %>
+		<% if (config.f_social !== 'f') { %>
+	    <button class="social" title="Share">Share</button>
+		<% } %>
+	    <% if (config.buyMenu === 't') { %>
+	    <button class="buy" title="Buy">Buy</button>
+		<% } %>
+	</div>
+	<% } %>
+</script>
+
+<script id='SlideShowControls_play' type='text/template'>
+    <% if (config.f_play === 't') { %>
+    <button class="play pause" title="Pause">Pause</button>
+	<% } else if (config.f_play === 'f') { %>
+    <button class="play" title="Play">Play</button>
+    <% } %>
+</script>
+
+<script id='SlideShowControls_count' type='text/template'>
+<div class="count <%= config.f_count %><% if (countData.count === 1) { %> no-controls<% } %>">
+    <% if (config.f_count === 't') { %>
+		<% if (countData.current !== ' ') { %>
+		<%= countData.current %><span><%= countData.count %></span>
+		<% } else { %>
+			&nbsp;
+		<% } %>
+    <% } %>
+	<% if (countData.count > 1) { %>
+		<button class="backward" title="Previous Image">Previous</button>
+		<button class="forward" title="Next Image">Next</button>
+	<% } %>
+</div>
+</script>
+
+	<script id='ImageStage_main' type='text/template'>
+	<%= tpl('image', {config: config, img: current, stop: 'current'}) %>
+	<%= tpl('image', {config: config, img: previous, stop: 'previous'}) %>
+	<%= tpl('image', {config: config, img: next, stop: 'next'}) %>
+	<%= tpl('image', {config: config, stop: 'blank'}) %>
+	<div class="cover <%= config.size %>"></div>
+</script>
+
+
+<script id='ImageStage_image' type='text/template'>
+<div class='img <%= stop %> <%= config.transition %> <%= config.size %>' <% if (typeof img !== 'undefined') { %>style='background-image: url(<%= img %>);'<% } %>></div>
+</script>
+	<script id='MetaViewer_main' type='text/template'>
+<div class="<% if (config.f_innerScroll) { %>content <% } %> scrollable">
+    <% if (config.f_content !== 'caption') { %>
+    	<h1><%- data.name || data.headline || data.title || data.file_name %></h1>
+    <% } %>
+    <% if (config.f_content !== 'title' &&
+    	((typeof data.description !== 'undefined' && data.description) ||
+    	(typeof data.caption !== 'undefined' && data.caption))) { 
+    	var useInfo = (typeof data.caption === 'undefined') ? data.description : data.caption; %>
+	    <div <% if (useInfo && useInfo.length > config.f_colAfterChars) { %>lang="en" class="columns"<% } %>>
+	            <%- useInfo %>
+	    </div>
+    <% } %>
+</div>
+</script>
+
+	<!-- for gplus share -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<script id='ShareUrl_main' type='text/template'>
+<% if (typeof f_innerScroll !== 'undefined' && f_innerScroll) { %>
+<div class="content">
+<%}%>
+<div class="su-holder">
+<div class="su-content">
+	<% if (typeof f_closeable !== 'undefined' && f_closeable) { %>
+		<button class="close">Close</button>
+	<% } %>
+	<h1>Share this <%= f_shareWhat %></h1>
+	<form>
+		<label>Link</label>
+		<input class="link" type=text value=""
+			id="copyURL" />
+		<button title="Copy Link" data-clipboard-target="copyURL">Copy Link</button>
+	</form>
+	<form>
+		<label>Email</label>
+		<input class="email" type=email placeholder="Enter an email address" id="emailURL"/>
+		<button title="Share Via Email" class="shareEmail">Share Via Email</button>
+	</form>
+	<% if (typeof f_embedable !== 'undefined' && f_embedable) { %>
+	<form>
+		<label>Embed</label>
+		<input class="embed" type=text value="<iframe src='http://www.thisurl.com' width='800' height='600' />"
+			id="copyEmbed" />
+		<button title="Copy Embed Code" data-clipboard-target="copyEmbed">Copy Embed Code</button>
+	</form>
+	<% } %>
+		<ul class='share-options'>
+			<li><a target="_blank" href="#" class="pinterest" title="Pinterest"><span>Pinterest</span></a></li>
+			<li><a target="_blank" href="#" class="facebook" title="Facebook"><span>Facebook</span></a></li>
+			<li><a target="_blank" href="#" class="twitter" title="Twitter"><span>Twitter</span></a></li>
+		</ul>
+</div>
+</div>
+<% if (typeof f_innerScroll !== 'undefined' && f_innerScroll) { %>
+</div>
+<%}%>
+
+</script>
+
+	<script id='BuyMenu_main' type='text/template'>
+<% if (typeof config.f_innerScroll !== 'undefined' && config.f_innerScroll) { %>
+<div class="content">
+<%}%>
+<div class="su-holder">
+<div class="su-content">
+	<% if (typeof config.f_closeable !== 'undefined' && config.f_closeable) { %>
+		<button class="close">Close</button>
+	<% } %>
+	<h1>Buy this <%= config.buyWhat %></h1>
+	<ul class="buy-options">
+	<% if (typeof pricing !== 'undefined' && pricing.length > 0) { %>
+		<% if(!!find('PR', pricing)) { %>
+	    <li><a href="#" class="pr" title="Print/product">Print/product</a></li>
+	    <% } %>
+		<% if(!!find('BND', pricing)) { %>
+	    <li><a href="#" class="bnd" title="Image package">Image package</a></li>
+	    <% } %>
+		<% if(!!find('PU', pricing)) { %>
+	    <li><a href="#" class="pu" title="Personal use download">Personal use download</a></li>
+	    <% } %>
+		<% if(!!find('RM', pricing)) { %>
+	    <li><a href="#" class="rm" title="Rights-managed license">Rights-managed license</a></li>
+	    <% } %>
+		<% if(!!find('RF', pricing)) { %>
+	    <li><a href="#" class="rf" title="Royalty-free license">Royalty-free license</a></li>
+	    <% } %>
+		<% if(cart > 0) { %>
+	    <li class="cart-link"><a href="/cart" class="cart" title="View your cart"><span>View your cart</span></a></li>
+	    <% } %>
+	<% } %>
+	</ul>
+</div>
+</div>
+<% if (typeof config.f_innerScroll !== 'undefined' && config.f_innerScroll) { %>
+</div>
+<%}%>
+</script>
+	<script id='SocialFollow_main' type='text/template'>
+<%
+if (f_edit && linkA.length === 0) {
+	%>
+<%= tpl('placeholder', {}) %>
+
+<% } else { %>
+
+<div class='follow-wrapper'>
+<ul class='follow-options'>
+<%
+var link;
+for (var i=0; i<linkA.length; i++) {
+	link = linkA[i];
+%>
+	<li>
+		<a target='_blank' class=<%= link.service %> href=<%= link.url %>></a>
+	</li>
+<% } %>
+</ul>
+</div>
+
+<% } %>
+</script>
+
+<script id='SocialFollow_placeholder' type='text/template'>
+<div class='follow-wrapper placeholder edit-widget-border'>
+<ul class='follow-options'>
+	<li><a class='twitter'></a></li>
+	<li><a class='facebook'></a></li>
+	<li><a class='instagram'></a></li>
+</ul>
+</div>
+</script>
+
+<script id='SocialFollow_editor' type='text/template'>
+	<p class='widgetTip'>
+		Enter your info in the text fields below, and we&#039;ll do the rest.
+		<a target="_blank" href="https://support.photoshelter.com/hc/en-us/articles/204837820">Learn more &#187;</a>
+	</p>
+
+	<ul class='objectList'></ul>
+
+	<div class='widgetTip'>
+		Click and drag to reorder your social follow buttons.
+	</div>
+</script>
+
+<script id='SocialFollow_editUsernames' type='text/template'>
+<%
+for (var i=0; i<socialDataA.length; i++) {
+	var socialItem = socialDataA[i];
+%><%= tpl('editUsername', socialItem) %>
+<% } %>
+</script>
+
+<script id='SocialFollow_editUsername' type='text/template'>
+	<li class='row draggable sortable external' data-service=<%= service %>>
+		<span class='dragHandle'></span>
+		<span><%= label %></span>
+		<input name=<%= service %> type='text' value='<%= username %>' placeholder='<%= placeholder %>' />
+	</li>
+</script>
+
+
+
+<script type="text/javascript">
+var C2_CFG = {"theme":"Theme3","themeCfg":"{\"name\":\"Theme3\",\"version\":\"1.2.0\",\"requires\":{\"models\":[\"Collection\",\"Content\",\"Gallery\",\"Image\",\"Generic\"],\"widgets\":[[\"Content\",\"1.1\"],[\"ContactForm\",\"1.0\"],[\"GalleryNav\",\"1.1.1\"],[\"ImageBackground\",\"1.0\"],[\"ThumbStrip\",\"1.0\"],[\"ImageSearch\",\"1.0.1\"],[\"Nav\",\"1.1\"],[\"PortfolioCover\",\"1.0\"],[\"SocialShare\",\"1.0\"],[\"StaticImage\",\"1.0\"],[\"VimeoPlayer\",\"1.0\"],[\"VimeoPlaylist\",\"1.0\"],[\"Logo\",\"1.2\"],[\"BlogReader\",\"1.0\"],[\"Instagram\",\"1.2\"],[\"SlideShowControls\",\"1.1.1\"],[\"ImageStage\",\"1.1.1\"],[\"MetaViewer\",\"1.0\"],[\"ShareUrl\",\"1.1\"],[\"BuyMenu\",\"1.0\"],[\"SocialFollow\",\"1.0.0\"]]},\"resources\":{\"fonts\":{\"abril\":{\"family\":\"Abril Fatface\",\"alternate\":\"serif\",\"vendor_tag\":\"Abril+Fatface\"},\"arial\":{\"family\":\"Arial\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"\"},\"arvo\":{\"family\":\"Arvo\",\"alternate\":\"serif\",\"vendor_tag\":\"Arvo\"},\"badScript\":{\"family\":\"Bad Script\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Bad+Script\"},\"berkshire\":{\"family\":\"Berkshire Swash\",\"alternate\":\"serif\",\"vendor_tag\":\"Berkshire+Swash\"},\"cabin\":{\"family\":\"Cabin\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Cabin\"},\"domine\":{\"family\":\"Domine\",\"alternate\":\"serif\",\"vendor_tag\":\"Domine\"},\"droidSans\":{\"family\":\"Droid Sans\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Droid+Sans\"},\"gentium\":{\"family\":\"Gentium Basic\",\"alternate\":\"serif\",\"vendor_tag\":\"Gentium+Basic\"},\"georgia\":{\"family\":\"Georgia\",\"alternate\":\"serif\",\"vendor_tag\":\"\"},\"helvetica\":{\"family\":\"Helvetica\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"\"},\"josefin\":{\"family\":\"Josefin Sans\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Josefin+Sans: 600\"},\"kreon\":{\"family\":\"Kreon\",\"alternate\":\"serif\",\"vendor_tag\":\"Kreon\"},\"lato\":{\"family\":\"Lato\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Lato\"},\"libre\":{\"family\":\"Libre Baskerville\",\"alternate\":\"serif\",\"vendor_tag\":\"Libre+Baskerville\"},\"merriweather\":{\"family\":\"Merriweather\",\"alternate\":\"serif\",\"vendor_tag\":\"Merriweather\"},\"open\":{\"family\":\"Open Sans\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Open+Sans\"},\"oswald\":{\"family\":\"Oswald\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Oswald\"},\"pacifico\":{\"family\":\"Pacifico\",\"alternate\":\"serif\",\"vendor_tag\":\"Pacifico\"},\"palatino\":{\"family\":\"Palatino\",\"alternate\":\"serif\",\"vendor_tag\":\"\"},\"playfair\":{\"family\":\"Playfair Display\",\"alternate\":\"serif\",\"vendor_tag\":\"Playfair+Display\"},\"ptSans\":{\"family\":\"PT Sans\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"PT+Sans\"},\"ptSansNarrow\":{\"family\":\"PT Sans Narrow\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"PT+Sans+Narrow\"},\"ptSerif\":{\"family\":\"PTSerif\",\"alternate\":\"serif\",\"vendor_tag\":\"PT+Serif\"},\"quicksand\":{\"family\":\"Quicksand\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Quicksand\"},\"raleway\":{\"family\":\"Raleway\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"Raleway\"},\"sanchez\":{\"family\":\"Sanchez\",\"alternate\":\"serif\",\"vendor_tag\":\"Sanchez\"},\"timeNewRoman\":{\"family\":\"Times New Roman\",\"alternate\":\"serif\",\"vendor_tag\":\"\"},\"verdana\":{\"family\":\"Verdana\",\"alternate\":\"sans-serif\",\"vendor_tag\":\"\"}},\"color_set\":[{\"name\":\"Light: Bold\",\"values\":{\"colorBkg\":\"#f4f4f4\",\"colorFrg\":\"#ffffff\",\"colorBrand\":\"#db0000\",\"colorNav\":\"#7b7b7b\",\"colorBody\":\"#1d1d1d\",\"colorLink\":\"#db0000\"}},{\"name\":\"Light: Classic\",\"values\":{\"colorBkg\":\"#f6f6f6\",\"colorFrg\":\"#ffffff\",\"colorBrand\":\"#444444\",\"colorNav\":\"#8e8e8e\",\"colorBody\":\"#5f5f5f\",\"colorLink\":\"#6babd7\"}},{\"name\":\"Dark: Bold\",\"values\":{\"colorBkg\":\"#191919\",\"colorFrg\":\"#000000\",\"colorBrand\":\"#e80000\",\"colorNav\":\"#acacac\",\"colorBody\":\"#e3e3e3\",\"colorLink\":\"#e80000\"}},{\"name\":\"Dark: Classic\",\"values\":{\"colorBkg\":\"#191919\",\"colorFrg\":\"#000000\",\"colorBrand\":\"#e8e8e8\",\"colorNav\":\"#acacac\",\"colorBody\":\"#cacaca\",\"colorLink\":\"#839fd2\"}}],\"font_set\":[{\"name\":\"Classic 1\",\"values\":{\"font_1\":\"open\",\"font_2\":\"gentium\"}},{\"name\":\"Classic 2\",\"values\":{\"font_1\":\"quicksand\",\"font_2\":\"ptSerif\"}},{\"name\":\"Classic 3\",\"values\":{\"font_1\":\"playfair\",\"font_2\":\"gentium\"}},{\"name\":\"Modern 1\",\"values\":{\"font_1\":\"open\",\"font_2\":\"open\"}},{\"name\":\"Modern 2\",\"values\":{\"font_1\":\"oswald\",\"font_2\":\"lato\"}},{\"name\":\"Modern 3\",\"values\":{\"font_1\":\"raleway\",\"font_2\":\"lato\"}},{\"name\":\"Funky 1\",\"values\":{\"font_1\":\"arvo\",\"font_2\":\"arvo\",\"font_3\":\"arvo\"}},{\"name\":\"Funky 2\",\"values\":{\"font_1\":\"pacifico\",\"font_2\":\"lato\",\"font_3\":\"lato\"}},{\"name\":\"Funky 3\",\"values\":{\"font_1\":\"badScript\",\"font_2\":\"badScript\",\"font_3\":\"ptSans\"}}]},\"start\":\"index\",\"colorBkg\":\"#484848\",\"colorFrg\":\"#1f1f1f\",\"colorBrand\":\"#fcfbfb\",\"colorNav\":\"#e3dede\",\"colorBody\":\"#d3d4d7\",\"colorLink\":\"#faf8f6\",\"font_2\":\"open\",\"font_1\":\"open\",\"color_set\":\"custom\",\"font_set\":\"3\",\"last_modified\":\"2021-03-13 16:19:26 GMT\",\"modes\":{\"global\":{\"user_hidden\":true,\"widgets\":[{\"widget\":\"Logo\",\"widgetName\":\"Logo\",\"widgetDesc\":\"Your site name, displayed using text or a logo image\",\"type\":\"image\",\"f_force_menu_button\":\"h\",\"text\":\"\",\"image\":[{\"type\":\"GalleryImage\",\"image_id\":\"I0000wwPpJVmtbGQ\",\"gallery_id\":\"G0000TaP0vXN8FII\",\"collection_id\":\"\"}],\"image_f_retina\":\"t\",\"image_orig_enable\":\"t\",\"image_width\":2040,\"image_height\":2040,\"image_file_exts\":[\"gif\",\"jpeg\",\"jpg\",\"png\"],\"image_f_wm_disable\":\"t\",\"image_f_sec_ignore\":\"t\",\"image_max_size\":2040,\"propOverload\":null},{\"widget\":\"Nav\",\"widgetName\":\"Navigation\",\"widgetDesc\":\"Links used to traverse your site\",\"f_archive_not_nested\":true,\"links\":[{\"name\":\"Latest Images\",\"type\":\"dynamic\",\"url_fragment\":\"archive\",\"className\":\"archive\",\"f_hidden\":false,\"id\":\"-0\",\"act\":\"edit\"},{\"type\":\"external\",\"f_hidden\":false,\"name\":\"Cartoons\",\"url\":\"http:\\\/\\\/snpa.photoshelter.com\\\/gallery\\\/CARTOONS-by-Jim-Hubbard\\\/G0000MGcw3HsyXeA\",\"url_fragment\":\"\",\"target\":null,\"act\":\"edit\",\"id\":\"-1\"},{\"name\":\"About\",\"type\":\"fixed\",\"url_fragment\":\"about\",\"className\":\"about\",\"f_hidden\":false,\"id\":\"-2\"},{\"name\":\"Contact\",\"type\":\"fixed\",\"url_fragment\":\"contact\",\"className\":\"contact\",\"f_hidden\":false,\"id\":\"-3\"},{\"name\":\"Home\",\"type\":\"fixed\",\"url_fragment\":\"index\",\"className\":\"index\",\"f_hidden\":true,\"id\":\"-4\"},{\"name\":\"Portfolio\",\"type\":\"fixed\",\"url_fragment\":\"portfolio\",\"className\":\"portfolio\",\"f_hidden\":true,\"id\":\"-5\"},{\"name\":\"Video\",\"type\":\"fixed\",\"url_fragment\":\"video\",\"className\":\"video\",\"f_hidden\":true,\"id\":\"-6\"},{\"type\":\"fixed\",\"name\":\"Blog\",\"url_fragment\":\"blog\",\"cls\":\"blog\",\"f_hidden\":true,\"id\":\"-7\"},{\"type\":\"fixed\",\"name\":\"Instagram\",\"url_fragment\":\"instagram\",\"cls\":\"instagram\",\"f_hidden\":true,\"id\":\"-8\"}]},{\"widget\":\"SocialFollow\",\"widgetName\":\"Social Follow\",\"widgetDesc\":\"Generates social follow icons for your site\",\"twitter\":\"\",\"facebook\":\"\",\"instagram\":\"\",\"linkedin\":\"\",\"vimeo\":\"\",\"tumblr\":\"\",\"pinterest\":\"\",\"googlePlus\":\"\",\"fiveHPx\":\"\",\"services\":[\"twitter\",\"facebook\",\"instagram\",\"vimeo\",\"linkedin\",\"tumblr\",\"pinterest\",\"googlePlus\",\"fiveHPx\"]},{\"widget\":\"ImageSearch\",\"placeholder\":\"Search\",\"widgetName\":\"Quick Search\",\"widgetDesc\":\"Searches all of your images marked as publicly searchable\",\"f_enable\":\"t\"}]},\"index\":{\"modeName\":\"Home\",\"definition\":\"Index\",\"title\":\"\",\"meta_description\":\"\",\"widgets\":[{\"widget\":\"PortfolioCover\",\"widgetName\":\"Portfolio Cover\",\"widgetDesc\":\"Featured image to display on initial site load\",\"f_footer\":\"f\",\"footer_text\":\"Latest Images\",\"dataSource\":\"recent\",\"image\":[],\"recent\":[\"\",\"\"],\"image_f_wm_disable\":\"t\",\"image_f_sec_ignore\":\"t\",\"image_max_size\":1440,\"propOverload\":null}]},\"portfolio\":{\"modeName\":\"Portfolio\",\"definition\":\"Portfolio_111\",\"title\":\"\",\"meta_description\":\"\",\"widgets\":[],\"sets\":{\"gallerySingleImage\":[{\"widget\":\"ImageStage\",\"widgetName\":\"Image Display\",\"widgetDesc\":\"The frame and transitions used for a gallery's images\",\"size\":\"fit\",\"transition\":\"s\",\"duration\":\"4\",\"propOverload\":null,\"delegate\":{\"State\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":2},{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":3}],\"ImageMeta\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":1},{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":5}]}},{\"widget\":\"MetaViewer\",\"widgetName\":\"Image Metadata Display\",\"widgetDesc\":\"Image details (uses IPTC data)\",\"f_innerScroll\":true,\"f_colAfterChars\":400,\"f_content\":\"titleCaption\",\"propOverload\":{\"f_content\":{\"map\":{\"titleCaption\":\"Image name and caption\",\"title\":\"Image name only\",\"caption\":\"Image caption only\"}}},\"delegate\":{\"WhatMeta\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}]}},{\"widget\":\"SlideShowControls\",\"widgetName\":\"Image Viewer\",\"widgetDesc\":\"Presentation view of your images\",\"dataSource\":\"dynamic\",\"userLinks\":\"\",\"f_closeable\":\"f\",\"f_galleryname\":\"f\",\"f_count\":\"t\",\"f_thumbs\":\"a\",\"f_thumbs_force\":true,\"f_play\":\"f\",\"f_fullscreen\":\"t\",\"f_meta\":\"t\",\"metaText\":\"Info\",\"f_metaForceFalseMobile\":false,\"f_archive\":\"f\",\"archiveText\":\"More Info & Actions\",\"f_social\":\"t\",\"buyMenu\":\"t\",\"f_share_what\":\"image\",\"f_toggleChrome\":\"t\",\"propOverload\":{\"dataSource\":{\"map\":{\"dynamic\":\"dynamic\"},\"default\":\"dynamic\",\"inpEnable\":false},\"userLinks\":{\"inpEnable\":false},\"f_fullscreen\":{\"inpEnable\":true,\"default\":\"t\"},\"f_archive\":{\"inpEnable\":true},\"archiveText\":{\"inpEnable\":false},\"f_thumbs\":{\"inpEnable\":false},\"f_galleryname\":{\"inpEnable\":false}},\"f_meta_force_false_mobile\":true,\"delegate\":{\"JumpTo\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}],\"Gallery\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}],\"Images\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}],\"Page\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}],\"Play\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}],\"Meta\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0},{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":1}],\"Share\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":4}],\"Buy\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":5}],\"Thumbs\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":3}]}},{\"widget\":\"ThumbStrip\",\"widgetName\":\"Thumbnail Image Horizontal Viewer\",\"widgetDesc\":\"Displays thumbnail images in a horizontally scrollable pane.\",\"f_editable\":false,\"delegate\":{\"JumpTo\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":0}],\"Thumbs\":[{\"mode\":\"portfolio\",\"ordinal\":2}]},\"rows\":1,\"display\":\"thumb\",\"loadThresh\":1.5,\"f_innerScroll\":true,\"scrollOutside\":false,\"focusAlign\":\"center\"},{\"widget\":\"ShareUrl\",\"widgetName\":\"Post to Social Networks\",\"widgetDesc\":\"Links for easy social sharing of your content\",\"f_editable\":false,\"f_innerScroll\":false,\"f_embedable\":false,\"f_closeable\":true,\"f_shareWhat\":\"image\"},{\"widget\":\"BuyMenu\",\"widgetName\":\"Buy\\\/License Menu\",\"widgetDesc\":\"Links for easy social sharing of your content\",\"f_editable\":false,\"f_innerScroll\":false,\"buyWhat\":\"image\",\"f_closeable\":true,\"delegate\":{\"Pricing\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":2}]}},{\"widget\":\"GalleryNav\",\"widgetName\":\"Featured Galleries\",\"widgetDesc\":\"Galleries displayed in your portfolio\",\"f_viewAll\":false,\"minDisplay\":2,\"fixed\":false,\"f_dynamicLoad\":true,\"f_galleriesSize\":\"large\",\"dataSource\":\"recent\",\"destinationMode\":\"portfolio\",\"userLinks\":\"\",\"recent\":\"\",\"image\":true,\"imageType\":\"thumb\",\"f_count\":28,\"rowCount\":3,\"propOverload\":{\"dataSource\":{\"map\":{\"recent\":\"Recently updated galleries\",\"user\":\"Specific galleries\"}},\"userLinks\":{\"allowed\":[\"Gallery\"],\"inpEdit\":false},\"recent\":{\"inpEdit\":false}},\"delegate\":{\"Gallery\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":2}],\"Galleries\":[{\"mode\":\"portfolio\",\"set\":\"gallerySingleImage\",\"ordinal\":2}]}}]}},\"about\":{\"title\":\"About\",\"meta_description\":\"\",\"widgets\":[{\"widget\":\"ImageBackground\",\"widgetName\":\"Background Image\",\"widgetDesc\":\"A background image displayed behind your content\",\"image\":null,\"image_f_wm_disable\":\"t\",\"image_f_sec_ignore\":\"t\",\"image_max_size\":1440,\"f_transitions\":true,\"f_editable\":true},{\"widget\":\"Content\",\"widgetName\":\"Content Area\",\"widgetDesc\":\"Text or custom content to display on this page\",\"contentTuple\":{\"type\":\"c2_page\",\"category\":\"about\",\"subcategory\":\"about\"},\"f_hash_tuple\":false,\"hashTupleBase\":{\"type\":\"c2_page\",\"category\":\"arbpage\",\"subcategory\":null},\"defaultContent\":{\"content\":\"<h2 class=\\\"title\\\">About Me<\\\/h2>Bio information to be entered here.\"}},{\"widget\":\"StaticImage\",\"widgetName\":\"Image\",\"widgetDesc\":\"An image to display on this page\",\"image\":null,\"image_width\":600,\"image_height\":400,\"image_f_wm_disable\":\"t\",\"image_f_sec_ignore\":\"t\",\"image_max_size\":null}]},\"contact\":{\"title\":\"Contact\",\"meta_description\":\"\",\"widgets\":[{\"widget\":\"Content\",\"widgetName\":\"Content Area\",\"widgetDesc\":\"Text or custom content to display on this page\",\"contentTuple\":{\"type\":\"c2_page\",\"category\":\"contact\",\"subcategory\":\"contact\"},\"f_hash_tuple\":false,\"hashTupleBase\":{\"type\":\"c2_page\",\"category\":\"arbpage\",\"subcategory\":null},\"defaultContent\":{\"content\":\"<h1 class=\\\"title\\\">Contact Info<\\\/h1><p>[contact info goes here]<\\\/p>\"}},{\"widget\":\"ContactForm\",\"widgetName\":\"Contact Form\",\"widgetDesc\":\"Form to allow visitors to send messages directly to you\",\"sendText\":\"Send\",\"f_captcha\":false,\"f_placeholder\":false}]},\"p\":{\"title\":\"Custom Page\",\"meta_description\":\"\",\"modeName\":\"Custom Page\",\"user_hidden\":true,\"widgets\":[{\"widget\":\"Content\",\"widgetName\":\"Content Area\",\"widgetDesc\":\"Text or custom content to display on this page\",\"contentTuple\":null,\"f_hash_tuple\":true,\"hashTupleBase\":{\"type\":\"c2_page\",\"category\":\"arbpage\",\"subcategory\":null},\"defaultContent\":null}]},\"video\":{\"title\":\"Videos\",\"meta_description\":\"\",\"widgets\":[{\"widget\":\"VimeoPlayer\",\"widgetName\":\"Vimeo Player\",\"widgetDesc\":\"A Vimeo video player\",\"f_dialog\":true,\"style\":null},{\"widget\":\"VimeoPlaylist\",\"widgetName\":\"Vimeo Feed\",\"widgetDesc\":\"A list of videos from a Vimeo account\\\/album\",\"list_type\":\"vimeo_user\",\"vimeo_user\":\"\",\"vimeo_album\":\"\"},{\"widget\":\"Content\",\"widgetName\":\"Content Area\",\"widgetDesc\":\"Text or custom content to display on this page\",\"contentTuple\":{\"type\":\"c2_page\",\"category\":\"video\",\"subcategory\":\"intro\"},\"f_hash_tuple\":false,\"hashTupleBase\":{\"type\":\"c2_page\",\"category\":\"arbpage\",\"subcategory\":null},\"defaultContent\":{\"content\":\"<h2 class=\\\"title\\\">Videos<\\\/h2>A selection of videos.\"}}]},\"blog\":{\"modeName\":\"Blog\",\"definition\":\"Blog\",\"title\":\"Blog\",\"meta_description\":\"\",\"widgets\":[{\"widget\":\"BlogReader\",\"widgetName\":\"Blog Feed\",\"widgetDesc\":\"Displays posts from an external blog\",\"type\":\"tumblr\",\"blogger_url\":null,\"blogger_limit\":1,\"tumblr_url\":null,\"tumblr_limit\":5,\"wordpress_url\":null,\"wordpress_feedUrl\":null,\"f_previous_text\":\"Previous\",\"f_next_text\":\"Next\"},{\"widget\":\"Content\",\"widgetName\":\"Content Area\",\"widgetDesc\":\"Text or custom content to display on this page\",\"contentTuple\":{\"type\":\"c2_page\",\"category\":\"blog\",\"subcategory\":\"intro\"},\"f_hash_tuple\":false,\"hashTupleBase\":{\"type\":\"c2_page\",\"category\":\"arbpage\",\"subcategory\":null},\"defaultContent\":{\"content\":\"<h1>Blog<\\\/h1>\"}}]},\"instagram\":{\"definition\":\"Instagram\",\"modeName\":\"Instagram\",\"title\":\"Instagram\",\"meta_description\":\"\",\"widgets\":[{\"widget\":\"Instagram\",\"widgetName\":\"Instagram\",\"widgetDesc\":\"A feed of photos from an Instagram account\",\"token\":null,\"displayLikes\":\"t\",\"displayCaption\":\"t\"},{\"widget\":\"Content\",\"widgetName\":\"Content Area\",\"widgetDesc\":\"Text or custom content to display on this page\",\"contentTuple\":{\"type\":\"c2_page\",\"category\":\"instagram\",\"subcategory\":\"intro\"},\"f_hash_tuple\":false,\"hashTupleBase\":{\"type\":\"c2_page\",\"category\":\"arbpage\",\"subcategory\":null},\"defaultContent\":{\"content\":\"<h1 class=\\\"title\\\">Instagram<\\\/h1>\"}}]}}}","customEnv":{"id":"U0000vjqg4KSc3RQ","name":"Setford news photo agency","label":"snpa","theme":"Theme3","theme_name":"Promenade","curhost":"snpa.photoshelter.com","host":"snpa.photoshelter.com","host_ps":"snpa.photoshelter.com","url":"https:\/\/snpa.photoshelter.com","url_ps":"https:\/\/snpa.photoshelter.com","api_key":"PS631731c7","site_cfg":{"SC_ID":"SC000StP9OkyuMNw","SC_ORG_ID":null,"SC_USER_ID":"U0000vjqg4KSc3RQ","SC_SITE_NAME":"Setford news photo agency","SC_CNAME":null,"SC_THEME":"Theme3","SC_THEME_C1":"Mars","SC_THEME_C2":"Theme3","SC_IMG_NO_MASK":"f","SC_GA_ID":"UA-42221895-1","SC_HTML_HEAD":"","SC_HTML_FOOTER":"","SC_SSL_PREF":"t","FID_O":"U0000vjqg4KSc3RQ","CUSTOM_VERSION":"2.0"},"ctd":{"CTD_PRC_PRF_TYPE":"Downloads","CTD_F_CART":"t","CTD_F_LBX":"f","CTD_F_DOWNLOAD":"t","CTD_F_SOCIAL":"f","CTD_THM_FIT_CLC_GAL":"fit","CTD_THM_FIT_IMG":"fit","CTD_PPG_THM":"100","CTD_PPG_GAL":"","CTD_LOGO_ID":"ctdl-D0000d0wLPq1Rqtg","CTD_LOGO_TS":1362268185,"CTD_LOGO_FILETYPE":"png","CTD_LOGO_W":600,"CTD_LOGO_H":100,"CTD_SITE_URL":"","CTD_BLOG_URL":"","CTD_TXT_FOOTER":"<span>All images on this site are copyright of www.SNPA.co.nz or the photographer.<\/span>","CTD_NAV_GAL":"f","CTD_NAV_SEARCH":"t","CTD_NAV_LBX":"f","CTD_NAV_CART":"f","CTD_NAV_CART_TRAY":"t","CTD_NAV_USR":"t","CTD_NAV_ABOUT":"t","CTD_NAV_CONTACT":"t","CTD_NAV_PAGE1":"f","CTD_NAV_PAGE2":"f","CTD_NAV_PORTFOLIO":"f","CTD_LBL_PAGE1":"","CTD_LBL_PAGE2":"","D_ID":"D0000d0wLPq1Rqtg","librisSSO":false},"site_name":"Setford news photo agency","f_preview":false,"f_custom_basic":false,"referral_url":"https:\/\/www.photoshelter.com\/referral\/U0000vjqg4KSc3RQ\/user","isDevDomain":false,"isCustomHost":false,"server":{"web":"http:\/\/www.photoshelter.com","ul":"https:\/\/ul.photoshelter.com","img":"https:\/\/m.psecn.photoshelter.com","vid":"https:\/\/v.psecn.photoshelter.com","vid-mem":"https:\/\/v.psecn.photoshelter.com","js":"https:\/\/m.psecn.photoshelter.com","css":"https:\/\/m.psecn.photoshelter.com","sec":"https:\/\/snpa.photoshelter.com"},"js_include_rev":1615820506,"favicon_url":null,"favicon_mime":null,"hasWorkspace":false,"isWhitelabel":false,"f_owner":false}};
+var C2_OPT = {"f_edit":false,"f_debug":false};
+var appBaseDir = false;
+var customMdCfg = null;
+var apiKey = 'PS631731c7';
+var CSRF_TOKEN = '';
+var hasWorkspace = false;
+var orgTFAReq = false;
+var isWhiteLabel =  false;
+
+
+PSGA = window.PSGA || {};
+
+var librisPortalAppConfig = {
+	ctd_config: C2_CFG.customEnv.ctd, 
+	custom_metadata: customMdCfg,
+	license_expiration: {
+		librisHasLicenseExpDate: C2_CFG.customEnv.librisHasLicenseExpDate,
+		librisLicenseExpDays: C2_CFG.customEnv.librisLicenseExpDays
+	}
+	,
+	hasWorkspace: hasWorkspace,
+};
+
+(function($) { // map ps$ to $ // TODO: remove once ps$ is deprecated
+	var bootBeam = function () {
+		$(function() { // equivalent to $.ready()
+			O_O.mm.oNew(O_O.app.Visualizer, 'c2', C2_CFG, C2_OPT);
+		});
+	};
+
+	window.LibrisPortalApp = { 
+		bootBeam: bootBeam,
+		appBaseDir: appBaseDir,
+		PSGA: PSGA,
+		apiKey: apiKey,
+		librisPortalAppConfig: librisPortalAppConfig,
+		isWhiteLabel: isWhiteLabel
+	}
+		
+
+	
+				bootBeam();
+		
+}(ps$));
+
+</script>
+
+
+</head>
+<body>
+
+<div id="c2" class="  nav-logo-prep"></div>
+
+<div id="fb-root"></div>
+<div class="loading-c2 site">
+ <div class="bar-holder">
+  <div class="loading-bar"></div>
+ </div>
+</div>
+
+<noscript>
+	<div class="message">It looks like JavaScript is disabled in your browser. Please enable JavaScript and reload this page.</div>
+</noscript>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+PSGA = window.PSGA || {};
+PSGA.initGa = function(uaid, name) {
+    ga('create', uaid, 'auto', {'name': name});
+};
+PSGA.distributor = function(request, args) {
+    return function() {
+        var trackers = ga.getAll();
+        for (var i = 0, ct = trackers.length; i < ct; i++) {
+            var tracker = trackers[i];
+            if ((args[0] === 'pageview' ||
+                    args[0].hitType === 'pageview') ||
+                tracker.get('name') !== 'user') {
+                    tracker[request].apply(tracker, args);
+                }
+        }
+    }
+};
+PSGA.distributeToGaTrackers = function() {
+    var args = [].slice.call(arguments);
+        request = args.shift();
+    ga(PSGA.distributor(request, args));
+};
+var uaid = 'UA-3783380-24';
+var dimensions = {};
+PSGA.initGa(uaid, 'ps');
+uaid = 'UA-42221895-1';
+PSGA.initGa(uaid, 'user');
+uaid = 'UA-3783380-16';
+PSGA.initGa(uaid, 'c2');
+dimensions.dimension1 = 'U0000vjqg4KSc3RQ';
+dimensions.dimension2 = 'Visitor';
+dimensions.dimension3 = 'Theme3';
+
+PSGA.initDynamicGA = PSGA.initDynamicGA || [];
+PSGA.initDynamicGA.forEach(function(gaData) {
+    PSGA.initGa(gaData.uaid, gaData.name);
+});
+
+ga('set', 'transport', 'beacon');
+if (Object.keys(dimensions).length) PSGA.distributeToGaTrackers('set',dimensions);
+</script>
+
+
+<!-- Google Tag Manager Data Layer Construction -->
+<script>
+	if (!window.PSGTMDataLayer) PSGTMDataLayer = [];
+	PSGTMDataLayer.push({"ACCOUNT_TYPE":"core"});
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NT5Z57"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','PSGTMDataLayer','GTM-NT5Z57');</script>
+<!-- End Google Tag Manager -->
+
+
+<script type="text/javascript" src="https://m.psecn.photoshelter.com/js/APP/1615820506/logFrame.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="DC.Title" content="witters" />
+		<meta name="DC.Description" content="witters Bilddatenbank" />
+		<meta name="description" content="witters Bilddatenbank" />
+		<meta name="DC.Author" content="Configo Systems GmbH" />
+		<meta name="DC.Publisher" content="witters" />
+		<meta name="DC.Copyright" content="Configo Systems GmbH" />
+		<meta name="DC.Generator" content="Configo Systems GmbH" />
+		<meta name="DC.Audience" content="General" />
+		<meta name="robots" content="index, follow" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="referrer" content="no-referrer">
+
+		<!-- Resources CSS -->
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/css/animate.css" />
+		<link rel="stylesheet" href="/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="/css/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="/css/drooltip.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/custom.css" />
+
+
+		<title>Witters</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top"><!-- fixed-top -->
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsMain" aria-controls="navbarsMain" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="/"><img src="/images/logo-witters.jpg" alt="Witters" /></a>
+
+			<div class="collapse navbar-collapse" id="navbarsMain">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link active"" href="/">Home</a>
+					</li>
+					<li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="/CMDB/?action=301;kid=26;query=dat:20.06.2017|;offset=0" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Collections</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="/CMDB/?action=301;kid=26;query=dat:20.06.2017|;offset=0">Highlights</a>
+	      <a class="dropdown-item" href="/CMDB/?action=301;query=;gid=6240">50 Jahre Witters</a>
+              <a class="dropdown-item" href="/CMDB/?action=301;query=;kid=11677">Kaiser Collection</a>
+              <a class="dropdown-item" href="/CMDB/?action=301;query=;gid=6229">Stock &amp; Creative</a>
+              <a class="dropdown-item" href="/CMDB/?action=301;query=;gid=6224">Studio</a>
+              <a class="dropdown-item" href="/CMDB/?action=301;query=;gid=6226">History</a>
+              <a class="dropdown-item" href="/CMDB/?action=301;query=;gid=6236">Sportstadt Hamburg</a>
+            </div>
+          </li>
+					<li class="nav-item">
+						<a class="nav-link " href="/CMDB/?action=101;tpl=services">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="/CMDB/?action=101;tpl=termine">Termine</a>
+					</li>
+					<li class="nav-item">
+            <a class="nav-link " href="/CMDB/?action=101;tpl=agentur">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/CMDB/?action=301;query=;gid=6227">Referenzen</a>
+          </li>
+					<li class="nav-item">
+						<a class="nav-link " href="/CMDB/?action=101;tpl=kontakt">Kontakt</a>
+					</li>
+				</ul>
+				
+				<form action="javascript:login(document.location.href, 'http://www.witters.de')" method="post" id="loginform">
+					<div class="form-group">
+						<div class="row justify-content-start justify-content-md-end">
+							<div class="col-9 col-sm-5 mb-2">
+								<input class="form-control" type="text" placeholder="Name"  name="username" id="login-username" onclick="this.value='';">
+							</div>
+							<div class="col-2 col-sm-5">
+								<button class="btn btn-dark" type="submit">
+									Login
+								</button>
+							</div>
+						</div>
+						<div class="row justify-content-start justify-content-md-end">
+							<div class="col-9 col-sm-5">
+								<input class="form-control" type="password" placeholder="Passwort" name="password" id="login-password" onclick="this.value='';">
+								<div id="login-status-box">
+									<div id="login-status-msg"></div>
+								</div>
+							</div>
+							<div class="col-2 col-sm-5 social">
+								<a class="social" href="http://www.facebook.com/pages/Witters-Sport-Presse-Fotos-GmbH/191692437539071" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a class="social" href="http://twitter.com/Witters_Foto"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+								<a class="social" href="http://www.instagram.com/witters_sportfotografie" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</form>
+				
+			</div>
+		</nav>
+		<div class="container-fluid page-search">
+			<div class="container">
+				<form class="form-inline" action="/CMDB/" method="GET">
+					<div class="form-group text-center">
+						<!--
+						<select class="custom-select">
+							<option value="1" selected>Highlights</option>
+							<option value="2">Kaiser</option>
+							<option value="3">Collection</option>
+							<option value="4">History</option>
+							<option value="5">Stock &amp; Creative</option>
+							<option value="6">Studio</option>
+						</select>
+						-->
+						<input class="form-control" name="query" type="text" placeholder="search..." value="">
+						<button class="btn btn-primary" type="submit">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+						<input type="hidden" name="action" value="301">
+						<!--<div class="text-center mt-2">-->
+							<a class="extended-search" href="/CMDB/?action=104">advanced</a>
+						<!--</div>-->
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+
+	<!-- container-fluid cards -->
+
+<div class="container-fluid cards startpage">
+	<div class="row">
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=LoewEnde;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_44041-09032021125203.jpg" alt="                         Fussball Joachim Loew - Abschied als Bundestrainer">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=LoewEnde;offset=0">
+                                                
+                                                <span class="card-title">                         Fussball Joachim Loew - Abschied als Bundestrainer</span>
+                                                
+						<!--<span class="card-date">95 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Lothargeburtstag+;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_19863-25022021105004.jpg" alt="                        Fussball 60. Geburtstag von Lothar Matthaeus am 21.03.2021">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Lothargeburtstag+;offset=0">
+                                                
+                                                <span class="card-title">                        Fussball 60. Geburtstag von Lothar Matthaeus am 21.03.2021</span>
+                                                
+						<!--<span class="card-date">100 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=St.+Pauli+Paderborn+dat%3A15.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_5575-16032021133403.jpg" alt="            15.03.2021 | Fussball 2. Bundesliga FC St. Pauli - SC Paderborn 07">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=St.+Pauli+Paderborn+dat%3A15.03.2021;offset=0">
+                                                
+                                                <span class="card-date">            15.03.2021 <span class="img-count">214 Bilder</span></span>
+                                                <span class="card-title"> Fussball 2. Bundesliga FC St. Pauli - SC Paderborn 07</span>
+                                                
+						<!--<span class="card-date">214 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Leverkusen+Bielefeld+dat%3A14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_37992-14032021230004.jpg" alt="           14.03.2021 | Fussball Bundesliga Bayer Leverkusen - Arminia Bielefeld">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Leverkusen+Bielefeld+dat%3A14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">           14.03.2021 <span class="img-count">160 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga Bayer Leverkusen - Arminia Bielefeld</span>
+                                                
+						<!--<span class="card-date">160 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Leipzig+Frankfurt+dat%3A14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_77475-15032021160534.jpg" alt="           14.03.2021 | Fussball Bundesliga RB Leipzig - Eintracht Frankfurt">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Leipzig+Frankfurt+dat%3A14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">           14.03.2021 <span class="img-count">192 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga RB Leipzig - Eintracht Frankfurt</span>
+                                                
+						<!--<span class="card-date">192 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Algerien+Deutschland+dat%3A14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_23448-15032021182504.jpg" alt="           14.03.2021 | Handball Olympia-Qualifikation Algerien - Deutschland ">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Algerien+Deutschland+dat%3A14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">           14.03.2021 <span class="img-count">100 Bilder</span></span>
+                                                <span class="card-title"> Handball Olympia-Qualifikation Algerien - Deutschland </span>
+                                                
+						<!--<span class="card-date">100 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Schweden+Slowenien+dat%3A14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_43150-15032021150711.jpg" alt="           14.03.2021 | Handball Olympia-Qualifikation Schweden - Slowenien">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Schweden+Slowenien+dat%3A14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">           14.03.2021 <span class="img-count">80 Bilder</span></span>
+                                                <span class="card-title"> Handball Olympia-Qualifikation Schweden - Slowenien</span>
+                                                
+						<!--<span class="card-date">80 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Radsport+Paris+Nizza+dat%3A07.03.2021%7C14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_53598-15032021122803.jpg" alt="          07.-14.03.2021 | Radsport Paris - Nizza 2021">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Radsport+Paris+Nizza+dat%3A07.03.2021%7C14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">          07.-14.03.2021 <span class="img-count">172 Bilder</span></span>
+                                                <span class="card-title"> Radsport Paris - Nizza 2021</span>
+                                                
+						<!--<span class="card-date">172 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Formel+Bahrain+dat%3A12.03.2021%7C14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_46583-16032021143008.jpg" alt="          12.-14.03.2021 | Formel 1 Testfahrten in Bahrain">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Formel+Bahrain+dat%3A12.03.2021%7C14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">          12.-14.03.2021 <span class="img-count">75 Bilder</span></span>
+                                                <span class="card-title"> Formel 1 Testfahrten in Bahrain</span>
+                                                
+						<!--<span class="card-date">75 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Kranjska+Gora+dat%3A13.03.2021%7C14.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_8958-14032021143305.jpg" alt="          13.-14.03.2021 | Ski Alpin Weltcup Herren in Kranjska Gora">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Kranjska+Gora+dat%3A13.03.2021%7C14.03.2021;offset=0">
+                                                
+                                                <span class="card-date">          13.-14.03.2021 <span class="img-count">25 Bilder</span></span>
+                                                <span class="card-title"> Ski Alpin Weltcup Herren in Kranjska Gora</span>
+                                                
+						<!--<span class="card-date">25 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Ski+Are+dat%3A12.03.2021%7C13.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_83948-13032021150203.jpg" alt="         12.-13.03.2021 | Ski Alpin Weltcup Damen in Are">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Ski+Are+dat%3A12.03.2021%7C13.03.2021;offset=0">
+                                                
+                                                <span class="card-date">         12.-13.03.2021 <span class="img-count">32 Bilder</span></span>
+                                                <span class="card-title"> Ski Alpin Weltcup Damen in Are</span>
+                                                
+						<!--<span class="card-date">32 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Basketball+Towers+dat%3A13.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_78970-15032021115903.jpg" alt="         13.03.2021 | Basketball Bundesliga Hamburg Towers - SYNTAINICS MBC">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Basketball+Towers+dat%3A13.03.2021;offset=0">
+                                                
+                                                <span class="card-date">         13.03.2021 <span class="img-count">98 Bilder</span></span>
+                                                <span class="card-title"> Basketball Bundesliga Hamburg Towers - SYNTAINICS MBC</span>
+                                                
+						<!--<span class="card-date">98 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Dortmund+Berlin+dat%3A13.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_86326-15032021172902.jpg" alt="         13.03.2021 | Fussball Bundesliga Borussia Dortmund - Hertha BSC Berlin">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Dortmund+Berlin+dat%3A13.03.2021;offset=0">
+                                                
+                                                <span class="card-date">         13.03.2021 <span class="img-count">113 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga Borussia Dortmund - Hertha BSC Berlin</span>
+                                                
+						<!--<span class="card-date">113 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Wolfsburg+Schalke+dat%3A13.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_98203-14032021111903.jpg" alt="         13.03.2021 | Fussball Bundesliga VfL Wolfsburg - FC Schalke 04">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Wolfsburg+Schalke+dat%3A13.03.2021;offset=0">
+                                                
+                                                <span class="card-date">         13.03.2021 <span class="img-count">150 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga VfL Wolfsburg - FC Schalke 04</span>
+                                                
+						<!--<span class="card-date">150 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Bremen+Bayern+dat%3A13.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_20878-15032021125004.jpg" alt="         13.03.2021 | Fussball Bundesliga Werder Bremen - Bayern Muenchen">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Bremen+Bayern+dat%3A13.03.2021;offset=0">
+                                                
+                                                <span class="card-date">         13.03.2021 <span class="img-count">230 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga Werder Bremen - Bayern Muenchen</span>
+                                                
+						<!--<span class="card-date">230 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Schweden+Algerien+dat%3A13.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_87728-15032021162305.jpg" alt="         13.03.2021 | Handball Olympia-Qualifikation Schweden - Algerien">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Schweden+Algerien+dat%3A13.03.2021;offset=0">
+                                                
+                                                <span class="card-date">         13.03.2021 <span class="img-count">66 Bilder</span></span>
+                                                <span class="card-title"> Handball Olympia-Qualifikation Schweden - Algerien</span>
+                                                
+						<!--<span class="card-date">66 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Handball+Deutschland+Slowenien+dat%3A13.03.2021+;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_90383-15032021163604.jpg" alt="         13.03.2021 | Handball Olympia-Qualifikation Slowenien - Deutschland ">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Handball+Deutschland+Slowenien+dat%3A13.03.2021+;offset=0">
+                                                
+                                                <span class="card-date">         13.03.2021 <span class="img-count">121 Bilder</span></span>
+                                                <span class="card-title"> Handball Olympia-Qualifikation Slowenien - Deutschland </span>
+                                                
+						<!--<span class="card-date">121 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Bochum+Hamburger+SV+dat%3A12.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_43967-13032021102803.jpg" alt="        12.03.2021 | Fussball 2. Bundesliga VfL Bochum - Hamburger SV">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Bochum+Hamburger+SV+dat%3A12.03.2021;offset=0">
+                                                
+                                                <span class="card-date">        12.03.2021 <span class="img-count">218 Bilder</span></span>
+                                                <span class="card-title"> Fussball 2. Bundesliga VfL Bochum - Hamburger SV</span>
+                                                
+						<!--<span class="card-date">218 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Augsburg+Moenchengladbach+dat%3A12.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_82616-15032021180407.jpg" alt="        12.03.2021 | Fussball Bundesliga FC Augsburg - Borussia M'Gladbach">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Augsburg+Moenchengladbach+dat%3A12.03.2021;offset=0">
+                                                
+                                                <span class="card-date">        12.03.2021 <span class="img-count">126 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga FC Augsburg - Borussia M'Gladbach</span>
+                                                
+						<!--<span class="card-date">126 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Deutschland+Schweden+dat%3A12.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_93043-15032021153811.jpg" alt="        12.03.2021 | Handball Olympia-Qualifikation Deutschland - Schweden">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Deutschland+Schweden+dat%3A12.03.2021;offset=0">
+                                                
+                                                <span class="card-date">        12.03.2021 <span class="img-count">100 Bilder</span></span>
+                                                <span class="card-title"> Handball Olympia-Qualifikation Deutschland - Schweden</span>
+                                                
+						<!--<span class="card-date">100 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Slowenien+Algerien+dat%3A12.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_91967-15032021153803.jpg" alt="        12.03.2021 | Handball Olympia-Qualifikation Slowenien - Algerien">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Slowenien+Algerien+dat%3A12.03.2021;offset=0">
+                                                
+                                                <span class="card-date">        12.03.2021 <span class="img-count">53 Bilder</span></span>
+                                                <span class="card-title"> Handball Olympia-Qualifikation Slowenien - Algerien</span>
+                                                
+						<!--<span class="card-date">53 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Ajax+Bern+dat%3A11.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_12344-11032021212806.jpg" alt="       11.03.2021 | Fussball Europa League Ajax Amsterdam - Young Boys Bern">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Ajax+Bern+dat%3A11.03.2021;offset=0">
+                                                
+                                                <span class="card-date">       11.03.2021 <span class="img-count">72 Bilder</span></span>
+                                                <span class="card-title"> Fussball Europa League Ajax Amsterdam - Young Boys Bern</span>
+                                                
+						<!--<span class="card-date">72 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Manchester+Mailand+dat%3A11.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_15467-12032021102709.jpg" alt="       11.03.2021 | Fussball Europa League Manchester United - AC Mailand">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Manchester+Mailand+dat%3A11.03.2021;offset=0">
+                                                
+                                                <span class="card-date">       11.03.2021 <span class="img-count">16 Bilder</span></span>
+                                                <span class="card-title"> Fussball Europa League Manchester United - AC Mailand</span>
+                                                
+						<!--<span class="card-date">16 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Training+St.+Pauli+dat%3A11.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_44644-11032021144903.jpg" alt="       11.03.2021 | Fussball FC St. Pauli Training">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Training+St.+Pauli+dat%3A11.03.2021;offset=0">
+                                                
+                                                <span class="card-date">       11.03.2021 <span class="img-count">42 Bilder</span></span>
+                                                <span class="card-title"> Fussball FC St. Pauli Training</span>
+                                                
+						<!--<span class="card-date">42 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Hamburger+SV+Training+dat%3A11.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_34879-11032021142007.jpg" alt="       11.03.2021 | Fussball Hamburger SV Training">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Hamburger+SV+Training+dat%3A11.03.2021;offset=0">
+                                                
+                                                <span class="card-date">       11.03.2021 <span class="img-count">32 Bilder</span></span>
+                                                <span class="card-title"> Fussball Hamburger SV Training</span>
+                                                
+						<!--<span class="card-date">32 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Beachvolleyball+dat%3A19.02.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_94558-10032021132004.jpg" alt="      19.02.2021 | Beachvolleyball Svenja Mueller und Cinja Tillmann">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Beachvolleyball+dat%3A19.02.2021;offset=0">
+                                                
+                                                <span class="card-date">      19.02.2021 <span class="img-count">51 Bilder</span></span>
+                                                <span class="card-title"> Beachvolleyball Svenja Mueller und Cinja Tillmann</span>
+                                                
+						<!--<span class="card-date">51 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Jannik+Sinner+dat%3A22.02.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_65107-11032021174603.jpg" alt="      22.02.2021 | Tennis Italien Jannik Sinner">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Jannik+Sinner+dat%3A22.02.2021;offset=0">
+                                                
+                                                <span class="card-date">      22.02.2021 <span class="img-count">20 Bilder</span></span>
+                                                <span class="card-title"> Tennis Italien Jannik Sinner</span>
+                                                
+						<!--<span class="card-date">20 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Paris+Barcelona+dat%3A10.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_78346-11032021164803.jpg" alt="     10.03.2021 | Fussball Champions League Paris Saint-Germain - FC Barcelona">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Paris+Barcelona+dat%3A10.03.2021;offset=0">
+                                                
+                                                <span class="card-date">     10.03.2021 <span class="img-count">31 Bilder</span></span>
+                                                <span class="card-title"> Fussball Champions League Paris Saint-Germain - FC Barcelona</span>
+                                                
+						<!--<span class="card-date">31 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Hamburger+SV+Training+dat%3A10.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_63326-11032021165106.jpg" alt="     10.03.2021 | Fussball Hamburger SV Training">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Hamburger+SV+Training+dat%3A10.03.2021;offset=0">
+                                                
+                                                <span class="card-date">     10.03.2021 <span class="img-count">84 Bilder</span></span>
+                                                <span class="card-title"> Fussball Hamburger SV Training</span>
+                                                
+						<!--<span class="card-date">84 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Dortmund+Sevilla+dat%3A09.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_7020-10032021140103.jpg" alt="    09.03.2021 | Fussball Champions League Borussia Dortmund - FC Sevilla">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Dortmund+Sevilla+dat%3A09.03.2021;offset=0">
+                                                
+                                                <span class="card-date">    09.03.2021 <span class="img-count">194 Bilder</span></span>
+                                                <span class="card-title"> Fussball Champions League Borussia Dortmund - FC Sevilla</span>
+                                                
+						<!--<span class="card-date">194 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=St.+Pauli+Training+dat%3A09.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_79675-09032021143305.jpg" alt="    09.03.2021 | Fussball FC St. Pauli Training">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=St.+Pauli+Training+dat%3A09.03.2021;offset=0">
+                                                
+                                                <span class="card-date">    09.03.2021 <span class="img-count">39 Bilder</span></span>
+                                                <span class="card-title"> Fussball FC St. Pauli Training</span>
+                                                
+						<!--<span class="card-date">39 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Freizeitsport+dat%3A08.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_45274-08032021165103.jpg" alt="   08.03.2021 | Freizeit an der Hamburger Aussenalster">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Freizeitsport+dat%3A08.03.2021;offset=0">
+                                                
+                                                <span class="card-date">   08.03.2021 <span class="img-count">49 Bilder</span></span>
+                                                <span class="card-title"> Freizeit an der Hamburger Aussenalster</span>
+                                                
+						<!--<span class="card-date">49 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Hamburger+SV+Kiel+dat%3A08.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_21585-09032021132406.jpg" alt="   08.03.2021 | Fussball 2. Bundesliga Hamburger SV - Holstein Kiel">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Hamburger+SV+Kiel+dat%3A08.03.2021;offset=0">
+                                                
+                                                <span class="card-date">   08.03.2021 <span class="img-count">251 Bilder</span></span>
+                                                <span class="card-title"> Fussball 2. Bundesliga Hamburger SV - Holstein Kiel</span>
+                                                
+						<!--<span class="card-date">251 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Torun+dat%3A04.03.2021%7C07.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_44795-08032021171103.jpg" alt="  04.-07.03.2021 | Leichtathletik Hallen-EM 2021 in Torun">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Torun+dat%3A04.03.2021%7C07.03.2021;offset=0">
+                                                
+                                                <span class="card-date">  04.-07.03.2021 <span class="img-count">33 Bilder</span></span>
+                                                <span class="card-title"> Leichtathletik Hallen-EM 2021 in Torun</span>
+                                                
+						<!--<span class="card-date">33 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Koeln+Bremen+dat%3A07.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_36218-08032021111903.jpg" alt="  07.03.2021 | Fussball Bundesliga 1. FC Koeln - SV Werder Bremen">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Koeln+Bremen+dat%3A07.03.2021;offset=0">
+                                                
+                                                <span class="card-date">  07.03.2021 <span class="img-count">102 Bilder</span></span>
+                                                <span class="card-title"> Fussball Bundesliga 1. FC Koeln - SV Werder Bremen</span>
+                                                
+						<!--<span class="card-date">102 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Premier+League+dat%3A07.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_84369-08032021103703.jpg" alt="  07.03.2021 | Fussball England Premier League">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Premier+League+dat%3A07.03.2021;offset=0">
+                                                
+                                                <span class="card-date">  07.03.2021 <span class="img-count">31 Bilder</span></span>
+                                                <span class="card-title"> Fussball England Premier League</span>
+                                                
+						<!--<span class="card-date">31 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Atletico+Real+dat%3A07.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_87617-08032021120008.jpg" alt="  07.03.2021 | Fussball Spanien Atletico Madrid - Real Madrid">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Atletico+Real+dat%3A07.03.2021;offset=0">
+                                                
+                                                <span class="card-date">  07.03.2021 <span class="img-count">19 Bilder</span></span>
+                                                <span class="card-title"> Fussball Spanien Atletico Madrid - Real Madrid</span>
+                                                
+						<!--<span class="card-date">19 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Nordisch+Oberstdorf+dat%3A23.02.2021%7C07.03.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_80945-07032021174305.jpg" alt="  24.02.-07.03.2021 | Nordische Ski-WM 2021 in Oberstdorf">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Nordisch+Oberstdorf+dat%3A23.02.2021%7C07.03.2021;offset=0">
+                                                
+                                                <span class="card-date">  24.02.-07.03.2021 <span class="img-count">489 Bilder</span></span>
+                                                <span class="card-title"> Nordische Ski-WM 2021 in Oberstdorf</span>
+                                                
+						<!--<span class="card-date">489 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Washington+Tumult+dat%3A06.01.2021;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_47122-08012021120803.jpg" alt=" 06.01.2021 | Politik USA Krawalle von Trump-Anhaengern in Washington D.C.">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Washington+Tumult+dat%3A06.01.2021;offset=0">
+                                                
+                                                <span class="card-date"> 06.01.2021 <span class="img-count">68 Bilder</span></span>
+                                                <span class="card-title"> Politik USA Krawalle von Trump-Anhaengern in Washington D.C.</span>
+                                                
+						<!--<span class="card-date">68 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Wahl+USA+dat%3A31.10.2020%7C06.11.2020;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_33616-07112020133603.jpg" alt="31.10.-05.11.2020 | Politik Praesidentschaftswahl in den USA">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Wahl+USA+dat%3A31.10.2020%7C06.11.2020;offset=0">
+                                                
+                                                <span class="card-date">31.10.-05.11.2020 <span class="img-count">33 Bilder</span></span>
+                                                <span class="card-title"> Politik Praesidentschaftswahl in den USA</span>
+                                                
+						<!--<span class="card-date">33 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+		<div class="col col-lg-2 col-md-6 col-sm-6 col-6">
+			<div class="card">
+				<a href="?action=301;query=Trump+dat%3A31.10.2020;offset=0">
+					<img class="card-img-top  rounded-0" src="/archive/t_82711-03112020121231.jpg" alt="31.10.2020 | Politik Wahlkampf mit US-Praesident Donald Trump">
+				</a>
+				<div class="card-block">
+					<a href="?action=301;query=Trump+dat%3A31.10.2020;offset=0">
+                                                
+                                                <span class="card-date">31.10.2020 <span class="img-count">18 Bilder</span></span>
+                                                <span class="card-title"> Politik Wahlkampf mit US-Praesident Donald Trump</span>
+                                                
+						<!--<span class="card-date">18 Bilder</span>-->
+					</a>
+				</div>
+			</div>
+		</div><!-- col -->
+                
+	</div><!-- div -->
+</div><!-- container-fluid cards -->
+
+
+
+	<div class="fluid-container header-startpage">
+  <h2>COLLECTIONS</h2>
+</div>
+<div class="owl-carousel owl-theme categories">
+	<div class="item">
+		<a class="image-item" href="/CMDB/?action=301;kid=26;query=dat:17.10.2020|;offset=0" title="HIGHLIGHTS">
+			<img src="/archive/t_33023-07022021170604.jpg" alt="HIGHLIGHTS">
+			<span>HIGHLIGHTS</span>
+		</a>
+	</div>
+	<div class="item">
+                <a class="image-item" href="/CMDB/?action=301;query=;gid=6240" title="50 Jahre Witters" class="img-fluid">
+                        <img src="/archive/t_81136-20082018174804.jpg" alt="50 Jahre Witters">
+                        <span>50 Jahre Witters</span>
+                </a>
+        </div>
+	<div class="item">
+		<a class="image-item" href="/CMDB/?action=301;query=;kid=11677" title="Kaiser Collection">
+			<img src="/archive/t_56466-13022019153012.jpg" alt="KAISER COLLECTION" class="img-fluid">
+			<span>KAISER COLLECTION</span>
+		</a>
+	</div>
+	<div class="item">
+		<a class="image-item" href="/CMDB/?action=301;query=;gid=6229" title="STOCK &amp; CREATIVE">
+			<img src="/archive/t_8058-08062013202211.jpg" alt="STOCK &amp; CREATIVE" class="img-fluid">
+			<span>STOCK &amp; CREATIVE</span>
+		</a>
+	</div>
+	<div class="item">
+		<a class="image-item" href="/CMDB/?action=301;query=;gid=6224" title="STUDIO" class="img-fluid">
+			<img src="/archive/t_95234-28082014160521.jpg" alt="STUDIO">
+			<span>STUDIO</span>
+		</a>
+	</div>
+	<div class="item">
+		<a class="image-item" href="/CMDB/?action=301;query=;gid=6226" title="HISTORY" class="img-fluid">
+			<img src="/archive/t_6353-27022018181214.jpg" alt="HISTORY">
+			<span>HISTORY</span>
+		</a>
+	</div>
+	<div class="item">
+		<a class="image-item" href="/CMDB/?action=301;query=;gid=6236" title="SPECIAL" class="img-fluid">
+			<img src="/archive/t_41940-27022018150412.jpg" alt="SPORTSTADT HAMBURG ">
+			<span>SPORTSTADT HAMBURG </span>
+		</a>
+	</div>
+</div>
+
+
+
+	<footer class="footer">
+    <div class="container text-center">
+      <a href="http://www.facebook.com/pages/Witters-Sport-Presse-Fotos-GmbH/191692437539071" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="http://www.instagram.com/witters_sportfotografie" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="http://twitter.com/Witters_Foto" target="_blank"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    </div>
+    <div class="container text-center">
+    <a  href="/CMDB/?action=315;id=4">Impressum</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a  href="/CMDB/?action=315;id=25">Datenschutz</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a  href="/CMDB/?action=315;id=6">AGB</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&copy; 2021 Witters GmbH &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; T. +49 (0) 40 - 511 92 14 &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:info@witters.de">info@witters.de</a>
+    </div>
+  </footer>
+
+  <div id="tooltip"></div>
+
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="/js/jquery-3.2.1.min.js"></script>
+		<script src="/js/drooltip.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+		<script src="/js/tether.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/custom.js"></script>
+	</body>
+</html>
+
+
