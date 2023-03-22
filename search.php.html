@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<!-- _head.html -->
+<meta charset="euc-kr" />
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+<script type="text/javascript" src="/2014/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/2014/html5shiv.min.js"></script>
+<link href="/2014/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/2014/script.js" charset="UTF-8"></script>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<!-- / _head.html -->
+<style type="text/css">
+.container-center { float:left; width:728px; *overflow:hidden; margin:0; padding:0; border-left:1px solid #d3cfcf; border-right:1px solid #d3cfcf; }
+.container { border-bottom:1px solid #d3cfcf; }
+.container .panel-heading { margin:0; padding:10px 15px 5px; background:none; }
+.container .panel-body a.btn-default { font-size:12px; }
+.imagesearch .panel-body { padding-left:0; padding-right:0; }
+.container a.list-group-item { display:inline-block; }
+.container .row { margin:0 -30px; padding:2px 30px; }
+.container-left { float:left; width:30px; display:inline; }
+.container-ad { padding-bottom:0; }
+</style>
+
+
+<title> : KMLE 의학 검색 엔진 - 의학사전, 의학용어, 의학약어, 의학논문, 약품/의약품 검색</title>
+
+</head>
+<body class="page_sub" >
+
+<div class="kmle-header">
+	<header class="header-logo logo_sub">
+		<a href="/"><img src="/2014/img/logo2.png" alt="KMLE 의학사전, 의학용어, 의학약어, 의학논문, 약품/의약품 검색" /></a>
+	</header>
+
+
+	<!-- index_body.html -->
+
+	<form method="get" id="searchForm" name="searchForm" action="/search.php" onsubmit="form_charset(this);">
+		<div class="input_area">
+			<input name="Search" id="Search" type="text" accesskey="s" tabindex="1" title="검색" onkeydown="liveSearch2014(this, event);" onblur="liveSearchCloseDelay()" autocomplete="off" value="" />
+			<div class="livesearch mpReset">
+				<ul>
+				<!-- <li><a href="#">asd</a></li>
+				<li><a href="#">asd</a></li>
+				<li><a href="#"><em>asdasdq</em>rtret</a></li> -->
+				</ul>
+				<div class="help">
+					<span class="help1">선택 - 화살표키/엔터키</span>
+					<a class="help2" href="javascript:;" onclick="return _livesearch.close();">닫기 - ESC</a>
+				</div>
+			</div>
+		</div>
+		<div class="button_area">
+			<button type="submit" class="kmle_btn" tabindex="3">KMLE 검색</button>
+			<button type="button" class="kmle_btn" onclick="jQuery('.check_area').toggleClass('check_area_show');"><span class="icon_arrow"></span>검색 설정</button>
+		</div>
+		<div class="check_area">
+			<div>
+				<div class="dic">
+					<input name="EbookTerminology"  id="EbookTerminology" type="checkbox" value="YES" />
+					<label for="EbookTerminology" class="checkbox_labela">온라인 의학서적</label>
+					<input name="DictAll" id="DictAll" type="checkbox" value="YES" />
+					<label for="DictAll" class="checkbox_labelb">의학용어 사전 </label>
+					<input name="DictAbbreviationAll" id="DictAbbreviationAll" type="checkbox" value="YES" />
+					<label for="DictAbbreviationAll" class="checkbox_labelc">의학약어</label>
+					<input name="DictDefAll" id="DictDefAll" type="checkbox" value="YES" />
+					<label for="DictDefAll" class="checkbox_labeld">의학사전</label>
+
+					<br class="br_index" />
+					<input name="DictNownuri" id="DictNownuri" type="checkbox" value="YES" />
+					<label for="DictNownuri" class="checkbox_labele">한영/영한사전 </label>
+					<input name="DictWordNet" id="DictWordNet" type="checkbox" value="YES" />
+					<label for="DictWordNet" class="checkbox_labelf">영영사전</label>
+					<input name="Druginfo" id="Druginfo" type="checkbox" value="YES" />
+					<label for="Druginfo" class="checkbox_labelj">의약품 검색</label>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<nav class="gnb mpReset">
+	<ul class="nav navbar-nav">
+<li><a href="/nboard/">게시판</a></li>
+<!-- <li class="dropdown"><a href="javascript:;" data-toggle="dropdown">레퍼런스<b class="caret"></b></a> -->
+<li class="dropdown"><a href="javascript:;">레퍼런스<b class="caret"></b></a>
+	<ul class="dropdown-menu">
+	<li><a href="/ambulatory.php">[EBook]외래 진료 지침서</a></li>
+	<li><a href="/dview.php?view=ebook_terminology">알기쉬운 의학용어 풀이집</a></li>
+	<li><a href="/normallabvalues.php?display=1">정상치</a></li>
+	<li><a href="/ambulatoryview.php?view=545">성인 검진 계획표</a></li>
+	<li><a href="/harrison.php">내과 해리슨 정리집</a></li>
+	<li><a href="/williams.php">산과 정리집</a></li>
+	<li><a href="/novak.php">부인과 정리집</a></li>
+	<li><a href="/nelson.php">소아과 넬슨 정리집</a></li>
+	</ul>
+</li>
+<li><a href="/about.php">사이트 소개</a></li>
+</ul>
+	</nav>
+
+</div>
+<div class="kmle-header-fixed-space"></div>
+<script type="text/javascript">(function(){if(typeof(initSearchHeader)=='function')initSearchHeader();})();</script>
+<!-- ~index_body.html -->
+
+
+
+
+<!-- .search_footer -->
+<div class="container-wrap">
+	<div class="container-left">
+		&nbsp;
+	</div>
+	<div class="container-center">
+
+		<div class="container container-board"><div class="panel panel-default">
+			<div class="panel panel-heading">
+				<div class="kmle-board">
+					<strong>최근 게시글</strong>
+					<span class="link-board"><a href="/nboard/">게시판 보기</a></span>
+					<span class="link-write"><a href="/nboard/index.php?mid=bbs&amp;act=dispBoardWrite">글 쓰기</a></span>
+				</div>
+
+				<div class="kmle-board-document">
+					<a href="/nboard/787183" title="게시글">리트만 클래식 3 팝니다</a>
+					<a href="/nboard/787183#comment" title="댓글 수" class="link-comments">0</a>
+					<span class="text-writer" title="작성자">치킨</span>
+				</div>
+
+				<!-- <div class="kmle-com"><span>영문 KMLE Medical Dictionary</span> <a href="http://www.kmle.com/" target="_blank">http://www.kmle.com/</a></div> -->
+			</div>
+		</div></div>
+
+
+
+
+<div class="container">
+	<div class="well text-center">검색어를 입력하시길 바랍니다</div>
+</div>
+
+<!--
+		<span class="research">
+			<label for="Search">재검색</label>
+		</span>
+--><div class="container">
+	<p class="text-center">
+		<img src="/images/bunnyerror.gif" width="250" height="100" alt="검색어를 입력하지 않았습니다." />
+	</p>
+</div><div class="search_bottom">
+	<!-- http://getbootstrap.com/components/#pagination-pager -->
+	<!--  -->
+	<div class="text-center">통합검색 완료</div>
+	<ul class="pager">
+
+		<li class="pager-prev pager-next"><a href="search.php?Search=&amp;Page=2">다음</a></li>
+	</ul>
+</div>
+
+</div><!-- / .container-center -->
+	<div style="clear:both; display:block;"></div>
+</div><!-- / .content-wrap -->
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-59164-1']);
+  _gaq.push(['_setDomainName', '.kmle.co.kr']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<footer id="footer">
+	<div class="footer-layer mpReset">
+		<a href="javascript:;" onclick="window.open('/privacy.html','privacy','scrollbars=1,status=0,menubar=no,width=600,height=550,toolbar=no');" style="font-weight:bold">개인정보취급방침</a>
+		<span class="i"></span>
+		<address>&copy; KMLE.co.kr</address>
+	</div>
+</footer></body></html><!--검색 소요 시간: 0.018367767333984 초 -->
